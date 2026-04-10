@@ -1,0 +1,159 @@
+0
+: 
+{entryName: '乱中得势', entryId: '1nmFmkNXY6OYyyju', actionId: '7Z9v7GWswIQFD5YH', actionName: 'Mark Stress', actionDescription: '<p>When you succeed on an attack, you can <strong>…e the target to mark an additional Hit Point.</p>'}
+1
+: 
+{entryName: '守望者庇护', entryId: '2F1bUFY80oce97C9', actionId: 'ozYzhQfRt5sp19di', actionName: 'Healing', actionDescription: '<p>Once per long rest, spend 2 Hope to clear 2 Hit…ints on [[/r 1d4]] allies within Close range.</p>'}
+2
+: 
+{entryName: '元素光环', entryId: '2JH9NaOh69yN80Gw', actionId: 'AdOnKhi7g6zQu2iv', actionName: 'Fire', actionDescription: '<p>When an adversary marks 1 or more Hit Points, they must also mark a Stress.</p>'}
+3
+: 
+{entryName: '元素光环', entryId: '2JH9NaOh69yN80Gw', actionId: 'xDBLH5TWidvrYF7z', actionName: 'Earth', actionDescription: '<p>When an adversary marks 1 or more Hit Points, they must also mark a Stress.</p>'}
+4
+: 
+{entryName: '元素光环', entryId: '2JH9NaOh69yN80Gw', actionId: 'S4t5HlgxWlHwaBDw', actionName: 'Water', actionDescription: '<p>When an adversary deals damage to you, you can …re within Very Close range of where they are.</p>'}
+5
+: 
+{entryName: '元素光环', entryId: '2JH9NaOh69yN80Gw', actionId: 'hAsKFFewtTqd1gg9', actionName: 'Air', actionDescription: '<p>When you or an ally takes damage from an attack beyond Melee range, reduce the damage by 1d8.</p>'}
+6
+: 
+{entryName: '附魔援助', entryId: '4pVBN8cuKePI423V', actionId: 'n8wSqR967o0pZDLR', actionName: 'Swap Dice Results', actionDescription: '<p>Once per long rest, after an ally has made a Sp…u can swap the results of their Duality Dice.</p>'}
+7
+: 
+{entryName: '雄辩', entryId: '5bmB1YcxiJVNVXDM', actionId: 'o1MWnafbLsXnvSUl', actionName: 'Use Feature', actionDescription: ''}
+8
+: 
+{entryName: '天赋表演者', entryId: '99U7YWNCxFZHCiT0', actionId: 'xvs7ZKm93AlnZD3F', actionName: 'Relaxing Song', actionDescription: '<p><strong>You and all allies</strong> within <str…ng> range <strong>clear a Hit Point</strong>.</p>'}
+9
+: 
+{entryName: '天赋表演者', entryId: '99U7YWNCxFZHCiT0', actionId: 'nvfJ8rOx8baI6POZ', actionName: 'Epic Song', actionDescription: '<p>Make <strong>a target</strong> within <strong>C…ange temporarily <strong>Vulnerable</strong>.</p>'}
+10
+: 
+{entryName: '天赋表演者', entryId: '99U7YWNCxFZHCiT0', actionId: 'QTTgKnhpNE2XHz4u', actionName: 'Heartbreaking Song', actionDescription: '<p><strong>You and all allies</strong> within <str…</strong> range <strong>gain a Hope</strong>.</p>'}
+11
+: 
+{entryName: '诗人之心', entryId: 'Ce0sn0kqAw3PFe0k', actionId: 'pHSfMDmfVQSgqk39', actionName: 'Spend Hope', actionDescription: '<p>After you make an action roll to impress, persu… spend a Hope to add a [[/r d4]] to the roll.</p>'}
+12
+: 
+{entryName: '宿敌', entryId: 'DPKmipNRlSAMs2Cg', actionId: 'Rgc7kBmU3kjHKvfx', actionName: 'Spend Hope', actionDescription: '<p><strong>Spend 2 Hope</strong> to Prioritize an … can only Prioritize one adversary at a time.</p>'}
+13
+: 
+{entryName: '元素主宰', entryId: 'EFUJHrkTuyv8uA9l', actionId: 'ofdSzqY7IfAy5ayv', actionName: 'Fire', actionDescription: '<p>You gain a +1 bonus to your Proficiency for attacks and spells that deal damage.</p>'}
+14
+: 
+{entryName: '元素主宰', entryId: 'EFUJHrkTuyv8uA9l', actionId: 'knGm3snaplWYDaue', actionName: 'Earth', actionDescription: '<p>When you would mark Hit Points, roll a d6 per H…educe the number of Hit Points you mark by 1.</p>'}
+15
+: 
+{entryName: '元素主宰', entryId: 'EFUJHrkTuyv8uA9l', actionId: 'MocaqHUdyVwH0ZFu', actionName: 'Water', actionDescription: '<p>When an attack against you succeeds, you can ma… to make the attacker temporarily Vulnerable.</p>'}
+16
+: 
+{entryName: '元素主宰', entryId: 'EFUJHrkTuyv8uA9l', actionId: 'AQMNJRmVyhJTSCfR', actionName: 'Air', actionDescription: '<p>You gain a +1 bonus to your Evasion and can fly.</p>'}
+17
+: 
+{entryName: '并肩战友', entryId: 'G54qY96XK62hgoK9', actionId: 'D6ClOGDgu6cLanjE', actionName: 'Mark Armor Slot', actionDescription: '<p>When an ally within Very Close range takes dama…Slot to reduce the severity by one threshold.</p>'}
+18
+: 
+{entryName: '仁慈之触', entryId: 'GfOSgVJW8bS1OjNq', actionId: 'aanLNQkeO2ZTIqBl', actionName: 'Clear Hit Points', actionDescription: '<p>Once per long rest, touch a creature and clear 2 Hit Points or 2 Stress from them.</p>'}
+19
+: 
+{entryName: '仁慈之触', entryId: 'GfOSgVJW8bS1OjNq', actionId: 'cWdzCQJv8RFfi2NR', actionName: 'Clear Stress', actionDescription: '<p>Once per long rest, touch a creature and clear 2 Hit Points or 2 Stress from them.</p>'}
+20
+: 
+{entryName: '武器专家', entryId: 'HAqtoKUTrk8Mip1n', actionId: 'vay9rVXJS3iksaVR', actionName: 'Spend Hope', actionDescription: '<p>You can wield multiple weapons with dangerous e…rom your secondary weapon to the damage roll.</p>'}
+21
+: 
+{entryName: '武器专家', entryId: 'HAqtoKUTrk8Mip1n', actionId: '1bBFfxmywJpx5tfk', actionName: 'Reroll', actionDescription: '<p>Additionally, once per long rest when you roll your Slayer Dice, reroll any 1s.</p>'}
+22
+: 
+{entryName: '完美回忆', entryId: 'HzPa5U0EQhDfFTqW', actionId: 'rFZj0ZsnJCc0PS3h', actionName: 'Recall', actionDescription: '<p>Once per rest, when you recall a domain card in…r vault, you can reduce its Recall Cost by 1.</p>'}
+23
+: 
+{entryName: '守护者', entryId: 'Jdktv5p1K2PfgxrT', actionId: '9WxcZ3BuXUKfqUMz', actionName: 'Mark Stress', actionDescription: '<p>When you’re in Beastform and an ally within Clo…duce the number of Hit Points they mark by 1.</p>'}
+24
+: 
+{entryName: '再生', entryId: 'KRyrbSLVGreIOTZe', actionId: 'kD2kWWj0oR7ZxyVs', actionName: 'Heal a creature', actionDescription: '<p>Touch a creature and spend 3 Hope. That creature clears 1d4 Hit Points.</p>'}
+25
+: 
+{entryName: '光翼', entryId: 'KkQH0tYhagIqe2MT', actionId: 'rg2sLCTqY2rTo861', actionName: 'Mark Stress', actionDescription: '<p>Mark a Stress to pick up and carry another will… creature approximately your size or smaller.</p>'}
+26
+: 
+{entryName: '光翼', entryId: 'KkQH0tYhagIqe2MT', actionId: '1qjnoz5I7NqrWMkp', actionName: 'Spend Hope', actionDescription: '<p>Spend a Hope to deal an extra 1d8 damage on a successful attack.</p>'}
+27
+: 
+{entryName: '灵武', entryId: 'McoS0RxNLOg3SfSt', actionId: 'TDvWFqAxu7V33UIC', actionName: 'Target Additional Adversary', actionDescription: '<p>You can </span><span style="box-sizing: border-…rsary within range with the same attack roll.</p>'}
+28
+: 
+{entryName: '振奋演说', entryId: 'PCmYTX02JLzBpgml', actionId: 'WNtHiko4DRGbxKnm', actionName: 'Talk to your allies!', actionDescription: '<p><span style="box-sizing: border-box; scrollbar-…ar 2 Stress</strong></span><strong>.</strong></p>'}
+29
+: 
+{entryName: '残酷猎手', entryId: 'Qny2J3R35bvC0Cey', actionId: '0YRLL1HC4XS3tX00', actionName: 'Mark Stress', actionDescription: '<p>When you make a damage roll, you can mark a Str…age to an adversary, they must mark a Stress.</p>'}
+30
+: 
+{entryName: '自然闪避', entryId: 'TnuLBtHQGbqyzn82', actionId: 'amJMKDdSgJHsOsOB', actionName: 'Evade', actionDescription: '<p>You can call forth your element to protect you …ts result to your Evasion against the attack.</p>'}
+31
+: 
+{entryName: '操弄魔法', entryId: 'UNg4eyNfEQrMdD7G', actionId: 'KL5l4QJjPtDiDBSv', actionName: 'Manipulate', actionDescription: '<p>Your primal origin allows you to modify the ess…t an additional target within range</p></li></ul>'}
+32
+: 
+{entryName: '到处都有联系人', entryId: 'cXbRm744mW6UXGam', actionId: 'GZDYjtPh0lCJ5VNq', actionName: 'Use Feature', actionDescription: '<p>Once per session, you can briefly call on a sha…ws, adding 2d8 to your damage roll.</p></li></ul>'}
+33
+: 
+{entryName: '战友情谊', entryId: 'dArl2cxKIEGTicXU', actionId: 'eBSXC0l2IrRb1F8f', actionName: 'Comaraderie', actionDescription: '<p>You can initiate a Tag Team Roll one additional time per session.</p>'}
+34
+: 
+{entryName: '元素使', entryId: 'dPcqKN5NeDkjB1HW', actionId: 'rxuFLfHP1FILDpds', actionName: 'Bonus to Roll', actionDescription: '<p>S<strong>pend a Hope</strong> and describe how …e about to make, gain a +2 bonus to the roll.</p>'}
+35
+: 
+{entryName: '元素使', entryId: 'dPcqKN5NeDkjB1HW', actionId: 'S7HvFD3qIR3ifJRL', actionName: 'Bonus to Damage', actionDescription: '<p>S<strong>pend a Hope</strong> and describe how …o make, gain a +3 bonus to the roll’s damage.</p>'}
+36
+: 
+{entryName: '自然澄明', entryId: 'etaQ01yGJhBLDUqZ', actionId: 'az7YUpxy1ysn12tO', actionName: 'Clear Stress', actionDescription: '<p>Once per long rest, you can create a space of n…ed as you choose between you and your allies.</p>'}
+37
+: 
+{entryName: '元素化身', entryId: 'f37TTgCc0Q3Ih1A1', actionId: 'wVGSzAnJGs5eXKqI', actionName: 'Fire', actionDescription: '<p>When an adversary within Melee range deals dama…, they take @Damage[type:magical|value:1d10].</p>'}
+38
+: 
+{entryName: '元素化身', entryId: 'f37TTgCc0Q3Ih1A1', actionId: '6QXTThhnJpGDIvhJ', actionName: 'Earth', actionDescription: '<p>Gain a bonus to your damage thresholds equal to your Proficiency.</p>'}
+39
+: 
+{entryName: '元素化身', entryId: 'f37TTgCc0Q3Ih1A1', actionId: 'pY2EdEMoyLGYWjK5', actionName: 'Water', actionDescription: '<p>When you deal damage to an adversary within Mel…ess.</p><p>@Template[type:emanation|range:vc]</p>'}
+40
+: 
+{entryName: '元素化身', entryId: 'f37TTgCc0Q3Ih1A1', actionId: 'uk8EgHMxCgoWENzt', actionName: 'Air', actionDescription: '<p>You can hover, gaining advantage on Agility Rolls.</p>'}
+41
+: 
+{entryName: '暗云', entryId: 'frBTtNMX9Y2gkuPz', actionId: 'nIgBwYfAVAJ98lzb', actionName: 'SpellCast: Dark Cloud', actionDescription: '<p>Make <strong>a Spellcast Roll (15)</strong>. On…ight.</p><p>@Template[type:emanation|range:c]</p>'}
+42
+: 
+{entryName: '踏影者', entryId: 'hAwTXjhyphiE3aeW', actionId: 'g1VIG6VjYKkm11qJ', actionName: 'Mark Stress', actionDescription: '<p>You can move from shadow to shadow. When you mo…ar range. When you reappear, you are Cloaked.</p>'}
+43
+: 
+{entryName: '忠诚护卫', entryId: 'hd7UeBPr86Mz21Pe', actionId: 'Dxnu3gPSTSysJnb8', actionName: 'Mark Stress', actionDescription: '<p>When an ally within Close range has 2 or fewer …nt to their side and take the damage instead.</p>'}
+44
+: 
+{entryName: '消失把戏', entryId: 'iyIg1VLwO8C6jvFZ', actionId: 'BjAECQULugmbVqXU', actionName: 'Mark Stress', actionDescription: '<p><strong>Mark a Stress</strong> to become Cloake…l you roll with Fear or until your next rest.</p>'}
+45
+: 
+{entryName: '报偿一击', entryId: 'k7vvMJtEcxMWUUrW', actionId: 'yalzg4VRmZvakshJ', actionName: 'Mark Adversary', actionDescription: '<p>When an adversary damages an ally within Melee …ssful attack you make against that adversary.</p>'}
+46
+: 
+{entryName: '顶级掠食者', entryId: 'lwH3E0Zyf4gbVOd0', actionId: 'LHDsuveQznbcFUhV', actionName: 'Spend Hope', actionDescription: '<p>Before you make an attack roll against your Foc…k, you remove a Fear from the GM’s Fear pool.</p>'}
+47
+: 
+{entryName: '复仇', entryId: 'oNfA5F9cKwNR7joq', actionId: 'e00FXbyXZ8bHRY2t', actionName: 'Mark Stress', actionDescription: '<p>When an adversary within Melee range succeeds o…ss to force the attacker to mark a Hit Point.</p>'}
+48
+: 
+{entryName: '战斗仪式', entryId: 'qqb5acyUSl1sCpWW', actionId: 'UdZx74Vcz6ip4Plh', actionName: 'Prepare', actionDescription: '<p>Once per long rest, before you attempt somethin… When you do, clear 2 Stress and gain 2 Hope.</p>'}
+49
+: 
+{entryName: '超越', entryId: 'th6HZwEFnVBjUtqm', actionId: 'RIbyJjEkCgqoDmyn', actionName: 'Transform', actionDescription: '<p>Once per long rest, you can transform into a ph…/li><li><p>+2 bonus to your Evasion</p></li></ul>'}
+50
+: 
+{entryName: '娴熟', entryId: 'v511C6GMShsBblah', actionId: 'FOl7kaOG6DFWIpMm', actionName: 'Mark Stress', actionDescription: '<p>When you Utilize an Experience, you can <strong…ouble your Experience modifier for that roll.</p>'}
+51
+: 
+{entryName: '磨砺专精', entryId: 'w1BwNKxbQOSizLmZ', actionId: 'zCTrqPtGARSZ06CU', actionName: 'Roll d6', actionDescription: '<p>When you use an Experience, roll a <strong>d6</…higher, you can use it without spending Hope.</p>'}
+52
+: 
+{entryName: '忠诚朋友', entryId: 'xjZHD5Yo3Tu26rLm', actionId: 'Z82YQzYWo4eektMa', actionName: 'Rush', actionDescription: '<p>Once per long rest, when the damage from an att…he other’s side and take that damage instead.</p>'}

@@ -1,5 +1,5 @@
 {
-  "label": "Subclasses",
+  "label": "子职业",
   "mapping": {
     "description": "system.description"
   },
@@ -10,7 +10,7 @@
     "Ranger": "游侠",
     "Rogue": "盗贼",
     "Warrior": "战士",
-    "Seraph": "炽天使",
+    "Seraph": "神使",
     "Wizard": "法师",
     "Sorcerer": "术士",
     "Foundation Features": "基础特性",
@@ -29,7 +29,8 @@
     },
     "Thrive in Chaos": {
       "name": "乱中得势",
-      "description": "<p>当你一次攻击成功时，在掷出伤害后你可以<strong>标记 1 点压力</strong>，迫使目标额外标记 1 点生命值。</p>"
+      "description": "<p>当你一次攻击成功时，在掷出伤害后你可以<strong>标记 1 点压力</strong>，迫使目标额外标记 1 点生命值。</p>",
+      "flags.babele.originalName": "乱中得势"
     },
     "Brilliant": {
       "name": "卓绝聪慧",
@@ -37,15 +38,18 @@
     },
     "Warden’s Protection": {
       "name": "守望者庇护",
-      "description": "<p>每次长休前一次，<strong>消耗 2 点希望</strong>，使近距内<strong>1d4</strong>名盟友各清除 2 点生命值。</p>"
+      "description": "<p>每次长休前一次，<strong>消耗 2 点希望</strong>，使近距内<strong>1d4</strong>名盟友各清除 2 点生命值。</p>",
+      "flags.babele.originalName": "守望者庇护"
     },
     "Elemental Aura": {
       "name": "元素光环",
-      "description": "<p>每次休息期间在你处于引导状态时一次，你可以获得与当前元素相匹配的光环。该光环影响近距内的目标，直到你的引导结束：</p><ul><li><p><strong>火：</strong>当一个敌人标记 1 点或更多生命值时，他们还必须再标记 1 点压力。</p></li><li><p><strong>土：</strong>你的盟友力量获得 +1 加值。</p></li><li><p><strong>水：</strong>当敌人对你造成伤害时，你可以<strong>标记 1 点压力</strong>，将其移动到其当前位置极近范围内的任意位置。</p></li><li><p><strong>风：</strong>当你或盟友受到来自近战范围外攻击的伤害时，将该伤害降低<strong>1d8</strong>。</p></li></ul>"
+      "description": "<p>每次休息期间在你处于引导状态时一次，你可以获得与当前元素相匹配的光环。该光环影响近距内的目标，直到你的引导结束：</p><ul><li><p><strong>火：</strong>当一个敌人标记 1 点或更多生命值时，他们还必须再标记 1 点压力。</p></li><li><p><strong>土：</strong>你的盟友力量获得 +1 加值。</p></li><li><p><strong>水：</strong>当敌人对你造成伤害时，你可以<strong>标记 1 点压力</strong>，将其移动到其当前位置极近范围内的任意位置。</p></li><li><p><strong>风：</strong>当你或盟友受到来自近战范围外攻击的伤害时，将该伤害降低<strong>1d8</strong>。</p></li></ul>",
+      "flags.babele.originalName": "元素光环"
     },
     "Enchanted Aid": {
       "name": "附魔援助",
-      "description": "<p>你可以用自身精华增强他人的魔法。当你以施法检定帮助一名盟友时，可以使用<strong>d8</strong>作为优势骰。每次长休前一次，在一名盟友接受你的帮助完成施法检定后，你可以交换其双元骰结果。</p>"
+      "description": "<p>你可以用你的元素为他人的魔法增效。当你帮助盟友进行施法掷骰时，你可以掷一个 <strong>d8</strong> 作为你的优势骰。每长休一次，在盟友在你的帮助下完成施法掷骰后，你可以交换盟友的二元骰结果。</p>",
+      "flags.babele.originalName": "附魔援助"
     },
     "Unrelenting": {
       "name": "不屈不挠",
@@ -57,11 +61,13 @@
     },
     "Eloquent": {
       "name": "雄辩",
-      "description": "<p>你打动人心的话语能提振士气。每次流程一次，当你鼓励一名盟友时，你可以执行以下一项：</p><ul><li><p>让他们找到所需的一件普通物品或工具。</p></li><li><p>在不消耗希望的情况下帮助盟友。</p></li><li><p>让他们在下次休整时额外获得一次停机行动。</p></li></ul>"
+      "description": "<p>你打动人心的话语能提振士气。每次流程一次，当你鼓励一名盟友时，你可以执行以下一项：</p><ul><li><p>让他们找到所需的一件普通物品或工具。</p></li><li><p>在不消耗希望的情况下帮助盟友。</p></li><li><p>让他们在下次休整时额外获得一次停机行动。</p></li></ul>",
+      "flags.babele.originalName": "雄辩"
     },
     "Iron Will": {
       "name": "钢铁意志",
-      "description": "<p>当你受到物理伤害时，你可以<strong>额外标记 1 个护甲槽</strong>来降低伤害严重度。</p>"
+      "description": "<p>当你受到物理伤害时，你可以额外<strong>标记 1 护甲槽</strong> 来降低伤害等级。</p>",
+      "flags.babele.originalName": "钢铁意志"
     },
     "Well-Connected": {
       "name": "人脉广阔",
@@ -81,11 +87,13 @@
     },
     "Gifted Performer": {
       "name": "天赋表演者",
-      "description": "<p>你可以演奏三种不同类型的曲目，每种每次长休前各能使用一次；描述你如何为他人表演，并获得以下效果之一：</p><ul><li><p><strong>舒缓之歌：</strong>你和近距内所有盟友清除 1 点生命值。</p></li><li><p><strong>史诗之歌：</strong>使近距内一个目标暂时处于<strong>易伤</strong>。</p></li><li><p><strong>心碎之歌：</strong>你和近距内所有盟友各获得 1 点希望。</p></li></ul>"
+      "description": "<p>你可以演奏三种不同类型的曲目，每种每次长休前各能使用一次；描述你如何为他人表演，并获得以下效果之一：</p><ul><li><p><strong>舒缓之歌：</strong>你和近距内所有盟友清除 1 点生命值。</p></li><li><p><strong>史诗之歌：</strong>使近距内一个目标暂时处于<strong>易伤</strong>。</p></li><li><p><strong>心碎之歌：</strong>你和近距内所有盟友各获得 1 点希望。</p></li></ul>",
+      "flags.babele.originalName": "天赋表演者"
     },
     "Heart of a Poet": {
       "name": "诗人之心",
-      "description": "<p>当你进行一个用来打动、说服或冒犯他人的行动掷骰后，你可以<strong>消耗 1 点希望</strong>，为该次掷骰加入一个<strong>d4</strong>。</p>"
+      "description": "<p>在你试图打动、说服或冒犯某人，进行动作掷骰之后。你可以<strong>花费 1 希望点</strong>，为该掷骰添加一个 <strong>d4</strong>加值。</p>",
+      "flags.babele.originalName": "诗人之心"
     },
     "Elusive Predator": {
       "name": "难觅猎手",
@@ -93,19 +101,23 @@
     },
     "Face Your Fear": {
       "name": "直面恐惧",
-      "description": "<p>当你以恐惧成功完成一次攻击掷骰时，额外造成<strong>1d10</strong>魔法伤害。</p>"
+      "description": "<p>当你在攻击掷骰中获得恐惧成功时，额外造成<strong>1d10</strong>点魔法伤害。</p>",
+      "flags.babele.originalName": "直面恐惧"
     },
     "Nemesis": {
       "name": "宿敌",
-      "description": "<p><strong>消耗 2 点希望</strong>，将一个敌人设为你的<strong>优先目标</strong>，直到下次休息。当你对该优先目标进行攻击时，你可以交换希望骰与恐惧骰的结果。你同一时间只能优先一个敌人。</p>"
+      "description": "<p><strong>消耗 2 点希望</strong>，将一个敌人设为你的<strong>优先目标</strong>，直到下次休息。当你对该优先目标进行攻击时，你可以交换希望骰与恐惧骰的结果。你同一时间只能优先一个敌人。</p>",
+      "flags.babele.originalName": "宿敌"
     },
     "Sacred Resonance": {
       "name": "神圣共鸣",
-      "description": "<p>当你为“灵武”特性掷伤害时，如果任意骰子结果相同，就将每个相同结果的数值翻倍。例如，如果你掷出两个 5，它们就按两个 10 计算。</p>"
+      "description": "<p>当你为你的“灵魂武器”特性掷出伤害骰时，如果任意骰子数值相同，则每个相同的骰子数值翻倍。例如，如果你掷出两个 5，它们算作两个 10。</p>",
+      "flags.babele.originalName": "神圣共鸣"
     },
     "Elemental Dominion": {
       "name": "元素主宰",
-      "description": "<p>你进一步化身为自己的元素。在你处于引导状态时，获得以下对应效果：</p><ul><li><p><strong>火：</strong>对造成伤害的攻击与法术，你的熟练值获得 +1 加值。</p></li><li><p><strong>土：</strong>当你将要标记生命值时，每标记 1 点生命值便掷一个<strong>d6</strong>；每出现一个 6，就少标记 1 点生命值。</p></li><li><p><strong>水：</strong>当一次对你的攻击成功时，你可以<strong>标记 1 点压力</strong>，使攻击者暂时处于<strong>易伤</strong>。</p></li><li><p><strong>风：</strong>你的闪避获得 +1 加值，并且可以飞行。</p></li></ul>"
+      "description": "<p>你可以进一步具现元素。当你处于 <em>灌注</em> 状态时，你获得下列增益：</p><ul><li><p><em><strong>火元素：</strong></em> 你在造成伤害的攻击和法术的熟练值上获得 +1 加值。</p></li><li><p><em><strong>土元素：</strong></em> 当你将标记生命点时，为每个标记的生命点掷一个 <strong>d6</strong>。每掷出 6 的结果，你标记的生命点数量减少 1 点。</p></li><li><p><em><strong>水元素：</strong></em> 当针对你的攻击成功时，你可以<strong>标记 1 压力点</strong>，使攻击者暂时处于 <em>脆弱</em> 状态。</p></li><li><p><em><strong>风元素：</strong></em> 你的闪避值获得 +1 加值，并且你可以飞行。</p></li></ul>",
+      "flags.babele.originalName": "元素主宰"
     },
     "Fleeting Shadow": {
       "name": "瞬逝之影",
@@ -113,7 +125,8 @@
     },
     "Partner-in-Arms": {
       "name": "并肩战友",
-      "description": "<p>当极近范围内一名盟友受到伤害时，你可以<strong>标记 1 个护甲槽</strong>，将该伤害的严重度降低一个档次。</p>"
+      "description": "<p>当极近范围内一名盟友受到伤害时，你可以<strong>标记 1 个护甲槽</strong>，将该伤害的严重度降低一个档次。</p>",
+      "flags.babele.originalName": "并肩战友"
     },
     "Primal Origin": {
       "name": "原始起源",
@@ -121,15 +134,18 @@
     },
     "Sparing Touch": {
       "name": "仁慈之触",
-      "description": "<p>每次长休前一次，触碰一个生物，使其清除 2 点生命值或 2 点压力。</p>"
+      "description": "<p>每次长休前一次，触碰一个生物，使其清除 2 点生命值或 2 点压力。</p>",
+      "flags.babele.originalName": "仁慈之触"
     },
     "Weapon Specialist": {
       "name": "武器专家",
-      "description": "<p>你能够危险而娴熟地同时运用多种武器。当你一次攻击成功时，你可以<strong>消耗 1 点希望</strong>，将副武器的一枚伤害骰加入本次伤害掷骰。此外，每次长休前一次，当你掷你的屠戮骰时，重掷所有的 1。</p>"
+      "description": "<p>你可以轻松自如地使用多种武器。当你攻击成功时，你可以<strong>花费 1 希望点</strong>，将你的副手武器的一个伤害骰加入到伤害掷骰中。此外，每长休一次，当你掷出你的杀手骰时，可以将所有结果为1的骰重掷。</p>",
+      "flags.babele.originalName": "武器专家"
     },
     "Perfect Recall": {
       "name": "完美回忆",
-      "description": "<p>每次休息期间一次，当你唤回你储藏中的一张领域卡时，你可以使其回忆代价降低 1。</p>"
+      "description": "<p>每次休息期间一次，当你唤回你储藏中的一张领域卡时，你可以使其回忆代价降低 1。</p>",
+      "flags.babele.originalName": "完美回忆"
     },
     "Devout": {
       "name": "虔诚",
@@ -137,15 +153,18 @@
     },
     "Defender": {
       "name": "守护者",
-      "description": "<p>你的兽形转化体现出一位疗愈守护灵。当你处于兽形态且近距内一名盟友将标记 2 点或更多生命值时，你可以<strong>标记 1 点压力</strong>，使其少标记 1 点生命值。</p>"
+      "description": "<p>你的兽形转化体现出一位疗愈守护灵。当你处于兽形态且近距内一名盟友将标记 2 点或更多生命值时，你可以<strong>标记 1 点压力</strong>，使其少标记 1 点生命值。</p>",
+      "flags.babele.originalName": "守护者"
     },
     "Regeneration": {
       "name": "再生",
-      "description": "<p>触碰一个生物并<strong>消耗 3 点希望</strong>。该生物清除<strong>1d4</strong>点生命值。</p>"
+      "description": "<p>触碰一个生物并<strong>花费 3 希望点</strong>。该生物<strong>恢复 1d4 生命点</strong>。</p>",
+      "flags.babele.originalName": "再生"
     },
     "Wings of Light": {
       "name": "光翼",
-      "description": "<p>你可以飞行。飞行时，你可以进行以下操作：</p><ul><li><p><strong>标记 1 点压力</strong>，携带另一个大约与你体型相当或更小的自愿生物。</p></li><li><p><strong>消耗 1 点希望</strong>，在一次成功攻击上额外造成<strong>1d8</strong>伤害。</p></li></ul>"
+      "description": "<p>你可以飞行。飞行时，你可以进行以下操作：</p><ul><li><p><strong>标记 1 点压力</strong>，携带另一个大约与你体型相当或更小的自愿生物。</p></li><li><p><strong>消耗 1 点希望</strong>，在一次成功攻击上额外造成<strong>1d8</strong>伤害。</p></li></ul>",
+      "flags.babele.originalName": "光翼"
     },
     "Divine Wielder": {
       "name": "神圣持兵者",
@@ -157,7 +176,8 @@
     },
     "Spirit Weapon": {
       "name": "灵武",
-      "description": "<p>当你装备了一把射程为近战或极近的武器时，它可以从你手中飞出，攻击近距内的一名敌人后再返回你手中。你可以<strong>标记 1 点压力</strong>，用同一次攻击掷骰额外指定射程内另一名敌人。</p>"
+      "description": "<p>当你装备了一把射程为近战或极近的武器时，它可以从你手中飞出，攻击近距内的一名敌人后再返回你手中。你可以<strong>标记 1 点压力</strong>，用同一次攻击掷骰额外指定射程内另一名敌人。</p>",
+      "flags.babele.originalName": "灵武"
     },
     "Call Of The Brave": {
       "name": "勇者之召",
@@ -165,7 +185,8 @@
     },
     "Rousing Speech": {
       "name": "振奋演说",
-      "description": "<p>每次长休前一次，你可以发表一段真挚而振奋人心的演说。远距内所有盟友清除 2 点压力。</p>"
+      "description": "<p>每次长休前一次，你可以发表一段真挚而振奋人心的演说。远距内所有盟友清除 2 点压力。</p>",
+      "flags.babele.originalName": "振奋演说"
     },
     "Reliable Backup": {
       "name": "可靠后援",
@@ -173,7 +194,8 @@
     },
     "Ruthless Predator": {
       "name": "残酷猎手",
-      "description": "<p>当你进行伤害掷骰时，你可以<strong>标记 1 点压力</strong>，使你的熟练值获得 +1 加值。此外，当你对一个敌人造成重创伤害时，该敌人必须标记 1 点压力。</p>"
+      "description": "<p>当你进行伤害掷骰时，你可以<strong>标记 1 点压力</strong>，使你的熟练值获得 +1 加值。此外，当你对一个敌人造成重创伤害时，该敌人必须标记 1 点压力。</p>",
+      "flags.babele.originalName": "残酷猎手"
     },
     "Vengeance": {
       "name": "复仇者",
@@ -185,11 +207,13 @@
     },
     "Natural Evasion": {
       "name": "自然闪避",
-      "description": "<p>你可以唤出你的元素来保护自己免受伤害。当一次针对你的攻击掷骰成功时，你可以<strong>标记 1 点压力</strong>并描述你如何用元素为自己防御。然后掷一个<strong>d6</strong>，并将结果加入你对该次攻击的闪避值。</p>"
+      "description": "<p>你可以唤出你的元素来保护你免受伤害。当一次针对你的攻击掷骰成功时，你可以<strong>标记 1 压力点</strong>并描述你如何利用你的元素来防御。当你这样做时，掷一个<strong>d6</strong>并将骰值加入你对抗该攻击的闪避值上。</p>",
+      "flags.babele.originalName": "自然闪避"
     },
     "Manipulate Magic": {
       "name": "操弄魔法",
-      "description": "<p>你的原始起源让你能够修改魔法的本质。在你施放一个法术，或用一把造成魔法伤害的武器进行攻击后，你可以<strong>标记 1 点压力</strong>，执行以下一项：</p><ul><li><p>将该法术或攻击的射程延长一个距离档。</p></li><li><p>使该行动掷骰结果获得 +2 加值。</p></li><li><p>将你选择的一枚伤害骰数值翻倍。</p></li><li><p>命中射程内额外一个目标。</p></li></ul>"
+      "description": "<p>你的原始起源让你能够修改魔法的本质。在你施放一个法术，或用一把造成魔法伤害的武器进行攻击后，你可以<strong>标记 1 点压力</strong>，执行以下一项：</p><ul><li><p>将该法术或攻击的射程延长一个距离档。</p></li><li><p>使该行动掷骰结果获得 +2 加值。</p></li><li><p>将你选择的一枚伤害骰数值翻倍。</p></li><li><p>命中射程内额外一个目标。</p></li></ul>",
+      "flags.babele.originalName": "操弄魔法"
     },
     "Warden of the Elements": {
       "name": "元素守望者",
@@ -197,7 +221,8 @@
     },
     "Unwavering": {
       "name": "坚定不移",
-      "description": "<p>你的伤害阈值永久获得 +1 加值。</p>"
+      "description": "<p>你的伤害阈值永久获得 +1 加值。</p>",
+      "flags.babele.originalName": "坚定不移"
     },
     "Wordsmith": {
       "name": "巧舌诗人",
@@ -205,7 +230,8 @@
     },
     "Battlemage": {
       "name": "战斗法师",
-      "description": "<p>你将自己的学识集中于成为战场上不可征服的力量。获得一个额外的生命值槽。</p>"
+      "description": "<p>你专注于研究，以成为战场上不可战胜的力量。获得一个额外生命槽。</p>",
+      "flags.babele.originalName": "战斗法师"
     },
     "Prepared": {
       "name": "有备而来",
@@ -225,11 +251,13 @@
     },
     "Contacts Everywhere": {
       "name": "到处都有联系人",
-      "description": "<p>每次流程一次，你可以短暂地召来一个见不得光的联系人。选择以下一项好处，并描述是什么让他们此刻出现在这里帮助你：</p><ul><li><p>他们提供 1 把金币、一件独特工具，或当前情境所需的一件普通物品。</p></li><li><p>在你下一次行动掷骰中，他们的帮助使你的希望骰或恐惧骰结果获得 +3 加值。</p></li><li><p>下次你造成伤害时，他们会从阴影中狙击，为你的伤害掷骰额外加入<strong>2d8</strong>。</p></li></ul>"
+      "description": "<p>每次流程一次，你可以短暂地召来一个见不得光的联系人。选择以下一项好处，并描述是什么让他们此刻出现在这里帮助你：</p><ul><li><p>他们提供 1 把金币、一件独特工具，或当前情境所需的一件普通物品。</p></li><li><p>在你下一次行动掷骰中，他们的帮助使你的希望骰或恐惧骰结果获得 +3 加值。</p></li><li><p>下次你造成伤害时，他们会从阴影中狙击，为你的伤害掷骰额外加入<strong>2d8</strong>。</p></li></ul>",
+      "flags.babele.originalName": "到处都有联系人"
     },
     "Comaraderie": {
       "name": "战友情谊",
-      "description": "<p>你坚定不移的勇气会成为盟友的号角。每次流程中，你可以额外发起一次协同掷骰。此外，当一名盟友与你一起发起协同掷骰时，他们只需要消耗 2 点希望。</p>"
+      "description": "<p>你坚定不移的勇气会成为盟友的号角。每次流程中，你可以额外发起一次协同掷骰。此外，当一名盟友与你一起发起协同掷骰时，他们只需要消耗 2 点希望。</p>",
+      "flags.babele.originalName": "战友情谊"
     },
     "Martial Preparation": {
       "name": "武备训练",
@@ -237,11 +265,13 @@
     },
     "Elementalist": {
       "name": "元素使",
-      "description": "<p>在角色创建时，从以下元素中选择一种：风、土、火、雷、电、水。你可以将该元素塑造成无害的小效果。此外，<strong>消耗 1 点希望</strong>并描述你如何让对该元素的控制帮助你即将进行的一次行动掷骰；然后你可以为该次掷骰获得 +2 加值，或为其伤害获得 +3 加值。</p>"
+      "description": "<p>在角色创建时，从以下元素中选择一种：风、土、火、雷、电、水。你可以将该元素塑造成无害的小效果。此外，<strong>消耗 1 点希望</strong>并描述你如何让对该元素的控制帮助你即将进行的一次行动掷骰；然后你可以为该次掷骰获得 +2 加值，或为其伤害获得 +3 加值。</p>",
+      "flags.babele.originalName": "元素使"
     },
     "Rise to the Challenge": {
       "name": "迎难而上",
-      "description": "<p>你在危险加剧时依然警醒。只要你未标记的生命值只剩 2 点或更少，你就可以使用<strong>d20</strong>作为希望骰。</p>"
+      "description": "<p>当危难迫近时，你仍能保持警觉。当你的剩余生命点少于或等于2点时，你可以将 <strong>d20</strong> 作为你的希望骰。</p>",
+      "flags.babele.originalName": "迎难而上"
     },
     "Epic Poetry": {
       "name": "史诗诗篇",
@@ -249,11 +279,13 @@
     },
     "Clarity of Nature": {
       "name": "自然澄明",
-      "description": "<p>每次长休前一次，你可以在近距内创造一片自然宁静之地。当你与盟友在其中花上几分钟休息时，清除等同于你本能值的压力，由你在自己与盟友之间自由分配。</p>"
+      "description": "<p>每次长休前一次，你可以在近距内创造一片自然宁静之地。当你与盟友在其中花上几分钟休息时，清除等同于你本能值的压力，由你在自己与盟友之间自由分配。</p>",
+      "flags.babele.originalName": "自然澄明"
     },
     "Elemental Incarnation": {
       "name": "元素化身",
-      "description": "<p><strong>标记 1 点压力</strong>，引导下列一种元素，直到你受到重创伤害或直到下次休息：</p><ul><li><p><strong>火：</strong>当近战范围内的敌人对你造成伤害时，他们承受<strong>1d10</strong>魔法伤害。</p></li><li><p><strong>土：</strong>你的伤害阈值获得等同于熟练值的加值。</p></li><li><p><strong>水：</strong>当你对近战范围内一名敌人造成伤害时，极近范围内所有其他敌人都必须标记 1 点压力。</p></li><li><p><strong>风：</strong>你可以悬浮，并在敏捷检定上获得优势。</p></li></ul>"
+      "description": "<p><strong>标记 1 压力点</strong>，将下列元素之一 <em>灌注</em> 己身，直到你受到严重伤害或直到你下一次休息：</p><ul><li><p><em><strong>火元素：</strong></em> 当近战范围内的敌人对你造成伤害时，其受到 <strong>1d10</strong> 点魔法伤害。</p></li><li><p><em><strong>土元素：</strong></em> 你的伤害阈值获得等同于你熟练值的加值。</p></li><li><p><em><strong>水元素：</strong></em> 当你对近战范围内的一个敌人造成伤害时，邻近范围内的所有其他敌人必须<strong>标记 1 压力点</strong>。</p></li><li><p><em><strong>风元素：</strong></em> 你可以处于悬浮状态，敏捷掷骰获得优势。</p></li></ul>",
+      "flags.babele.originalName": "元素化身"
     },
     "Ascendant": {
       "name": "升华者",
@@ -261,7 +293,8 @@
     },
     "Dark Cloud": {
       "name": "暗云",
-      "description": "<p>进行一次<strong>施法掷骰（15）</strong>。若成功，在近距内创造一片临时黑云，覆盖任意区域。云中的人无法看见外面，云外的人也无法看见里面。对于任何被该云遮挡视线的敌人，你都被视为处于<strong>隐蔽</strong>状态。</p>"
+      "description": "<p>进行一次<strong>施法掷骰（15）</strong>。若成功，在近距内创造一片临时黑云，覆盖任意区域。云中的人无法看见外面，云外的人也无法看见里面。对于任何被该云遮挡视线的敌人，你都被视为处于<strong>隐蔽</strong>状态。</p>",
+      "flags.babele.originalName": "暗云"
     },
     "Nightwalker": {
       "name": "夜行者",
@@ -269,7 +302,8 @@
     },
     "Shadow Stepper": {
       "name": "踏影者",
-      "description": "<p>你可以在阴影之间移动。当你进入一片黑暗区域，或进入另一个生物或物体投下的阴影时，你可以<strong>标记 1 点压力</strong>，从原地消失并在远距内另一片阴影中重新出现。重新出现时，你处于<strong>隐蔽</strong>状态。</p>"
+      "description": "<p>你可以在阴影之间移动。当你进入一片黑暗区域，或进入另一个生物或物体投下的阴影时，你可以<strong>标记 1 点压力</strong>，从原地消失并在远距内另一片阴影中重新出现。重新出现时，你处于<strong>隐蔽</strong>状态。</p>",
+      "flags.babele.originalName": "踏影者"
     },
     "Fueled by Fear": {
       "name": "恐惧驱动",
@@ -281,19 +315,23 @@
     },
     "Loyal Protector": {
       "name": "忠诚护卫",
-      "description": "<p>当近距内一名盟友仅剩 2 点或更少生命值且即将受到伤害时，你可以<strong>标记 1 点压力</strong>，冲到其身边并改由你承受这次伤害。</p>"
+      "description": "<p>当一个近距离范围内的盟友生命点剩余 2 点或更少且将要受到伤害时，你可以<strong>标记 1 压力点</strong> 冲刺到其身边，由你承受伤害。</p>",
+      "flags.babele.originalName": "忠诚护卫"
     },
     "Expert Training": {
       "name": "专家训练",
-      "description": "<p>为你的伙伴额外选择一个升级选项。</p>"
+      "description": "<p>为你的伙伴额外选择一个升级选项。</p>",
+      "flags.babele.originalName": "专家训练"
     },
     "Vanishing Act": {
       "name": "消失把戏",
-      "description": "<p><strong>标记 1 点压力</strong>，你可以在任意时刻变为<strong>隐蔽</strong>。通过该特性获得隐蔽时，若你处于<strong>束缚</strong>状态，则自动清除该状态。你会以这种方式持续隐蔽，直到你掷出带恐惧的结果或直到下次休息。</p>"
+      "description": "<p><strong>标记 1 点压力</strong>，你可以在任意时刻变为<strong>隐蔽</strong>。通过该特性获得隐蔽时，若你处于<strong>束缚</strong>状态，则自动清除该状态。你会以这种方式持续隐蔽，直到你掷出带恐惧的结果或直到下次休息。</p>",
+      "flags.babele.originalName": "消失把戏"
     },
     "Act of Reprisal": {
       "name": "报偿一击",
-      "description": "<p>当近战范围内的敌人伤害了一名盟友时，你对该敌人进行的下一次成功攻击，其熟练值获得 +1 加值。</p>"
+      "description": "<p>当近战范围内的敌人伤害了一名盟友时，你对该敌人进行的下一次成功攻击，其熟练值获得 +1 加值。</p>",
+      "flags.babele.originalName": "报偿一击"
     },
     "Virtuoso": {
       "name": "演奏大师",
@@ -305,7 +343,8 @@
     },
     "Apex Predator": {
       "name": "顶级掠食者",
-      "description": "<p>在你对你的<strong>焦点</strong>进行攻击掷骰前，你可以<strong>消耗 1 点希望</strong>。若此次攻击成功，你可以从 GM 的恐惧池中移除 1 点恐惧。</p>"
+      "description": "<p>在你对你的<strong>焦点</strong>进行攻击掷骰前，你可以<strong>消耗 1 点希望</strong>。若此次攻击成功，你可以从 GM 的恐惧池中移除 1 点恐惧。</p>",
+      "flags.babele.originalName": "顶级掠食者"
     },
     "Courage": {
       "name": "勇气",
@@ -317,11 +356,13 @@
     },
     "Revenge": {
       "name": "复仇",
-      "description": "<p>当近战范围内一个敌人对你的攻击成功时，你可以<strong>标记 2 点压力</strong>，迫使攻击者标记 1 点生命值。</p>"
+      "description": "<p>当近战范围内一个敌人对你的攻击成功时，你可以<strong>标记 2 点压力</strong>，迫使攻击者标记 1 点生命值。</p>",
+      "flags.babele.originalName": "复仇"
     },
     "Conjure Shield": {
       "name": "召唤护盾",
-      "description": "<p>你可以维持一层保护性的魔法屏障。只要你至少拥有 2 点希望，你的闪避就加入你的熟练值。</p>"
+      "description": "<p>你可以维持一层魔法保护屏障。当你的希望点至少为2点时，将你的熟练值作为加值加在你的闪避值上。</p>",
+      "flags.babele.originalName": "召唤护盾"
     },
     "School Of Knowledge": {
       "name": "知识学派",
@@ -329,7 +370,8 @@
     },
     "Battle Ritual": {
       "name": "战斗仪式",
-      "description": "<p>每次长休前一次，在你尝试一件极其危险的事情，或准备迎战一个明显强于你的敌人之前，描述你进行了什么仪式或准备。然后清除 2 点压力并获得 2 点希望。</p>"
+      "description": "<p>每长休一次，在你尝试进行极其危险的行动或面对明显强于你的敌人之前，描述你执行的仪式或进行的准备。当你这样做时，<strong>清除 2 压力点</strong>并<strong>获得 2 希望点</strong>。</p>",
+      "flags.babele.originalName": "战斗仪式"
     },
     "Stalwart": {
       "name": "坚毅卫士",
@@ -337,7 +379,8 @@
     },
     "Transcendence": {
       "name": "超越",
-      "description": "<p>每次长休前一次，你可以转化为你所选元素的实体化身。如此做时，描述你的转变，并从以下效果中选择两项，持续到下次休息：重创阈值 +4；你选择的一项角色特质 +1；熟练值 +1；闪避 +2。</p>"
+      "description": "<p>每次长休前一次，你可以转化为你所选元素的实体化身。如此做时，描述你的转变，并从以下效果中选择两项，持续到下次休息：重创阈值 +4；你选择的一项角色特质 +1；熟练值 +1；闪避 +2。</p>",
+      "flags.babele.originalName": "超越"
     },
     "Ethereal Visage": {
       "name": "空灵容颜",
@@ -357,11 +400,13 @@
     },
     "Adept": {
       "name": "娴熟",
-      "description": "<p>当你利用一项经历时，你可以<strong>标记 1 点压力</strong>而不是消耗 1 点希望。若你这样做，该次掷骰中你的经历修正翻倍。</p>"
+      "description": "<p>当你利用一项经历时，你可以<strong>标记 1 点压力</strong>而不是消耗 1 点希望。若你这样做，该次掷骰中你的经历修正翻倍。</p>",
+      "flags.babele.originalName": "娴熟"
     },
     "Honed Expertise": {
       "name": "磨砺专精",
-      "description": "<p>当你使用一项经历时，掷一个<strong>d6</strong>。若结果为 5 或更高，你可以在不消耗希望的情况下使用它。</p>"
+      "description": "<p>当你使用一项经历时，掷一个<strong>d6</strong>。若结果为 5 或更高，你可以在不消耗希望的情况下使用它。</p>",
+      "flags.babele.originalName": "磨砺专精"
     },
     "Elemental Origin": {
       "name": "元素起源",
@@ -373,7 +418,8 @@
     },
     "Loyal Friend": {
       "name": "忠诚朋友",
-      "description": "<p>每次长休前一次，当一次攻击将标记你伙伴最后一点压力或你最后一点生命值，且你们彼此处于近距范围内时，你或你的伙伴可以冲到对方身边并替对方承受这次伤害。</p>"
+      "description": "<p>每次长休前一次，当一次攻击将标记你伙伴最后一点压力或你最后一点生命值，且你们彼此处于近距范围内时，你或你的伙伴可以冲到对方身边并替对方承受这次伤害。</p>",
+      "flags.babele.originalName": "忠诚朋友"
     },
     "Warden of Renewal": {
       "name": "复苏守望者",
@@ -385,7 +431,8 @@
     },
     "Arcane Charge": {
       "name": "奥术充能",
-      "description": "<p>你可以聚集魔法能量来强化自身。当你受到魔法伤害时，你会进入<strong>充能</strong>状态；或者，你也可以<strong>消耗 2 点希望</strong>进入充能状态。当你处于充能状态并成功进行一次造成魔法伤害的攻击时，你可以清除充能来选择以下一项：使该次伤害掷骰获得 +10 加值；或使该法术导致目标进行反应掷骰时的难度获得 +3 加值。到你下一次长休时，你会失去充能状态。</p>"
+      "description": "<p>你可以聚集魔法能量来增强你的能力。当你受到魔法伤害时，你会变成 <em>充能</em> 状态。或者，你可以<strong>花费 2 希望点</strong>来变为 <em>充能</em> 状态。当你处于 <em>充能</em> 状态并成功进行一次造成魔法伤害的攻击时，你可以清除你的 <em>充能</em> 状态，使伤害掷骰获得 +10 加值，或者使法术导致目标所需进行的反应掷骰难度获得 +3 加值。你在进入长休时停止 <em>充能</em> 状态。</p>",
+      "flags.babele.originalName": "奥术充能"
     },
     "Wayfinder": {
       "name": "寻路者",

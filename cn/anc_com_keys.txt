@@ -1,2 +1,0 @@
-Ancestry Keys: 名称, 类型, 简介, 描述
-Community Keys: 名称, 类型, 简介, 性格, 描述

@@ -1,0 +1,62 @@
+{
+  "label": "Communities",
+  "folders": {
+    "Community Features": "社群特性"
+  },
+  "entries": {
+    "Know the Tide": {
+      "name": "知潮识汐"
+    },
+    "Nomadic Pack": {
+      "name": "游居行囊"
+    },
+    "Dedicated": {
+      "name": "专注投入"
+    },
+    "Wanderborne": {
+      "name": "漫游裔"
+    },
+    "Privilege": {
+      "name": "特权"
+    },
+    "Wildborne": {
+      "name": "荒野裔"
+    },
+    "Highborne": {
+      "name": "高门裔"
+    },
+    "Steady": {
+      "name": "稳健"
+    },
+    "Well-Read": {
+      "name": "博览群书"
+    },
+    "Lightfoot": {
+      "name": "轻足"
+    },
+    "Orderborne": {
+      "name": "秩序裔"
+    },
+    "Ridgeborne": {
+      "name": "山脊裔"
+    },
+    "Loreborne": {
+      "name": "博闻裔"
+    },
+    "Scoundrel": {
+      "name": "无赖"
+    },
+    "Low-Light Living": {
+      "name": "昏光生存"
+    },
+    "Underborne": {
+      "name": "地底裔"
+    },
+    "Seaborne": {
+      "name": "海裔"
+    },
+    "Slyborne": {
+      "name": "狡黠裔"
+    }
+  }
+}

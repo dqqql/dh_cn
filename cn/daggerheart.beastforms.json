@@ -1,0 +1,177 @@
+{
+  "label": "Beastforms",
+  "folders": {
+    "Tier 3": "第3阶",
+    "Tier 2": "第2阶",
+    "Tier 4": "第4阶",
+    "Tier 1": "第1阶",
+    "Beastform Features": "兽形特性"
+  },
+  "entries": {
+    "Takedown": {
+      "name": "扑倒"
+    },
+    "Striking Serpent": {
+      "name": "突袭毒蛇"
+    },
+    "Venomous Bite": {
+      "name": "毒咬"
+    },
+    "Pouncing Predator": {
+      "name": "飞扑猎食者"
+    },
+    "Terrible Lizard": {
+      "name": "凶暴巨蜥"
+    },
+    "Armored Sentry": {
+      "name": "装甲哨卫"
+    },
+    "Hobbling Strike": {
+      "name": "跛足打击"
+    },
+    "Rampage": {
+      "name": "横冲直撞"
+    },
+    "Mighty Lizard": {
+      "name": "强健巨蜥"
+    },
+    "Massive Stride": {
+      "name": "巨步"
+    },
+    "Trample": {
+      "name": "践踏"
+    },
+    "Stalking Arachnid": {
+      "name": "潜猎蛛形兽"
+    },
+    "Nimble Grazer": {
+      "name": "敏捷草食兽"
+    },
+    "Webslinger": {
+      "name": "织网者"
+    },
+    "Demolish": {
+      "name": "摧毁"
+    },
+    "Carrier": {
+      "name": "驮运者"
+    },
+    "Bird's-Eye View": {
+      "name": "鸟瞰视野"
+    },
+    "Fleet": {
+      "name": "迅捷"
+    },
+    "Devastating Strikes": {
+      "name": "毁灭性打击"
+    },
+    "Aquatic Predator": {
+      "name": "水栖掠食者"
+    },
+    "Snapping Strike": {
+      "name": "噬咬突击"
+    },
+    "Undaunted": {
+      "name": "无畏"
+    },
+    "Fragile": {
+      "name": "脆弱"
+    },
+    "Deadly Raptor": {
+      "name": "致命猛禽"
+    },
+    "Physical Defense": {
+      "name": "物理防御"
+    },
+    "Mythic Hybrid": {
+      "name": "神话混种"
+    },
+    "Pack Predator": {
+      "name": "群猎者"
+    },
+    "Thick Hide": {
+      "name": "厚皮"
+    },
+    "Elusive Prey": {
+      "name": "难捕猎物"
+    },
+    "Agile Scout": {
+      "name": "敏捷斥候"
+    },
+    "Great Predator": {
+      "name": "巨型掠食者"
+    },
+    "Great Winged Beast": {
+      "name": "巨型翼兽"
+    },
+    "Warning Hiss": {
+      "name": "警戒嘶鸣"
+    },
+    "Pack Hunting": {
+      "name": "群体狩猎"
+    },
+    "Household Friend": {
+      "name": "家养伙伴"
+    },
+    "Mythic Aerial Hunter": {
+      "name": "神话空猎者"
+    },
+    "Vicious Maul": {
+      "name": "凶狠扑咬"
+    },
+    "Companion": {
+      "name": "伙伴"
+    },
+    "Cannonball": {
+      "name": "炮弹冲击"
+    },
+    "Mythic Beast": {
+      "name": "神话巨兽"
+    },
+    "Aquatic": {
+      "name": "水栖"
+    },
+    "Powerful Beast": {
+      "name": "强力巨兽"
+    },
+    "Winged Beast": {
+      "name": "翼兽"
+    },
+    "Legendary Beast": {
+      "name": "传奇巨兽"
+    },
+    "Armored Shell": {
+      "name": "装甲外壳"
+    },
+    "Massive Behemoth": {
+      "name": "庞然巨兽"
+    },
+    "Aquatic Scout": {
+      "name": "水栖斥候"
+    },
+    "Legendary Hybrid": {
+      "name": "传奇混种"
+    },
+    "Ocean Master": {
+      "name": "海洋主宰"
+    },
+    "Venomous Strike": {
+      "name": "毒液打击"
+    },
+    "Unyielding": {
+      "name": "不屈"
+    },
+    "Epic Aquatic Beast": {
+      "name": "史诗水栖巨兽"
+    },
+    "Agile": {
+      "name": "敏捷"
+    },
+    "Hollow Bones": {
+      "name": "中空骨骼"
+    },
+    "Mighty Strider": {
+      "name": "强健奔行者"
+    }
+  }
+}

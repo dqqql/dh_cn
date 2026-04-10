@@ -1,0 +1,39 @@
+{
+    "id": "dh_cn",
+    "title": "Translation: 中文 [匕首之心]",
+    "description": "本模组为 FVTT 的 匕首之心 系统提供了中文翻译。",
+    "authors": [
+        {
+            "name": "诸星观",
+            "email": "2761372449@qq.com"
+        }
+    ],
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13"
+    },
+    "systems": [
+        "daggerheart"
+    ],
+    "languages": [
+        {
+            "lang": "cn",
+            "name": "系统主体（中文）",
+            "path": "cn.json"
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "daggerheart",
+                "type": "system",
+                "manifest": ""
+            }
+        ]
+    },
+    "changelog": "",
+    "version": "1.1.0",
+    "url": "",
+    "manifest": "",
+    "download": ""
+}

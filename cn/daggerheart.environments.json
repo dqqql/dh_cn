@@ -1,0 +1,359 @@
+{
+  "label": "Environments",
+  "folders": {
+    "Tier 1": "1阶",
+    "Tier 4": "4阶",
+    "Tier 3": "3阶",
+    "Tier 2": "2阶"
+  },
+  "entries": {
+    "Castle Siege": {
+      "name": "城堡围攻",
+      "tokenName": "城堡围攻",
+      "items": {
+        "Secret Entrance": {
+          "name": "秘密入口"
+        },
+        "Siege Weapons (Environment Change)": {
+          "name": "攻城武器（环境变化）"
+        },
+        "Reinforcements!": {
+          "name": "增援到来！"
+        },
+        "Collateral Damage": {
+          "name": "附带破坏"
+        }
+      }
+    },
+    "Chaos Realm": {
+      "name": "混沌领域",
+      "tokenName": "混沌领域",
+      "items": {
+        "Impossible Architecture": {
+          "name": "不可能的建筑"
+        },
+        "Everything You Are This Place Will Take from You": {
+          "name": "此地将夺走构成你的一切"
+        },
+        "Unmaking": {
+          "name": "解构湮灭"
+        },
+        "Outer Realms Predators": {
+          "name": "外域掠食者"
+        },
+        "Disorientating Reality": {
+          "name": "错乱现实"
+        }
+      }
+    },
+    "Divine Usurpation": {
+      "name": "亵渎夺神",
+      "tokenName": "亵渎夺神",
+      "items": {
+        "Final Preparations": {
+          "name": "最后准备"
+        },
+        "Divine Blessing": {
+          "name": "神圣祝福"
+        },
+        "Difilers Abound": {
+          "name": "亵渎者横行"
+        },
+        "Godslayer": {
+          "name": "弑神者"
+        },
+        "Beginning of the End": {
+          "name": "终末伊始"
+        },
+        "Ritual Nexus": {
+          "name": "仪式枢纽"
+        }
+      }
+    },
+    "Pitched Battle": {
+      "name": "正面会战",
+      "tokenName": "正面会战",
+      "items": {
+        "Pitched Battle": {
+          "name": "正面会战"
+        },
+        "Raze and Pillage": {
+          "name": "焚掠破坏"
+        },
+        "War Magic": {
+          "name": "战争魔法"
+        },
+        "Reinforcements": {
+          "name": "增援"
+        }
+      }
+    },
+    "Bustling Marketplace": {
+      "name": "喧闹集市",
+      "tokenName": "喧闹集市",
+      "items": {
+        "Tip the Scales": {
+          "name": "使天平倾斜"
+        },
+        "Unexpected Find": {
+          "name": "意外发现"
+        },
+        "Sticky Fingers": {
+          "name": "顺手牵羊"
+        },
+        "Crowd Closes In": {
+          "name": "人群逼近"
+        }
+      }
+    },
+    "Cliffside Ascent": {
+      "name": "崖壁攀登",
+      "tokenName": "崖壁攀登",
+      "items": {
+        "The Climb": {
+          "name": "攀登"
+        },
+        "Pitons Left Behind": {
+          "name": "遗落的岩钉"
+        },
+        "Fall": {
+          "name": "坠落"
+        }
+      }
+    },
+    "Haunted City": {
+      "name": "鬼魅之城",
+      "tokenName": "鬼魅之城",
+      "items": {
+        "Buried Knowledge": {
+          "name": "尘封知识"
+        },
+        "Ghostly Form": {
+          "name": "幽魂之形"
+        },
+        "Dead Ends": {
+          "name": "死路"
+        },
+        "Apocalypse Then": {
+          "name": "昔日末日"
+        }
+      }
+    },
+    "Cult Ritual": {
+      "name": "邪教仪式",
+      "tokenName": "邪教仪式",
+      "items": {
+        "Desecrated Ground": {
+          "name": "亵渎之地"
+        },
+        "Blashemous Might": {
+          "name": "亵渎之力"
+        },
+        "The Summoning": {
+          "name": "召唤进行时"
+        },
+        "Complete the Ritual": {
+          "name": "完成仪式"
+        }
+      }
+    },
+    "Outpost Town": {
+      "name": "边哨小镇",
+      "tokenName": "边哨小镇",
+      "items": {
+        "Rumors Abound": {
+          "name": "流言四起"
+        },
+        "Society of the Broken Compass": {
+          "name": "破碎罗盘社"
+        },
+        "Rival Party": {
+          "name": "竞争队伍"
+        },
+        "It'd Be a Shame If Something Happened to Your Store": {
+          "name": "要是你的店出了点事可就太可惜了"
+        },
+        "Wrong Place, Wrong Time": {
+          "name": "来错地方，赶错时候"
+        }
+      }
+    },
+    "Mountain Pass": {
+      "name": "山岭隘口",
+      "tokenName": "山岭隘口",
+      "items": {
+        "Engraved Sigils": {
+          "name": "刻印符文"
+        },
+        "Avalanche": {
+          "name": "雪崩"
+        },
+        "Raptor Nest": {
+          "name": "迅猛龙巢穴"
+        },
+        "Icy Winds": {
+          "name": "凛冽寒风"
+        }
+      }
+    },
+    "Local Tavern": {
+      "name": "本地酒馆",
+      "tokenName": "本地酒馆",
+      "items": {
+        "What's the Talk of the Town?": {
+          "name": "镇上最近在传什么？"
+        },
+        "Sing For Your Supper": {
+          "name": "唱首曲子换顿饭"
+        },
+        "Mysterious Stranger": {
+          "name": "神秘来客"
+        },
+        "Someone Comes to Town": {
+          "name": "有人来到镇上"
+        },
+        "Bar Fight": {
+          "name": "酒馆斗殴"
+        }
+      }
+    },
+    "Hallowed Temple": {
+      "name": "圣祀神殿",
+      "tokenName": "圣祀神殿",
+      "items": {
+        "A Place of Healing": {
+          "name": "疗愈之所"
+        },
+        "Divine Guidance": {
+          "name": "神圣指引"
+        },
+        "Relentless Hope": {
+          "name": "不屈希望"
+        },
+        "Divine Censure": {
+          "name": "神圣谴责"
+        }
+      }
+    },
+    "Necromancer’s Ossuary": {
+      "name": "死灵法师藏骨堂",
+      "tokenName": "死灵法师藏骨堂",
+      "items": {
+        "No Place for the Living": {
+          "name": "生者勿入"
+        },
+        "Centuries of Knowledge": {
+          "name": "数百年的知识"
+        },
+        "Skeletal Burst": {
+          "name": "骸骨爆裂"
+        },
+        "Aura of Death": {
+          "name": "死亡灵光"
+        },
+        "They Just Keep Coming!": {
+          "name": "它们源源不断！"
+        }
+      }
+    },
+    "Imperial Court": {
+      "name": "帝国宫廷",
+      "tokenName": "帝国宫廷",
+      "items": {
+        "All Roads Lead Here": {
+          "name": "万路归此"
+        },
+        "Rival Vassals": {
+          "name": "敌对封臣"
+        },
+        "The Gravity of Empire": {
+          "name": "帝国威仪"
+        },
+        "Imperial Decree": {
+          "name": "帝国谕令"
+        },
+        "Eyes Everywhere": {
+          "name": "遍布的眼线"
+        }
+      }
+    },
+    "Burning Heart of the Woods": {
+      "name": "林海燃心",
+      "tokenName": "林海燃心",
+      "items": {
+        "Chaos Magic Locus": {
+          "name": "混沌魔法焦点"
+        },
+        "The Indigo Flame": {
+          "name": "靛蓝之焰"
+        },
+        "Grasping Vines": {
+          "name": "缠握藤蔓"
+        },
+        "Charcoal Constructs": {
+          "name": "炭化造物"
+        },
+        "Choking Ash": {
+          "name": "窒息灰烬"
+        }
+      }
+    },
+    "Abandoned Grove": {
+      "name": "废弃林苑",
+      "tokenName": "废弃林苑",
+      "items": {
+        "Overgrown Battlefield": {
+          "name": "荒草蔓生的战场"
+        },
+        "Barbed Vines": {
+          "name": "带刺藤蔓"
+        },
+        "You Are Not Welcome Here": {
+          "name": "此地不欢迎你"
+        },
+        "Defiler": {
+          "name": "亵渎者"
+        }
+      }
+    },
+    "Raging River": {
+      "name": "怒涛激流",
+      "tokenName": "怒涛激流",
+      "items": {
+        "Dangerous Crossing": {
+          "name": "危险渡口"
+        },
+        "Undertow": {
+          "name": "暗流"
+        },
+        "Patient Hunter": {
+          "name": "耐心猎手"
+        }
+      }
+    },
+    "Ambushed": {
+      "name": "遭遇伏击",
+      "tokenName": "遭遇伏击",
+      "items": {
+        "Relative Strength": {
+          "name": "相对兵力"
+        },
+        "Surprise": {
+          "name": "奇袭"
+        }
+      }
+    },
+    "Ambushers": {
+      "name": "伏击者",
+      "tokenName": "伏击者",
+      "items": {
+        "Ambushers": {
+          "name": "伏击者"
+        },
+        "Where Did They Come From?": {
+          "name": "他们从哪冒出来的？"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3197 @@
+﻿{
+  "TYPES": {
+    "Item": {
+      "ancestry": "种族",
+      "community": "社群",
+      "class": "职业",
+      "subclass": "子职业",
+      "feature": "特性",
+      "domainCard": "领域卡",
+      "consumable": "消耗品",
+      "loot": "战利品",
+      "weapon": "武器",
+      "armor": "护甲",
+      "beastform": "野兽形态"
+    },
+    "ActiveEffect": {
+      "beastform": "野兽形态"
+    },
+    "Actor": {
+      "character": "角色",
+      "companion": "动物伙伴",
+      "adversary": "敌人",
+      "environment": "环境",
+      "party": "小队"
+    }
+  },
+  "CONTROLS": {
+    "inFront": "前置显示"
+  },
+  "SCENE": {
+    "TABS": {
+      "SHEET": {
+        "dh": "匕首之心"
+      }
+    }
+  },
+  "DAGGERHEART": {
+    "CharacterSheet": "角色卡",
+    "ACTIONS": {
+      "TYPES": {
+        "attack": {
+          "name": "攻击",
+          "tooltip": "武器攻击、施法等进攻性动作"
+        },
+        "beastform": {
+          "name": "野兽形态",
+          "tooltip": "转变使用者的形态"
+        },
+        "countdown": {
+          "name": "倒计时",
+          "tooltip": "创建一个倒计时"
+        },
+        "damage": {
+          "name": "伤害",
+          "tooltip": "无需掷骰的直接伤害"
+        },
+        "effect": {
+          "name": "通用",
+          "tooltip": "未配置时仅显示聊天消息的通用动作"
+        },
+        "healing": {
+          "name": "治疗",
+          "tooltip": "为目标恢复资源。可配置为掷骰"
+        },
+        "macro": {
+          "name": "宏",
+          "tooltip": "通过UUID执行宏"
+        },
+        "summon": {
+          "name": "召唤",
+          "tooltip": "在场景中创建指示物",
+          "error": "您没有权限召唤Token或当前没有活跃场景。",
+          "invalidDrop": "你只能通过放置角色实体来召唤。",
+          "chatMessageTitle": "测试2",
+          "chatMessageHeaderTitle": "召唤中"
+        }
+      },
+      "Config": {
+        "beastform": {
+          "exact": "野兽形态最大阶位",
+          "exactHint": "留空时使用角色阶位",
+          "label": "野兽形态"
+        },
+        "countdown": {
+          "defaultOwnership": "默认所有权",
+          "startCountdown": "开始倒计时！"
+        },
+        "damage": {
+          "multiplier": "乘数",
+          "flatMultiplier": "扁平乘数"
+        },
+        "general": {
+          "customFormula": "自定义公式",
+          "formula": "公式"
+        },
+        "displayInChat": "在聊天中显示",
+        "deleteTriggerTitle": "删除触发器",
+        "deleteTriggerContent": "你确定想要删除{trigger}触发器吗？"
+      },
+      "RollField": {
+        "diceRolling": {
+          "compare": "应为",
+          "dice": "骰子类型",
+          "flatMultiplier": "固定倍率",
+          "multiplier": "骰子数量",
+          "threshold": "阈值"
+        }
+      },
+      "Settings": {
+        "attackBonus": "攻击加值",
+        "attackName": "攻击名称",
+        "criticalThreshold": "阈值",
+        "includeBase": {
+          "label": "包含物品伤害"
+        },
+        "multiplier": "倍率",
+        "saveHint": "设置默认默认位阶以启用反应投骰。稍后可以在“反应投骰”对话框中更改它。",
+        "resultBased": {
+          "label": "基于希望/恐惧结果的公式"
+        },
+        "applyTo": {
+          "label": "目标资源"
+        },
+        "consumeOnSuccess": {
+          "label": "仅在成功时消耗",
+          "short": "(仅成功时)"
+        },
+        "cost": {
+          "stepTooltip": "每级+{step}"
+        },
+        "summon": {
+          "dropSummonsHere": "将召唤物放到这里"
+        }
+      }
+    },
+    "ACTIVEEFFECT": {
+      "Config": {
+        "rangeDependence": {
+          "title": "范围依据"
+        }
+      },
+      "RangeDependance": {
+        "hint": "设置此效果激活时的可选距离",
+        "title": "范围依据"
+      },
+      "immuneStatusText": "免疫：{status}"
+    },
+    "ACTORS": {
+      "Adversary": {
+        "FIELDS": {
+          "attack": {
+            "name": {
+              "label": "名称"
+            },
+            "modifier": {
+              "label": "调整值"
+            },
+            "range": {
+              "label": "范围"
+            },
+            "damage": {
+              "value": {
+                "label": "伤害"
+              },
+              "type": {
+                "label": "伤害类型"
+              }
+            }
+          },
+          "damageThresholds": {
+            "major": {
+              "label": "重度"
+            },
+            "severe": {
+              "label": "严重"
+            }
+          },
+          "description": {
+            "label": "描述"
+          },
+          "difficulty": {
+            "label": "难度"
+          },
+          "experiences": {
+            "element": {
+              "name": {
+                "label": "名称"
+              },
+              "value": {
+                "label": "调整值"
+              }
+            }
+          },
+          "motivesAndTactics": {
+            "label": "动机与战术"
+          },
+          "resources": {
+            "hitPoints": {
+              "value": {
+                "label": "当前"
+              },
+              "max": {
+                "label": "最大"
+              }
+            },
+            "stress": {
+              "value": {
+                "label": "当前"
+              },
+              "max": {
+                "label": "最大"
+              }
+            }
+          },
+          "tier": {
+            "label": "位阶"
+          },
+          "type": {
+            "label": "类型"
+          }
+        },
+        "hordeDamage": "集群伤害",
+        "horderHp": "集群/生命值"
+      },
+      "Character": {
+        "advantageSources": {
+          "label": "优势来源",
+          "hint": "添加单词或简短文本作为角色优势的来源提示"
+        },
+        "age": "年龄",
+        "backgroundQuestions": "背景",
+        "burden": {
+          "ignore": {
+            "label": "负荷：忽略",
+            "hint": "忽略负荷规则"
+          }
+        },
+        "companionFeatures": "动物伙伴特性",
+        "connections": "关系",
+        "contextMenu": {
+          "consume": "消耗物品",
+          "equip": "装备",
+          "sendToChat": "发送至聊天",
+          "toLoadout": "发送至配置",
+          "toVault": "发送至宝库",
+          "unequip": "卸下",
+          "useItem": "使用物品"
+        },
+        "defaultHopeDice": "默认希望骰",
+        "defaultFearDice": "默认恐惧骰",
+        "disadvantageSources": {
+          "label": "劣势来源",
+          "hint": "添加单词或简短文本作为角色劣势的来源提示"
+        },
+        "faith": "信仰",
+        "levelUp": "你可以升级",
+        "maxEvasionBonus": "最大闪避加成",
+        "maxHPBonus": "最大生命值加成",
+        "pronouns": "代词",
+        "roll": {
+          "guaranteedCritical": {
+            "label": "保证关键成功",
+            "hint": "设置为1则永远关键成功"
+          }
+        },
+        "story": {
+          "backgroundTitle": "背景",
+          "characteristics": "个人特征",
+          "connectionsTitle": "关系"
+        },
+        "experienceDataRemoveConfirmation": {
+          "title": "移除经验值数据",
+          "text": "你即将移除的经验数据包含升级信息（可能因为你使用了'levelupAuto'自动化设置）。移除将同时删除这些自动化数据。是否继续？"
+        },
+        "manualMulticlass": {
+          "title": "兼职",
+          "text": "是否将此职业添加为你的兼职？"
+        },
+        "manualMulticlassSubclass": {
+          "title": "兼职子职业",
+          "text": "是否将此子职业添加为你的兼职子职业？"
+        },
+        "cannotRemoveCoreExperience": "你正在使用自动升级。无法移除规则赋予的经历。",
+        "companionLevelup": {
+          "confirmTitle": "伙伴升级",
+          "confirmText": "你是否愿意现在将你的伙伴 {name} 提升 {levelChange} 级？（你也可以稍后手动进行）"
+        },
+        "viewLevelups": "预览升级",
+        "resetCharacter": "重置角色",
+        "viewParty": "查看小队",
+        "InvalidOldCharacterImportTitle": "旧角色导入",
+        "InvalidOldCharacterImportText": "在系统版本 1.1 之前导出的角色数据不会生成一个完整的角色。你希望继续吗？",
+        "cancelBeastform": "取消野兽形态",
+        "resetCharacterConfirmationTitle": "重置角色",
+        "resetCharacterConfirmationContent": "你正在将除了名字和头像之外的所有内容进行重置，认真的？"
+      },
+      "Companion": {
+        "FIELDS": {
+          "attack": {
+            "name": {
+              "label": "攻击名称"
+            }
+          },
+          "evasion": {
+            "value": {
+              "label": "闪避"
+            }
+          },
+          "partner": {
+            "label": "搭档"
+          },
+          "resources": {
+            "stress": {
+              "value": {
+                "label": "压力"
+              },
+              "currentStress": {
+                "label": "当前压力"
+              },
+              "maxStress": {
+                "label": "最大压力"
+              }
+            }
+          }
+        },
+        "noPartner": "未选择搭档"
+      },
+      "Environment": {
+        "FIELDS": {
+          "description": {
+            "label": "描述"
+          },
+          "difficulty": {
+            "label": "难度"
+          },
+          "impulses": {
+            "label": "趋向"
+          },
+          "tier": {
+            "label": "位阶"
+          },
+          "type": {
+            "label": "类型"
+          }
+        },
+        "newAdversary": "新建敌人"
+      }
+    },
+    "APPLICATIONS": {
+      "Attribution": {
+        "title": "归因"
+      },
+      "CharacterCreation": {
+        "tabs": {
+          "ancestry": "种族",
+          "community": "社群",
+          "class": "职业",
+          "experience": "经历",
+          "traits": "属性",
+          "domainCards": "领域卡",
+          "equipment": "装备",
+          "story": "故事"
+        },
+        "ancestryNamePlaceholder": "你的种族名称",
+        "buttonTitle": "角色设置",
+        "choice": "选择",
+        "finishCreation": "完成角色设置",
+        "heritage": "传承",
+        "initialExperiences": "初始经历",
+        "mixedAncestry": "混血种族",
+        "newExperience": "新经历",
+        "selectAncestry": "选择种族",
+        "selectPrimaryAncestry": "选择种族特性1",
+        "selectSecondaryAncestry": "选择种族特性2",
+        "selectArmor": "选择护甲",
+        "selectClass": "选择职业",
+        "selectCommunity": "选择社群",
+        "selectPrimaryWeapon": "选择主武器",
+        "selectSecondaryWeapon": "选择副武器",
+        "selectSubclass": "选择子职业",
+        "setupSkipTitle": "跳过角色创建",
+        "setupSkipContent": "通过手动添加此项，您将跳过角色设置。角色设置是右上角闪烁的箭头。您确定要继续吗？",
+        "startingItems": "初始物品",
+        "story": "故事",
+        "storyExplanation": "选择要复制到角色背景中的背景和关系提示。",
+        "suggestedArmor": "推荐护甲",
+        "suggestedPrimaryWeapon": "推荐主武器",
+        "suggestedSecondaryWeapon": "推荐副武器",
+        "suggestedTraits": "推荐属性",
+        "suggestedWeapons": "推荐武器",
+        "title": "{actor} - 角色设置",
+        "traitIncreases": "属性提升"
+      },
+      "CharacterReset": {
+        "title": "重置角色",
+        "alwaysDeleteSection": "删除数据",
+        "optionalDeleteSection": "可选数据",
+        "headerTitle": "选择你想保存那些数据"
+      },
+      "CombatTracker": {
+        "combatStarted": "激活",
+        "giveSpotlight": "给予聚光灯",
+        "requestingSpotlight": "请求聚光灯中",
+        "requestSpotlight": "请求聚光灯",
+        "openCountdowns": "倒计时"
+      },
+      "CompendiumBrowserSettings": {
+        "title": "启用合集包",
+        "enableSource": "启用来源",
+        "disableSource": "关闭来源",
+        "worldCompendiums": "世界合集包"
+      },
+      "ContextMenu": {
+        "disableEffect": "禁用效果",
+        "enableEffect": "启用效果",
+        "equip": "装备",
+        "sendToChat": "发送至聊天",
+        "toLoadout": "发送至装备栏",
+        "recall": "回想",
+        "toVault": "发送至宝库",
+        "unequip": "卸下",
+        "useItem": "使用物品"
+      },
+      "Countdown": {
+        "addCountdown": "添加倒计时",
+        "loopingTypes": {
+          "noLooping": "无循环",
+          "looping": "循环",
+          "increasing": "递增",
+          "decreasing": "递减"
+        },
+        "FIELDS": {
+          "countdowns": {
+            "element": {
+              "name": {
+                "label": "名称"
+              },
+              "progress": {
+                "current": {
+                  "label": "当前"
+                },
+                "looping": {
+                  "label": "循环"
+                },
+                "start": {
+                  "label": "开始"
+                },
+                "startFormula": {
+                  "label": "开始公式"
+                },
+                "type": {
+                  "label": {
+                    "label": "标签",
+                    "hint": "用于自定义"
+                  },
+                  "value": {
+                    "label": "值"
+                  }
+                }
+              },
+              "type": {
+                "label": "进度类型"
+              }
+            }
+          }
+        },
+        "newCountdown": "新倒计时",
+        "openOwnership": "编辑玩家所有权",
+        "removeCountdownText": "确定要移除倒计时：{name}吗？",
+        "removeCountdownTitle": "移除倒计时",
+        "title": "{type}倒计时",
+        "toggleSimple": "切换简易视图",
+        "types": {
+          "narrative": "叙事",
+          "encounter": "遭遇"
+        }
+      },
+      "CountdownEdit": {
+        "title": "倒计时编辑",
+        "viewTitle": "倒计时",
+        "editTitle": "编辑倒计时",
+        "newCountdown": "新倒计时",
+        "removeCountdownTitle": "移除倒计时",
+        "removeCountdownText": "你要确定要移除{name}倒计时？",
+        "current": "当前值",
+        "start": "开始值",
+        "startFormula": "随机开始值公式",
+        "currentCountdownCurrent": "当前：{value}",
+        "currentCountdownStart": "开始: {value}",
+        "category": "分类",
+        "progressionType": "进度",
+        "decreasing": "递减",
+        "looping": "循环",
+        "defaultOwnershipTooltip": "倒计时默认玩家归属",
+        "hideNewCountdowns": "隐藏新倒计时"
+      },
+      "DaggerheartMenu": {
+        "title": "GM工具",
+        "refreshFeatures": "刷新特征"
+      },
+      "DeleteConfirmation": {
+        "title": "删除{type} - {name}",
+        "text": "确定要删除{name}吗？"
+      },
+      "DamageReduction": {
+        "armorMarks": "护甲标记",
+        "armorWithStress": "消耗1点压力使用额外标记",
+        "thresholdImmunities": "阈值免疫",
+        "stress": "压力",
+        "stressReduction": "通过压力减免",
+        "title": "伤害减免",
+        "unncessaryStress": "你不需要消耗压力",
+        "usedMarks": "已用槽位",
+        "reduceSeverity": "伤害等级防御来自于{nr}"
+      },
+      "DeathMove": {
+        "selectMove": "选择行动",
+        "takeMove": "执行死亡行动",
+        "title": "{actor} - 死亡行动"
+      },
+      "Downtime": {
+        "longRest": {
+          "title": "长休",
+          "moves": "长休行动({current}/{max})",
+          "clearStress": {
+            "description": "描述你如何发泄情绪或振作精神，并清除所有标记的压力点。",
+            "name": "清除压力"
+          },
+          "prepare": {
+            "description": "描述你如何为明天的冒险做准备，然后获得1点希望。",
+            "name": "准备"
+          },
+          "prepareWithFriends": {
+            "description": "你和你的队伍中一个或多个成员一起准备，并且每人获得2点希望。",
+            "name": "准备（协同）"
+          },
+          "repairArmor": {
+            "description": "描述你如何花时间修理护甲并清除所有护甲槽。你也可以对盟友的护甲执行此操作。",
+            "name": "修理护甲"
+          },
+          "tendToWounds": {
+            "description": "描述你如何包扎伤口并清除所有标记的生命点。你也可以对盟友执行此操作。",
+            "name": "处理伤口"
+          },
+          "workOnAProject": {
+            "description": "建立或继续推进长期项目。",
+            "name": "推进长期项目"
+          }
+        },
+        "shortRest": {
+          "title": "短休",
+          "moves": "短休行动({current}/{max})",
+          "tendToWounds": {
+            "name": "处理伤口",
+            "description": "描述你如何快速包扎自己，然后回复等于1d4+你位阶的生命点。可以对盟友执行此操作。"
+          },
+          "clearStress": {
+            "name": "清除压力",
+            "description": "描述你如何发泄情绪或振作精神，然后清除等于1d4+你阶位的压力点。"
+          },
+          "repairArmor": {
+            "name": "修理护甲",
+            "description": "描述你如何快速修理护甲，然后清除等于1d4+你阶位的护甲槽。可以对盟友的护甲执行此操作。"
+          },
+          "prepare": {
+            "name": "准备",
+            "description": "描述你如何为前路做准备，然后获得1点希望。"
+          },
+          "prepareWithFriends": {
+            "name": "准备（协同）",
+            "description": "你和你的队伍中一个或多个成员一起准备，并且每人获得2点希望。"
+          }
+        },
+        "refreshable": {
+          "title": "刷新资源"
+        },
+        "takeDowntime": "执行休整"
+      },
+      "HUD": {
+        "tokenHUD": {
+          "genericEffects": "Foundry效果",
+          "depositPartyTokens": "收回小队Token",
+          "retrievePartyTokens": "检索小队Token",
+          "depositCompanionTokens": "收回动物伙伴的Token",
+          "retrieveCompanionTokens": "检索动物伙伴Token"
+        }
+      },
+      "ImageSelect": {
+        "title": "选择图像",
+        "selectImage": "选择图像"
+      },
+      "ItemTransfer": {
+        "transfer": "变形"
+      },
+      "Levelup": {
+        "actions": {
+          "creatureComfort": {
+            "name": "动物抚慰",
+            "description": "每次休息一次，当你用片刻宁静来给予你的伙伴爱意与关切，你可以获得 1 希望点，或者你们双方都可以清除 1 压力点"
+          },
+          "armored": {
+            "name": "装甲",
+            "description": "当你的伙伴受到伤害时，你可以标记自己的一个护甲槽来代替标记他们的压力点。"
+          },
+          "bonded": {
+            "name": "羁绊",
+            "description": "当你标记最后一个生命点时，你的伙伴会冲到你身边安慰你。掷出等同于它们未标记的压力槽数量的 d6，并标记它们。如果任何骰子掷出 6，你的伙伴会帮助你站起来。恢复你的最后一个生命点，然后回到场景中。"
+          }
+        },
+        "choiceDescriptions": {
+          "attributes": "对两个未标记的角色属性获得 +1 加值并标记它们",
+          "hitPointSlots": "永久获得1个生命槽。",
+          "stressSlots": "永久获得1个压力槽。",
+          "experiences": "为两个经历额外添加+1加值",
+          "domainCard": "从你所属领域中选择一张不超过你等级的额外领域卡(最高{maxLevel}级)",
+          "evasion": "永久获得+1闪避加值。",
+          "proficiency": "熟练+1。",
+          "subclass": "获取升级的子职业卡。然后划掉本阶位的兼职选项。",
+          "multiclass": "兼职：为你的角色选择一个额外职业，然后划掉本表上未使用的[获取升级的子职业卡]和另一个兼职选项。"
+        },
+        "delevel": {
+          "content": "重置等级选择将移除本等级的所有选择。是否继续？",
+          "title": "回退到上一等级"
+        },
+        "navigateLevel": "升到{level}级",
+        "navigateToLevelup": "返回升级时",
+        "finishLevelup": "结束升级",
+        "navigateToSummary": "前往摘要",
+        "options": {
+          "trait": "对两个未标记的角色属性获得 +1 加值并标记它们",
+          "hitPoint": "永久获得1个生命槽。",
+          "stress": "永久获得1个压力槽。",
+          "experience": "为两个经历额外添加+1加值",
+          "domainCard": "从你所属领域中选择一张不超过你等级的额外领域卡(最高{maxLevel}级)",
+          "evasion": "永久获得+1闪避加值。",
+          "subclass": "获取升级的子职业卡。然后划掉本阶位的兼职选项。",
+          "proficiency": "熟练+1。",
+          "multiclass": "兼职：为你的角色选择一个额外职业，然后划掉本表上未使用的[获取升级的子职业卡]和另一个兼职选项。",
+          "intelligent": "你的伙伴永久获得+1加值到你选择的一个伙伴经验。",
+          "lightInTheDark": "为你的角色获得一个额外的希望点槽。",
+          "creatureComfort": "每次休息一次，当你用片刻宁静来给予你的伙伴爱意与关切，你可以获得 1 希望点，或者你们双方都可以清除 1 压力点",
+          "armored": "当你的伙伴受到伤害时，你可以标记自己的一个护甲槽来代替标记他们的压力点。",
+          "vicious": "提升伙伴的伤害骰或范围一级(d6到d8，近距离到远距离等)",
+          "resilient": "你的伙伴获得一个额外的压力槽。",
+          "bonded": "当你标记最后一个生命点时，你的伙伴会冲到你身边安慰你。掷出等同于它们未标记的压力槽数量的 d6，并标记它们。如果任何骰子掷出 6，你的伙伴会帮助你站起来。恢复你的最后一个生命点，然后回到场景中。",
+          "aware": "你的伙伴闪避永久获得+2。"
+        },
+        "selections": {
+          "emptyDomainCardHint": "{domain} {level}级或以下",
+          "viciousDamage": "伤害",
+          "viciousRange": "范围"
+        },
+        "summary": {
+          "levelAchievements": "等级成就",
+          "levelAdvancements": "升级选项",
+          "proficiencyIncrease": "熟练提升：{proficiency}",
+          "hpIncrease": "生命值提升：{hitPoints}",
+          "stressIncrease": "压力提升：{stress}",
+          "evasionIncrease": "闪避提升：{evasion}",
+          "damageThresholdMajorIncrease": "重度：{threshold}",
+          "damageThresholdSevereIncrease": "严重：{threshold}",
+          "newExperiences": "新经历",
+          "experiencePlaceholder": "新经历",
+          "domainCards": "领域卡",
+          "subclass": "子职业",
+          "multiclass": "兼职",
+          "traits": "提升属性",
+          "experienceIncreases": "提升经历",
+          "damageThresholds": "伤害阈值",
+          "vicious": "凶暴",
+          "damageIncreased": "伤害提升：{damage}",
+          "rangeIncreased": "范围提升：{range}",
+          "simpleFeature": "特性：{feature}"
+        },
+        "takeLevelUp": "完成升级",
+        "tier2": {
+          "name": "位阶2",
+          "label": "2-4级",
+          "infoLabel": "在2级时，获得一个+2的额外经历，并获得+1熟练。",
+          "pretext": "从以下列表中选择两项",
+          "posttext": "从你的领域中选择一张不超过你等级的额外领域卡。"
+        },
+        "tier3": {
+          "name": "位阶3",
+          "label": "5-7级",
+          "infoLabel": "在5级时，获得一个额外经历并清除所有角色属性提升标记。",
+          "pretext": "升级时，在角色卡上记录，然后从以下列表或之前位阶未标记的选项中选择两项。",
+          "posttext": "从你的领域中选择一张不超过你等级的额外领域卡。"
+        },
+        "tier4": {
+          "name": "位阶4",
+          "label": "8-10级",
+          "infoLabel": "在8级时，获得一个额外经历并清除所有角色属性升级标记。",
+          "pretext": "升级时，在角色卡上记录，然后从以下列表或之前位阶未标记的选项中选择两项。",
+          "posttext": "从你的领域中选择一张不超过你等级的额外领域卡。"
+        },
+        "title": "{actor}升级",
+        "viewModeTitle": "{actor}升级（观察模式）"
+      },
+      "MulticlassChoice": {
+        "title": "兼职 - {actor}",
+        "explanation": "你正在添加{class}作为你的兼职",
+        "selectDomainPrompt": "选择你的新领域"
+      },
+      "OwnershipSelection": {
+        "title": "所有权选择 - {name}",
+        "noPlayers": "没有玩家可以分配权限",
+        "default": "默认所有权"
+      },
+      "ReactionRoll": {
+        "title": "反应掷骰：{trait}"
+      },
+      "RerollDialog": {
+        "title": "重掷",
+        "damageTitle": "重投伤害",
+        "deselectDiceNotification": "请先取消选择其中一个已选骰子",
+        "acceptCurrentRolls": "接受当前掷骰"
+      },
+      "ResourceDice": {
+        "title": "{name}资源",
+        "rerollDice": "重掷骰子"
+      },
+      "RiskItAllDialog": {
+        "title": "{name} - 孤注一掷",
+        "subtitle": "清除压力和生命点",
+        "remainingTitle": "保留点数",
+        "clearResource": "清除{resource}",
+        "finalTitle": "最终角色资源"
+      },
+      "TagTeamSelect": {
+        "title": "接力掷骰",
+        "leaderTitle": "聚焦角色",
+        "membersTitle": "参与者",
+        "partyTeam": "小队",
+        "hopeCost": "消耗希望",
+        "initiatingCharacter": "聚焦角色",
+        "linkMessageHint": "从你的角色卡中创建一个检定，将其加入接力检定",
+        "damageNotRolled": "伤害还没有在聊天消息中投骰",
+        "insufficientHope": "聚焦的角色没有足够的希望",
+        "createTagTeam": "清除团队检定",
+        "chatMessageRollTitle": "骰！"
+      },
+      "TokenConfig": {
+        "actorSizeUsed": "设置角色的尺寸，以确定其大小"
+      }
+    },
+    "CLASS": {
+      "Feature": {
+        "rallyDice": "吟游鼓舞骰",
+        "short": "鼓舞人心"
+      }
+    },
+    "CONFIG": {
+      "AdversaryTrait": {
+        "relentless": {
+          "name": "无情",
+          "description": "在每个游戏主持人轮次中，此敌人可以至多被聚焦 X 次。像往常一样花费恐惧点来聚焦该敌人。",
+          "tip": "当需要设计能在单次GM行动中多次激活的敌人时，无情特质非常有用。特别适用于极端快速或危险的敌人，或可能独自对抗队伍的敌对者。"
+        },
+        "slow": {
+          "name": "迟缓",
+          "description": "当你聚焦【敌人名称】，且其数据块上没有指示物时，它无法立即行动。在它的数据块上放置一个标记，并描述它正在准备做什么。当你聚焦【敌人名称】，且其数据块上有指示物时，移除指示物，它才可以行动。",
+          "tip": "当需要设计叙事上行动更缓慢的敌人（如蛞蝓生物或巨型食人魔）时，迟缓特质很实用。通常在该敌人行动时非常强大但需消耗大量行动令牌时最有效。"
+        },
+        "minion": {
+          "name": "杂兵",
+          "description": "当此敌人受到任何伤害时，其即被击败。玩家角色每对此敌人造成 X 点伤害，则在攻击能够成功命中的范围内额外击败一个此敌人。",
+          "tip": "当需要在战场上投放大量弱小敌人时，杂兵特质非常实用。该特质意味着若PC击中一名杂兵并造成足够伤害，还可击中范围内其他多名杂兵。因此最好让杂兵包围PC——在PC能发动攻击前会营造出压倒性的危险感。"
+        }
+      },
+      "AdversaryType": {
+        "bruiser": {
+          "label": "斗士",
+          "description": "拥有强大攻击力的坚韧敌人"
+        },
+        "horde": {
+          "label": "集群",
+          "description": "代表成群结队行动的敌人群体"
+        },
+        "leader": {
+          "label": "头目",
+          "description": "能指挥和召唤其他敌人的敌人"
+        },
+        "minion": {
+          "label": "杂兵",
+          "description": "易于消灭但数量众多时很危险的普通敌人"
+        },
+        "ranged": {
+          "label": "远程",
+          "description": "从远处发动攻击的敌人"
+        },
+        "skulk": {
+          "label": "潜伏",
+          "description": "善于机动并利用机会伏击对手的敌人"
+        },
+        "social": {
+          "label": "社交",
+          "description": "主要构成人际威胁或挑战的敌人"
+        },
+        "solo": {
+          "label": "独狼",
+          "description": "设计用于挑战整个队伍的敌人"
+        },
+        "standard": {
+          "label": "标准",
+          "description": "普通常规敌人"
+        },
+        "support": {
+          "label": "辅助",
+          "description": "能强化盟友和/或干扰对手的敌人"
+        }
+      },
+      "AdversaryTypeCost": {
+        "minion": "每个爪牙都和他的团队大小相同",
+        "support": "对于每个社交或辅助敌人",
+        "standard": "对于每个集群/远程/潜伏或者标准敌人",
+        "leader": "对于每个头目敌人",
+        "bruiser": "对于每个斗士敌人",
+        "solo": "对于每个独狼敌人"
+      },
+      "ArmorFeature": {
+        "burning": {
+          "name": "灼燃",
+          "description": "当敌人在近战范围内攻击你时，其标记1点压力",
+          "actions": {
+            "burn": {
+              "name": "灼烧",
+              "description": "当敌人在近战范围内攻击你时，其标记1点压力"
+            }
+          }
+        },
+        "channeling": {
+          "name": "导能",
+          "description": "施法检定+1",
+          "effects": {
+            "channeling": {
+              "name": "导能",
+              "description": "施法检定+1"
+            }
+          }
+        },
+        "difficult": {
+          "name": "笨拙",
+          "description": "所有角色属性和闪避-1",
+          "effects": {
+            "difficult": {
+              "name": "笨拙",
+              "description": "所有角色属性和闪避-1"
+            }
+          }
+        },
+        "flexible": {
+          "name": "灵巧",
+          "description": "闪避+1",
+          "effects": {
+            "flexible": {
+              "name": "灵巧",
+              "description": "闪避+1"
+            }
+          }
+        },
+        "fortified": {
+          "name": "加固",
+          "description": "当你标记护甲槽位时，可将攻击的伤害等级降低两级而非一级",
+          "effects": {
+            "fortified": {
+              "name": "加固",
+              "description": "当你标记护甲槽位时，可将攻击的伤害等级降低两级而非一级"
+            }
+          }
+        },
+        "gilded": {
+          "name": "镀金",
+          "description": "风度+1",
+          "effects": {
+            "gilded": {
+              "name": "镀金",
+              "description": "风度+1"
+            }
+          }
+        },
+        "heavy": {
+          "name": "沉重",
+          "description": "闪避-1",
+          "effects": {
+            "heavy": {
+              "name": "沉重",
+              "description": "闪避-1"
+            }
+          }
+        },
+        "hopeful": {
+          "name": "希望",
+          "description": "当你将要消耗希望点时，可改为标记一个护甲槽",
+          "actions": {
+            "hope": {
+              "name": "希望",
+              "description": "当你将要消耗希望点时，可改为标记一个护甲槽"
+            }
+          }
+        },
+        "impenetrable": {
+          "name": "坚不可摧",
+          "description": "每短休一次，当你将要标记最后生命点时，可改为标记1点压力",
+          "actions": {
+            "impenetrable": {
+              "name": "坚不可摧",
+              "description": "每短休一次，当你将要标记最后生命点时，可改为标记1点压力"
+            }
+          }
+        },
+        "magical": {
+          "name": "魔法",
+          "description": "无法标记护甲槽减免物理伤害",
+          "effects": {
+            "magical": {
+              "name": "魔法",
+              "description": "无法标记护甲槽减免物理伤害"
+            }
+          }
+        },
+        "painful": {
+          "name": "痛苦",
+          "description": "每次标记护甲槽时，必须标记1点压力",
+          "actions": {
+            "pain": {
+              "name": "痛苦",
+              "description": "每次标记护甲槽时，必须标记1点压力"
+            }
+          }
+        },
+        "physical": {
+          "name": "物理",
+          "description": "无法标记护甲槽减免魔法伤害",
+          "effects": {
+            "physical": {
+              "name": "物理",
+              "description": "无法标记护甲槽减免魔法伤害"
+            }
+          }
+        },
+        "quiet": {
+          "name": "静谧",
+          "description": "进行潜行检定时获得+2加值",
+          "actions": {
+            "quiet": {
+              "name": "静谧",
+              "description": "潜行检定+2"
+            }
+          }
+        },
+        "reinforced": {
+          "name": "强化",
+          "description": "当你标记最后护甲槽后，伤害阈值+2（直到清除至少1个护甲槽位）",
+          "actions": {
+            "reinforce": {
+              "name": "强化",
+              "description": "当你标记最后护甲槽后，伤害阈值+2（直到清除至少1个护甲槽位）"
+            }
+          },
+          "effects": {
+            "reinforced": {
+              "name": "强化",
+              "description": "当你标记最后护甲槽后，伤害阈值+2（直到清除至少1个护甲槽位）"
+            }
+          }
+        },
+        "resilient": {
+          "name": "坚韧",
+          "description": "标记最后护甲槽位前，投d6。若结果为6，可不标记护甲槽位降低一级伤害",
+          "actions": {
+            "resilient": {
+              "name": "坚韧",
+              "description": "标记最后护甲槽位前，投d6。若结果为6，可不标记护甲槽位降低一级伤害"
+            }
+          }
+        },
+        "sharp": {
+          "name": "锋利",
+          "description": "对近战范围内的目标攻击成功时，伤害骰额外增加d4",
+          "effects": {
+            "sharp": {
+              "name": "锋利",
+              "description": "对近战范围内的目标攻击成功时，伤害骰额外增加d4"
+            }
+          }
+        },
+        "shifting": {
+          "name": "移形",
+          "description": "当你成为攻击目标时，可标记护甲槽位使该攻击检定获得劣势",
+          "actions": {
+            "shift": {
+              "name": "移形",
+              "description": "当你成为攻击目标时，可标记护甲槽位使该攻击检定获得劣势"
+            }
+          }
+        },
+        "timeslowing": {
+          "name": "缓时",
+          "description": "你可以标记护甲槽然后投d4，将结果作为闪避加值来对抗一次即将到来的攻击",
+          "actions": {
+            "slowTime": {
+              "name": "缓时",
+              "description": "你可以标记护甲槽然后投d4，将结果作为闪避加值来对抗一次即将到来的攻击"
+            }
+          }
+        },
+        "truthseeking": {
+          "name": "求真",
+          "description": "当近距离范围内生物说谎时，此护甲会发光",
+          "actions": {
+            "truthseeking": {
+              "name": "求真",
+              "description": "当近距离范围内生物说谎时，此护甲会发光"
+            }
+          }
+        },
+        "veryHeavy": {
+          "name": "极重",
+          "description": "闪避-2；敏捷-1",
+          "effects": {
+            "veryHeavy": {
+              "name": "极重",
+              "description": "闪避-2；敏捷-1"
+            }
+          }
+        },
+        "warded": {
+          "name": "防护",
+          "description": "你在面对魔法伤害时可以将护甲值添加到你的伤害阈值中",
+          "effects": {
+            "warded": {
+              "name": "防护",
+              "description": "你在面对魔法伤害时可以将护甲值添加到你的伤害阈值中"
+            }
+          }
+        }
+      },
+      "BeastformType": {
+        "normal": "普通",
+        "evolved": "进化",
+        "hybrid": "混合"
+      },
+      "BPModifiers": {
+        "increaseDamage": {
+          "description": "如果你增加+1d4（或者直接+2）伤害调整给敌人的所有伤害检定（以增加挑战但不增加战斗时长）",
+          "effect": {
+            "name": "增加伤害",
+            "description": "增加1d4伤害"
+          }
+        },
+        "lessDifficult": {
+          "description": "如果战斗没有那么困难或者更短一点。"
+        },
+        "lowerTier": {
+          "description": "如果你选择一个更低位阶的敌人"
+        },
+        "manySolos": {
+          "description": "如果你使用了两个或更多独狼敌人"
+        },
+        "moreDangerous": {
+          "description": "如果战斗应该更危险或者稍微长一点"
+        },
+        "noToughies": {
+          "description": "如果不包含任何斗士、集群、头目、独狼"
+        }
+      },
+      "Burden": {
+        "oneHanded": "单手",
+        "twoHanded": "双手"
+      },
+      "RangeInclusion": {
+        "withinRange": "范围内",
+        "outsideRange": "范围外"
+      },
+      "Condition": {
+        "deathMove": {
+          "name": "死亡行动",
+          "description": "这个角色将要进行死亡行动"
+        },
+        "dead": {
+          "name": "死亡",
+          "description": "角色已死亡"
+        },
+        "defeated": {
+          "name": "被击败",
+          "description": "此敌人已被击败。"
+        },
+        "hidden": {
+          "name": "隐匿",
+          "description": "隐匿状态下无法被直接攻击，针对其进行的检定均具劣势。\n当隐匿生物移动或攻击时，隐匿状态结束。但若在发动攻击时处于隐匿状态，该攻击检定具优势；隐匿状态在攻击结算后才解除。"
+        },
+        "restrained": {
+          "name": "束缚",
+          "description": "被束缚的生物无法移动直至状态解除。\n仍可从当前位置执行动作。"
+        },
+        "unconscious": {
+          "name": "昏迷",
+          "description": "你的角色在昏迷时无法移动或行动，也不能成为攻击的目标。"
+        },
+        "vulnerable": {
+          "name": "脆弱",
+          "description": "处于脆弱状态时，针对该生物的所有检定均具优势。\n已处于脆弱状态的生物不会再次获得此状态。"
+        }
+      },
+      "CountdownType": {
+        "actionRoll": "行动检定",
+        "characterAttack": "角色攻击",
+        "characterSpotlight": "角色聚焦",
+        "custom": "自定义",
+        "fear": "恐惧",
+        "spotlight": "聚焦"
+      },
+      "DamageType": {
+        "physical": {
+          "name": "物理",
+          "abbreviation": "物"
+        },
+        "magical": {
+          "name": "魔法",
+          "abbreviation": "魔"
+        },
+        "direct": {
+          "name": "直接伤害",
+          "short": "直接",
+          "abbreviation": "直接"
+        }
+      },
+      "DeathMoves": {
+        "avoidDeath": {
+          "name": "避死",
+          "description": "你的角色虽免于一死，但需承受后果。角色会暂时陷入昏迷状态，然后你与游戏主持人一起描述情况如何恶化。昏迷期间角色无法移动或行动，也不会成为攻击目标，当盟友为其恢复 1或更多 生命点时，或者当队伍完成长休时，角色才会恢复意识。在角色陷入昏迷后，掷出你的希望骰。如果骰值等于或小于角色等级，则获得一道伤痕（见下文“伤痕”部分）。"
+        },
+        "riskItAll": {
+          "name": "孤注一掷",
+          "description": "投二元骰。若希望骰更高，你保持站立并清除等于希望骰数值的生命值/压力（可自由分配）。若恐惧骰更高，不可避免的落入死亡。若平局，你保持战力并恢复所有生命和清除所有压力"
+        },
+        "blazeOfGlory": {
+          "name": "光荣就义",
+          "description": "你的角色接受死亡，在荣耀之光中消逝。进行一次行动（由游戏主持人裁定），该行动视为关键成功，之后角色将跨越死亡的帷幕。"
+        }
+      },
+      "DomainCardTypes": {
+        "ability": "能力",
+        "spell": "法术",
+        "grimoire": "魔典"
+      },
+      "EnvironmentType": {
+        "exploration": {
+          "label": "探索",
+          "description": ""
+        },
+        "social": {
+          "label": "社交",
+          "description": ""
+        },
+        "traversal": {
+          "label": "险境",
+          "description": ""
+        },
+        "event": {
+          "label": "事件",
+          "description": ""
+        }
+      },
+      "FeatureForm": {
+        "label": "特性类型",
+        "passive": "被动",
+        "action": "行动",
+        "reaction": "反应"
+      },
+      "Gold": {
+        "title": "金币",
+        "coins": "硬币",
+        "handfuls": "把",
+        "bags": "袋",
+        "chests": "箱"
+      },
+      "HealingType": {
+        "hitPoints": {
+          "name": "生命点",
+          "abbreviation": "HP",
+          "inChatRoll": "伤害"
+        },
+        "stress": {
+          "name": "压力",
+          "abbreviation": "压力",
+          "inChatRoll": "压力"
+        },
+        "hope": {
+          "name": "希望点",
+          "abbreviation": "HO",
+          "inChatRoll": "希望"
+        },
+        "armor": {
+          "name": "护甲槽",
+          "abbreviation": "AS",
+          "inChatRoll": "护甲槽"
+        },
+        "fear": {
+          "name": "恐惧",
+          "abbreviation": "FR",
+          "inChatRoll": "恐惧"
+        }
+      },
+      "ItemResourceProgression": {
+        "increasing": "递增",
+        "decreasing": "递减"
+      },
+      "ItemResourceType": {
+        "simple": "简单",
+        "diceValue": "骰值",
+        "die": "骰子"
+      },
+      "Range": {
+        "self": {
+          "name": "自身",
+          "description": "表示使用者自身",
+          "short": "自身"
+        },
+        "melee": {
+          "name": "近战",
+          "description": "表示角色与目标处于可接触距离。PC通常可触及几英尺内的目标，但体型巨大的NPC近战范围可能更广",
+          "short": "近战"
+        },
+        "veryClose": {
+          "name": "临近",
+          "description": "表示可看清目标细节的距离——必要时瞬间可达。通常约5-10英尺。危险状态下，PC通常可在执行其他动作时触及极近距离目标。战场地图上约卡牌短边长度（2-3英寸）内视为极近",
+          "short": "临近"
+        },
+        "close": {
+          "name": "近距",
+          "description": "表示可看清目标显著特征的距离——房间对侧或邻近摊位，通常约10-30英尺。危险状态下，PC通常可在执行其他动作时触及近距目标。战场地图上约标准笔长（5-6英寸）内视为近距",
+          "short": "近距"
+        },
+        "far": {
+          "name": "远距",
+          "description": "表示可看清人或物体轮廓但难辨细节的距离——小型战场对侧或长廊尽头，通常约30-100英尺。危险状态下，PC需通过敏捷检定才能安全抵达。战场地图上约标准纸张长度（10-11英寸）内视为远距",
+          "short": "远距"
+        },
+        "veryFar": {
+          "name": "极远",
+          "description": "表示可辨别人或物体形状但难察细节的距离——大型战场对侧或长街远端，通常约100-300英尺。危险状态下，PC需通过敏捷检定才能安全抵达。战场地图上超出远距但仍在视野内视为极远",
+          "short": "极远"
+        }
+      },
+      "RollTypes": {
+        "trait": {
+          "name": "属性"
+        },
+        "attack": {
+          "name": "攻击"
+        },
+        "spellcast": {
+          "name": "施法"
+        },
+        "diceSet": {
+          "name": "骰组"
+        }
+      },
+      "RuleChoice": {
+        "off": "关闭",
+        "offWithToggle": "关闭(可切换)",
+        "on": "开启",
+        "onWithToggle": "开启(可切换)"
+      },
+      "SelectAction": {
+        "selectType": "选择动作类型",
+        "selectAction": "选择动作"
+      },
+      "TargetTypes": {
+        "any": "任何",
+        "friendly": "友善",
+        "hostile": "敌对",
+        "self": "自身",
+        "other": "其他"
+      },
+      "TemplateTypes": {
+        "circle": "圆形",
+        "cone": "锥形",
+        "emanation": "发射",
+        "inFront": "前方",
+        "rect": "矩形",
+        "ray": "射线"
+      },
+      "TokenSize": {
+        "tiny": "微型",
+        "small": "小型",
+        "medium": "中型",
+        "large": "大型",
+        "huge": "巨型",
+        "gargantuan": "庞大"
+      },
+      "Traits": {
+        "agility": {
+          "name": "敏捷",
+          "short": "AGI",
+          "verb": {
+            "sprint": "冲刺",
+            "leap": "跳跃",
+            "maneuver": "机动"
+          }
+        },
+        "strength": {
+          "name": "力量",
+          "short": "STR",
+          "verb": {
+            "lift": "举起",
+            "smash": "粉碎",
+            "grapple": "擒抱"
+          }
+        },
+        "finesse": {
+          "name": "灵巧",
+          "short": "FIN",
+          "verb": {
+            "control": "操控",
+            "hide": "隐匿",
+            "tinker": "修补"
+          }
+        },
+        "instinct": {
+          "name": "本能",
+          "short": "INS",
+          "verb": {
+            "perceive": "观察",
+            "sense": "感知",
+            "navigate": "导航"
+          }
+        },
+        "presence": {
+          "name": "风度",
+          "short": "PRE",
+          "verb": {
+            "charm": "魅惑",
+            "perform": "表演",
+            "deceive": "欺瞒"
+          }
+        },
+        "knowledge": {
+          "name": "学识",
+          "short": "KNO",
+          "verb": {
+            "recall": "回想",
+            "analyze": "分析",
+            "comprehend": "理解"
+          }
+        }
+      },
+      "Triggers": {
+        "postDamageReduction": {
+          "label": "伤害减免后"
+        },
+        "preDamageReduction": {
+          "label": "伤害减免前"
+        },
+        "dualityRoll": {
+          "label": "二元骰检定"
+        },
+        "fearRoll": {
+          "label": "恐惧检定"
+        },
+        "triggerTexts": {
+          "strangePatternsContentTitle": "匹配{nr}次数",
+          "strangePatternsContentSubTitle": "增加总共{nr}点希望与压力",
+          "ferocityContent": "消耗2希望以获得{bonus}额外闪避值直到下次对你进行得攻击之后？",
+          "ferocityEffectDescription": "你的闪避值增加了{bonus}，这个加值会持续到你下次收到攻击之后"
+        },
+        "triggerType": "触发器类型",
+        "triggeringActorType": "触发角色类型",
+        "triggerError": "{trigger} 触发失败 {actor}. 可能是设置错误"
+      },
+      "WeaponFeature": {
+        "barrier": {
+          "name": "屏障",
+          "description": "护甲值+（武器位阶+1）；闪避-1",
+          "effects": {
+            "barrier": {
+              "name": "屏障",
+              "description": "护甲值+（武器位阶+1）；闪避-1"
+            }
+          }
+        },
+        "bonded": {
+          "name": "羁绊",
+          "description": "伤害骰获得等同于角色等级的加值",
+          "effects": {
+            "damage": {
+              "name": "武器绑定",
+              "description": "伤害骰获得等同于角色等级的加值"
+            }
+          }
+        },
+        "bouncing": {
+          "name": "弹射",
+          "description": "标记1点或更多压力，可攻击范围内等量目标",
+          "actions": {
+            "bounce": {
+              "name": "弹射",
+              "description": "标记1点或更多压力，可攻击范围内等量目标"
+            }
+          }
+        },
+        "brave": {
+          "name": "勇毅",
+          "description": "闪避-1；严重伤害阈值+武器位阶",
+          "effects": {
+            "brave": {
+              "name": "勇毅",
+              "description": "闪避-1；严重伤害阈值+武器位阶"
+            }
+          }
+        },
+        "brutal": {
+          "name": "残暴",
+          "description": "当伤害骰掷出最大值时，额外投一枚伤害骰",
+          "actions": {
+            "addDamage": {
+              "name": "残暴",
+              "description": "当伤害骰掷出最大值时，额外投一枚伤害骰"
+            }
+          }
+        },
+        "burning": {
+          "name": "灼烧",
+          "description": "当你的伤害骰投出6时，目标必须标记1点压力",
+          "actions": {
+            "burn": {
+              "name": "灼烧",
+              "description": "当你的伤害骰投出6时，目标必须标记1点压力"
+            }
+          }
+        },
+        "charged": {
+          "name": "充能",
+          "description": "标记1点压力使主武器的这次攻击检定+1",
+          "actions": {
+            "markStress": {
+              "name": "充能",
+              "description": "标记1点压力使主武器的这次攻击检定+1"
+            }
+          },
+          "effects": {
+            "charged": {
+              "name": "充能",
+              "description": "主武器攻击检定+1"
+            }
+          }
+        },
+        "concussive": {
+          "name": "震荡",
+          "description": "攻击成功后，可消耗1点希望将目标击退至远距",
+          "actions": {
+            "attack": {
+              "name": "震荡",
+              "description": "攻击成功后，可消耗1点希望将目标击退至远距"
+            }
+          }
+        },
+        "cumbersome": {
+          "name": "笨重",
+          "description": "灵巧-1",
+          "effects": {
+            "cumbersome": {
+              "name": "笨重",
+              "description": "灵巧-1"
+            }
+          }
+        },
+        "deadly": {
+          "name": "致命",
+          "description": "造成严重伤害时，目标必须额外标记1点生命值",
+          "actions": {
+            "extraDamage": {
+              "name": "致命",
+              "description": "造成严重伤害时，目标必须额外标记1点生命值"
+            }
+          }
+        },
+        "deflecting": {
+          "name": "偏转",
+          "description": "被攻击时可标记护甲槽，使闪避获得等同于护甲值的加值",
+          "actions": {
+            "deflect": {
+              "name": "偏转",
+              "description": "被攻击时可标记护甲槽，使闪避获得等同于护甲值的加值"
+            }
+          },
+          "effects": {
+            "deflecting": {
+              "name": "偏转",
+              "description": "闪避获得护甲值加值"
+            }
+          }
+        },
+        "destructive": {
+          "name": "毁灭",
+          "description": "敏捷-1；攻击成功时，极近距离内所有敌人必须标记1点压力",
+          "actions": {
+            "attack": {
+              "name": "毁灭",
+              "description": "攻击成功时，极近距离内所有敌人必须标记1点压力"
+            }
+          },
+          "effects": {
+            "agility": {
+              "name": "毁灭",
+              "description": "敏捷-1"
+            }
+          }
+        },
+        "devastating": {
+          "name": "毁灭打击",
+          "description": "攻击检定前可标记1点压力，使用d20作为伤害骰",
+          "actions": {
+            "devastate": {
+              "name": "毁灭打击",
+              "description": "消耗压力使用d20伤害骰"
+            }
+          }
+        },
+        "doubleDuty": {
+          "name": "双重职责",
+          "description": "护甲值+1；近战范围内主武器伤害+1",
+          "effects": {
+            "doubleDuty": {
+              "name": "双重职责",
+              "description": "护甲值+1；近战范围内主武器伤害+1"
+            }
+          }
+        },
+        "doubledUp": {
+          "name": "双重打击",
+          "description": "主武器攻击时可对近战范围内另一目标造成伤害",
+          "actions": {
+            "doubleUp": {
+              "name": "双重打击",
+              "description": "同时攻击两个目标"
+            }
+          }
+        },
+        "dueling": {
+          "name": "决斗",
+          "description": "目标近距范围内无其他生物时，攻击检定获得优势",
+          "actions": {
+            "duel": {
+              "name": "决斗",
+              "description": "孤立目标获得优势"
+            }
+          }
+        },
+        "eruptive": {
+          "name": "迸发",
+          "description": "对近战目标攻击成功时，极近距离内所有敌人需通过反应投骰（14）否则承受半伤",
+          "actions": {
+            "erupt": {
+              "name": "迸发",
+              "description": "对近战目标攻击成功时，极近距离内所有敌人需通过反应投骰（14）否则承受半伤"
+            }
+          }
+        },
+        "grappling": {
+          "name": "擒拿",
+          "description": "攻击成功后，可消耗1点希望束缚目标或将其拉至近战范围",
+          "actions": {
+            "grapple": {
+              "name": "擒拿",
+              "description": "消耗希望控制目标"
+            }
+          }
+        },
+        "greedy": {
+          "name": "贪婪",
+          "description": "消耗一把金币使这次伤害检定的熟练值+1",
+          "actions": {
+            "greed": {
+              "name": "贪婪",
+              "description": "消耗金币提升伤害"
+            }
+          }
+        },
+        "healing": {
+          "name": "治愈",
+          "description": "休整期自动恢复1点生命值",
+          "actions": {
+            "heal": {
+              "name": "治愈",
+              "description": "休整期自动恢复"
+            }
+          }
+        },
+        "heavy": {
+          "name": "沉重",
+          "description": "闪避-1",
+          "effects": {
+            "heavy": {
+              "name": "沉重",
+              "description": "闪避-1"
+            }
+          }
+        },
+        "hooked": {
+          "name": "钩索",
+          "description": "攻击成功后可将目标拉至近战范围",
+          "actions": {
+            "hook": {
+              "name": "钩索",
+              "description": "拉近目标"
+            }
+          }
+        },
+        "hot": {
+          "name": "炽热",
+          "description": "此武器可切割固体材料",
+          "actions": {
+            "hot": {
+              "name": "炽热",
+              "description": "切割固体"
+            }
+          }
+        },
+        "invigorating": {
+          "name": "激励",
+          "description": "攻击成功后投d4，结果为4时清除1点压力",
+          "actions": {
+            "invigorate": {
+              "name": "激励",
+              "description": "概率清除压力"
+            }
+          }
+        },
+        "lifestealing": {
+          "name": "生命窃取",
+          "description": "攻击成功后投d6，结果为6时清除1点生命值或1点压力",
+          "actions": {
+            "lifesteal": {
+              "name": "生命窃取",
+              "description": "概率恢复资源"
+            }
+          }
+        },
+        "lockedOn": {
+          "name": "锁定",
+          "description": "攻击成功后，下次对同一目标的主武器攻击自动成功",
+          "actions": {
+            "lockOn": {
+              "name": "锁定",
+              "description": "确保下次攻击命中"
+            }
+          }
+        },
+        "long": {
+          "name": "长距",
+          "description": "此武器攻击可命中范围内直线上所有敌人",
+          "actions": {
+            "long": {
+              "name": "长距",
+              "description": "直线范围攻击"
+            }
+          }
+        },
+        "lucky": {
+          "name": "幸运",
+          "description": "攻击失败时可标记1点压力重掷",
+          "actions": {
+            "luck": {
+              "name": "幸运",
+              "description": "消耗压力重掷攻击"
+            }
+          }
+        },
+        "massive": {
+          "name": "巨型",
+          "description": "闪避-1；攻击成功时额外投一枚伤害骰并丢弃伤害骰中最低的那枚伤害骰",
+          "effects": {
+            "massive": {
+              "name": "巨型",
+              "description": "闪避减益但伤害增强"
+            }
+          }
+        },
+        "painful": {
+          "name": "痛苦",
+          "description": "每次成功攻击后必须标记1点压力",
+          "actions": {
+            "pain": {
+              "name": "痛苦",
+              "description": "攻击成功反噬压力"
+            }
+          }
+        },
+        "paired": {
+          "name": "双持",
+          "description": "你的主武器在对近战范围内的敌人攻击时伤害+你的角色位阶+1点伤害",
+          "actions": {
+            "paired": {
+              "name": "双持",
+              "description": "你的主武器在对近战范围内的敌人攻击时伤害+你的角色位阶+1点伤害"
+            }
+          },
+          "effects": {
+            "paired": {
+              "name": "双持",
+              "description": "你的主武器在对近战范围内的敌人攻击时伤害+你的角色位阶+1点伤害"
+            }
+          }
+        },
+        "parry": {
+          "name": "招架",
+          "description": "当你受到攻击时，投掷此武器的伤害骰。如果攻击者的任何伤害骰子与您的骰子掷出的值相同，则在伤害结算前之前，将匹配结果的骰子丢弃。",
+          "actions": {
+            "parry": {
+              "name": "招架",
+              "description": "骰值匹配抵消伤害"
+            }
+          }
+        },
+        "persuasive": {
+          "name": "说服",
+          "description": "风度检定前可标记1点压力使结果+2",
+          "actions": {
+            "persuade": {
+              "name": "说服",
+              "description": "消耗压力提升风度"
+            }
+          },
+          "effects": {
+            "persuasive": {
+              "name": "说服",
+              "description": "风度检定+2"
+            }
+          }
+        },
+        "pompous": {
+          "name": "傲慢",
+          "description": "需风度≤0才能使用此武器",
+          "actions": {
+            "pompous": {
+              "name": "傲慢",
+              "description": "低风度需求"
+            }
+          }
+        },
+        "powerful": {
+          "name": "强力",
+          "description": "攻击成功时额外投一枚伤害骰并弃最低值",
+          "effects": {
+            "powerful": {
+              "name": "强力",
+              "description": "伤害骰增效"
+            }
+          }
+        },
+        "protective": {
+          "name": "防护",
+          "description": "护甲值+角色阶位",
+          "effects": {
+            "protective": {
+              "name": "防护",
+              "description": "护甲值提升"
+            }
+          }
+        },
+        "quick": {
+          "name": "迅捷",
+          "description": "攻击时可标记1点压力改为攻击范围内另一目标",
+          "actions": {
+            "quick": {
+              "name": "迅捷",
+              "description": "消耗压力切换目标"
+            }
+          }
+        },
+        "reliable": {
+          "name": "可靠",
+          "description": "攻击检定+1",
+          "effects": {
+            "reliable": {
+              "name": "可靠",
+              "description": "攻击命中提升"
+            }
+          }
+        },
+        "reloading": {
+          "name": "装填",
+          "description": "攻击后投d6，结果为1时必须标记1点压力进行重新装填才能再次使用",
+          "actions": {
+            "reload": {
+              "name": "装填",
+              "description": "概率触发装填惩罚"
+            }
+          }
+        },
+        "retractable": {
+          "name": "伸缩",
+          "description": "刀刃可收进刀柄避免侦测",
+          "actions": {
+            "retract": {
+              "name": "伸缩",
+              "description": "隐藏武器"
+            }
+          }
+        },
+        "returning": {
+          "name": "回旋",
+          "description": "当这把武器被用于投掷在他射程内，他会在投掷结束后立刻回到你的手中",
+          "actions": {
+            "return": {
+              "name": "回旋",
+              "description": "自动回收武器"
+            }
+          }
+        },
+        "scary": {
+          "name": "威慑",
+          "description": "攻击成功后目标必须标记1点压力",
+          "actions": {
+            "scare": {
+              "name": "威慑",
+              "description": "攻击附加压力"
+            }
+          }
+        },
+        "selfCorrecting": {
+          "name": "自修正",
+          "description": "伤害骰掷出1时改为造成6点伤害",
+          "effects": {
+            "selfCorrecting": {
+              "name": "自修正",
+              "description": "低伤转高伤"
+            }
+          }
+        },
+        "serrated": {
+          "name": "锯齿",
+          "description": "伤害骰掷出1时改为造成8点伤害",
+          "effects": {
+            "serrated": {
+              "name": "锯齿",
+              "description": "强化低伤修正"
+            }
+          }
+        },
+        "sharpwing": {
+          "name": "锐翼",
+          "description": "伤害骰获得等同于敏捷的加值",
+          "effects": {
+            "sharpwing": {
+              "name": "锐翼",
+              "description": "敏捷加成伤害"
+            }
+          }
+        },
+        "sheltering": {
+          "name": "庇护",
+          "description": "当你标记护甲槽时，这会让你近战范围内的所有盟友都同时减少伤害。",
+          "actions": {
+            "shelter": {
+              "name": "庇护",
+              "description": "群体伤害减免"
+            }
+          }
+        },
+        "startling": {
+          "name": "惊骇",
+          "description": "标记1点压力迫使近战范围内所有敌人退至近距",
+          "actions": {
+            "startle": {
+              "name": "惊骇",
+              "description": "消耗压力击退群体"
+            }
+          }
+        },
+        "timebending": {
+          "name": "时曲",
+          "description": "可在攻击检定后选择目标",
+          "actions": {
+            "bendTime": {
+              "name": "时曲",
+              "description": "延迟选择目标"
+            }
+          }
+        }
+      }
+    },
+    "EFFECTS": {
+      "ApplyLocations": {
+        "attackRoll": {
+          "name": "攻击检定"
+        },
+        "damageRoll": {
+          "name": "伤害检定"
+        },
+        "healingRoll": {
+          "name": "治疗检定"
+        }
+      },
+      "Duration": {
+        "passive": "被动",
+        "temporary": "暂时"
+      },
+      "Types": {
+        "damage": {
+          "name": "伤害"
+        },
+        "hitPoints": {
+          "name": "生命点"
+        },
+        "reach": {
+          "name": "长臂"
+        },
+        "stress": {
+          "name": "压力"
+        }
+      },
+      "Attachments": {
+        "attachHint": "拖放物品至此附加",
+        "transferHint": "勾选后，此效果将应用于拥有该效果父物品的任何角色。若此物品附加于其他物品，则始终应用效果"
+      }
+    },
+    "GENERAL": {
+      "Action": {
+        "single": "动作",
+        "plural": "动作"
+      },
+      "Advantage": {
+        "full": "优势",
+        "plural": "优势",
+        "short": "优势"
+      },
+      "Adversary": {
+        "singular": "敌人",
+        "plural": "敌人"
+      },
+      "Attack": {
+        "hpDamageMultiplier": {
+          "label": "HP伤害倍率",
+          "hint": "为所有伤害数字增加倍率"
+        },
+        "hpDamageTakenMultiplier": {
+          "label": "受到HP伤害倍率",
+          "hint": "受到的伤害数值的倍率"
+        }
+      },
+      "Bonuses": {
+        "rest": {
+          "downtimeAction": "休整期动作",
+          "shortRest": {
+            "shortRestMoves": {
+              "label": "短休：额外短休行动",
+              "hint": "角色在短休期间可执行的额外短休行动次数"
+            },
+            "longRestMoves": {
+              "label": "短休：额外长休行动",
+              "hint": "角色在短休期间可执行的额外长休行动次数"
+            }
+          },
+          "longRest": {
+            "shortRestMoves": {
+              "label": "长休：额外短休行动",
+              "hint": "角色在长休期间可执行的额外短休行动次数"
+            },
+            "longRestMoves": {
+              "label": "长休：额外长休行动",
+              "hint": "角色在长休期间可执行的额外长休行动次数"
+            }
+          },
+          "target": "目标",
+          "targetSelf": "自身"
+        },
+        "maxLoadout": {
+          "label": "配置栏上限加成"
+        }
+      },
+      "Character": {
+        "singular": "角色",
+        "plural": "角色"
+      },
+      "Cost": {
+        "single": "消耗",
+        "plural": "消耗"
+      },
+      "Damage": {
+        "massive": "巨型",
+        "severe": "严重",
+        "major": "重度",
+        "minor": "轻度",
+        "none": "无",
+        "allDamage": "所有伤害",
+        "physicalDamage": "物理伤害",
+        "magicalDamage": "魔法伤害",
+        "primaryWeapon": "主武器伤害",
+        "secondaryWeapon": "副武器伤害"
+      },
+      "DamageResistance": {
+        "none": "无",
+        "physicalResistance": {
+          "label": "伤害抗性：物理",
+          "hint": "设为1时物理伤害减半"
+        },
+        "magicalResistance": {
+          "label": "伤害抗性：魔法",
+          "hint": "设为1时魔法伤害减半"
+        },
+        "physicalImmunity": {
+          "label": "伤害免疫：物理",
+          "hint": "设为1时免疫物理伤害"
+        },
+        "magicalImmunity": {
+          "label": "伤害免疫：魔法",
+          "hint": "设为1时免疫魔法伤害"
+        },
+        "physicalReduction": {
+          "label": "伤害减免：物理",
+          "hint": "物理伤害减少此处设定的数值"
+        },
+        "magicalReduction": {
+          "label": "伤害减免：魔法",
+          "hint": "魔法伤害减少此处设定的数值"
+        }
+      },
+      "DamageThresholds": {
+        "title": "伤害阈值",
+        "minor": "轻度",
+        "major": "重度",
+        "severe": "严重",
+        "majorThreshold": "重度伤害阈值",
+        "severeThreshold": "严重伤害阈值",
+        "with": "{threshold}伤害阈值"
+      },
+      "Dice": {
+        "single": "骰子",
+        "plural": "骰子"
+      },
+      "Difficulty": {
+        "all": "难度：全部",
+        "reaction": "难度：反应"
+      },
+      "Disadvantage": {
+        "full": "劣势",
+        "short": "劣势"
+      },
+      "Domain": {
+        "single": "领域",
+        "plural": "领域",
+        "arcana": {
+          "label": "奥术",
+          "description": "此领域涉及本能或直觉的魔法运用。追随此道者驾驭原始神秘的领域力量，操纵元素与自身能量。奥秘赋予使用者不稳定的力量，但正确引导时威力惊人。"
+        },
+        "blade": {
+          "label": "利刃",
+          "description": "此领域属于毕生钻研武器之道者。无论刀剑、弓箭还是特殊兵器，此道追随者皆精于终结生命。利刃要求追随者潜心研习，换取对死亡的绝对掌控。"
+        },
+        "bone": {
+          "label": "骸骨",
+          "description": "此领域关乎迅捷与战术掌控。修习者能非凡地驾驭自身躯体，预判战斗中他人行为。骸骨以刻苦训练为代价，赋予信徒对躯体运动的极致理解。"
+        },
+        "codex": {
+          "label": "典籍",
+          "description": "此领域专注深奥魔法研究。求索魔法知识者从典籍、卷轴、壁刻乃至身纹中追寻力量秘方。法典为愿超越常识的追随者提供强大而多变的魔法理解。"
+        },
+        "grace": {
+          "label": "优雅",
+          "description": "此领域体现魅力之道。通过动人故事、机敏魅惑或谎言帷幕，此力量使用者能扭曲对手的现实认知。优雅赋予使用者原始吸引力与语言掌控力。"
+        },
+        "midnight": {
+          "label": "午夜",
+          "description": "此领域属于暗影与隐秘。无论巧技还是夜幕掩护，此力量使用者精于隐匿之道，无秘可藏。午夜赋予修习者操控与创造谜团的非凡力量。"
+        },
+        "sage": {
+          "label": "贤者",
+          "description": "此领域连接自然世界。此道追随者汲取大地生灵的原始力量释放野性魔法。贤者赋予信徒如绽放花朵的活力与饥渴掠食者的凶暴。"
+        },
+        "splendor": {
+          "label": "辉耀",
+          "description": "此领域掌管生命。此魔法赋予追随者治愈之力，同时亦能掌控死亡。辉光为门徒赋予赐予与终结生命的宏伟能力。"
+        },
+        "valor": {
+          "label": "勇气",
+          "description": "此领域专注守护之道。无论攻防，此道选择者皆能引导磅礴力量护佑战友。勇毅为举盾卫护他人者赋予伟力。"
+        }
+      },
+      "Effect": {
+        "single": "效果",
+        "plural": "效果"
+      },
+      "Experience": {
+        "single": "经历",
+        "plural": "经历"
+      },
+      "Healing": {
+        "healingAmount": "治疗量"
+      },
+      "Modifier": {
+        "single": "调整值",
+        "plural": "调整值"
+      },
+      "Neutral": {
+        "full": "无",
+        "short": "无"
+      },
+      "Range": {
+        "other": "范围提升：其他",
+        "spell": "范围提升：法术",
+        "weapon": "范围提升：武器"
+      },
+      "RefreshType": {
+        "scene": "场景",
+        "session": "会话",
+        "shortrest": "短休",
+        "longrest": "长休"
+      },
+      "Resource": {
+        "single": "资源",
+        "plural": "资源"
+      },
+      "Roll": {
+        "attack": "攻击检定",
+        "basic": "检定",
+        "difficulty": "检定（难度{difficulty}）",
+        "primaryWeaponAttack": "主武器攻击检定",
+        "secondaryWeaponAttack": "副武器攻击检定",
+        "spellcast": "施法检定",
+        "trait": "特质检定",
+        "action": "行动检定",
+        "reaction": "反应检定"
+      },
+      "Rules": {
+        "conditionImmunities": {
+          "hidden": "免疫状态：隐藏",
+          "restrained": "免疫状态：束缚",
+          "vulnerable": "免疫状态：脆弱"
+        },
+        "damageReduction": {
+          "disabledArmor": {
+            "label": "关闭护甲槽"
+          },
+          "increasePerArmorMark": {
+            "label": "每护甲槽伤害减免",
+            "hint": "通常每个使用的护甲槽位降低一级伤害。此值增加伤害降低的级数"
+          },
+          "magical": {
+            "label": "伤害减免：仅魔法",
+            "hint": "护甲仅能被用于减免魔法伤害"
+          },
+          "maxArmorMarkedBonus": "最大护甲使用数",
+          "maxArmorMarkedStress": {
+            "label": "压力附加护甲上限",
+            "hint": "设定后可消耗压力使用超出正常上限的额外护甲槽"
+          },
+          "reduceSeverity": {
+            "magical": {
+              "label": "减少伤害等级：魔法",
+              "hint": "降低所受魔法伤害的伤害等级"
+            },
+            "physical": {
+              "label": "减少伤害等级：物理",
+              "hint": "降低所受物理伤害的伤害等级"
+            }
+          },
+          "physical": {
+            "label": "伤害减免：仅物理",
+            "hint": "护甲仅可被用于抵抗物理伤害"
+          },
+          "stress": {
+            "any": {
+              "label": "压力伤害减免：任意",
+              "hint": "可消耗压力降低一级伤害阈值"
+            },
+            "severe": {
+              "label": "压力伤害减免：严重",
+              "hint": "可消耗压力将致命伤害降为重度"
+            },
+            "major": {
+              "label": "压力伤害减免：重度",
+              "hint": "可消耗压力将严重伤害降为轻度"
+            },
+            "minor": {
+              "label": "压力伤害减免：轻微",
+              "hint": "可消耗压力将轻微伤害降为无"
+            }
+          },
+          "thresholdImmunities": {
+            "minor": {
+              "label": "阈值免疫：轻度伤害",
+              "hint": "设置为1时自动免疫轻度伤害"
+            }
+          }
+        },
+        "attack": {
+          "damage": {
+            "dice": {
+              "label": "基础攻击：伤害骰索引",
+              "hint": "基础攻击使用的伤害骰索引。0=d4,1=d6,2=d8,3=d10,4=d12,5=d20"
+            },
+            "bonus": {
+              "label": "基础攻击：伤害加值"
+            }
+          },
+          "roll": {
+            "trait": {
+              "label": "基础攻击：属性"
+            }
+          }
+        }
+      },
+      "SpotlightRequests": {
+        "singular": "聚焦请求",
+        "plural": "聚焦请求"
+      },
+      "Tabs": {
+        "details": "详情",
+        "attack": "攻击",
+        "experiences": "经历",
+        "features": "特性",
+        "actions": "动作",
+        "potentialAdversaries": "潜在敌人",
+        "adversaries": "敌人",
+        "advancement": "等级提升",
+        "selections": "提升选项",
+        "summary": "摘要",
+        "effects": "效果",
+        "settings": "设置",
+        "description": "描述",
+        "main": "数据",
+        "information": "信息",
+        "itemFeatures": "物品特性",
+        "notes": "笔记",
+        "inventory": "物品",
+        "loadout": "配置",
+        "vault": "宝库",
+        "heritage": "传承",
+        "story": "故事",
+        "biography": "传记",
+        "general": "常规",
+        "resources": "资源",
+        "foundation": "基础",
+        "specialization": "专精",
+        "mastery": "精通",
+        "optional": "可选",
+        "recovery": "恢复",
+        "setup": "设置",
+        "equipment": "装备",
+        "attachments": "附件",
+        "advanced": "高级",
+        "tier1": "阶位1",
+        "tier2": "阶位2",
+        "tier3": "阶位3",
+        "tier4": "阶位4",
+        "domains": "领域",
+        "downtime": "休整期",
+        "roll": "投骰",
+        "rules": "规则",
+        "partyMembers": "小队成员",
+        "projects": "项目",
+        "types": "类型",
+        "questions": "问题",
+        "configuration": "配置",
+        "base": "基础值",
+        "triggers": "触发器",
+        "deathMoves": "死亡行动",
+        "sources": "来源",
+        "packs": "包"
+      },
+      "Tiers": {
+        "1": "阶位1",
+        "2": "阶位2",
+        "3": "阶位3",
+        "4": "阶位4",
+        "singular": "阶位"
+      },
+      "Trait": {
+        "single": "属性",
+        "plural": "属性"
+      },
+      "actorName": "角色名称",
+      "amount": "数量",
+      "any": "任意",
+      "armor": "护甲",
+      "armorFeatures": "护甲特性",
+      "armors": "护甲",
+      "armorScore": "护甲值",
+      "activeEffects": "生效效果",
+      "armorSlots": "护甲槽",
+      "artistAttribution": "艺术家：{artist}",
+      "attack": "攻击",
+      "automation": "自动化",
+      "basics": "基础",
+      "bonus": "加值",
+      "burden": "负荷",
+      "condition": "状态",
+      "continue": "继续",
+      "criticalSuccess": "关键成功",
+      "criticalShort": "大成功",
+      "currentLevel": "当前等级",
+      "custom": "自定义",
+      "d20Roll": "D20检定",
+      "damage": "伤害",
+      "damageRoll": "伤害检定",
+      "damageType": "伤害类型",
+      "description": "描述",
+      "difficulty": "难度",
+      "downtime": "休整期",
+      "dropActorsHere": "拖放角色至此",
+      "dropFeaturesHere": "将特性拖拽至此处",
+      "duality": "二元骰",
+      "dualityDice": "二元骰",
+      "dualityRoll": "二元骰检定",
+      "enabled": "启用",
+      "evasion": "闪避",
+      "equipment": "装备",
+      "experience": {
+        "single": "经历",
+        "plural": "经历"
+      },
+      "failure": "失败",
+      "fate": "命运",
+      "fateRoll": "命运骰",
+      "fear": "恐惧",
+      "features": "特性",
+      "formula": "公式",
+      "general": "常规",
+      "gm": "GM",
+      "guaranteedCriticalSuccess": "保证关键成功",
+      "healing": "治疗",
+      "healingRoll": "治疗检定",
+      "hit": {
+        "single": "命中",
+        "plural": "命中"
+      },
+      "HitPoints": {
+        "single": "生命值",
+        "plural": "生命点",
+        "short": "HP"
+      },
+      "hope": "希望",
+      "hordeHp": "集群生命值",
+      "icon": "图标",
+      "identify": "身份",
+      "imagePath": "图片路径",
+      "inactiveEffects": "未生效效果",
+      "inventory": "物品栏",
+      "itemResource": "物品资源",
+      "itemQuantity": "物品数量",
+      "items": "物品",
+      "label": "标签",
+      "level": "等级",
+      "levelShort": "Lv",
+      "levelUp": "升级",
+      "loadout": "配置",
+      "max": "最大",
+      "miss": {
+        "single": "未命中",
+        "plural": "未命中"
+      },
+      "maxWithThing": "最大{thing}",
+      "missingDragDropThing": "丢弃{thing}在这里",
+      "multiclass": "兼职",
+      "newCategory": "新分类",
+      "newThing": "新{thing}",
+      "none": "无",
+      "noTarget": "无当前目标",
+      "partner": "搭档",
+      "player": {
+        "single": "玩家",
+        "plurial": "玩家"
+      },
+      "portrait": "肖像",
+      "proficiency": "熟练",
+      "quantity": "数量",
+      "range": "范围",
+      "reactionRoll": "反应检定",
+      "recovery": "恢复",
+      "refresh": "刷新",
+      "reroll": "重掷",
+      "rerolled": "重投",
+      "rerollThing": "重掷{thing}",
+      "resource": "资源",
+      "roll": "掷骰",
+      "rollAll": "全部掷骰",
+      "rollDamage": "掷伤害",
+      "rollWith": "{roll}检定",
+      "save": "保存",
+      "scalable": "可扩展",
+      "scars": "伤疤",
+      "situationalBonus": "情境加值",
+      "spent": "消费",
+      "step": "步数",
+      "stress": "压力",
+      "subclasses": "子职业",
+      "success": "成功",
+      "summon": {
+        "single": "召唤",
+        "plural": "召唤"
+      },
+      "take": "执行",
+      "Target": {
+        "single": "目标",
+        "plural": "目标"
+      },
+      "title": "标题",
+      "tokenSize": "Token尺寸",
+      "total": "总计",
+      "traitModifier": "属性调整值",
+      "true": "是",
+      "type": "类型",
+      "typeSheet": "系统{type}表格",
+      "unarmed": "徒手",
+      "unarmedAttack": "无武装攻击",
+      "unarmored": "无甲",
+      "use": "使用",
+      "used": "已使用",
+      "uses": "使用次数",
+      "value": "数值",
+      "weaponFeatures": "武器特性",
+      "weapons": "武器",
+      "withThing": "使用{thing}"
+    },
+    "ITEMS": {
+      "FIELDS": {
+        "attribution": {
+          "source": {
+            "label": "来源"
+          },
+          "page": {
+            "label": "页数"
+          },
+          "artist": {
+            "label": "艺术家"
+          }
+        },
+        "resource": {
+          "amount": {
+            "label": "数量"
+          },
+          "dieFaces": {
+            "label": "骰面"
+          },
+          "icon": {
+            "label": "图标"
+          },
+          "max": {
+            "label": "最大"
+          },
+          "progression": {
+            "label": "进度"
+          },
+          "recovery": {
+            "label": "恢复"
+          },
+          "type": {
+            "label": "类型"
+          },
+          "value": {
+            "label": "数值"
+          }
+        }
+      },
+      "Ancestry": {
+        "primaryFeature": "主要特性",
+        "secondaryFeature": "次要特性"
+      },
+      "Armor": {
+        "baseScore": "基础值",
+        "baseThresholds": {
+          "base": "基础阈值",
+          "major": "重度阈值",
+          "severe": "严重阈值"
+        }
+      },
+      "Beastform": {
+        "FIELDS": {
+          "beastformType": {
+            "label": "野兽形态类型"
+          },
+          "tier": {
+            "label": "阶位"
+          },
+          "mainTrait": {
+            "label": "主属性"
+          },
+          "examples": {
+            "label": "范例"
+          },
+          "advantageOn": {
+            "label": "获得优势于"
+          },
+          "tokenImg": {
+            "label": "指示物图像"
+          },
+          "tokenRingImg": {
+            "label": "主体纹理"
+          },
+          "tokenSize": {
+            "placeholder": "使用角色尺寸",
+            "disabledPlaceholder": "根据角色尺寸设置",
+            "height": {
+              "label": "高度"
+            },
+            "width": {
+              "label": "宽度"
+            },
+            "scale": {
+              "label": "Token缩放"
+            }
+          },
+          "evolved": {
+            "maximumTier": {
+              "label": "最高阶位"
+            },
+            "mainTraitBonus": {
+              "label": "主属性加值"
+            }
+          },
+          "hybrid": {
+            "beastformOptions": {
+              "label": "野兽形态数量"
+            },
+            "advantages": {
+              "label": "优势数量"
+            },
+            "features": {
+              "label": "特性数量"
+            }
+          }
+        },
+        "attackName": "野兽攻击",
+        "beastformEffect": "野兽形态变形",
+        "dialogTitle": "野兽形态选择",
+        "tokenTitle": "野兽形态令牌",
+        "transform": "变形",
+        "evolve": "进化",
+        "evolvedFeatureTitle": "进化形态",
+        "evolvedDrag": "拖放形态至此进化",
+        "hybridize": "混合",
+        "hybridizeFeatureTitle": "混合特性",
+        "hybridizeDrag": "拖放形态至此混合",
+        "mainTrait": "主属性",
+        "traitBonus": "属性加值",
+        "evolvedTokenHint": "一个基于你野兽形态进化而来的进化形态Token",
+        "evolvedImagePlaceholder": "图片被选择作为进化后的图片"
+      },
+      "Class": {
+        "hopeFeatures": "希望特性",
+        "classFeatures": "职业特性",
+        "guide": {
+          "suggestedEquipment": "推荐装备",
+          "suggestedPrimaryWeaponTitle": "主武器",
+          "suggestedSecondaryWeaponTitle": "副武器",
+          "suggestedArmorTitle": "护甲",
+          "inventory": {
+            "thenChoose": "然后选择",
+            "andEither": "以及"
+          }
+        }
+      },
+      "Consumable": {
+        "consumeOnUse": "使用时消耗",
+        "destroyOnEmpty": "在空时直接销毁"
+      },
+      "DomainCard": {
+        "type": "类型",
+        "recallCost": "回想消耗",
+        "vaultActive": "在某值时激活",
+        "loadoutIgnore": "忽略配置限制",
+        "domainTouched": "领域恩泽",
+        "foundationTitle": "基础",
+        "specializationTitle": "专精",
+        "masteryTitle": "精通"
+      },
+      "Subclass": {
+        "spellcastingTrait": "施法属性"
+      },
+      "Weapon": {
+        "weaponType": "武器类型",
+        "primaryWeapon": "主武器",
+        "secondaryWeapon": "副武器"
+      }
+    },
+    "ROLLTABLES": {
+      "FIELDS": {
+        "formulaName": {
+          "label": "公式名称"
+        }
+      },
+      "formula": "公式"
+    },
+    "SETTINGS": {
+      "Appearance": {
+        "FIELDS": {
+          "displayFear": {
+            "label": "显示恐惧"
+          },
+          "displayCountdownUI": {
+            "label": "展示倒计时UI"
+          },
+          "showGenericStatusEffects": {
+            "label": "显示Foundry状态效果"
+          },
+          "hideAttribution": {
+            "label": "隐藏归因"
+          },
+          "showTokenDistance": {
+            "label": "持续显示Token之间的距离",
+            "choices": {
+              "always": "永远",
+              "encounters": "遭遇",
+              "never": "永远不"
+            }
+          },
+          "expandedTitle": "自动展开描述",
+          "extendCharacterDescriptions": {
+            "label": "角色"
+          },
+          "extendAdversaryDescriptions": {
+            "label": "敌人"
+          },
+          "extendEnvironmentDescriptions": {
+            "label": "环境"
+          },
+          "extendItemDescriptions": {
+            "label": "物品"
+          },
+          "expandRollMessage": {
+            "title": "自动展开描述",
+            "desc": {
+              "label": "描述"
+            },
+            "roll": {
+              "label": "公式"
+            },
+            "damage": {
+              "label": "伤害/治疗"
+            },
+            "target": {
+              "label": "目标"
+            }
+          },
+          "useResourcePips": {
+            "label": "固定显示资源"
+          }
+        },
+        "fearDisplay": {
+          "token": "指示物",
+          "bar": "状态条",
+          "hide": "隐藏"
+        }
+      },
+      "Automation": {
+        "fear": {
+          "name": "恐惧",
+          "hint": "恐惧二元检定结果时自动增加GM恐惧池"
+        },
+        "FIELDS": {
+          "damageReductionRulesDefault": {
+            "label": "伤害减免规则默认",
+            "hint": "是否默认启用护甲和减免规则"
+          },
+          "defeated": {
+            "enabled": {
+              "label": "启用"
+            },
+            "overlay": {
+              "label": "叠加效果"
+            },
+            "characterDefault": {
+              "label": "角色默认被击败状态"
+            },
+            "adversaryDefault": {
+              "label": "敌人默认被击败状态"
+            },
+            "companionDefault": {
+              "label": "伙伴默认被击败状态"
+            },
+            "deathMove": {
+              "label": "死亡行动"
+            },
+            "dead": {
+              "label": "死亡"
+            },
+            "defeated": {
+              "label": "被击败"
+            },
+            "unconscious": {
+              "label": "昏迷"
+            }
+          },
+          "hopeFear": {
+            "label": "希望与恐惧",
+            "gm": {
+              "label": "GM"
+            },
+            "players": {
+              "label": "玩家"
+            }
+          },
+          "countdownAutomation": {
+            "label": "倒计时自动化",
+            "hint": "自动化的推进倒计时基于推进设置"
+          },
+          "levelupAuto": {
+            "label": "自动升级",
+            "hint": "完成升级选择后自动应用数值变更到角色"
+          },
+          "actionPoints": {
+            "label": "行动点数",
+            "hint": "自动分配行动点数"
+          },
+          "hordeDamage": {
+            "label": "自动集群伤害",
+            "hint": "生命值降至一半时自动触发集群效果"
+          },
+          "effects": {
+            "rangeDependent": {
+              "label": "效果距离依赖",
+              "hint": "具有距离依赖的效果将根据距离自动开关"
+            }
+          },
+          "resourceScrollTexts": {
+            "label": "显示资源变动滚动文本",
+            "hint": "角色受伤或使用护甲时显示动态文本提示"
+          },
+          "roll": {
+            "roll": {
+              "label": "投掷",
+              "hint": "自动对类似攻击施法等行动进行掷骰"
+            },
+            "damage": {
+              "label": "伤害/治疗投骰",
+              "hint": "在攻击/施法之后，自动为伤害&治疗类行为进行投骰"
+            },
+            "save": {
+              "label": "反应投骰",
+              "hint": "如果需要自动进行反应检定，目标必须被选择为目标才能自动反应。"
+            },
+            "damageApply": {
+              "label": "应用伤害/治疗",
+              "hint": "自动化应用伤害/治疗，目标必须被选择为目标才能在行动之后被自动治疗，类似于反应检定。"
+            },
+            "effect": {
+              "label": "应用效果",
+              "hint": "自动为目标应用行动带来的效果"
+            }
+          },
+          "triggers": {
+            "enabled": {
+              "label": "启用",
+              "hint": "高级自动化，例如为巫师的奇异图案触发弹窗"
+            }
+          },
+          "summaryMessages": {
+            "label": "摘要消息"
+          }
+        },
+        "defeated": {
+          "title": "被击败处理"
+        },
+        "roll": {
+          "title": "行动"
+        },
+        "trigger": {
+          "title": "触发器"
+        }
+      },
+      "Homebrew": {
+        "newDowntimeMove": "休整期行动",
+        "downtimeMove": "修正期行动",
+        "armorFeature": "护甲特性",
+        "weaponFeature": "武器特性",
+        "newFeature": "新物品特性",
+        "downtimeMoves": "休整期行动",
+        "itemFeatures": "物品特性",
+        "nrChoices": "每次休息可选行动数",
+        "resetMovesTitle": "重置{type}休整期行动",
+        "resetItemFeaturesTitle": "重置{type}",
+        "resetMovesText": "确定要重置吗？",
+        "deleteItemTitle": "删除房规物品",
+        "deleteItemText": "你确定要删除物品吗？",
+        "FIELDS": {
+          "maxFear": {
+            "label": "最大恐惧"
+          },
+          "maxHope": {
+            "label": "最大希望"
+          },
+          "traitArray": {
+            "label": "初始属性调整值"
+          },
+          "maxLoadout": {
+            "label": "配置栏最大卡牌数",
+            "hint": "留空或0表示无上限"
+          },
+          "maxDomains": {
+            "label": "最大职业领域数",
+            "hint": "单个职业可设置的领域上限"
+          }
+        },
+        "currency": {
+          "title": "货币覆盖",
+          "changeIcon": "变更货币图标",
+          "currencyName": "货币名称",
+          "coinName": "硬币名称",
+          "handfulName": "把名称",
+          "iconName": "图标名称",
+          "iconNameHint": "图标来自字符图标",
+          "bagName": "袋名称",
+          "chestName": "箱名称"
+        },
+        "domains": {
+          "domainsTitle": "基础领域",
+          "homebrewDomains": "自制领域",
+          "newDomain": "新领域",
+          "newDomainInputTitle": "创建自制领域",
+          "newDomainInputLabel": "新领域名称",
+          "newDomainInputHint": "后续不可修改",
+          "editDomain": "激活领域",
+          "deleteDomain": "删除领域",
+          "deleteDomainText": "确定删除{name}领域？将立即从所有使用该领域的角色中移除。",
+          "duplicateDomain": "已存在同名领域"
+        },
+        "adversaryType": {
+          "title": "自定义敌人类型",
+          "newType": "敌人类型"
+        }
+      },
+      "Menu": {
+        "title": "匕首之心游戏设置",
+        "automation": {
+          "name": "自动化设置",
+          "label": "配置自动化",
+          "hint": "资源配置等自动化设置"
+        },
+        "homebrew": {
+          "name": "自制规则设置",
+          "label": "配置自制规则",
+          "hint": "扩展类型或修改游戏规则"
+        },
+        "range": {
+          "name": "距离设置",
+          "label": "配置距离处理",
+          "hint": "匕首之心距离标尺设置"
+        },
+        "appearance": {
+          "label": "外观设置",
+          "hint": "修改系统视觉样式",
+          "duality": "二元检定",
+          "diceSoNice": {
+            "title": "DICE SO NICE mod",
+            "hint": "使用Dice So Nice模块时的骰子配色",
+            "foreground": "前景色",
+            "background": "背景色",
+            "outline": "轮廓",
+            "edge": "边缘",
+            "texture": "纹理",
+            "colorset": "主题",
+            "material": "材质",
+            "system": "骰子预设",
+            "font": "字体"
+          }
+        },
+        "variantRules": {
+          "title": "变体规则",
+          "label": "变体规则",
+          "hint": "应用匕首之心系统变体规则",
+          "name": "变体规则",
+          "actionTokens": "行动令牌"
+        },
+        "SpotlightRequestQueue": {
+          "name": "聚焦请求队列",
+          "label": "聚焦请求队列",
+          "hint": "添加更多结构让聚焦请求能够确定谁先谁后"
+        }
+      },
+      "Resources": {
+        "fear": {
+          "name": "恐惧",
+          "hint": "GM的恐惧池"
+        }
+      },
+      "VariantRules": {
+        "FIELDS": {
+          "actionTokens": {
+            "enabled": {
+              "label": "启用"
+            },
+            "tokens": {
+              "label": "令牌"
+            }
+          },
+          "massiveDamage": {
+            "title": "巨型伤害",
+            "enabled": {
+              "label": "启用"
+            }
+          }
+        }
+      },
+      "ResetSettings": {
+        "resetConfirmationTitle": "重置设置",
+        "resetConfirmationText": "确定重置{settings}？"
+      },
+      "Scene": {
+        "FIELDS": {
+          "rangeMeasurement": {
+            "setting": {
+              "label": "设置"
+            }
+          }
+        },
+        "disabledText": "匕首之心测量值已经在系统设定中关闭-变体规则",
+        "rangeMeasurement": "范围测量",
+        "sceneEnvironments": "场景环境",
+        "dragEnvironmentHere": "拖动环境到这"
+      }
+    },
+    "UI": {
+      "Chat": {
+        "action": {
+          "title": "动作"
+        },
+        "appliedTo": "应用于",
+        "applyEffect": {
+          "title": "应用效果 - {name}"
+        },
+        "attackRoll": {
+          "title": "攻击 - {attack}",
+          "rollDamage": "掷伤害",
+          "rollHealing": "掷治疗",
+          "applyEffect": "应用效果"
+        },
+        "clearResource": "清除{quantity} {resource}",
+        "damageSummary": {
+          "title": "伤害应用",
+          "healingTitle": "治疗应用"
+        },
+        "damageRoll": {
+          "title": "伤害 - {damage}",
+          "dealDamageToTargets": "对目标造成伤害",
+          "dealDamage": "造成伤害",
+          "rollDamage": "掷伤害",
+          "hitTarget": "命中目标",
+          "selectedTarget": "选定目标",
+          "currentTarget": "当前目标"
+        },
+        "deathMove": {
+          "title": "死亡行动",
+          "gainScar": "你获得一条伤疤",
+          "avoidScar": "你免除了一条伤疤",
+          "journeysEnd": "你因获得{scars}伤疤而划掉了你最后的希望槽，你的角色的旅程到此为止了……",
+          "riskItAllCritical": "关键成功，清除标记的所有压力与生命点",
+          "riskItAllFailure": "恐惧骰结果更高，你跨越了死亡的帷幕……",
+          "blazeOfGlory": "光荣就义效果添加！最后的高光！",
+          "riskItAllDialogButton": "清除压力和生命点",
+          "riskItAllSuccessWithEnoughHope": "任何大于希望或压力点的希望值都会被清除",
+          "riskItAllSuccess": "希望骰更高，清除最多{hope}点压力和生命点"
+        },
+        "dicePool": {
+          "title": "骰池"
+        },
+        "domainCard": {
+          "title": "领域卡"
+        },
+        "dualityRoll": {
+          "abilityCheckTitle": "{ability}检定"
+        },
+        "effectSummary": {
+          "title": "效果应用",
+          "immunityTo": "免疫：{immunities}"
+        },
+        "featureTitle": "职业特性",
+        "groupRoll": {
+          "title": "团队掷骰",
+          "leader": "队长",
+          "partyTeam": "小队",
+          "team": "队伍",
+          "selectLeader": "选择一个队长",
+          "selectMember": "选择一个成员",
+          "rerollTitle": "重投团队检定",
+          "rerollContent": "你却你想要重投你的{trait}检定？",
+          "rerollTooltip": "重投",
+          "wholePartySelected": "整个小队已选定"
+        },
+        "healingRoll": {
+          "title": "治疗 - {damage}",
+          "heal": "治疗",
+          "applyHealing": "应用治疗"
+        },
+        "markResource": "标记{quantity}{resource}",
+        "refreshMessage": {
+          "title": "特性刷新",
+          "header": "刷新"
+        },
+        "reroll": {
+          "confirmTitle": "重掷骰子",
+          "confirmText": "确定重掷？"
+        },
+        "resourceRoll": {
+          "playerMessage": "{user}重掷了{name}"
+        },
+        "tagTeam": {
+          "title": "接力",
+          "membersTitle": "成员"
+        }
+      },
+      "ChatLog": {
+        "rerollDamage": "重投伤害",
+        "assignTagRoll": "如同接力检定分配"
+      },
+      "ConsoleLogs": {
+        "triggerRun": "DH 触发器 |   '{actor}' 角色身上的物品 '{item}'运行着一个'{trigger}' 触发器."
+      },
+      "Countdowns": {
+        "title": "倒计时",
+        "toggleIconMode": "仅切换图标",
+        "noPlayerAccess": "这个倒计时对任何玩家都是不可见的",
+        "loop": "循环",
+        "decreasingLoop": "递减循环",
+        "increasingLoop": "递增循环"
+      },
+      "EffectsDisplay": {
+        "removeThing": "右键以移除{thing}",
+        "appliedBy": "应用自{by}"
+      },
+      "ItemBrowser": {
+        "title": "匕首之心合集包浏览器",
+        "hint": "选择一个侧边栏中的文件夹以开始浏览其中的合集包",
+        "browserSettings": "浏览器设定",
+        "searchPlaceholder": "搜索",
+        "columnName": "名称",
+        "tooltipFilters": "筛选",
+        "tooltipErase": "清除",
+        "difficultyMin": "最小难度",
+        "difficultyMax": "最大难度",
+        "hitPointsMin": "最小HP",
+        "hitPointsMax": "最大HP",
+        "stressMin": "最小压力",
+        "stressMax": "最大压力",
+        "armorScoreMin": "最小护甲",
+        "armorScoreMax": "最大护甲",
+        "levelMin": "最小等级",
+        "levelMax": "最大等级",
+        "recallCostMin": "最小回想费用",
+        "recallCostMax": "最大回想费用",
+        "evasionMin": "最小闪避",
+        "evasionMax": "最大闪避",
+        "subtype": "子类型",
+        "missing": "<i>遗失</i>",
+        "folders": {
+          "characters": "角色",
+          "adversaries": "敌人",
+          "ancestries": "种族",
+          "equipment": "装备",
+          "classes": "职业",
+          "subclasses": "子职业",
+          "domainCards": "领域卡",
+          "communities": "社群",
+          "environments": "环境",
+          "beastforms": "野兽形态",
+          "features": "特性",
+          "items": "物品",
+          "weapons": "武器",
+          "armors": "护甲",
+          "consumables": "消耗品",
+          "loots": "战利品"
+        }
+      },
+      "Notifications": {
+        "adversaryMissing": "关联的敌对者不存在",
+        "beastformInapplicable": "野兽形态仅适用于角色",
+        "beastformAlreadyApplied": "角色已应用野兽形态",
+        "noTargetsSelected": "未选择目标",
+        "noTargetsSelectedOrPerm": "没有选择目标或没有对目标的更新权限",
+        "attackTargetDoesNotExist": "目标令牌已不存在",
+        "insufficentAdvancements": "提升点数不足",
+        "noAssignedPlayerCharacter": "未分配角色",
+        "noSelectedToken": "未选择令牌",
+        "onlyUseableByPC": "仅限PC令牌使用",
+        "dualityParsing": "二元检定格式错误",
+        "fateParsing": "命运骰格式不正确",
+        "fateTypeParsing": "命运投掷格式不正确，命运类型无效。有效的类型是'Hope'和'Fear'",
+        "attributeFaulty": "属性不存在",
+        "domainCardWrongDomain": "无此领域权限",
+        "domainCardToHighLevel": "领域卡等级过高",
+        "domainCardDuplicate": "已拥有此领域卡",
+        "noSelectionsLeft": "无更多选项",
+        "alreadySelectedClass": "已选择此职业",
+        "classAlreadySelected": "角色已有职业",
+        "subclassAlreadySelected": "角色已有该职业子职业",
+        "noClassSelected": "角色未选择职业",
+        "lacksDomain": "角色无此领域权限",
+        "duplicateDomainCard": "已存在同名领域卡",
+        "missingClassOrSubclass": "角色缺少职业或子职业",
+        "tooHighLevel": "无法超过最高等级",
+        "tooLowLevel": "无法低于初始等级",
+        "subclassNotInClass": "子职业不属于所选职业",
+        "subclassNotInMulticlass": "子职业不属于所选兼职",
+        "missingClass": "未选择职业",
+        "missingMulticlass": "缺少兼职",
+        "wrongDomain": "卡片不属于职业领域",
+        "cardTooHighLevel": "卡片等级过高",
+        "duplicateCard": "不可重复选择相同卡片",
+        "duplicateCharacter": "这个角色已经在小队成员名单中注册了",
+        "onlyCharactersInPartySheet": "你只能拖动角色，动物伙伴和敌人进入小队列表",
+        "notPrimary": "非主武器",
+        "notSecondary": "非副武器",
+        "itemTooHighTier": "物品必须为阶位1",
+        "primaryIsTwoHanded": "主武器为双手时不可选副武器",
+        "noMoreMoves": "无法选择更多休整期行动",
+        "damageAlreadyNone": "伤害已降至最低",
+        "noAvailableArmorMarks": "无可用护甲槽位",
+        "notEnoughStress": "压力不足",
+        "damageIgnore": "{character}未受伤害",
+        "featureIsMissing": "特性缺失",
+        "actionIsMissing": "动作缺失",
+        "attackIsMissing": "攻击缺失",
+        "unownedActionMacro": "无法为未拥有动作创建宏",
+        "unownedAttackMacro": "无法为未拥有攻击创建宏",
+        "featureNotHope": "此特性非希望特性",
+        "featureNotClass": "此特性非职业特性",
+        "featureNotPrimary": "此特性非主要特性",
+        "featureNotSecondary": "此特性非次要特性",
+        "featureNotFoundation": "此特性非基础特性",
+        "featureNotSpecialization": "此特性非专精特性",
+        "featureNotMastery": "此特性非精通特性",
+        "beastformMissingEffect": "野兽形态缺少效果",
+        "beastformToManyAdvantages": "优势选择已达上限",
+        "beastformToManyFeatures": "特性选择已达上限",
+        "beastformEquipWeapon": "野兽形态无法使用武器",
+        "loadoutMaxReached": "装备栏已达上限",
+        "domainMaxReached": "职业领域已达上限",
+        "insufficientResources": "你没有足够资源使用这个动作",
+        "actionNoUsesRemaining": "这个行动没有剩余次数",
+        "multiclassAlreadyPresent": "已存在职业和兼职",
+        "subclassesAlreadyPresent": "已存在职业和兼职子职业",
+        "noDiceSystem": "所选骰子系统{system}不包含{faces}面骰",
+        "gmMenuRefresh": "你刷新了所有行动和{types}资源",
+        "subclassAlreadyLinked": "{name}已经是{class}职业的一个子职业了。请从那里将其移除，如果你希望他是这个职业的子职业。",
+        "gmRequired": "这个行动依托于在线的GM",
+        "gmOnly": "你需要得到GM的同意",
+        "noActorOwnership": "你没有这个角色的权限",
+        "documentIsMissing": " {documentType} 领域已经从这个世界消失了……",
+        "tokenActorMissing": "{name}缺失角色卡",
+        "tokenActorsMissing": "[{names}]缺少角色卡",
+        "domainTouchRequirement": "此领域卡需在装备中配备{nr}张{domain}卡方可使用领域",
+        "knowTheTide": "潮起潮落获得了一个Token"
+      },
+      "Sidebar": {
+        "actorDirectory": {
+          "tier": "位阶{tier} {type}",
+          "character": "{level} 级角色",
+          "companion": "{level} - {partner}级",
+          "companionNoPartner": "无搭档",
+          "duplicateToNewTier": "复制去新的位阶",
+          "pickTierTitle": "为这个敌人选择一个新的位阶"
+        },
+        "daggerheartMenu": {
+          "title": "匕首之心菜单",
+          "startSession": "开始场次",
+          "startScene": "开始场景"
+        }
+      },
+      "Tooltip": {
+        "disableEffect": "禁用效果",
+        "enableEffect": "启用效果",
+        "openItemWorld": "打开物品",
+        "openActorWorld": "打开角色",
+        "sendToChat": "发送至聊天",
+        "maxEvasionClassBound": "闪避基础值由职业决定",
+        "maxHPClassBound": "生命值基础值由职业决定",
+        "moreOptions": "更多选项",
+        "equip": "装备",
+        "unequip": "卸下",
+        "sendToVault": "发送至宝库",
+        "sendToLoadout": "发送至装备栏",
+        "makeDeathMove": "执行死亡行动",
+        "rangeAndTarget": "范围与目标",
+        "dragApplyEffect": "拖拽效果应用到角色",
+        "appliedEvenIfSuccessful": "豁免成功时仍生效",
+        "diceIsRerolled": "骰子已重掷（x{times}）",
+        "pendingSaves": "待处理反应检定",
+        "openSheetSettings": "打开设置",
+        "compendiumBrowser": "合集浏览器",
+        "rulesOn": "规则启用",
+        "rulesOff": "规则禁用",
+        "remainingUses": "使用次数在{type}时恢复",
+        "rightClickExtend": "右键以扩大",
+        "companionPartnerLevelBlock": "伙伴需要一个指定的搭档才能升级。",
+        "configureAttribution": "配置归因",
+        "deleteItem": "删除物品",
+        "immune": "免疫",
+        "middleClick": "中键保持工具可见",
+        "tokenSize": "画布上使用的Token尺寸",
+        "previewTokenHelp": "左键以放下，右键以取消"
+      }
+    }
+  }
+}

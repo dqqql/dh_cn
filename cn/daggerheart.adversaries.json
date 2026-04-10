@@ -1,0 +1,2054 @@
+{
+  "label": "Adversaries",
+  "folders": {
+    "Tier 4": "4阶",
+    "Tier 2": "2阶",
+    "Tier 1": "1阶",
+    "Tier 3": "3阶"
+  },
+  "entries": {
+    "Cult Adept": {
+      "name": "邪教老手",
+      "tokenName": "邪教老手",
+      "items": {
+        "Enervating Blast": {
+          "name": "衰竭冲击"
+        },
+        "Shroud of the Fallen": {
+          "name": "亡者之幕"
+        },
+        "Shadow Shackles": {
+          "name": "暗影枷锁"
+        },
+        "Fear Is Fuel": {
+          "name": "恐惧即燃料"
+        }
+      }
+    },
+    "Archer Squadron": {
+      "name": "弓手小队",
+      "tokenName": "弓手小队",
+      "items": {
+        "Horde": {
+          "name": "群体"
+        },
+        "Focused Volley": {
+          "name": "集火齐射"
+        },
+        "Supressing Fire": {
+          "name": "压制射击"
+        }
+      }
+    },
+    "Skeleton Warrior": {
+      "name": "骷髅战士",
+      "tokenName": "骷髅战士",
+      "items": {
+        "Only Bones": {
+          "name": "只剩骨头"
+        },
+        "Won't Stay Dead": {
+          "name": "死而不僵"
+        }
+      }
+    },
+    "Tiny Red Ooze": {
+      "name": "微型红色软泥",
+      "tokenName": "微型红色软泥",
+      "items": {
+        "Burning": {
+          "name": "燃烧"
+        }
+      }
+    },
+    "Jagged Knife Sniper": {
+      "name": "锯刃帮狙击手",
+      "tokenName": "锯刃帮狙击手",
+      "items": {
+        "Unseen Strike": {
+          "name": "无形一击"
+        }
+      }
+    },
+    "Brawny Zombie": {
+      "name": "壮硕丧尸",
+      "tokenName": "壮硕丧尸",
+      "items": {
+        "Slow": {
+          "name": "迟缓"
+        },
+        "Rend Asunder": {
+          "name": "撕裂粉碎"
+        },
+        "Rip and Tear": {
+          "name": "撕扯啃裂"
+        }
+      }
+    },
+    "Demon of Hubris": {
+      "name": "傲慢之魔",
+      "tokenName": "傲慢之魔",
+      "items": {
+        "Terrifying": {
+          "name": "骇人"
+        },
+        "Double or Nothing": {
+          "name": "孤注一掷"
+        },
+        "Unparalleled Skill": {
+          "name": "无双技艺"
+        },
+        "The Root of Villainy": {
+          "name": "万恶之根"
+        },
+        "You Pale in Comparison": {
+          "name": "你与之相比黯然失色"
+        }
+      }
+    },
+    "Shambling Zombie": {
+      "name": "蹒跚丧尸",
+      "tokenName": "蹒跚丧尸",
+      "items": {
+        "Too Many to Handle": {
+          "name": "多到难以应付"
+        },
+        "Horrifying": {
+          "name": "恐怖慑人"
+        }
+      }
+    },
+    "Stonewraith": {
+      "name": "岩魂怨灵",
+      "tokenName": "岩魂怨灵",
+      "items": {
+        "Stonestrider": {
+          "name": "踏岩而行"
+        },
+        "Rocky Ambush": {
+          "name": "岩壳伏击"
+        },
+        "Avalanche Roar": {
+          "name": "雪崩咆哮"
+        },
+        "Momentum": {
+          "name": "动能"
+        }
+      }
+    },
+    "Minor Demon": {
+      "name": "小型恶魔",
+      "tokenName": "小型恶魔",
+      "items": {
+        "Relentless (2)": {
+          "name": "无情（2）"
+        },
+        "All Must fall": {
+          "name": "众生皆坠"
+        },
+        "Hellfire": {
+          "name": "地狱火"
+        },
+        "Reaper": {
+          "name": "收割者"
+        },
+        "Momentum": {
+          "name": "动能"
+        }
+      }
+    },
+    "Giant Rat": {
+      "name": "巨鼠",
+      "tokenName": "巨鼠",
+      "items": {
+        "Minion (3)": {
+          "name": "爪牙（3）"
+        },
+        "Group Attack": {
+          "name": "群体攻击"
+        }
+      }
+    },
+    "Kraken": {
+      "name": "海妖巨怪",
+      "tokenName": "海妖巨怪",
+      "items": {
+        "Relentless (3)": {
+          "name": "无情（3）"
+        },
+        "Many Tentacles": {
+          "name": "多重触手"
+        },
+        "Grapple and Drown": {
+          "name": "缠缚溺亡"
+        },
+        "Boiling Blast": {
+          "name": "沸腾冲击"
+        },
+        "Momentum": {
+          "name": "动能"
+        }
+      }
+    },
+    "Jagged Knife Bandit": {
+      "name": "锯刃帮强盗",
+      "tokenName": "锯刃帮强盗",
+      "items": {
+        "Climber": {
+          "name": "攀爬者"
+        },
+        "From Above": {
+          "name": "自上而下"
+        }
+      }
+    },
+    "Pirate Raiders": {
+      "name": "海盗突袭者",
+      "tokenName": "海盗突袭者",
+      "items": {
+        "Horde": {
+          "name": "群体"
+        },
+        "Swashbuckler": {
+          "name": "豪侠剑客"
+        }
+      }
+    },
+    "Demon of Wrath": {
+      "name": "愤怒之魔",
+      "tokenName": "愤怒之魔",
+      "items": {
+        "Anger Unrelenting": {
+          "name": "怒火不息"
+        },
+        "Battle Lust": {
+          "name": "战斗渴欲"
+        },
+        "Retalliation": {
+          "name": "报复反击"
+        },
+        "Blood and Souls": {
+          "name": "鲜血与灵魂"
+        }
+      }
+    },
+    "Giant Recruit": {
+      "name": "巨人士兵新兵",
+      "tokenName": "巨人士兵新兵",
+      "items": {
+        "Minion (7)": {
+          "name": "爪牙（7）"
+        },
+        "Group Attack": {
+          "name": "群体攻击"
+        }
+      }
+    },
+    "Spectral Archer": {
+      "name": "幽灵弓手",
+      "tokenName": "幽灵弓手",
+      "items": {
+        "Ghost": {
+          "name": "幽魂"
+        },
+        "Pick Your Target": {
+          "name": "锁定目标"
+        }
+      }
+    },
+    "Spectral Captain": {
+      "name": "幽灵船长",
+      "tokenName": "幽灵船长",
+      "items": {
+        "Ghost": {
+          "name": "幽魂"
+        },
+        "Unending Battle": {
+          "name": "无尽战斗"
+        },
+        "Hold Fast": {
+          "name": "稳住阵线"
+        },
+        "Momentum": {
+          "name": "动能"
+        }
+      }
+    },
+    "Huge Green Ooze": {
+      "name": "巨型绿色软泥",
+      "tokenName": "巨型绿色软泥",
+      "items": {
+        "Slow": {
+          "name": "迟缓"
+        },
+        "Acidic Form": {
+          "name": "酸蚀形体"
+        },
+        "Envelop": {
+          "name": "吞没"
+        },
+        "Split": {
+          "name": "分裂"
+        }
+      }
+    },
+    "Skeleton Dredge": {
+      "name": "骷髅杂兵",
+      "tokenName": "骷髅杂兵",
+      "items": {
+        "Minion (4)": {
+          "name": "爪牙（4）"
+        },
+        "Group Attack": {
+          "name": "群体攻击"
+        }
+      }
+    },
+    "Bear": {
+      "name": "熊",
+      "tokenName": "熊",
+      "items": {
+        "Overwhelming Force": {
+          "name": "压倒性力量"
+        },
+        "Bite": {
+          "name": "撕咬"
+        },
+        "Momentum": {
+          "name": "动能"
+        }
+      }
+    },
+    "Skeleton Archer": {
+      "name": "骷髅弓手",
+      "tokenName": "骷髅弓手",
+      "items": {
+        "Opportunist": {
+          "name": "机会主义者"
+        },
+        "Deadly Shot": {
+          "name": "致命射击"
+        }
+      }
+    },
+    "Knight of the Realm": {
+      "name": "王国骑士",
+      "tokenName": "王国骑士",
+      "items": {
+        "Chevalier": {
+          "name": "骑士风范"
+        },
+        "Heavily Armored": {
+          "name": "重甲武装"
+        },
+        "Cavalry Charge": {
+          "name": "骑兵冲锋"
+        },
+        "For the Realm!": {
+          "name": "为了王国！"
+        }
+      }
+    },
+    "Acid Burrower": {
+      "name": "蚀酸掘地兽",
+      "tokenName": "蚀酸掘地兽",
+      "items": {
+        "Relentless (3)": {
+          "name": "无情（3）"
+        },
+        "Earth Eruption": {
+          "name": "地裂喷发"
+        },
+        "Spit Acid": {
+          "name": "喷吐酸液"
+        },
+        "Acid Bath": {
+          "name": "酸液浴"
+        }
+      }
+    },
+    "Glass Snake": {
+      "name": "璃蛇",
+      "tokenName": "璃蛇",
+      "items": {
+        "Armor-Shredding Shards": {
+          "name": "裂甲碎片"
+        },
+        "Spinning Serpent": {
+          "name": "旋刃蛇袭"
+        },
+        "Spitter": {
+          "name": "喷吐者"
+        }
+      }
+    },
+    "Giant Beastmaster": {
+      "name": "巨人驯兽师",
+      "tokenName": "巨人驯兽师",
+      "items": {
+        "Two as One": {
+          "name": "双体同心"
+        },
+        "Pinning Strike": {
+          "name": "钉制一击"
+        },
+        "Deadly Companion": {
+          "name": "致命伙伴"
+        }
+      }
+    },
+    "Cave Ogre": {
+      "name": "洞窟食人魔",
+      "tokenName": "洞窟食人魔",
+      "items": {
+        "Ramp Up": {
+          "name": "愈战愈勇"
+        },
+        "Bone Breaker": {
+          "name": "碎骨重击"
+        },
+        "Hail of Boulders": {
+          "name": "乱石齐落"
+        },
+        "Rampaging Fury": {
+          "name": "狂暴暴走"
+        }
+      }
+    },
+    "Gorgon": {
+      "name": "蛇发女妖",
+      "tokenName": "蛇发女妖",
+      "items": {
+        "Relentless (2)": {
+          "name": "无情（2）"
+        },
+        "Sunsear Arrows": {
+          "name": "灼阳箭"
+        },
+        "Crown of Serpents": {
+          "name": "群蛇之冠"
+        },
+        "Petrifying Gaze": {
+          "name": "石化凝视"
+        },
+        "Momentum": {
+          "name": "动能"
+        }
+      }
+    },
+    "Young Dryad": {
+      "name": "幼年树灵",
+      "tokenName": "幼年树灵",
+      "items": {
+        "Voice of the Forest": {
+          "name": "森林之声"
+        },
+        "Thorny Cage": {
+          "name": "荆棘囚笼"
+        },
+        "Momentum": {
+          "name": "动能"
+        }
+      }
+    },
+    "Spy": {
+      "name": "密探",
+      "tokenName": "密探",
+      "items": {
+        "Gathering Secrets": {
+          "name": "搜罗秘密"
+        },
+        "Fly on the Wall": {
+          "name": "如影旁观"
+        }
+      }
+    },
+    "Conscript": {
+      "name": "征召兵",
+      "tokenName": "征召兵",
+      "items": {
+        "Minion (6)": {
+          "name": "爪牙（6）"
+        },
+        "Group Attack": {
+          "name": "群体攻击"
+        }
+      }
+    },
+    "Red Ooze": {
+      "name": "红色软泥",
+      "tokenName": "红色软泥",
+      "items": {
+        "Creeping Fire": {
+          "name": "蔓延之火"
+        },
+        "Ignite": {
+          "name": "点燃"
+        },
+        "Split": {
+          "name": "分裂"
+        }
+      }
+    },
+    "Deeproot Defender": {
+      "name": "深根守卫",
+      "tokenName": "深根守卫",
+      "items": {
+        "Ground Slam": {
+          "name": "震地猛击"
+        },
+        "Grab and Drag": {
+          "name": "抓住拖行"
+        }
+      }
+    },
+    "Outer Realms Abomination": {
+      "name": "外域畸怪",
+      "tokenName": "外域畸怪",
+      "items": {
+        "Chaotic Form": {
+          "name": "混沌形态"
+        },
+        "Disorienting Presence": {
+          "name": "惑乱存在"
+        },
+        "Reality Quake": {
+          "name": "现实震颤"
+        },
+        "Unreal Form": {
+          "name": "非实之形"
+        }
+      }
+    },
+    "Merchant": {
+      "name": "商人",
+      "tokenName": "商人",
+      "items": {
+        "Preferential Treatment": {
+          "name": "优待"
+        },
+        "The Runaround": {
+          "name": "踢皮球"
+        }
+      }
+    },
+    "Bladed Guard": {
+      "name": "刃卫",
+      "tokenName": "刃卫",
+      "items": {
+        "Shield Wall": {
+          "name": "盾墙"
+        },
+        "Detain": {
+          "name": "拘押"
+        }
+      }
+    },
+    "Siren": {
+      "name": "海妖",
+      "tokenName": "海妖",
+      "items": {
+        "Captive Audience": {
+          "name": "全神倾听"
+        },
+        "Enchanting Song": {
+          "name": "魅惑之歌"
+        }
+      }
+    },
+    "Jagged Knife Lackey": {
+      "name": "锯刃帮喽啰",
+      "tokenName": "锯刃帮喽啰",
+      "items": {
+        "Minion (3)": {
+          "name": "爪牙（3）"
+        },
+        "Group Attack": {
+          "name": "群体攻击"
+        }
+      }
+    },
+    "Courtier": {
+      "name": "廷臣",
+      "tokenName": "廷臣",
+      "items": {
+        "Mockery": {
+          "name": "嘲弄"
+        },
+        "Scapegoat": {
+          "name": "替罪羊"
+        }
+      }
+    },
+    "Jagged Knife Kneebreaker": {
+      "name": "锯刃帮断膝者",
+      "tokenName": "锯刃帮断膝者",
+      "items": {
+        "I've Got 'Em": {
+          "name": "我逮住他了"
+        },
+        "Hold Them Down": {
+          "name": "压制住他们"
+        }
+      }
+    },
+    "Perfected Zombie": {
+      "name": "完美化丧尸",
+      "tokenName": "完美化丧尸",
+      "items": {
+        "Terrifying": {
+          "name": "骇人"
+        },
+        "Fearsome Presence": {
+          "name": "慑人威压"
+        },
+        "Perfect Strike": {
+          "name": "完美一击"
+        },
+        "Skilled Opportunist": {
+          "name": "娴熟的机会主义者"
+        }
+      }
+    },
+    "Failed Experiment": {
+      "name": "失败实验体",
+      "tokenName": "失败实验体",
+      "items": {
+        "Warped Fortitude": {
+          "name": "畸变韧性"
+        },
+        "Overwhelm": {
+          "name": "淹没压制"
+        },
+        "Lurching Lunge": {
+          "name": "蹒跚猛扑"
+        }
+      }
+    },
+    "Minor Fire Elemental": {
+      "name": "小型火元素",
+      "tokenName": "小型火元素",
+      "items": {
+        "Relentless (2)": {
+          "name": "无情（2）"
+        },
+        "Scorched Earth": {
+          "name": "焦灼大地"
+        },
+        "Explosion": {
+          "name": "爆炸"
+        },
+        "Consume Kindling": {
+          "name": "吞燃引火物"
+        },
+        "Momentum": {
+          "name": "动能"
+        }
+      }
+    },
+    "Patchwork Zombie Hulk": {
+      "name": "拼接巨型丧尸",
+      "tokenName": "拼接巨型丧尸",
+      "items": {
+        "Destructible": {
+          "name": "可破坏"
+        },
+        "Flailing Limbs": {
+          "name": "乱挥肢体"
+        },
+        "Another for the Pile": {
+          "name": "再添一具"
+        },
+        "Tormented Screams": {
+          "name": "痛苦尖啸"
+        }
+      }
+    },
+    "Royal Advisor": {
+      "name": "王室顾问",
+      "tokenName": "王室顾问",
+      "items": {
+        "Devastating Retort": {
+          "name": "毁灭性回击"
+        },
+        "Bend Ears": {
+          "name": "灌输耳语"
+        },
+        "Scapegoat": {
+          "name": "替罪羊"
+        }
+      }
+    },
+    "Vault Guardian Sentinel": {
+      "name": "宝库守卫哨兵",
+      "tokenName": "宝库守卫哨兵",
+      "items": {
+        "Kinetic Slam": {
+          "name": "动能猛击"
+        },
+        "Box In": {
+          "name": "围堵"
+        },
+        "Mana Bolt": {
+          "name": "法力箭"
+        },
+        "Momentum": {
+          "name": "动能"
+        }
+      }
+    },
+    "Minor Treant": {
+      "name": "小型树人",
+      "tokenName": "小型树人",
+      "items": {
+        "Minion (5)": {
+          "name": "爪牙（5）"
+        },
+        "Group Attack": {
+          "name": "群体攻击"
+        }
+      }
+    },
+    "Adult Flickerfly": {
+      "name": "成年幻烁蝶",
+      "tokenName": "成年幻烁蝶",
+      "items": {
+        "Relentless (4)": {
+          "name": "无情（4）"
+        },
+        "Never Misses": {
+          "name": "百发百中"
+        },
+        "Whirlwind": {
+          "name": "旋风"
+        },
+        "Mind Dance": {
+          "name": "心灵舞蹈"
+        },
+        "Hallucinatory Breath": {
+          "name": "致幻吐息"
+        },
+        "Uncanny Reflexes": {
+          "name": "超凡反射"
+        },
+        "Deadly Flight": {
+          "name": "致命掠空"
+        }
+      }
+    },
+    "Giant Mosquitoes": {
+      "name": "巨型蚊群",
+      "tokenName": "巨型蚊群",
+      "items": {
+        "Horde": {
+          "name": "群体"
+        },
+        "Flying": {
+          "name": "飞行"
+        },
+        "Bloodsucker": {
+          "name": "吸血者"
+        }
+      }
+    },
+    "Archer Guard": {
+      "name": "弓卫",
+      "tokenName": "弓卫",
+      "items": {
+        "Hobbling Shot": {
+          "name": "跛行射击"
+        }
+      }
+    },
+    "Vault Guardian Gaoler": {
+      "name": "宝库守卫狱卒",
+      "tokenName": "宝库守卫狱卒",
+      "items": {
+        "Blocking Shield": {
+          "name": "格挡之盾"
+        },
+        "Lock Up": {
+          "name": "关押"
+        }
+      }
+    },
+    "Stag Knight": {
+      "name": "雄鹿骑士",
+      "tokenName": "雄鹿骑士",
+      "items": {
+        "From Above": {
+          "name": "自上而下"
+        },
+        "Blade of the Forest": {
+          "name": "森林之刃"
+        },
+        "Thorny Armor": {
+          "name": "荆棘护甲"
+        }
+      }
+    },
+    "Hydra": {
+      "name": "九头蛇",
+      "tokenName": "九头蛇",
+      "items": {
+        "Many-Headed Menace": {
+          "name": "多首凶威"
+        },
+        "Relentless (X)": {
+          "name": "无情（X）"
+        },
+        "Regeneration": {
+          "name": "再生"
+        },
+        "Terrifying Chorus": {
+          "name": "恐惧合鸣"
+        },
+        "Magical Weakness": {
+          "name": "魔法弱点"
+        }
+      }
+    },
+    "Juvenile Flickerfly": {
+      "name": "幼年幻烁蝶",
+      "tokenName": "幼年幻烁蝶",
+      "items": {
+        "Relentless (3)": {
+          "name": "无情（3）"
+        },
+        "Peerless Accuracy": {
+          "name": "无双精准"
+        },
+        "Mind Dance": {
+          "name": "心灵舞蹈"
+        },
+        "Hallucinatory Breath": {
+          "name": "致幻吐息"
+        }
+      }
+    },
+    "Jagged Knife Hexer": {
+      "name": "锯刃帮咒术师",
+      "tokenName": "锯刃帮咒术师",
+      "items": {
+        "Curse": {
+          "name": "诅咒"
+        },
+        "Chaotic Flux": {
+          "name": "混乱涌流"
+        }
+      }
+    },
+    "Zombie Pack": {
+      "name": "丧尸群",
+      "tokenName": "丧尸群",
+      "items": {
+        "Horde": {
+          "name": "群体"
+        },
+        "Overwhelm": {
+          "name": "淹没压制"
+        }
+      }
+    },
+    "Demonic Hound Pack": {
+      "name": "恶魔猎犬群",
+      "tokenName": "恶魔猎犬群",
+      "items": {
+        "Horde": {
+          "name": "群体"
+        },
+        "Dreadhowl": {
+          "name": "惊惧嚎叫"
+        },
+        "Momentum": {
+          "name": "动能"
+        }
+      }
+    },
+    "Giant Eagle": {
+      "name": "巨鹰",
+      "tokenName": "巨鹰",
+      "items": {
+        "Flight": {
+          "name": "Flight"
+        },
+        "Deadly Dive": {
+          "name": "致命俯冲"
+        },
+        "Take Off": {
+          "name": "振翅起飞"
+        },
+        "Deadly Drop": {
+          "name": "致命投落"
+        }
+      }
+    },
+    "Pirate Captain": {
+      "name": "海盗船长",
+      "tokenName": "海盗船长",
+      "items": {
+        "Swashbuckler": {
+          "name": "豪侠剑客"
+        },
+        "Reinforcements": {
+          "name": "Reinforcements"
+        },
+        "No Quarter": {
+          "name": "绝不留情"
+        },
+        "Momentum": {
+          "name": "动能"
+        }
+      }
+    },
+    "Fallen Shock Troop": {
+      "name": "堕落突击兵",
+      "tokenName": "堕落突击兵",
+      "items": {
+        "Minion (12)": {
+          "name": "爪牙（12）"
+        },
+        "Aura of Doom": {
+          "name": "厄运灵光"
+        },
+        "Group Attack": {
+          "name": "群体攻击"
+        }
+      }
+    },
+    "Elemental Spark": {
+      "name": "元素火花",
+      "tokenName": "元素火花",
+      "items": {
+        "Minion (9)": {
+          "name": "爪牙（9）"
+        },
+        "Group Attack": {
+          "name": "群体攻击"
+        }
+      }
+    },
+    "Fallen Sorcerer": {
+      "name": "堕落术士",
+      "tokenName": "堕落术士",
+      "items": {
+        "Conflagration": {
+          "name": "烈焰燎原"
+        },
+        "Nightmare Tableau": {
+          "name": "噩梦幻景"
+        },
+        "Slippery": {
+          "name": "滑不留手"
+        },
+        "Shackles of Guilt": {
+          "name": "罪愆锁链"
+        }
+      }
+    },
+    "Tangle Bramble Swarm": {
+      "name": "纠缠荆棘群",
+      "tokenName": "纠缠荆棘群",
+      "items": {
+        "Horde": {
+          "name": "群体"
+        },
+        "Crush": {
+          "name": "碾压"
+        },
+        "Encumber": {
+          "name": "拖累"
+        }
+      }
+    },
+    "Skeleton Knight": {
+      "name": "骷髅骑士",
+      "tokenName": "骷髅骑士",
+      "items": {
+        "Terrifying": {
+          "name": "骇人"
+        },
+        "Cut to the Bone": {
+          "name": "直削见骨"
+        },
+        "Dig Two Graves": {
+          "name": "一击双亡"
+        }
+      }
+    },
+    "Fallen Warlord: Undefeated Champion": {
+      "name": "堕落军阀：不败冠军",
+      "tokenName": "堕落军阀：不败冠军",
+      "items": {
+        "Relentless (3)": {
+          "name": "无情（3）"
+        },
+        "Faltering Armor": {
+          "name": "摇摇欲坠的护甲"
+        },
+        "Shattering Strike": {
+          "name": "破碎一击"
+        },
+        "Endless Legions": {
+          "name": "无尽军团"
+        },
+        "Circle of Defilement": {
+          "name": "亵渎之环"
+        },
+        "Momentum": {
+          "name": "动能"
+        },
+        "Doombringer": {
+          "name": "末日使者"
+        }
+      }
+    },
+    "Green Ooze": {
+      "name": "绿色软泥",
+      "tokenName": "绿色软泥",
+      "items": {
+        "Slow": {
+          "name": "迟缓"
+        },
+        "Acidic Form": {
+          "name": "酸蚀形体"
+        },
+        "Envelop": {
+          "name": "吞没"
+        },
+        "Split": {
+          "name": "分裂"
+        }
+      }
+    },
+    "Demon of Jealousy": {
+      "name": "嫉妒之魔",
+      "tokenName": "嫉妒之魔",
+      "items": {
+        "Unprotected Mind": {
+          "name": "无防之心"
+        },
+        "My Turn": {
+          "name": "轮到我了"
+        },
+        "Rivalry": {
+          "name": "宿敌之争"
+        },
+        "What's Yours Is Mine": {
+          "name": "你的就是我的"
+        }
+      }
+    },
+    "Electric Eels": {
+      "name": "电鳗群",
+      "tokenName": "电鳗群",
+      "items": {
+        "Horde": {
+          "name": "群体"
+        },
+        "Paralyzing Shock": {
+          "name": "麻痹电击"
+        }
+      }
+    },
+    "Spectral Guardian": {
+      "name": "幽灵守卫",
+      "tokenName": "幽灵守卫",
+      "items": {
+        "Ghost": {
+          "name": "幽魂"
+        },
+        "Ghost Blade": {
+          "name": "幽魂之刃"
+        }
+      }
+    },
+    "Young Ice Dragon": {
+      "name": "幼年冰龙",
+      "tokenName": "幼年冰龙",
+      "items": {
+        "Relentless (3)": {
+          "name": "无情（3）"
+        },
+        "Rend and Crush": {
+          "name": "撕裂碾碎"
+        },
+        "No Hope": {
+          "name": "毫无希望"
+        },
+        "Blizzard Breath": {
+          "name": "暴雪吐息"
+        },
+        "Avalanche": {
+          "name": "Avalanche"
+        },
+        "Frozen Scales": {
+          "name": "冰封鳞甲"
+        },
+        "Momentum": {
+          "name": "动能"
+        }
+      }
+    },
+    "Hallowed Soldier": {
+      "name": "圣佑士兵",
+      "tokenName": "圣佑士兵",
+      "items": {
+        "Minion (13)": {
+          "name": "爪牙（13）"
+        },
+        "Divine Flight": {
+          "name": "神圣飞行"
+        },
+        "Group Attack": {
+          "name": "群体攻击"
+        }
+      }
+    },
+    "Sylvan Soldier": {
+      "name": "林地士兵",
+      "tokenName": "林地士兵",
+      "items": {
+        "Pack tactics": {
+          "name": "群猎战术"
+        },
+        "Forest Control": {
+          "name": "林地掌控"
+        },
+        "Blend In": {
+          "name": "融入环境"
+        }
+      }
+    },
+    "Merchant Baron": {
+      "name": "商贾巨头",
+      "tokenName": "商贾巨头",
+      "items": {
+        "Everyone Has a Price": {
+          "name": "人人皆有价码"
+        },
+        "The Best Muscle Money Can Buy": {
+          "name": "金钱买得到的最强打手"
+        }
+      }
+    },
+    "Arch-Necromancer": {
+      "name": "大死灵法师",
+      "tokenName": "大死灵法师",
+      "items": {
+        "Dance Of Death": {
+          "name": "死亡之舞"
+        },
+        "Beam Of Decay": {
+          "name": "衰朽射线"
+        },
+        "Open the Gates of Death": {
+          "name": "开启死亡之门"
+        },
+        "Not Today, My Dears": {
+          "name": "今天还不行，亲爱的们"
+        },
+        "Your Life Is Mine": {
+          "name": "你的生命归我"
+        }
+      }
+    },
+    "Vampire": {
+      "name": "吸血鬼",
+      "tokenName": "吸血鬼",
+      "items": {
+        "Draining Bite": {
+          "name": "吸血之咬"
+        },
+        "Mistform": {
+          "name": "雾化形态"
+        }
+      }
+    },
+    "Jagged Knife Shadow": {
+      "name": "锯刃帮影徒",
+      "tokenName": "锯刃帮影徒",
+      "items": {
+        "Backstab": {
+          "name": "背刺"
+        },
+        "Cloaked": {
+          "name": "隐蔽"
+        }
+      }
+    },
+    "Oak Treant": {
+      "name": "橡木树人",
+      "tokenName": "橡木树人",
+      "items": {
+        "Just a Tree": {
+          "name": "只是一棵树"
+        },
+        "Seed Barrage": {
+          "name": "种子齐射"
+        },
+        "Take Root": {
+          "name": "扎根"
+        }
+      }
+    },
+    "Tangle Bramble": {
+      "name": "纠缠荆棘",
+      "tokenName": "纠缠荆棘",
+      "items": {
+        "Minion (4)": {
+          "name": "爪牙（4）"
+        },
+        "Group Attack": {
+          "name": "群体攻击"
+        },
+        "Drain and Multiply": {
+          "name": "吸取并增殖"
+        }
+      }
+    },
+    "Zombie Legion": {
+      "name": "丧尸军团",
+      "tokenName": "丧尸军团",
+      "items": {
+        "Horde": {
+          "name": "群体"
+        },
+        "Unyielding": {
+          "name": "不屈不挠"
+        },
+        "Relentless (2)": {
+          "name": "无情（2）"
+        },
+        "Overwhelm": {
+          "name": "淹没压制"
+        }
+      }
+    },
+    "Shark": {
+      "name": "鲨鱼",
+      "tokenName": "鲨鱼",
+      "items": {
+        "Terrifying": {
+          "name": "骇人"
+        },
+        "Rending Bite": {
+          "name": "裂肉撕咬"
+        },
+        "Blood in the Water": {
+          "name": "水中见血"
+        }
+      }
+    },
+    "Giant Brawler": {
+      "name": "巨人斗士",
+      "tokenName": "巨人斗士",
+      "items": {
+        "Battering Ram": {
+          "name": "攻城槌"
+        },
+        "Bloody Reprisal": {
+          "name": "血腥反击"
+        },
+        "Momentum": {
+          "name": "动能"
+        }
+      }
+    },
+    "Weaponmaster": {
+      "name": "武器大师",
+      "tokenName": "武器大师",
+      "items": {
+        "Goading Strike": {
+          "name": "挑衅打击"
+        },
+        "Adrenaline Burst": {
+          "name": "肾上腺爆发"
+        },
+        "Momentum": {
+          "name": "动能"
+        }
+      }
+    },
+    "Courtesan": {
+      "name": "交际名媛",
+      "tokenName": "交际名媛",
+      "items": {
+        "Searing Glance": {
+          "name": "灼人一瞥"
+        }
+      }
+    },
+    "Tiny Green Ooze": {
+      "name": "微型绿色软泥",
+      "tokenName": "微型绿色软泥",
+      "items": {
+        "Acidic Form": {
+          "name": "酸蚀形体"
+        }
+      }
+    },
+    "Jagged Knife Lieutenant": {
+      "name": "锯刃帮副官",
+      "tokenName": "锯刃帮副官",
+      "items": {
+        "Tactician": {
+          "name": "战术家"
+        },
+        "More Where That Came From": {
+          "name": "还会有更多"
+        },
+        "Coup de Grace": {
+          "name": "致命补刀"
+        },
+        "Momentum": {
+          "name": "动能"
+        }
+      }
+    },
+    "Oracle of Doom": {
+      "name": "厄兆神谕者",
+      "tokenName": "厄兆神谕者",
+      "items": {
+        "Terrifying": {
+          "name": "骇人"
+        },
+        "Walls Closing In": {
+          "name": "高墙逼近"
+        },
+        "Pronounce Fate": {
+          "name": "宣告命运"
+        },
+        "Summon Tormentors": {
+          "name": "召唤折磨者"
+        },
+        "Ominous Knowledge": {
+          "name": "不祥知识"
+        },
+        "Vengeful Fate": {
+          "name": "复仇命运"
+        }
+      }
+    },
+    "Elite Soldier": {
+      "name": "精锐士兵",
+      "tokenName": "精锐士兵",
+      "items": {
+        "Reinforce": {
+          "name": "增援巩固"
+        },
+        "Vassal's Loyalty": {
+          "name": "封臣忠诚"
+        }
+      }
+    },
+    "Sellsword": {
+      "name": "佣兵",
+      "tokenName": "佣兵",
+      "items": {
+        "Minion (4)": {
+          "name": "爪牙（4）"
+        },
+        "Group Attack": {
+          "name": "群体攻击"
+        }
+      }
+    },
+    "Vault Guardian Turret": {
+      "name": "宝库守卫炮台",
+      "tokenName": "宝库守卫炮台",
+      "items": {
+        "Slow Firing": {
+          "name": "慢速射击"
+        },
+        "Mark Target": {
+          "name": "标记目标"
+        },
+        "Concentrate Fire": {
+          "name": "集中火力"
+        },
+        "Detonation": {
+          "name": "引爆"
+        }
+      }
+    },
+    "Master Assassin": {
+      "name": "刺客大师",
+      "tokenName": "刺客大师",
+      "items": {
+        "Won't See it Coming": {
+          "name": "看不见的杀机"
+        },
+        "Strike as One": {
+          "name": "协同一击"
+        },
+        "The Subtle Blade": {
+          "name": "隐秘之刃"
+        },
+        "Momentum": {
+          "name": "动能"
+        }
+      }
+    },
+    "Battle Box": {
+      "name": "战斗方匣",
+      "tokenName": "战斗方匣",
+      "items": {
+        "Relentless (2)": {
+          "name": "无情（2）"
+        },
+        "Randomized Tactics": {
+          "name": "随机战术"
+        },
+        "Mana Beam": {
+          "name": "法力射线"
+        },
+        "Fire Jets": {
+          "name": "火焰喷流"
+        },
+        "Trample": {
+          "name": "践踏"
+        },
+        "Shocking Gas": {
+          "name": "震击毒气"
+        },
+        "Stunning Clap": {
+          "name": "震慑拍击"
+        },
+        "Psionic Whine": {
+          "name": "灵能尖啸"
+        },
+        "Overcharge": {
+          "name": "过载"
+        },
+        "Death Quake": {
+          "name": "死亡震波"
+        }
+      }
+    },
+    "Greater Earth Elemental": {
+      "name": "强大土元素",
+      "tokenName": "强大土元素",
+      "items": {
+        "Slow": {
+          "name": "迟缓"
+        },
+        "Crushing Blows": {
+          "name": "粉碎重击"
+        },
+        "Immovable Object": {
+          "name": "不可动摇之物"
+        },
+        "Rockslide": {
+          "name": "落石滑坡"
+        },
+        "Momentum": {
+          "name": "动能"
+        }
+      }
+    },
+    "Volcanic Dragon: Molten Scourge": {
+      "name": "火山龙：熔灾之祸",
+      "tokenName": "火山龙：熔灾之祸",
+      "items": {
+        "Relentless (3)": {
+          "name": "无情（3）"
+        },
+        "Cracked Scales": {
+          "name": "龟裂鳞甲"
+        },
+        "Shattering Might": {
+          "name": "粉碎之力"
+        },
+        "Eruption": {
+          "name": "喷发"
+        },
+        "Volcanic Breath": {
+          "name": "火山吐息"
+        },
+        "Lava Splash": {
+          "name": "熔岩飞溅"
+        },
+        "Ashen Vengeance": {
+          "name": "灰烬复仇"
+        }
+      }
+    },
+    "Giant Scorpion": {
+      "name": "巨型蝎子",
+      "tokenName": "巨型蝎子",
+      "items": {
+        "Double Strike": {
+          "name": "双重打击"
+        },
+        "Venomous Stinger": {
+          "name": "毒刺"
+        },
+        "Momentum": {
+          "name": "动能"
+        }
+      }
+    },
+    "Rotted Zombie": {
+      "name": "腐烂丧尸",
+      "tokenName": "腐烂丧尸",
+      "items": {
+        "Minion (3)": {
+          "name": "爪牙（3）"
+        },
+        "Group Attack": {
+          "name": "群体攻击"
+        }
+      }
+    },
+    "Assassin Poisoner": {
+      "name": "刺客毒师",
+      "tokenName": "刺客毒师",
+      "items": {
+        "Grindletooth Venom": {
+          "name": "碎齿毒液"
+        },
+        "Assassin Poisoner": {
+          "name": "刺客毒师"
+        },
+        "Fumigation": {
+          "name": "毒烟熏蒸"
+        }
+      }
+    },
+    "Fallen Warlord: Realm-Breaker": {
+      "name": "堕落军阀：破界者",
+      "tokenName": "堕落军阀：破界者",
+      "items": {
+        "Relentless (2)": {
+          "name": "无情（2）"
+        },
+        "Firespite Plate Armor": {
+          "name": "火怨板甲"
+        },
+        "Tormenting Lash": {
+          "name": "折磨鞭挞"
+        },
+        "All-Consuming Rage": {
+          "name": "吞尽一切的怒火"
+        },
+        "Doombringer": {
+          "name": "末日使者"
+        },
+        "I Have Never Known Defeat": {
+          "name": "我从未尝过败北"
+        }
+      }
+    },
+    "Head Vampire": {
+      "name": "吸血鬼首领",
+      "tokenName": "吸血鬼首领",
+      "items": {
+        "Terrifying": {
+          "name": "骇人"
+        },
+        "Look into My Eyes": {
+          "name": "看着我的眼睛"
+        },
+        "Feed on Followers": {
+          "name": "吞噬追随者"
+        },
+        "The Hunt Is On": {
+          "name": "狩猎开始"
+        },
+        "Lifesuck": {
+          "name": "吸命"
+        }
+      }
+    },
+    "Chaos Skull": {
+      "name": "混沌骷髅",
+      "tokenName": "混沌骷髅",
+      "items": {
+        "Levitation": {
+          "name": "漂浮"
+        },
+        "Wards": {
+          "name": "结界"
+        },
+        "Magic Burst": {
+          "name": "魔力爆发"
+        },
+        "Siphon Magic": {
+          "name": "虹吸魔法"
+        }
+      }
+    },
+    "Demon of Despair": {
+      "name": "绝望之魔",
+      "tokenName": "绝望之魔",
+      "items": {
+        "Depths of Despair": {
+          "name": "绝望深渊"
+        },
+        "Your Struggle is Pointless": {
+          "name": "你的挣扎毫无意义"
+        },
+        "Your Friends Will Fail You": {
+          "name": "你的朋友会辜负你"
+        },
+        "Momentum": {
+          "name": "动能"
+        }
+      }
+    },
+    "Hallowed Archer": {
+      "name": "圣佑弓手",
+      "tokenName": "圣佑弓手",
+      "items": {
+        "Punish the Guilty": {
+          "name": "惩戒有罪者"
+        },
+        "Divine Volley": {
+          "name": "神圣齐射"
+        }
+      }
+    },
+    "Volcanic Dragon: Obsidian Predator": {
+      "name": "火山龙：黑曜猎杀者",
+      "tokenName": "火山龙：黑曜猎杀者",
+      "items": {
+        "Relentless (2)": {
+          "name": "无情（2）"
+        },
+        "Flying": {
+          "name": "飞行"
+        },
+        "Obsidian Scales": {
+          "name": "黑曜鳞甲"
+        },
+        "Avalanche Tail": {
+          "name": "雪崩尾击"
+        },
+        "Dive-Bomb": {
+          "name": "俯冲轰炸"
+        },
+        "Erupting Rage": {
+          "name": "喷发之怒"
+        }
+      }
+    },
+    "Spellblade": {
+      "name": "魔剑士",
+      "tokenName": "魔剑士",
+      "items": {
+        "Arcane Steel": {
+          "name": "奥术钢刃"
+        },
+        "Supressing Blast": {
+          "name": "压制冲击"
+        },
+        "Move as a Unit": {
+          "name": "协同行动"
+        },
+        "Momentum": {
+          "name": "动能"
+        }
+      }
+    },
+    "Head Guard": {
+      "name": "卫队长",
+      "tokenName": "卫队长",
+      "items": {
+        "Rally Guards": {
+          "name": "集结卫兵"
+        },
+        "On My Signal": {
+          "name": "听我号令"
+        },
+        "Momentum": {
+          "name": "动能"
+        }
+      }
+    },
+    "Mortal Hunter": {
+      "name": "凡世猎手",
+      "tokenName": "凡世猎手",
+      "items": {
+        "Terrifying": {
+          "name": "骇人"
+        },
+        "Deathlock": {
+          "name": "死亡锁定"
+        },
+        "Inevitable Death": {
+          "name": "不可避免的死亡"
+        },
+        "Rampage": {
+          "name": "狂暴践踏"
+        }
+      }
+    },
+    "Pirate Tough": {
+      "name": "海盗悍匪",
+      "tokenName": "海盗悍匪",
+      "items": {
+        "Swashbuckler": {
+          "name": "豪侠剑客"
+        },
+        "Clear the Decks": {
+          "name": "清理甲板"
+        }
+      }
+    },
+    "Outer Realms Thrall": {
+      "name": "外域奴仆",
+      "tokenName": "外域奴仆",
+      "items": {
+        "Minion (13)": {
+          "name": "爪牙（13）"
+        },
+        "Group Attack": {
+          "name": "群体攻击"
+        }
+      }
+    },
+    "Outer Realms Corrupter": {
+      "name": "外域腐化者",
+      "tokenName": "外域腐化者",
+      "items": {
+        "Will-Shattering Touch": {
+          "name": "意志粉碎之触"
+        },
+        "Disgorge Realiy Flotsam": {
+          "name": "吐出现实残渣"
+        }
+      }
+    },
+    "Masked Thief": {
+      "name": "面具窃贼",
+      "tokenName": "面具窃贼",
+      "items": {
+        "Quick Hands": {
+          "name": "快手"
+        },
+        "Escape Plan": {
+          "name": "脱身计划"
+        }
+      }
+    },
+    "War Wizard": {
+      "name": "战争法师",
+      "tokenName": "战争法师",
+      "items": {
+        "Battle Teleport": {
+          "name": "战斗传送"
+        },
+        "Refresh Warding Sphere": {
+          "name": "刷新护卫法球"
+        },
+        "Eruption": {
+          "name": "喷发"
+        },
+        "Arcane Artillery": {
+          "name": "奥术火炮"
+        },
+        "Warding Sphere": {
+          "name": "护卫法球"
+        }
+      }
+    },
+    "Treant Sapling": {
+      "name": "树人幼苗",
+      "tokenName": "树人幼苗",
+      "items": {
+        "Minion (6)": {
+          "name": "爪牙（6）"
+        },
+        "Group Attack": {
+          "name": "群体攻击"
+        }
+      }
+    },
+    "Volcanic Dragon: Ashen Tyrant": {
+      "name": "火山龙：灰烬暴君",
+      "tokenName": "火山龙：灰烬暴君",
+      "items": {
+        "Relentless (4)": {
+          "name": "无情（4）"
+        },
+        "Cornered": {
+          "name": "困兽之斗"
+        },
+        "Injured Wings": {
+          "name": "受伤之翼"
+        },
+        "Ashes to Ashes": {
+          "name": "化为灰烬"
+        },
+        "Desperate Rampage": {
+          "name": "绝望狂袭"
+        },
+        "Ashen Cloud": {
+          "name": "灰烬之云"
+        },
+        "Apocalyptic Thrasing": {
+          "name": "末日狂挞"
+        }
+      }
+    },
+    "Demon of Avarice": {
+      "name": "贪婪之魔",
+      "tokenName": "贪婪之魔",
+      "items": {
+        "Money Talks": {
+          "name": "有钱能使鬼推磨"
+        },
+        "Number Must Go Up": {
+          "name": "数字必须上涨"
+        },
+        "Money Is Time": {
+          "name": "金钱就是时间"
+        }
+      }
+    },
+    "Swarm of Rats": {
+      "name": "鼠群",
+      "tokenName": "鼠群",
+      "items": {
+        "Horde (1d4+1)": {
+          "name": "群体（1d4+1）"
+        },
+        "In Your Face": {
+          "name": "扑到脸上"
+        }
+      }
+    },
+    "High Seraph": {
+      "name": "高阶炽天使",
+      "tokenName": "高阶炽天使",
+      "items": {
+        "Relentless (3)": {
+          "name": "无情（3）"
+        },
+        "Divine Flight": {
+          "name": "神圣飞行"
+        },
+        "Judgement": {
+          "name": "审判"
+        },
+        "God Rays": {
+          "name": "神圣光芒"
+        },
+        "We Are One": {
+          "name": "吾等同心"
+        }
+      }
+    },
+    "Minotaur Wrecker": {
+      "name": "牛头人破坏者",
+      "tokenName": "牛头人破坏者",
+      "items": {
+        "Ramp Up": {
+          "name": "愈战愈勇"
+        },
+        "Charging Bull": {
+          "name": "蛮牛冲撞"
+        },
+        "Gore": {
+          "name": "穿刺"
+        }
+      }
+    },
+    "Secret-Keeper": {
+      "name": "秘守者",
+      "tokenName": "秘守者",
+      "items": {
+        "Seize Your Moment": {
+          "name": "抓住你的时机"
+        },
+        "Our Master's Will": {
+          "name": "遵奉主人意志"
+        },
+        "Summoning Ritual": {
+          "name": "召唤仪式"
+        },
+        "Fallen Hounds": {
+          "name": "堕落猎犬"
+        }
+      }
+    },
+    "Minor Chaos Elemental": {
+      "name": "小型混沌元素",
+      "tokenName": "小型混沌元素",
+      "items": {
+        "Arcane Form": {
+          "name": "奥术形态"
+        },
+        "Sickening Flux": {
+          "name": "恶心乱流"
+        },
+        "Remake Reality": {
+          "name": "重塑现实"
+        },
+        "Magical Reflection": {
+          "name": "魔法反射"
+        },
+        "Momentum": {
+          "name": "动能"
+        }
+      }
+    },
+    "Dire Bat": {
+      "name": "恐蝠",
+      "tokenName": "恐蝠",
+      "items": {
+        "Flying": {
+          "name": "飞行"
+        },
+        "Screech": {
+          "name": "尖啸"
+        },
+        "Guardian": {
+          "name": "守护者"
+        }
+      }
+    },
+    "Cult Fang": {
+      "name": "邪教利牙",
+      "tokenName": "邪教利牙",
+      "items": {
+        "Shadow's Embrace": {
+          "name": "暗影拥抱"
+        },
+        "Pick Off the Straggler": {
+          "name": "猎杀掉队者"
+        }
+      }
+    },
+    "Construct": {
+      "name": "构装体",
+      "tokenName": "构装体",
+      "items": {
+        "Relentless (2)": {
+          "name": "无情（2）"
+        },
+        "Weak Structure": {
+          "name": "脆弱结构"
+        },
+        "Trample": {
+          "name": "践踏"
+        },
+        "Overload": {
+          "name": "过载"
+        },
+        "Death Quake": {
+          "name": "死亡震波"
+        }
+      }
+    },
+    "Harrier": {
+      "name": "游击袭扰者",
+      "tokenName": "游击袭扰者",
+      "items": {
+        "Maintain Distance": {
+          "name": "保持距离"
+        },
+        "Fall Back": {
+          "name": "后撤"
+        }
+      }
+    },
+    "Apprentice Assassin": {
+      "name": "见习刺客",
+      "tokenName": "见习刺客",
+      "items": {
+        "Minion (6)": {
+          "name": "爪牙（6）"
+        },
+        "Group Attack": {
+          "name": "群体攻击"
+        }
+      }
+    },
+    "Dire Wolf": {
+      "name": "恐狼",
+      "tokenName": "恐狼",
+      "items": {
+        "Pack tactics": {
+          "name": "群猎战术"
+        },
+        "Hobbling Strike": {
+          "name": "Hobbling Strike"
+        }
+      }
+    },
+    "Dryad": {
+      "name": "树灵",
+      "tokenName": "树灵",
+      "items": {
+        "Bramble Patch": {
+          "name": "荆棘地"
+        },
+        "Grow Saplings": {
+          "name": "催生幼苗"
+        },
+        "We Are All One": {
+          "name": "我们本为一体"
+        }
+      }
+    },
+    "Petty Noble": {
+      "name": "小贵族",
+      "tokenName": "小贵族",
+      "items": {
+        "My Land, My Rules": {
+          "name": "我的领地，我的规矩"
+        },
+        "Guards, Seize Them!": {
+          "name": "卫兵，拿下他们！"
+        },
+        "Exile": {
+          "name": "放逐"
+        }
+      }
+    },
+    "Greater Water Elemental": {
+      "name": "强大水元素",
+      "tokenName": "强大水元素",
+      "items": {
+        "Water Jet": {
+          "name": "水流喷射"
+        },
+        "Drowning Embrace": {
+          "name": "溺亡拥抱"
+        },
+        "High Tide": {
+          "name": "高潮"
+        }
+      }
+    },
+    "Monarch": {
+      "name": "君主",
+      "tokenName": "君主",
+      "items": {
+        "Execute Them": {
+          "name": "处决他们"
+        },
+        "Crownsguard": {
+          "name": "王冠近卫"
+        },
+        "Casus Belli": {
+          "name": "宣战理由"
+        }
+      }
+    },
+    "Cult Initiate": {
+      "name": "邪教新徒",
+      "tokenName": "邪教新徒",
+      "items": {
+        "Minion (6)": {
+          "name": "爪牙（6）"
+        },
+        "Group Attack": {
+          "name": "群体攻击"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,593 @@
+{
+  "label": "Domains",
+  "folders": {
+    "Level 1": "1级",
+    "Arcana": "奥术",
+    "Level 2": "2级",
+    "Level 3": "3级",
+    "Level 4": "4级",
+    "Level 5": "5级",
+    "Level 6": "6级",
+    "Level 7": "7级",
+    "Level 8": "8级",
+    "Level 9": "9级",
+    "Blade": "锋刃",
+    "Bone": "骸骨",
+    "Codex": "典籍",
+    "Grace": "灵巧",
+    "Midnight": "午夜",
+    "Level 10": "10级",
+    "Sage": "智者",
+    "Valor": "勇武",
+    "Splendor": "辉辉"
+  },
+  "entries": {
+    "Forager": {
+      "name": "觅食者"
+    },
+    "Chain Lightning": {
+      "name": "连锁闪电"
+    },
+    "Phantom Retreat": {
+      "name": "幻影撤退"
+    },
+    "Wall Walk": {
+      "name": "踏墙而行"
+    },
+    "Book of Tyfar": {
+      "name": "提法尔之书"
+    },
+    "Preservation Blast": {
+      "name": "守护冲击"
+    },
+    "Hypnotic Shimmer": {
+      "name": "催眠微光"
+    },
+    "Reckless": {
+      "name": "鲁莽"
+    },
+    "Deft Deceiver": {
+      "name": "灵巧欺瞒者"
+    },
+    "Copycat": {
+      "name": "模仿者"
+    },
+    "Gore and Glory": {
+      "name": "血与荣耀"
+    },
+    "Salvation Beam": {
+      "name": "救赎光束"
+    },
+    "Flight": {
+      "name": "飞行"
+    },
+    "Cinder Grasp": {
+      "name": "余烬之握"
+    },
+    "Arcana-Touched": {
+      "name": "奥术感应"
+    },
+    "Strategic Approach": {
+      "name": "战略应对"
+    },
+    "Scramble": {
+      "name": "混战突围"
+    },
+    "Eclipse": {
+      "name": "蚀暗"
+    },
+    "Counterspell": {
+      "name": "反制法术"
+    },
+    "Codex-Touched": {
+      "name": "典籍感应"
+    },
+    "Through Your Eyes": {
+      "name": "借你之眼"
+    },
+    "Breaking Blow": {
+      "name": "破防重击"
+    },
+    "Share the Burden": {
+      "name": "分担重负"
+    },
+    "Wrangle": {
+      "name": "制伏"
+    },
+    "Untouchable": {
+      "name": "不可触及"
+    },
+    "Plant Dominion": {
+      "name": "植物支配"
+    },
+    "Wild Fortress": {
+      "name": "荒野堡垒"
+    },
+    "Shadowhunter": {
+      "name": "影猎者"
+    },
+    "Critical Inspiration": {
+      "name": "关键激励"
+    },
+    "Banish": {
+      "name": "放逐"
+    },
+    "Thought Delver": {
+      "name": "思维探掘者"
+    },
+    "Glyph of Nightfall": {
+      "name": "夜幕符印"
+    },
+    "Get Back Up": {
+      "name": "重新站起"
+    },
+    "Bolt Beacon": {
+      "name": "雷矢信标"
+    },
+    "Lean on Me": {
+      "name": "依靠我吧"
+    },
+    "Earthquake": {
+      "name": "地震"
+    },
+    "Unbreakable": {
+      "name": "坚不可摧"
+    },
+    "Wild Surge": {
+      "name": "野性涌动"
+    },
+    "Battle Cry": {
+      "name": "战吼"
+    },
+    "Fane of the Wilds": {
+      "name": "荒野圣所"
+    },
+    "Midnight Spirit": {
+      "name": "午夜之灵"
+    },
+    "Telekinesis": {
+      "name": "念动力"
+    },
+    "Vanishing Dodge": {
+      "name": "消隐闪避"
+    },
+    "Rune Ward": {
+      "name": "符文护卫"
+    },
+    "Rage Up": {
+      "name": "激怒"
+    },
+    "Blade-Touched": {
+      "name": "锋刃感应"
+    },
+    "Healing Field": {
+      "name": "疗愈领域"
+    },
+    "Swift Step": {
+      "name": "迅步"
+    },
+    "Tell No Lies": {
+      "name": "不得妄言"
+    },
+    "Pick and Pull": {
+      "name": "勾扯"
+    },
+    "Teleport": {
+      "name": "传送"
+    },
+    "Rejuvenation Barrier": {
+      "name": "复苏屏障"
+    },
+    "Goad Them On": {
+      "name": "激将"
+    },
+    "Onslaught": {
+      "name": "猛攻"
+    },
+    "Notorious": {
+      "name": "恶名昭著"
+    },
+    "Book of Yarrow": {
+      "name": "雅罗之书"
+    },
+    "Splendor-Touched": {
+      "name": "辉辉感应"
+    },
+    "Conjured Steeds": {
+      "name": "召唤坐骑"
+    },
+    "Troublemaker": {
+      "name": "惹事者"
+    },
+    "Forest Sprites": {
+      "name": "森林精灵"
+    },
+    "Shrug It Off": {
+      "name": "甩开伤势"
+    },
+    "Arcane Reflection": {
+      "name": "奥术反射"
+    },
+    "Divination": {
+      "name": "占卜"
+    },
+    "Grace-Touched": {
+      "name": "灵巧感应"
+    },
+    "Invisibility": {
+      "name": "隐形"
+    },
+    "I Am Your Shield": {
+      "name": "我是你的盾"
+    },
+    "I See It Coming": {
+      "name": "我已看穿"
+    },
+    "Signature Move": {
+      "name": "招牌动作"
+    },
+    "Force of Nature": {
+      "name": "自然之力"
+    },
+    "Reaper’s Strike": {
+      "name": "死神打击"
+    },
+    "Frenzy": {
+      "name": "狂乱"
+    },
+    "Never Upstaged": {
+      "name": "绝不失彩"
+    },
+    "Stealth Expertise": {
+      "name": "潜行专精"
+    },
+    "Final Words": {
+      "name": "临终遗言"
+    },
+    "Battle-Hardened": {
+      "name": "久经战阵"
+    },
+    "Know Thy Enemy": {
+      "name": "知己知彼"
+    },
+    "Bone-Touched": {
+      "name": "骸骨感应"
+    },
+    "Life Ward": {
+      "name": "生命守护"
+    },
+    "Battle Monster": {
+      "name": "战场猛兽"
+    },
+    "Soothing Speech": {
+      "name": "抚慰之言"
+    },
+    "Brace": {
+      "name": "架势稳固"
+    },
+    "Blink Out": {
+      "name": "闪现脱离"
+    },
+    "Book of Grynn": {
+      "name": "格林之书"
+    },
+    "Chokehold": {
+      "name": "锁喉"
+    },
+    "Confusing Aura": {
+      "name": "迷乱光环"
+    },
+    "Sigil of Retribution": {
+      "name": "惩戒印记"
+    },
+    "Twilight Toll": {
+      "name": "暮光丧钟"
+    },
+    "Book of Ronin": {
+      "name": "罗宁之书"
+    },
+    "Full Surge": {
+      "name": "全力涌动"
+    },
+    "Mending Touch": {
+      "name": "修复之触"
+    },
+    "Uncanny Disguise": {
+      "name": "奇诡伪装"
+    },
+    "Splintering Strike": {
+      "name": "裂伤打击"
+    },
+    "Natural Familiar": {
+      "name": "自然魔宠"
+    },
+    "Manifest Wall": {
+      "name": "显化之墙"
+    },
+    "Smite": {
+      "name": "惩击"
+    },
+    "Rain of Blades": {
+      "name": "刃雨"
+    },
+    "Boost": {
+      "name": "强化"
+    },
+    "Book of Vyola": {
+      "name": "薇欧拉之书"
+    },
+    "Sage-Touched": {
+      "name": "智者感应"
+    },
+    "Gifted Tracker": {
+      "name": "天赋追踪者"
+    },
+    "Tactician": {
+      "name": "战术家"
+    },
+    "Healing Hands": {
+      "name": "疗愈之手"
+    },
+    "Ground Pound": {
+      "name": "震地猛击"
+    },
+    "Book of Norai": {
+      "name": "诺莱之书"
+    },
+    "Tempest": {
+      "name": "风暴"
+    },
+    "Invigoration": {
+      "name": "振奋"
+    },
+    "Inevitable": {
+      "name": "势不可挡"
+    },
+    "Healing Strike": {
+      "name": "疗愈打击"
+    },
+    "A Soldier’s Bond": {
+      "name": "战士誓约"
+    },
+    "Astral Projection": {
+      "name": "星界投射"
+    },
+    "Lead by Example": {
+      "name": "以身作则"
+    },
+    "Book of Ava": {
+      "name": "艾娃之书"
+    },
+    "Cloaking Blast": {
+      "name": "蔽影冲击"
+    },
+    "Words of Discord": {
+      "name": "离间之言"
+    },
+    "Adjust Reality": {
+      "name": "校正现实"
+    },
+    "Enrapture": {
+      "name": "迷醉"
+    },
+    "Premonition": {
+      "name": "预感"
+    },
+    "Body Basher": {
+      "name": "肉身冲撞"
+    },
+    "Book of Vagras": {
+      "name": "瓦格拉斯之书"
+    },
+    "Whirlwind": {
+      "name": "旋风斩"
+    },
+    "Nature’s Tongue": {
+      "name": "自然之语"
+    },
+    "Cruel Precision": {
+      "name": "残酷精准"
+    },
+    "Book of Korvax": {
+      "name": "科瓦克斯之书"
+    },
+    "Inspirational Words": {
+      "name": "激励之言"
+    },
+    "Armorer": {
+      "name": "军械师"
+    },
+    "Mass Disguise": {
+      "name": "群体伪装"
+    },
+    "Shape Material": {
+      "name": "塑形材料"
+    },
+    "Deft Maneuvers": {
+      "name": "灵巧机动"
+    },
+    "Book of Illiat": {
+      "name": "伊利亚特之书"
+    },
+    "Book of Sitil": {
+      "name": "西提尔之书"
+    },
+    "Spellcharge": {
+      "name": "法能充盈"
+    },
+    "Redirect": {
+      "name": "转导"
+    },
+    "Second Wind": {
+      "name": "第二风息"
+    },
+    "Book of Homet": {
+      "name": "霍梅特之书"
+    },
+    "Veil of Night": {
+      "name": "夜之帷幕"
+    },
+    "Sensory Projection": {
+      "name": "感官投射"
+    },
+    "Recovery": {
+      "name": "恢复"
+    },
+    "Hush": {
+      "name": "噤声"
+    },
+    "Falling Sky": {
+      "name": "陨天"
+    },
+    "Overwhelming Aura": {
+      "name": "压制光环"
+    },
+    "Specter of the Dark": {
+      "name": "黑暗幽魂"
+    },
+    "Reassurance": {
+      "name": "宽慰"
+    },
+    "Ferocity": {
+      "name": "凶猛"
+    },
+    "Valor-Touched": {
+      "name": "勇武感应"
+    },
+    "Transcendent Union": {
+      "name": "超凡合一"
+    },
+    "Hold the Line": {
+      "name": "坚守阵线"
+    },
+    "Shadowbind": {
+      "name": "缚影"
+    },
+    "Disintegration Wave": {
+      "name": "解离波"
+    },
+    "Encore": {
+      "name": "返场"
+    },
+    "Bare Bones": {
+      "name": "白骨之躯"
+    },
+    "Zone of Protection": {
+      "name": "守护领域"
+    },
+    "Stunning Sunlight": {
+      "name": "炫目日光"
+    },
+    "Safe Haven": {
+      "name": "避风港"
+    },
+    "Towering Stalk": {
+      "name": "巨茎高塔"
+    },
+    "Glancing Blow": {
+      "name": "擦掠一击"
+    },
+    "Unleash Chaos": {
+      "name": "释放混沌"
+    },
+    "Rise Up": {
+      "name": "奋起"
+    },
+    "Thorn Skin": {
+      "name": "荆棘之肤"
+    },
+    "Fortified Armor": {
+      "name": "坚固装甲"
+    },
+    "Book of Exota": {
+      "name": "艾克索塔之书"
+    },
+    "Rousing Strike": {
+      "name": "振奋打击"
+    },
+    "Corrosive Projectile": {
+      "name": "腐蚀飞弹"
+    },
+    "Vicious Entangle": {
+      "name": "恶缠"
+    },
+    "Conjure Swarm": {
+      "name": "召来蜂群"
+    },
+    "Shield Aura": {
+      "name": "护盾光环"
+    },
+    "Champion’s Edge": {
+      "name": "冠军锋芒"
+    },
+    "Unyielding Armor": {
+      "name": "不屈护甲"
+    },
+    "Vitality": {
+      "name": "活力"
+    },
+    "Support Tank": {
+      "name": "支援壁垒"
+    },
+    "Voice of Reason": {
+      "name": "理智之声"
+    },
+    "Endless Charisma": {
+      "name": "无尽魅力"
+    },
+    "Rapid Riposte": {
+      "name": "迅捷还击"
+    },
+    "Bold Presence": {
+      "name": "无畏气场"
+    },
+    "Midnight-Touched": {
+      "name": "午夜感应"
+    },
+    "Mass Enrapture": {
+      "name": "群体迷醉"
+    },
+    "Rift Walker": {
+      "name": "裂隙行者"
+    },
+    "Floating Eye": {
+      "name": "浮游之眼"
+    },
+    "Versatile Fighter": {
+      "name": "全能战士"
+    },
+    "Restoration": {
+      "name": "复原"
+    },
+    "Death Grip": {
+      "name": "死亡之握"
+    },
+    "Deathrun": {
+      "name": "亡命奔袭"
+    },
+    "Not Good Enough": {
+      "name": "还不够好"
+    },
+    "Deadly Focus": {
+      "name": "致命专注"
+    },
+    "Master of the Craft": {
+      "name": "技艺大师"
+    },
+    "Dark Whispers": {
+      "name": "黑暗低语"
+    },
+    "Resurrection": {
+      "name": "复活"
+    },
+    "Forceful Push": {
+      "name": "强力推击"
+    },
+    "On the Brink": {
+      "name": "濒危边缘"
+    },
+    "Night Terror": {
+      "name": "夜魇"
+    }
+  }
+}

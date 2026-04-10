@@ -1,0 +1,117 @@
+{
+  "label": "Armors",
+  "folders": {
+    "Tier 4": "第4阶",
+    "Tier 1": "第1阶",
+    "Tier 2": "第2阶",
+    "Tier 3": "第3阶",
+    "Special": "特殊"
+  },
+  "entries": {
+    "Full Fortified Armor": {
+      "name": "全覆式坚固护甲"
+    },
+    "Savior Chainmail": {
+      "name": "救世者锁子甲"
+    },
+    "Improved Full Plate Armor": {
+      "name": "改良全身板甲"
+    },
+    "Monett's Cloak": {
+      "name": "莫内特的披风"
+    },
+    "Legendary Chainmail Armor": {
+      "name": "传奇锁子甲"
+    },
+    "Bare Bones": {
+      "name": "白骨护甲"
+    },
+    "Improved Chainmail Armor": {
+      "name": "改良锁子甲"
+    },
+    "Advanced Chainmail Armor": {
+      "name": "高级锁子甲"
+    },
+    "Veritas Opal Armor": {
+      "name": "维里塔斯欧泊甲"
+    },
+    "Runes of Fortification": {
+      "name": "坚固符文"
+    },
+    "Tyris Soft Armor": {
+      "name": "提里斯软甲"
+    },
+    "Elundrian Chain Armor": {
+      "name": "艾伦德里安链甲"
+    },
+    "Spiked Plate Armor": {
+      "name": "尖刺板甲"
+    },
+    "Legendary Full Plate Armor": {
+      "name": "传奇全身板甲"
+    },
+    "Legendary Leather Armor": {
+      "name": "传奇皮甲"
+    },
+    "Full Plate Armor": {
+      "name": "全身板甲"
+    },
+    "Bellamoi Fine Armor": {
+      "name": "贝拉莫伊精制甲"
+    },
+    "Emberwoven Armor": {
+      "name": "烬织护甲"
+    },
+    "Legendary Gambeson Armor": {
+      "name": "传奇棉甲"
+    },
+    "Advanced Full Plate Armor": {
+      "name": "高级全身板甲"
+    },
+    "Harrowbone Armor": {
+      "name": "骇骨护甲"
+    },
+    "Advanced Gambeson Armor": {
+      "name": "高级棉甲"
+    },
+    "Dunamis Silkchain": {
+      "name": "杜纳米斯丝链甲"
+    },
+    "Chainmail Armor": {
+      "name": "锁子甲"
+    },
+    "Advanced Leather Armor": {
+      "name": "高级皮甲"
+    },
+    "Improved Gambeson Armor": {
+      "name": "改良棉甲"
+    },
+    "Bladefare Armor": {
+      "name": "锋旅护甲"
+    },
+    "Dragonscale Armor": {
+      "name": "龙鳞甲"
+    },
+    "Leather Armor": {
+      "name": "皮甲"
+    },
+    "Improved Leather Armor": {
+      "name": "改良皮甲"
+    },
+    "Runetan Floating Armor": {
+      "name": "鲁内坦浮游甲"
+    },
+    "Rosewild Armor": {
+      "name": "玫野护甲"
+    },
+    "Irontree Breastplate Armor": {
+      "name": "铁树胸甲"
+    },
+    "Channeling Armor": {
+      "name": "导能护甲"
+    },
+    "Gambeson Armor": {
+      "name": "棉甲"
+    }
+  }
+}

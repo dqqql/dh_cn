@@ -1,0 +1,170 @@
+{
+  "label": "Ancestry",
+  "folders": {
+    "Ancestry Features": "血统特性"
+  },
+  "entries": {
+    "Quick Reactions": {
+      "name": "快速反应"
+    },
+    "Increased Fortitude": {
+      "name": "强化韧性"
+    },
+    "Efficient": {
+      "name": "高效"
+    },
+    "Simiah": {
+      "name": "西弥亚"
+    },
+    "Giant": {
+      "name": "巨人"
+    },
+    "Nimble": {
+      "name": "灵巧"
+    },
+    "Sturdy": {
+      "name": "结实"
+    },
+    "Luckbringer": {
+      "name": "携福者"
+    },
+    "Fungril Network": {
+      "name": "菌群网络"
+    },
+    "Shell": {
+      "name": "甲壳"
+    },
+    "Charge": {
+      "name": "冲锋"
+    },
+    "Danger Sense": {
+      "name": "危险感知"
+    },
+    "Adaptability": {
+      "name": "适应力"
+    },
+    "Halfling": {
+      "name": "半身人"
+    },
+    "Orc": {
+      "name": "兽人"
+    },
+    "Goblin": {
+      "name": "地精"
+    },
+    "Unshakeable": {
+      "name": "坚定不移"
+    },
+    "Amphibious": {
+      "name": "两栖"
+    },
+    "High Stamina": {
+      "name": "高耐力"
+    },
+    "Faun": {
+      "name": "羊蹄人"
+    },
+    "Ribbet": {
+      "name": "里贝特"
+    },
+    "Fearless": {
+      "name": "无惧"
+    },
+    "Fungril": {
+      "name": "芬格里尔"
+    },
+    "Thick Skin": {
+      "name": "厚皮"
+    },
+    "Celestial Trance": {
+      "name": "天界冥想"
+    },
+    "Luckbender": {
+      "name": "扭运者"
+    },
+    "Retract": {
+      "name": "缩入"
+    },
+    "Drakona": {
+      "name": "德拉科纳"
+    },
+    "Reach": {
+      "name": "长臂"
+    },
+    "Wings": {
+      "name": "羽翼"
+    },
+    "Death Connection": {
+      "name": "死亡连结"
+    },
+    "Faerie": {
+      "name": "妖精"
+    },
+    "Tusks": {
+      "name": "獠牙"
+    },
+    "Surefooted": {
+      "name": "稳步"
+    },
+    "Retracting Claws": {
+      "name": "伸缩利爪"
+    },
+    "Internal Compass": {
+      "name": "内在罗盘"
+    },
+    "Galapa": {
+      "name": "加拉帕"
+    },
+    "Clank": {
+      "name": "铿锵者"
+    },
+    "Purposeful Design": {
+      "name": "目的性设计"
+    },
+    "Kick": {
+      "name": "踢击"
+    },
+    "Infernis": {
+      "name": "因弗尼斯"
+    },
+    "Firbolg": {
+      "name": "菲尔博格"
+    },
+    "Dread Visage": {
+      "name": "骇人面容"
+    },
+    "Feline Instincts": {
+      "name": "猫科本能"
+    },
+    "Caprine Leap": {
+      "name": "羊跃"
+    },
+    "Long Tongue": {
+      "name": "长舌"
+    },
+    "Dwarf": {
+      "name": "矮人"
+    },
+    "Elf": {
+      "name": "精灵"
+    },
+    "Elemental Breath": {
+      "name": "元素吐息"
+    },
+    "Natural Climber": {
+      "name": "天生攀爬者"
+    },
+    "Endurance": {
+      "name": "耐久"
+    },
+    "Scales": {
+      "name": "鳞片"
+    },
+    "Human": {
+      "name": "人类"
+    },
+    "Katari": {
+      "name": "卡塔里"
+    }
+  }
+}

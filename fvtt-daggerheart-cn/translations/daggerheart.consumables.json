@@ -1,0 +1,249 @@
+﻿{
+  "label": "消耗品 Consumables",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {},
+  "entries": {
+    "Major Control Potion": {
+      "name": "强效控制药水 Major Control Potion",
+      "description": "<p>直到下一次长休或短休时，灵巧掷骰+1。</p>"
+    },
+    "Grindletooth Venom": {
+      "name": "磨牙毒液 Grindletooth Venom",
+      "description": "<p>附在物理武器上，在其下一次的伤害掷骰中增加 1d6 。</p>"
+    },
+    "Major Arcane Shard": {
+      "name": "强效奥术碎片 Major Arcane Shard",
+      "description": "<p>使用灵巧将其投掷到远距离范围内的一群敌人，所有成功对抗的敌人受到 4d20 魔法伤害。</p>"
+    },
+    "Health Potion": {
+      "name": "生命药水 Health Potion",
+      "description": "<p>立刻恢复 1d4+1 生命点。</p>"
+    },
+    "Improved Grindletooth Venom": {
+      "name": "改良磨牙毒液 Improved Grindletooth Venom",
+      "description": "<p>附在物理武器上，在其下一次的伤害掷骰中增加1d8。</p>"
+    },
+    "Major Attune Potion": {
+      "name": "强效调和药水 Major Attune Potion",
+      "description": "<p>直到下一次长休或短休时，本能掷骰+1。</p>"
+    },
+    "Charm Potion": {
+      "name": "魅力药水 Charm Potion",
+      "description": "<p>下一次风度掷骰+1。</p>"
+    },
+    "Featherbone": {
+      "name": "羽骨 Featherbone",
+      "description": "<p>控制你的下坠速度，持续时间分钟数等同于你的等级数。</p>"
+    },
+    "Hopehold Flare": {
+      "name": "希望火炬 Hopehold Flare",
+      "description": "<p>使用时，近距离内的盟友每花费 1 希望点时掷一个d6。掷出 6 时可无需花费 1 希望点。效果持续到下一个场景。</p><p>@Template[type:emanation|range:c]</p>"
+    },
+    "Bolster Potion": {
+      "name": "强力药水 Bolster Potion",
+      "description": "<p>下一次力量掷骰+1。</p>"
+    },
+    "Sweet Moss": {
+      "name": "甜蜜苔藓 Sweet Moss",
+      "description": "<p>在休息期间食用，可以恢复 1d10 生命点或清除 1d10 压力点。</p>"
+    },
+    "Shrinking Potion": {
+      "name": "缩小药水 Shrinking Potion",
+      "description": "<p>饮用者的体型会缩小至一半，敏捷+2，熟练-1，直到他选择放弃这种形态或进行下一次休息。</p>"
+    },
+    "Major Stamina Potion": {
+      "name": "强效精力药水 Major Stamina Potion",
+      "description": "<p>立刻清除 1d4+2 压力点 。</p>"
+    },
+    "Major Charm Potion": {
+      "name": "强效魅力药水 Major Charm Potion",
+      "description": "<p>直到下一次长休或短休时，风度掷骰+1。</p>"
+    },
+    "Channelstone": {
+      "name": "引导石 Channelstone",
+      "description": "<p>选择你宝库中的一个法术或术典，使用一次然后将其放回宝库。</p>"
+    },
+    "Attune Potion": {
+      "name": "调和药水 Attune Potion",
+      "description": "<p>下一次本能掷骰+1。</p>"
+    },
+    "Gill Salve": {
+      "name": "鳃膏 Gill Salve",
+      "description": "<p>你可以在水下呼吸，持续时间分钟数等同于你的等级数。</p>"
+    },
+    "Vial of Darksmoke": {
+      "name": "黑烟瓶 Vial of Darksmoke",
+      "description": "<p>面对即将到来的攻击时，骰等同于你敏捷值的 d6，将其中最高的结果加入到你应对此次攻击的的闪避值中。</p>"
+    },
+    "Bonding Honey": {
+      "name": "捆绑蜂蜜 Bonding Honey",
+      "description": "<p>将两件物品永久性地粘连在一起。</p>"
+    },
+    "Bridge Seed": {
+      "name": "搭桥种子 Bridge Seed",
+      "description": "<p>一束厚重的藤蔓从你所在的地方长出，延伸至远距离范围内的一处，允许你在其上安全地攀爬或步行。藤蔓在你的下一次短休时消散。</p>"
+    },
+    "Major Enlighten Potion": {
+      "name": "强效启迪药水 Major Enlighten Potion",
+      "description": "<p>直到下一次长休或短休时，知识掷骰+1。</p>"
+    },
+    "Mirror of Marigold": {
+      "name": "万寿菊之镜 Mirror of Marigold",
+      "description": "<p>当你受到伤害时，可花费 1 希望点完全抵消该伤害，随后镜子碎裂。</p>"
+    },
+    "Homet’s Secret Potion": {
+      "name": "霍莫特的秘药 Homet’s Secret Potion",
+      "description": "<p>饮用后，你的下一次攻击掷骰自动关键成功。</p>"
+    },
+    "Armor Stitcher": {
+      "name": "护甲缝合剂 Armor Stitcher",
+      "description": "<p>使用此物品并花费 任意 希望点，修复 等量的 护甲槽。</p>"
+    },
+    "Vial of Moondrip": {
+      "name": "月滴瓶 Vial of Moondrip",
+      "description": "<p>饮用后直至你的下一次短休, 你可以在完全黑暗的环境中看到东西。</p>"
+    },
+    "Sleeping Sap": {
+      "name": "睡眠树液 Sleeping Sap",
+      "description": "<p>饮用后陷入一整晚的沉睡。醒来时消除所有压力点。</p>"
+    },
+    "Mythic Dust": {
+      "name": "秘尘 Mythic Dust",
+      "description": "<p>附在魔法武器上，在其下一次的伤害掷骰中增加 1d12 。</p>"
+    },
+    "Enlighten Potion": {
+      "name": "启迪药水 Enlighten Potion",
+      "description": "<p>下一次知识掷骰+1。</p>"
+    },
+    "Feast of Xuria": {
+      "name": "舒利亚大餐 Feast of Xuria",
+      "description": "<p>食用后可以恢复所有生命点与清除所有压力点，并获得 1d4 希望点 。</p>"
+    },
+    "Minor Stamina Potion": {
+      "name": "小型精力药剂 Minor Stamina Potion",
+      "description": "<p>立刻清除 1d4 压力点。</p>"
+    },
+    "Jumping Root": {
+      "name": "跳跃树根 Jumping Root",
+      "description": "<p>吃下树根后，仅一次，你可以无需掷骰地跳跃到远距离内的任何地方。</p>"
+    },
+    "Major Health Potion": {
+      "name": "强效生命药水 Major Health Potion",
+      "description": "<p>立刻恢复 1d4+2 生命点。</p>"
+    },
+    "Acidpaste": {
+      "name": "酸膏 Acidpaste",
+      "description": "<p>在明亮的闪光中侵蚀墙壁和其他表面。</p>"
+    },
+    "Snap Powder": {
+      "name": "小憩粉 Snap Powder",
+      "description": "<p>标记 1 压力点然后恢复 1 生命点。</p>"
+    },
+    "Potion of Stability": {
+      "name": "稳定药水 Potion of Stability",
+      "description": "<p>使用后立刻执行一次额外的休整行动。</p>"
+    },
+    "Blinding Orb": {
+      "name": "目盲法球 Blinding Orb",
+      "description": "<p>创造一道明亮的闪光，使近距离范围内的所有生物处于脆弱状态，直至生物下一次失去生命点。</p><p>@Template[type:emanation|range:c]</p>"
+    },
+    "Dripfang Poison": {
+      "name": "滴牙毒药 Dripfang Poison",
+      "description": "<p>对饮用此物品的生物造成 8d10 的直接伤害。</p>"
+    },
+    "Control Potion": {
+      "name": "控制药水 Control Potion",
+      "description": "<p>下一次灵巧掷骰+1。</p>"
+    },
+    "Circle of the Void": {
+      "name": "虚空之环 Circle of the Void",
+      "description": "<p>标记 1 压力点，创造一个延伸至远距范围的虚空区域。虚空内无法施放任何法术，区域内生物对魔法伤害免疫。</p>"
+    },
+    "Morphing Clay": {
+      "name": "变形黏土 Morphing Clay",
+      "description": "<p>花费 1 希望点，使用者将会改变他们的容貌使其他人认不出来，直到下次短休。</p>"
+    },
+    "Growing Potion": {
+      "name": "生长药水 Growing Potion",
+      "description": "<p>饮用者的体型会放大至两倍，力量+2 ，熟练+1，直到他选择放弃这种形态或进行下一次休息。</p>"
+    },
+    "Stamina Potion": {
+      "name": "精力药水 Stamina Potion",
+      "description": "<p>立刻清除 1d4+1 压力点。</p>"
+    },
+    "Varik Leaves": {
+      "name": "瓦里克叶 Varik Leaves",
+      "description": "<p>吃下叶子，立刻获得 2 希望点。</p>"
+    },
+    "Sun Tree Sap": {
+      "name": "太阳树液 Sun Tree Sap",
+      "description": "<p>消耗树液并骰 [[/r d6]]。若掷出5-6，恢复 2 生命点。若掷出2-4，清除 3 压力点。若掷出1，你短暂地面对死亡并回生，获得一道伤痕。</p>"
+    },
+    "Stride Potion": {
+      "name": "神行药水 Stride Potion",
+      "description": "<p>下一次敏捷掷骰+1。</p>"
+    },
+    "Unstable Arcane Shard": {
+      "name": "不稳定的奥术碎片 Unstable Arcane Shard",
+      "description": "<p>使用灵巧掷骰将其投掷到远距离范围内的一群敌人，所有成功对抗的敌人受到1d20魔法伤害。</p>"
+    },
+    "Major Bolster Potion": {
+      "name": "强效强力药水 Major Bolster Potion",
+      "description": "<p>直到下一次长休或短休时，力量掷骰+1。</p>"
+    },
+    "Wingsprout": {
+      "name": "翼芽 Wingsprout",
+      "description": "<p>你获得一对魔法翅膀，允许你短暂地飞行，持续时间分钟数等同于你的等级数。</p>"
+    },
+    "Knowledge Stone": {
+      "name": "知识石 Knowledge Stone",
+      "description": "<p>如果你持有此石头时死亡，一名盟友可以从你的配置中拿取一张卡加入其配置或宝库。当盟友如此做后，石头将会粉碎。</p>"
+    },
+    "Improved Arcane Shard": {
+      "name": "改良奥术碎片 Improved Arcane Shard",
+      "description": "<p>使用灵巧掷骰将其投掷到远距离范围内的一群敌人，所有成功对抗的敌人受到 2d20 魔法伤害。</p>"
+    },
+    "Blood of the Yorgi": {
+      "name": "约尔吉之血 Blood of the Yorgi",
+      "description": "<p>瞬移至可目视的极远范围内任意地方。</p>"
+    },
+    "Ogre Musk": {
+      "name": "食人魔麝香 Ogre Musk",
+      "description": "<p>避免任何人使用物理或魔法手段追踪你，直至你的下一次休息。</p>"
+    },
+    "Redthorn Saliva": {
+      "name": "红棘唾液 Redthorn Saliva",
+      "description": "<p>附在物理武器上，在其下一次的伤害掷骰中增加 1d12 。</p>"
+    },
+    "Minor Health Potion": {
+      "name": "小型治疗药剂 Minor Health Potion",
+      "description": "<p>立刻恢复 1d4 生命点。</p>"
+    },
+    "Dragonbloom Tea": {
+      "name": "龙息茶 Dragonbloom Tea",
+      "description": "<p>使用本能掷骰，对你面前的所有近距离敌人进行火焰吐息攻击。成功时，造成熟练值*d20 物理伤害。</p>"
+    },
+    "Death Tea": {
+      "name": "死亡茶 Death Tea",
+      "description": "<p>饮下此茶后，若你在攻击时取得关键成功，将立即杀死目标。若在下次长休前未取得攻击关键成功，你将死亡。</p>"
+    },
+    "Stardrop": {
+      "name": "星之泪 Stardrop",
+      "description": "<p>使用以召唤一场流星雨，对以使用地点为圆心的极远距离内所有生物自动造成 8d20 物理伤害。</p><p>@Template[type:emanation|range:vf]</p>"
+    },
+    "Replication Parchment": {
+      "name": "复制羊皮纸 Replication Parchment",
+      "description": "<p>当你将这张羊皮纸与另一张羊皮纸接触时，它会精确复制。一旦将其制成此副本，它就不再是复制羊皮纸了。</p>"
+    },
+    "Major Stride Potion": {
+      "name": "强效神行药水 Major Stride Potion",
+      "description": "<p>直到下一次长休或短休时，敏捷掷骰+1。</p>"
+    },
+    "Jar of Lost Voices": {
+      "name": "失落声音之罐 Jar of Lost Voices",
+      "description": "<p>释放出一股让人耳聋的声波，持续时间分钟数等同于你的本能属性。任何在远距离范围内没有准备应对的生物受到 6d8 的魔法伤害。</p><p>@Template[type:emanation|range:f]</p>"
+    }
+  }
+}

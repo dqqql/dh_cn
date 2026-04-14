@@ -1,0 +1,155 @@
+﻿{
+  "label": "护甲 Armors",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Tier 4": "位阶4 Tier 4",
+    "Tier 1": "位阶1 Tier 1",
+    "Tier 2": "位阶2 Tier 2",
+    "Tier 3": "位阶3 Tier 3",
+    "Special": "特殊"
+  },
+  "entries": {
+    "Full Fortified Armor": {
+      "name": "全面强化护甲 Full Fortified Armor",
+      "description": ""
+    },
+    "Savior Chainmail": {
+      "name": "救世主链甲 Savior Chainmail",
+      "description": ""
+    },
+    "Improved Full Plate Armor": {
+      "name": "改良全板甲 Improved Full Plate Armor",
+      "description": ""
+    },
+    "Monett's Cloak": {
+      "name": "莫奈特的斗篷 Monett's Cloak",
+      "description": ""
+    },
+    "Legendary Chainmail Armor": {
+      "name": "传奇链甲 Legendary Chainmail Armor",
+      "description": ""
+    },
+    "Bare Bones": {
+      "name": "铁骨铮铮 Bare Bones",
+      "description": "<p></p><p class=\"Body-Foundation\">当你选择不装备护甲时，你的基础护甲值为 3 + 力量属性值，并使用下列数值作为你的基础伤害阈值：</p><ul><li class=\"vertical-card-list-found\"><em><strong>位阶 1:</strong></em> 9/19</li><li class=\"vertical-card-list-found\"><em><strong>位阶 2:</strong></em> 11/24</li><li class=\"vertical-card-list-found\"><em><strong>位阶 3:</strong></em> 13/31</li><li class=\"vertical-card-list-found\"><em><strong>位阶 4:</strong></em> 15/38</li></ul>"
+    },
+    "Improved Chainmail Armor": {
+      "name": "改良链甲 Improved Chainmail Armor",
+      "description": ""
+    },
+    "Advanced Chainmail Armor": {
+      "name": "高级链甲 Advanced Chainmail Armor",
+      "description": ""
+    },
+    "Veritas Opal Armor": {
+      "name": "诚实蛋白石护甲 Veritas Opal Armor",
+      "description": ""
+    },
+    "Runes of Fortification": {
+      "name": "强化符文 Runes of Fortification",
+      "description": ""
+    },
+    "Tyris Soft Armor": {
+      "name": "泰瑞斯软甲 Tyris Soft Armor",
+      "description": ""
+    },
+    "Elundrian Chain Mail": {
+      "name": "埃伦德里安链甲 Elundrian Chain Mail",
+      "description": ""
+    },
+    "Spiked Plate Armor": {
+      "name": "尖刺护甲 Spiked Plate Armor",
+      "description": ""
+    },
+    "Legendary Full Plate Armor": {
+      "name": "传奇全板甲 Legendary Full Plate Armor",
+      "description": ""
+    },
+    "Legendary Leather Armor": {
+      "name": "传奇皮甲 Legendary Leather Armor",
+      "description": ""
+    },
+    "Full Plate Armor": {
+      "name": "全板甲 Full Plate Armor",
+      "description": ""
+    },
+    "Bellamoi Fine Armor": {
+      "name": "贝拉莫伊精致护甲 Bellamoi Fine Armor",
+      "description": ""
+    },
+    "Emberwoven Armor": {
+      "name": "织烬护甲 Emberwoven Armor",
+      "description": ""
+    },
+    "Legendary Gambeson Armor": {
+      "name": "传奇填充布甲 Legendary Gambeson Armor",
+      "description": ""
+    },
+    "Advanced Full Plate Armor": {
+      "name": "高级全板甲 Advanced Full Plate Armor",
+      "description": ""
+    },
+    "Harrowbone Armor": {
+      "name": "掠骸护甲 Harrowbone Armor",
+      "description": ""
+    },
+    "Advanced Gambeson Armor": {
+      "name": "高级填充布甲 Advanced Gambeson Armor",
+      "description": ""
+    },
+    "Dunamis Silkchain": {
+      "name": "威能丝甲 Dunamis Silkchain",
+      "description": ""
+    },
+    "Chainmail Armor": {
+      "name": "链甲 Chainmail Armor",
+      "description": ""
+    },
+    "Advanced Leather Armor": {
+      "name": "高级皮甲 Advanced Leather Armor",
+      "description": ""
+    },
+    "Improved Gambeson Armor": {
+      "name": "改良填充布甲 Improved Gambeson Armor",
+      "description": ""
+    },
+    "Bladefare Armor": {
+      "name": "剑刃护甲 Bladefare Armor",
+      "description": ""
+    },
+    "Dragonscale Armor": {
+      "name": "龙鳞护甲 Dragonscale Armor",
+      "description": ""
+    },
+    "Leather Armor": {
+      "name": "皮甲 Leather Armor",
+      "description": ""
+    },
+    "Improved Leather Armor": {
+      "name": "改良皮甲 Improved Leather Armor",
+      "description": ""
+    },
+    "Runetan Floating Armor": {
+      "name": "符文浮甲 Runetan Floating Armor",
+      "description": ""
+    },
+    "Rosewild Armor": {
+      "name": "蔷薇野甲 Rosewild Armor",
+      "description": ""
+    },
+    "Irontree Breastplate Armor": {
+      "name": "铁木胸甲 Irontree Breastplate Armor",
+      "description": ""
+    },
+    "Channeling Armor": {
+      "name": "引导护甲 Channeling Armor",
+      "description": ""
+    },
+    "Gambeson Armor": {
+      "name": "填充布甲",
+      "description": ""
+    }
+  }
+}

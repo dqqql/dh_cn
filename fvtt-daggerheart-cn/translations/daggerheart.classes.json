@@ -1,0 +1,242 @@
+﻿{
+  "label": "职业",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Class Features": "职业特性",
+    "Seraph": "神使 Seraph",
+    "Class Items": "职业物品",
+    "Bard": "吟游诗人 Bard",
+    "Druid": "德鲁伊 Druid",
+    "Guardian": "守护者 Guardian",
+    "Ranger": "游侠 Ranger",
+    "Rogue": "游荡者 Rogue",
+    "Warrior": "战士 Warrior",
+    "Wizard": "法师 Wizard",
+    "Sorcerer": "术士 Sorcerer",
+    "Standard Take": "标准配置 Standard Take"
+  },
+  "entries": {
+    "Hold Them Off": {
+      "name": "压制众敌 Hold Them Off",
+      "description": "<p>当你用武器攻击成功时，**花费 3 希望点**，可以使用相同的掷骰结果攻击此次攻击范围内额外的两个敌人。</p>"
+    },
+    "Attack Of Opportunity": {
+      "name": "借机攻击 Attack Of Opportunity",
+      "description": "<p>如果近战范围内的敌人试图离开该范围，你可以使用你选择的属性进行一次反应掷骰，对抗其难度。成功时选择一个效果，关键成功时选择两个：</p><ul><li><p>敌人只能原地不动.</p></li><li><p>你对敌人造成相当于你主武器伤害的伤害.</p></li><li><p>你随敌人一同移动.</p></li></ul>"
+    },
+    "Cloaked": {
+      "name": "隐匿无踪 Cloaked",
+      "description": "<p>任何时候当你处于*隐藏*状态时，改为处于*隐匿*状态。除了*隐藏*状态的好处之外，当你处于*隐匿*状态时，如果一个敌人移动到通常能看到你的位置时，你保持静止则不会被看到。在你进行攻击或在敌人的视线内结束移动后，你不再处于*隐匿*状态。</p>"
+    },
+    "Wizard": {
+      "name": "法师 Wizard",
+      "description": "<p>无论通过学院研习还是个人修行，被称为法师之人皆需经年累月借助书籍、宝石、药剂与草药等工具来获取并锤炼浩瀚魔力。一些法师穷尽一生专精某学派的法术，而另一些人则从各种不同的学派中学习。许多法师都成为了他们社群中睿智而强大的存在，或为统治者建言献策，或治疗疾病提供药品，甚至统领战争议会。虽然这些法师都以收集魔法学识为共同目标，但与他们发生冲突最多的也往往是他们的法师同僚——关于奥术秘藏的获取、保管与分享的话题导致的激烈争论，已酿成无数血案。</p>"
+    },
+    "Sneak Attack": {
+      "name": "隐匿偷袭 Sneak Attack",
+      "description": "<p>当你处于*隐匿*状态下攻击成功，或者当一名盟友在你的目标近战范围内时攻击成功，你的伤害掷骰额外增加等同于你位阶数的 **d6** 。 </p><ul><li><p>1级 → 位阶1</p></li><li><p>2-4级 → 位阶2 </p></li><li><p>5-7级 → 位阶3 </p></li><li><p>8-10级 → 位阶4</p></li></ul>"
+    },
+    "Seraph": {
+      "name": "神使 Seraph",
+      "description": "<p>神使是充满神圣使命的神圣战士和治疗者。界域中存在着众多不同的神祇，因此也有许多不同类型的神使被这些神祇所任命。他们的信条通常与他们神祇的领域或目标一致，例如保护弱者、执行复仇、守护土地或圣物，或者维护特定的信仰。有些神使会与军队或地区结盟，这让他们的统治者颇为满意，但其他圣战士则会与凡人界域的愚行作斗争。最好成为神使的盟友而不是敌人，因为对于那些违逆他们使命的人来说，他们是可怖的敌人。</p>"
+    },
+    "Strange Patterns": {
+      "name": "奇异规律 Strange Patterns",
+      "description": "<p>选择一个介于 1 到 12 之间的数字。当你在一次二元骰掷骰中掷出该数字时，获得1希望点或清除1压力点。你可以在进行一次长休时改变这个数字。</p>"
+    },
+    "Evolution": {
+      "name": "兽形进化 Evolution",
+      "description": "<p> **花费 3 希望点** 变形成野兽形态，而无需**标记 1 压力点**。当你这样做时，选择一个属性获得+1加值，直到你解除野兽形态。</p>"
+    },
+    "Broken Compass": {
+      "name": "破碎罗盘 Broken Compass",
+      "description": ""
+    },
+    "Whispering Orb": {
+      "name": "低语宝珠 Whispering Orb",
+      "description": ""
+    },
+    "Ranger": {
+      "name": "游侠 Ranger",
+      "description": "<p>游侠是技艺高超的猎手，尽管他们拥有出色的战斗能力，却鲜少投身军旅。通过对身体的锤炼与野性的深刻理解，游侠成为狡黠的战术大师，凭借机敏和耐心追捕猎物。许多游侠会与动物伙伴并肩追踪作战，彼此缔结强大的精神羁绊。通过在荒野中磨练技艺，游侠成为了追踪专家，他们既是布设陷阱困敌的专家，亦是正面强攻的好手。</p>"
+    },
+    "A Romance Novel": {
+      "name": "浪漫小说 A Romance Novel",
+      "description": ""
+    },
+    "Arcane Sense": {
+      "name": "奥术感应 Arcane Sense",
+      "description": "<p>你可以在近距离范围内感知魔法个体和物品的存在。</p>"
+    },
+    "Rogue": {
+      "name": "游荡者 Rogue",
+      "description": "<p>无论是态度还是行为，游荡者都可算是无赖恶棍之流。他们被人熟知的身份常常是骗子和小偷，但这个职业中的顶尖高手却能大隐隐于市。他们运用敏锐的智慧和刀刃，既能通过社交操纵欺骗敌人，也能轻松地撬锁、翻窗，又或是不动声色出手攻击。这些魔法技艺大师操纵阴影和移动，为他们的节目单上增添了一系列灵验且致命的表演。游荡者经常会建立行会，以结识未来的同伙、承接任务、磨练秘密技能，向其他懂行的人证明自身的盗贼荣耀。</p>"
+    },
+    "Sorcerer": {
+      "name": "术士 Sorcerer",
+      "description": "<p>并非所有天生施法者都选择精进技艺，但那些潜心钻研之人终将成为强大的术士。这些施法者的天赋往往通过血脉传承，即便家族成员对其浑然不觉或刻意回避。术士的能力涵盖元素操控、幻象编织等诸多领域，许多修行者会根据各自的天赋结盟。成为强大术士的关键不在于攫取力量，而在于学会培育并驾驭与生俱来的能力。一个误入歧途或缺乏约束的术士所施展的魔法，终将成为祸乱世间的危险力量。</p>"
+    },
+    "Grappling Hook": {
+      "name": "擒拿钩索 Grappling Hook",
+      "description": ""
+    },
+    "Drawing Of A Lover": {
+      "name": "爱人的画像 Drawing Of A Lover",
+      "description": ""
+    },
+    "A Sharpening Stone": {
+      "name": "磨刀石 A Sharpening Stone",
+      "description": ""
+    },
+    "Strange Dirty Penant": {
+      "name": "奇异规律 Strange Patterns",
+      "description": ""
+    },
+    "Make a Scene": {
+      "name": "大闹一场 Make a Scene",
+      "description": "<p>**花费 3 希望点** 来暂时 *干扰* 近距离范围内一个目标，使其难度降低 2 点.</p>"
+    },
+    "Channel Raw Power": {
+      "name": "引导原力 Channel Raw Power",
+      "description": "<p>每长休一次，你可以将一张领域卡从你的配置中放入你的宝库，并选择下列选项之一：</p><ul><li><p>获得等同于卡牌等级的希望点。</p></li><li><p>增强一个造成伤害的法术，你的伤害掷骰获得等同于卡牌等级两倍的加值。</p></li></ul>"
+    },
+    "Beastform": {
+      "name": "野兽形态 Beastform",
+      "description": "<p>**标记 1 压力点**，即可魔法般变形成野兽形态列表中的一种生物，其位阶必须等于或低于你的位阶。你可以随时解除此形态。变身后，你无法使用武器或施展领域卡上的法术，但你仍然可以使用你拥有的其他特性或能力。你在变身前施展的法术保持激活状态，并持续其正常持续时间，你也可以正常说话和交流。此外，你获得该野兽形态的特性，将它们的闪避加值加入你的闪避值，并使用其指定的属性进行攻击。当你处于野兽形态时，你的护甲成为你身体的一部分，你像往常一样标记护甲槽；当你解除野兽形态时，那些标记的护甲槽仍然保持标记状态。如果你标记了最后一个生命点，将自动解除此形态。</p>"
+    },
+    "Unstoppable": {
+      "name": "势不可挡 Unstoppable",
+      "description": "<p><strong>(Note: This needs to be manually implemented. Unstoppable die feature is not implemented as of this time)</strong><br /><br />每长休一次，你可以进入 *势不可挡* 状态，你将获得一个威势骰。在1级时，你的威势骰是一个 d4。将它放在角色卡指定位置，初始点数面朝上为 1。每当你进行伤害掷骰并至少造成1生命点的伤害时，威势骰的点数增加1。当骰值超过其最大值，或当前场景结束时， *势不可挡* 状态终止，威势骰被移除。在5级时，你的威势骰提升为 d6。处于 *势不可挡* 状态时，你获得下列增益：</p><ul><li><p>所受物理伤害等级降低一级（严重 → 重度，重度 → 轻度，轻度 → 无伤）。</p></li><li><p>将威势骰当前点数加到你的伤害骰结果中。</p></li><li><p>你免疫 *束缚* 或 *脆弱* 状态。</p></li></ul><blockquote><p>*提示：若你的威势骰为 d4，当前点数为 4，那么下次再提升时就会被移除。但如果你的骰子已提升为 d6，当前点数为 4，下次提升后会变为 5，再下一次提升变为 6。再下一次尝试提升超过 6 时，才会移除。*</p></blockquote>"
+    },
+    "Rally": {
+      "name": "鼓舞人心 Rally",
+      "description": "<p>每场游戏一次，描述你如何将团队凝聚在一起，并为你自己和你的每个盟友提供一个鼓舞骰。在 1 级时，你的鼓舞骰是 **d6**。玩家可以花费鼓舞骰进行投掷，将骰值加入他们的动作掷骰、反应掷骰、伤害掷骰中，或者清除等同于掷骰结果数值的压力点。在每场游戏结束时，清除所有未使用的鼓舞骰。在 5 级时，你的鼓舞骰增加到 **d8**。</p>"
+    },
+    "Prestidigitation": {
+      "name": "魔法伎俩 Prestidigitation",
+      "description": "<p>你可以随意施展无害、微妙的魔法效果。例如，你可以改变物体的颜色、制造气味、点燃蜡烛、让小物体漂浮、照亮房间或修复小物件。</p>"
+    },
+    "Rally (Level 5)": {
+      "name": "鼓舞人心（5级） Rally (Level 5)",
+      "description": "<p>每场游戏一次，描述你如何将团队凝聚在一起，并为你自己和你的每个盟友提供一个鼓舞骰。在 1 级时，你的鼓舞骰是 **d6**。玩家可以花费鼓舞骰进行投掷，将骰值加入他们的动作掷骰、反应掷骰、伤害掷骰中，或者清除等同于掷骰结果数值的压力点。在每场游戏结束时，清除所有未使用的鼓舞骰。在 5 级时，你的鼓舞骰增加到 **d8**。</p>"
+    },
+    "Tiny Elemental Pet": {
+      "name": "微型元素宠物 Tiny Elemental Pet",
+      "description": "<p>一个微型的元素宠物</p>"
+    },
+    "Secret Key": {
+      "name": "密钥 Secret Key",
+      "description": ""
+    },
+    "Letter(Never Opened)": {
+      "name": "永不打开的信 Letter(Never Opened)",
+      "description": ""
+    },
+    "Prayer Dice": {
+      "name": "虔信骰 Prayer Dice",
+      "description": "<p>在每场游戏开始时，掷与你的子职业施法属性等量的**d4**，并将其放置在你角色卡上的指定位置。这些是你的虔信骰。你可以花费任意数量的虔信骰来帮助自己或一名远距离范围内的盟友。你可以使用虔信骰的骰值来减少受到的伤害，在掷骰完成后增加到掷骰结果中，或者获得等同于骰值的希望点。在每场游戏结束时，清除所有未使用的虔信骰。</p>"
+    },
+    "Frontline Tank": {
+      "name": "前线铁壁 Frontline Tank",
+      "description": "<p>**花费 3 希望点**，**清除 2 护甲槽**</p>"
+    },
+    "Family Heirloom": {
+      "name": "传家宝 Family Heirloom",
+      "description": ""
+    },
+    "Druid": {
+      "name": "德鲁伊 Druid",
+      "description": "<p>成为一名德鲁伊不仅仅是一种职业，更是那些渴望从自然之中学习魔法并且保护自然之人的使命。那些常常默默地耕耘植物的德鲁伊们，很可能被人们低估；但那些驾驭着狂野自然之力的德鲁伊，则可能成为令人畏惧的存在。德鲁伊们倾向于在小型团体中培养他们的能力，这些团体往往因特定的理念或地域而联结，但也有一些德鲁伊选择独自行动。经过多年的研习和奉献，德鲁伊可以学会变形成野兽，并塑造自然本身。</p>"
+    },
+    "Bundle of Offerings": {
+      "name": "一份祭品 Bundle of Offerings",
+      "description": ""
+    },
+    "Minor Illusion": {
+      "name": "次级幻术 Minor Illusion",
+      "description": "<p>进行一次**施法掷骰（10）**。成功时，你在近距离范围内创造一个不超过自身大小的次级视觉幻象。该幻象对处于近距离范围或更远距离的观察者而言足以乱真。</p>"
+    },
+    "Totem from Mentor": {
+      "name": "来自导师的图腾 Totem from Mentor",
+      "description": ""
+    },
+    "Combat Training": {
+      "name": "战斗专训 Combat Training",
+      "description": "<p>装备武器时，你忽略其负重。当你造成物理伤害时，你的伤害掷骰获得等同于你等级的加值。</p>"
+    },
+    "Trophy from your First Kill": {
+      "name": "你第一次狩猎的战利品 Trophy from your First Kill",
+      "description": ""
+    },
+    "Untranslated Book": {
+      "name": "尚未翻译的书籍 Untranslated Book",
+      "description": "<p>一本你正在尝试翻译的书</p>"
+    },
+    "Wildtouch": {
+      "name": "荒野恩泽 Wildtouch",
+      "description": "<p>你可以随意施展涉及自然的无害、微妙效果——比如随心所欲地让花朵快速生长、召唤一阵微风或点燃营火。</p>"
+    },
+    "Not This Time": {
+      "name": "死期未至 Not This Time",
+      "description": "<p>**花费 3 希望点**，迫使远距离范围内的一个敌人重掷一次攻击掷骰或伤害掷骰。</p>"
+    },
+    "50ft of Rope": {
+      "name": "50尺的长绳 50ft of Rope",
+      "description": ""
+    },
+    "Rogue's Dodge": {
+      "name": "闪身伎俩 Rogue's Dodge",
+      "description": "<p>**花费 3 希望点**，直到下次攻击成功命中你之前，你的闪避值获得 +2 加值。否则，此加值持续到你下次休息。</p>"
+    },
+    "Volatile Magic": {
+      "name": "无常魔法 Volatile Magic",
+      "description": "<p>**花费3希望点**来重掷你在一次造成魔法伤害的攻击中任意数量的伤害骰。</p>"
+    },
+    "Life Support": {
+      "name": "维生救援 Life Support",
+      "description": "<p>**花费 3 希望点**，为一个近距离范围内的盟友**恢复 1 生命点**。</p>"
+    },
+    "Guardian": {
+      "name": "守护者 Guardian",
+      "description": "<p>守护者之名涵盖诸多武术职业，其本质更在于坚定不移的道德准则与磐石般的意志，而非具体战斗方式。虽然许多守护者会为了国家或事业加入军事组织，但他们更倾向于追随少数他们真正关心的人，而不是盲从大多数的意志。即便面对压倒性劣势，守护者仍会以惊人凶悍之势作战，将守护同伴视为至高使命。那些伤害守护者盟友的人将自食恶果——因为守护者必将以牙还牙，以血还血。</p>"
+    },
+    "Ranger's Focus": {
+      "name": "游侠专注 Ranger's Focus",
+      "description": "<p>**花费1希望点**并对一个目标进行攻击。成功时，造成你攻击的正常伤害，并暂时将攻击目标设为你的*专注*目标。在该效果持续期间，或你将*专注*转移至其他生物之前，你对*专注*目标获得下列增益：</p><ul><li><p>你精准地判断目标所在的方位。</p></li><li><p>当你对目标造成伤害时，其必须标记1压力点。 </p></li><li><p>当你对目标攻击失败时，你可以结束游侠专注效果并重新掷你的二元骰。</p></li></ul>"
+    },
+    "No Mercy": {
+      "name": "绝不手软 No Mercy",
+      "description": "<p>**花费 3 希望点**，直到你下次休息前，你的攻击掷骰获得 +1 加值。</p>"
+    },
+    "Sigil of Your God": {
+      "name": "献身于你的神祇 Sigil of Your God",
+      "description": ""
+    },
+    "Small Bag (Rocks & Bones)": {
+      "name": "一小袋石头和骨头 Small Bag (Rocks & Bones)",
+      "description": ""
+    },
+    "Basic Supplies": {
+      "name": "基本补给品（帐篷、睡袋、火绒盒、口粮等） Basic Supplies",
+      "description": ""
+    },
+    "Bard": {
+      "name": "吟游诗人 Bard",
+      "description": "<p><strong>Note: 在5级使用鼓舞人心（5级）代替职业功能下的鼓舞人心。（自动化将在以后的版本中实现）</strong></p><p><br />吟游诗人是诸界域中最富魅力的存在。这个职业的成员深谙蛊惑之道，精于各类表演形式——无论是引吭高歌、演奏乐器、编织故事还是插科打诨。无论面对观众献艺还是与人单独交谈，诗人们总能在社交场合如鱼得水。该职业者通常在学院或行会中结盟受训，但自恋之风始终在吟游诗人群体中盛行。虽然他们最擅长凝聚人心，但性情乖戾的诗人同样能轻易让冒险队伍分崩离析。</p>"
+    },
+    "Warrior": {
+      "name": "战士 Warrior",
+      "description": "<p>成为一名战士需要经年累月——往往耗费一生的时间——投入武器与战斗技艺的磨炼。当多数好战之人仅锤炼蛮力时，战士深谙敏捷的身手与机敏头脑的重要性，这使他们成为诸界域中最受追捧的斗士。战士常受雇于军队、佣兵团乃至王室卫队，但无法继续精进武艺的职位终将埋没他们的潜力。众所周知，战士们都有自己偏爱的武器；挡在他们和他们的锋刃之间将是一个致命的错误。</p>"
+    },
+    "Set of Forgery Tools": {
+      "name": "一套伪造工具 Set of Forgery Tools",
+      "description": ""
+    },
+    "Torch": {
+      "name": "一根火把 Torch",
+      "description": ""
+    }
+  }
+}

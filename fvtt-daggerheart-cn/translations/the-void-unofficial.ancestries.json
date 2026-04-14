@@ -1,0 +1,134 @@
+﻿{
+  "label": "种族 Ancestry",
+  "folders": {
+    "Ancestry Features": "种族特性"
+  },
+  "mapping": {
+    "description": "system.description",
+    "actions": {
+      "path": "system.actions",
+      "converter": "toActions"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "toEffects"
+    }
+  },
+  "entries": {
+    "Aetheris": {
+      "name": "天辉族 AETHERIS",
+      "description": "<p>天辉族是拥有发光灵气和可以随意召唤出的翅膀的类人生物。他们是来自圣辉上界的天族的后裔。</p>"
+    },
+    "Amphibious": {
+      "name": "两栖 Amphibious",
+      "description": "<p>你天生可以在水下呼吸和移动。</p>"
+    },
+    "Divine Countenance": {
+      "name": "神族威严 Divine Countenance",
+      "description": "<p>你在用于命令或说服的掷骰上具有优势。</p>"
+    },
+    "Drow": {
+      "name": "卓尔 Drow（MOD制作者的私货，并非官方VOID！！！）"
+    },
+    "Earthkin": {
+      "name": "土裔 EARTHKIN",
+      "description": "<p>土裔是土元素的后裔。他们是身体由血肉和土构成的类人生物。</p>"
+    },
+    "Emberkin": {
+      "name": "烬裔 EMBERKIN",
+      "description": "<p>烬裔是火元素的后裔。他们是身体由血肉和火构成的类人生物。</p>"
+    },
+    "Eye of the Storm": {
+      "name": "风暴之眼 Eye ofthe Storm",
+      "description": "<p>花费 2 希望点以赋予你或一名盟友的闪避+1加值，直到你下次受到严重伤害，或你再次使用风暴之眼。</p>",
+      "actions": {
+        "vAye9U4dccbe1k2L": {
+          "name": "花费2希望"
+        }
+      }
+    },
+    "Fireproof": {
+      "name": "防火 Fireproof",
+      "description": "你免疫来自魔法或普通火焰的伤害。"
+    },
+    "Gale Force": {
+      "name": "狂风之力 Gale Force",
+      "description": "<p>标记1压力点以召唤一道风，能将你或一名盟友携带至多极远距离。此外，你总是可以控制自身的下落速度。</p>",
+      "actions": {
+        "fhLkxWEPFFNWetCf": {
+          "name": "标记压力"
+        }
+      }
+    },
+    "Gnome": {
+      "name": "侏儒 GNOME",
+      "description": "<p>侏儒是小型类人生物，最显著的特征是其发达的肌肉，修长的臂膀以及硕大的面部特征。</p>"
+    },
+    "Hallowed Aura": {
+      "name": "空壳灵光 Hollowed Aura",
+      "description": "<p>每次休息一次，当近距离范围内一名盟友掷骰出恐惧结果，你可以将其改为希望结果。</p>"
+    },
+    "Ignition": {
+      "name": "附火 lgnition",
+      "description": "<p>标记 1 压力点，用火焰包裹你的主武器直到场景结束。当处于燃烧中时，它会发出明亮光照，并赋予对近战范围内的目标进行的伤害掷骰1d6加值。</p>",
+      "actions": {
+        "BTfApd0klK0V4X2g": {
+          "name": "标记压力"
+        }
+      }
+    },
+    "Immoveable": {
+      "name": "坚定难移 Immoveable",
+      "description": "<p>当你的脚接触地面时，你不能被在违背你意愿的情况下被抬起或移动。</p>"
+    },
+    "Lifespring": {
+      "name": "生命之泉 Lifespring",
+      "description": "<p>每次休息一次，当你能接触到少量水时，你可以标记 2 压力点来治疗自己或一名盟友1生命点。</p>",
+      "actions": {
+        "jSfUr06O577wK8Pl": {
+          "name": "标记2压力"
+        }
+      }
+    },
+    "Low-Light Living": {
+      "name": "微光生存 Low-Light Living",
+      "description": "<p>当身处光线昏暗或阴影浓重的区域时，你在该区域内进行潜藏、调查或感知细节的检定将获得优势。</p>",
+      "effects": {
+        "LqQvZJJLNMnFkt1D": {
+          "name": "天界冥想 Celestial Trance"
+        }
+      }
+    },
+    "Magical Sense": {
+      "name": "魔法感知 Magical Sense",
+      "description": "<p>你能感知到魔法生物的存在。在追踪或定位具有魔法能力的生物时，你的检定具有优势。</p>"
+    },
+    "Nimble Fingers": {
+      "name": "灵巧手指 Nimble Fingers",
+      "description": "<p>当你进行灵巧掷骰时，你可以花费 2 希望点来重掷你的希望骰。</p>",
+      "actions": {
+        "oeDdOJHLKQf7vjPb": {
+          "name": "灵巧手指 Nimble Fingers",
+          "description": "<p>当你进行灵巧掷骰时，你可以花费 2 希望点来重掷你的希望骰。</p>"
+        }
+      }
+    },
+    "Skykin": {
+      "name": "空裔 SKYKIN",
+      "description": "<p>空裔是气元素的后裔。他们是身体由血肉和气构成的类人生物。</p>"
+    },
+    "Stoneskin": {
+      "name": "石肤 Stoneskin",
+      "description": "<p>你在护甲值和伤害阈值上获得+1加值。</p>",
+      "effects": {
+        "UFpatriYCNtw7g4S": {
+          "name": "石肤"
+        }
+      }
+    },
+    "Tidekin": {
+      "name": "潮裔 TIDEKIN",
+      "description": "<p>潮裔是水元素的后裔。他们是身体由血肉和水构成的类人生物。</p>"
+    }
+  }
+}

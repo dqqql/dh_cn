@@ -1,0 +1,314 @@
+﻿{
+  "label": "职业 Classes",
+  "folders": {
+    "Assassin": "刺客 Assassin",
+    "Blood Hunter": "血猎人 Blood Hunter",
+    "Brawler": "格斗家 Brawler ",
+    "Warlock": "邪术师 Warlock",
+    "Witch": "女巫 Witch ",
+    "Class Features": "职业特性",
+    "Class Items": "职业物品",
+    "Standard Take": "基础套装"
+  },
+  "mapping": {
+    "description": "system.description",
+    "backgroundQuestions": "system.backgroundQuestions",
+    "connections": "system.connections",
+    "actions": {
+      "path": "system.actions",
+      "converter": "toActions"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "toEffects"
+    }
+  },
+  "entries": {
+    "50ft of Rope": {
+      "name": "绳索（15米）"
+    },
+    "A Carving That Symbolizes Your Patron": {
+      "name": "一枚象征你宗主的雕刻护符"
+    },
+    "A List of Names with Several Marked Off": {
+      "name": "一份写满了名字的目标清单"
+    },
+    "A Ring You Can't Remove": {
+      "name": "一枚无法摘下的戒指"
+    },
+    "Assassin": {
+      "name": "刺客 Assassin",
+      "description": "<p>刺客是突破防御、制造痛苦与致命打击的大师。当刺客标记某人作为死亡目标时，他们会以毫不迟疑的杀意追猎目标。</p>",
+      "backgroundQuestions": [
+        "- 是哪个组织训练你杀人的艺术，你是怎么加入的？",
+        "- 在你的整个职业生涯中，有一个目标尚未落网。他是谁，他是如何从你的指间溜走的？",
+        "- 你总是用尽一切手段来达成你的目标，但你仍有底线。这条底线是什么？"
+      ],
+      "connections": [
+        "- 我身上有什么令你感到恐惧？",
+        "- 你曾要求我做某件事，至今仍让你夜不能寐。那是什么？",
+        "- 我曾向你透露过关于自己的什么秘密？它如何改变了你对我的看法？"
+      ]
+    },
+    "Basic Supplies": {
+      "name": "基础物品"
+    },
+    "Blood Hunter": {
+      "name": "血猎人 Blood Hunter",
+      "description": "<p>掌握鲜血秘法，探索自身血液力量中蕴藏的秘密。血猎人是技艺精湛的实践者，他们孜孜不倦地追求新的魔法，以及自身体内等待发掘的强大力量！</p><p></p><h3>推荐初始属性</h3><p>+1 本能　0 风度　0 知识</p><p><strong>弑灵圣约 / 突变圣约：+2 敏捷　-1 力量　+1 灵巧</strong></p><p><strong>化狼圣约：+1 敏捷　+2 力量　-1 灵巧</strong></p><p></p><h3>推荐初始武器</h3><p><strong>弑灵圣约 / 突变圣约：长剑（敏捷近战，d10+3 物理，双手）</strong></p><p><strong>化狼圣约：战斧（力量近战，d10+3 物理，双手）</strong></p><p><strong>推荐初始护甲：皮甲（伤害阈值 6/13，护甲值 3）</strong></p>"
+    },
+    "Blood Maledict": {
+      "name": "鲜血恶戾 Blood Maledict",
+      "description": "<p>花费 3 希望点以选择远距离范围内的一个生物，或是\"阴暗灵卜 Grim Psychometry\"特性中的一个幻象为目标。直至你完成一次休息、受到严重伤害或是再次使用该特性，你对目标的所有动作掷骰具有优势。</p>",
+      "actions": {
+        "Z9pHUbpS5aoHCOPt": {
+          "name": "花费希望"
+        }
+      }
+    },
+    "Book about a Hobby": {
+      "name": "一本关于爱好的书 Book about a Hobby",
+      "description": "<p>这本书献给你那独特的爱好。给它起个名字吧。</p>"
+    },
+    "Brawler": {
+      "name": "格斗家 Brawler ",
+      "description": "<p>作为徒手格斗的专家，格斗家们运用令人叹为观止的武术技艺，将自己的身体打造成致命的武器。无论是在正规学校系统学习，还是通过一次次战斗逐步磨练，这一过程都极为严苛，使格斗家们的身心协调如一，达到人武合一的境界。</p>",
+      "backgroundQuestions": [
+        "- 你在成长过程中曾在哪些地方度过时光，这些经历又是如何直接或间接地教会你如今所使用的战斗风格？",
+        "- 哪个团体或组织一直支持着你？你又是通过什么方式赢得了他们的信任与青睐？",
+        "- 你曾在很久以前败给了谁，而现在你渴望与之再战一场、扳回一局？"
+      ],
+      "connections": [
+        "- 我们俩都害怕的一件事是什么？",
+        "- 在旅途中，我在某件重要的事情上依赖你。那是什么？你对此有何感受？",
+        "- 我仍未原谅你曾对我说过的一句话。那句话是什么？你当时为什么那么说？"
+      ]
+    },
+    "Combo Strikes (D10)": {
+      "name": "连环打击（D10）Combo Strikes (D10)",
+      "description": "<p>使用近战武器完成伤害掷骰后、但尚未对目标造成伤害前，<strong>标记 1 压力点</strong>即可发动连击。发动时，先掷一枚连击骰（Combo Die）并记录点数；随后再次掷出一枚连击骰：若第二次掷出的点数大于或等于前一次结果，则继续掷骰；当最新一次连击骰的点数小于前一次时，连击终止。将所有连击骰的点数求和，该数值将追加至你的武器伤害中。此点数不受任何影响伤害骰的特性调整。</p><p>你的连击骰初始为<strong>d4</strong>。升级时，每晋升一个位阶，你可选择将提升连击骰骰种（最高为d10）作为你的升级选项之一，每位阶仅限一次。</p>",
+      "actions": {
+        "iR7sJDYH2qxJ3XUa": {
+          "name": "连击！ Combo!"
+        }
+      }
+    },
+    "Combo Strikes (D4)": {
+      "name": "连环打击（D4） Combo Strikes (D4)",
+      "description": "<p>使用近战武器完成伤害掷骰后、但尚未对目标造成伤害前，<strong>标记 1 压力点</strong>即可发动连击。发动时，先掷一枚连击骰（Combo Die）并记录点数；随后再次掷出一枚连击骰：若第二次掷出的点数大于或等于前一次结果，则继续掷骰；当最新一次连击骰的点数小于前一次时，连击终止。将所有连击骰的点数求和，该数值将追加至你的武器伤害中。此点数不受任何影响伤害骰的特性调整。</p><p>你的连击骰初始为<strong>d4</strong>。升级时，每晋升一个位阶，你可选择将提升连击骰骰种（最高为d10）作为你的升级选项之一，每位阶仅限一次。</p>",
+      "actions": {
+        "iR7sJDYH2qxJ3XUa": {
+          "name": "连击！ Combo!"
+        }
+      }
+    },
+    "Combo Strikes (D6)": {
+      "name": "连环打击（D6）Combo Strikes (D6)",
+      "description": "<p>使用近战武器完成伤害掷骰后、但尚未对目标造成伤害前，<strong>标记 1 压力点</strong>即可发动连击。发动时，先掷一枚连击骰（Combo Die）并记录点数；随后再次掷出一枚连击骰：若第二次掷出的点数大于或等于前一次结果，则继续掷骰；当最新一次连击骰的点数小于前一次时，连击终止。将所有连击骰的点数求和，该数值将追加至你的武器伤害中。此点数不受任何影响伤害骰的特性调整。</p><p>你的连击骰初始为<strong>d4</strong>。升级时，每晋升一个位阶，你可选择将提升连击骰骰种（最高为d10）作为你的升级选项之一，每位阶仅限一次。</p>",
+      "actions": {
+        "iR7sJDYH2qxJ3XUa": {
+          "name": "连击！Combo!"
+        }
+      }
+    },
+    "Combo Strikes (D8)": {
+      "name": "连环打击（D8）Combo Strikes (D8)",
+      "description": "<p>使用近战武器完成伤害掷骰后、但尚未对目标造成伤害前，<strong>标记 1 压力点</strong>即可发动连击。发动时，先掷一枚连击骰（Combo Die）并记录点数；随后再次掷出一枚连击骰：若第二次掷出的点数大于或等于前一次结果，则继续掷骰；当最新一次连击骰的点数小于前一次时，连击终止。将所有连击骰的点数求和，该数值将追加至你的武器伤害中。此点数不受任何影响伤害骰的特性调整。</p><p>你的连击骰初始为<strong>d4</strong>。升级时，每晋升一个位阶，你可选择将提升连击骰骰种（最高为d10）作为你的升级选项之一，每位阶仅限一次。</p>",
+      "actions": {
+        "iR7sJDYH2qxJ3XUa": {
+          "name": "连击！Combo!"
+        }
+      }
+    },
+    "Commune": {
+      "name": "通神术 COMMUNE",
+      "description": "<p>每长休一次，在平静的时刻，你可以与一个实体（先祖，神祇，精魂，自然化身等）进行交流。向其提一个问题，然后掷出等同于你施法属性个数的<strong>[[/r d6]]</strong>。选择其中一个骰子的值并参考下表，以知晓相应效果：</p><ul><li><strong>1-3：</strong> 你尝到、闻到或是感觉到与问题答案相关的气味、味道或是触觉。</li></ul><ul><li><strong>4-5：</strong> 你听到或是看到与问题答案相关的声响或幻象。</li></ul><ul><li><strong>6：</strong> 你身临其境地体验与问题答案相关的场景。</li></ul>",
+      "actions": {
+        "ukjfQXHHCr2d2TbU": {
+          "name": "通神术 COMMUNE",
+          "description": "<p>每长休一次，在平静的时刻，你可以与一个实体（先祖，神祇，精魂，自然化身等）进行交流。向其提一个问题，然后掷出等同于你施法属性个数的<strong>[[/r d6]]</strong>。选择其中一个骰子的值并参考下表，以知晓相应效果：</p><ul><li><strong>1-3：</strong> 你尝到、闻到或是感觉到与问题答案相关的气味、味道或是触觉。</li></ul><ul><li><strong>4-5：</strong> 你听到或是看到与问题答案相关的声响或幻象。</li></ul><ul><li><strong>6：</strong> 你身临其境地体验与问题答案相关的场景。</li></ul>"
+        }
+      }
+    },
+    "Crimson Rite": {
+      "name": "猩红仪式 Crimson Rite",
+      "description": "<p>可以消耗生命力来为你的攻击注入嗜血之力。标记 1 生命点为你的一件使用中的武器附魔。</p><p></p><p>在你结束下一次休息前，该武器将造成物理伤害或魔法伤害（使用此特性时选择），并且在你使用其攻击命中时额外造成 1d6 点伤害。此额外伤害在5级时提升至 2d6，在8级时提升至 3d6。</p>",
+      "actions": {
+        "eQ44S7qWqk3UoKTT": {
+          "name": "标记生命"
+        }
+      },
+      "effects": {
+        "m8FpjPisLRkUpcaD": {
+          "name": "位阶1"
+        },
+        "7DRdwl3LsnIGzWPI": {
+          "name": "等级5"
+        },
+        "OA51Rp7Se2RdGh4O": {
+          "name": "等级8"
+        }
+      }
+    },
+    "Favor": {
+      "name": "恩宠 Favor",
+      "description": "<p>你初始拥有 3 恩宠点。在休息时，选择一项休整行动向你的宗主献祭。当你这样做时，获得等同于你风度属性的恩宠点。若你选择放弃献祭，则游戏主持人将获得 1 恐惧点。</p>"
+    },
+    "Get In & Get Out": {
+      "name": "来去自如 GET IN & GET OUT",
+      "description": "<p><strong>花费 1 希望点</strong>，向游戏主持人寻求一种快速或不显眼的方法，以进入或离开你能看到的建筑或结构。你利用这一方法进行的下一次掷骰具有优势。</p>",
+      "actions": {
+        "V9BXDm9xen2flEZx": {
+          "name": "花费希望"
+        }
+      }
+    },
+    "Grim Psychometry": {
+      "name": "阴暗灵卜 Grim Psychometry",
+      "description": "<p> 在近距离范围内检查生物、地点或物体时，进行一次施法掷骰（12）。成功时，标记 1 压力点，获得关于目标最近一次暴力事件的幻象。直至你完成一次休息之前，你进行任何与幻象中事物相关的动作掷骰时都具有优势。</p>"
+    },
+    "Grim Resolve": {
+      "name": "冷酷决心 Grim Resolve",
+      "description": "<p><strong>花费 3 希望点</strong>, 以清除 2 压力点。</p>",
+      "actions": {
+        "ksk3CYijTOKkSjiE": {
+          "name": "花费希望"
+        }
+      }
+    },
+    "Hand Wraps": {
+      "name": "缠手带 Hand Wraps",
+      "description": "<p>来自导师的缠手带</p>"
+    },
+    "Hex": {
+      "name": "诅咒巫术 HEX",
+      "description": "<p>当一个生物使你或一名近距离内的盟友标记任意数量的生命点，你可以 <strong>标记 1 压力点</strong> 来对其施以 <em>巫术</em>。对陷入 <em>巫术</em> 状态的目标进行的动作掷骰与伤害掷骰获得等同你位阶的加值。</p><p>这个状态会一直持续直到：GM花费等同你施法属性个恐惧点移除它、你对另一个生物施以 <em>巫术</em>、当前场景结束。</p>",
+      "actions": {
+        "12QoobkmHaZw8yDx": {
+          "name": "标记压力",
+          "description": "<p>当一个生物使你或一名近距离内的盟友标记任意数量的生命点，你可以 <strong>标记 1 压力点</strong> 来对其施以 <em>巫术</em>。对陷入 <em>巫术</em> 状态的目标进行的动作掷骰与伤害掷骰获得等同你位阶的加值。</p>"
+        }
+      },
+      "effects": {
+        "PtMSqVyzo52cGpJn": {
+          "name": "诅咒巫术 HEX",
+          "description": "<p>对陷入 <em>巫术</em> 状态的目标进行的动作掷骰与伤害掷骰获得等同你位阶的加值。</p>"
+        }
+      }
+    },
+    "I Am the Weapon": {
+      "name": "吾即武器 I Am the Weapon",
+      "description": "<p>当你未装备任何武器时：</p><ul><li>你的闪避值获得<strong>+1</strong>加值。</li></ul><ul><li>你的徒手攻击将被视为近战武器，使用你选择的属性进行攻击，并造成<strong>d8 + d6</strong>的物理伤害，这两种伤害骰都使用你的熟练值。</li></ul>",
+      "actions": {
+        "VYXl3fEMzbWMUSQ8": {
+          "name": "徒手攻击",
+          "description": "<p>- 你的徒手攻击将被视为近战武器，使用你选择的属性进行攻击，并造成 d8 + d6 的物理伤害，这两种伤害骰都使用你的熟练值。</p>"
+        }
+      },
+      "effects": {
+        "RzQRBURPH5ZgxMOO": {
+          "name": "闪避 +1",
+          "description": "<p>吾即武器：你获得+1 闪避加值。</p>"
+        }
+      }
+    },
+    "Marked for Death": {
+      "name": "死亡标记 MARKED FOR DEATH",
+      "description": "<p>在使用武器成功进行攻击时，你可以 <strong>标记 1 压力点</strong> 令目标处于 <em>死亡标记</em> 状态。你对陷入该状态的目标进行攻击时，在伤害掷骰中增加等同于你位阶数量的<strong>+1d4</strong>。</p><p>你同一时间仅能对一名敌人施加 <em>死亡标记</em> 状态，且除击败该目标外，无法主动转移或解除此状态。游戏主持人可花费数量等同于你熟练值的恐惧点来移除 <em>死亡标记</em>；除此之外，该状态会在你进行休息时自动解除。</p>",
+      "actions": {
+        "f6GryCLwsDo0ejCu": {
+          "name": "标记压力"
+        },
+        "U9jFMI21QDXEsi2Q": {
+          "name": "伤害"
+        }
+      }
+    },
+    "Mortar and Pestle Inscribed With a Mysterious Insignia": {
+      "name": "刻有神秘徽记的研钵与杵"
+    },
+    "Patron's Boon": {
+      "name": "宗主恩惠 Patron's Boon",
+      "description": "<p><strong>花费 3 希望点</strong>, 来向你的宗主求助, 获得 1d4 恩宠点.</p>",
+      "actions": {
+        "LswokIXWOo1W01ec": {
+          "name": "花费希望"
+        }
+      },
+      "effects": {
+        "JO6GClT2A29xddR1": {
+          "name": "宗主恩惠 Patron's Boon"
+        }
+      }
+    },
+    "Staggering Strike": {
+      "name": "震慑打击 Staggering Strike",
+      "description": "<p>当你命中一名敌人时，<strong>花费 3 希望点</strong>, 可以额外使其标记1压力点， 并暂时陷入震慑 状态。在震慑状态下，该敌人的所有攻击掷骰均处于劣势。</p>",
+      "actions": {
+        "F8rse36409E4a9As": {
+          "name": "花费希望",
+          "description": "<p>当你命中一名敌人时，<strong>花费 3 希望点</strong>, 可以额外使其标记1压力点， 并暂时陷入震慑 状态。在震慑状态下，该敌人的所有攻击掷骰均处于劣势。</p>"
+        }
+      }
+    },
+    "Steel Needle": {
+      "name": "钢针"
+    },
+    "Talking Skull": {
+      "name": "会说话的头骨",
+      "description": "<p>附魔的、会说话的头骨。</p>"
+    },
+    "Tiny Pet": {
+      "name": "无害的小动物",
+      "description": "<p>一只与你相连的小型无害动物，作为你的魔宠。</p>"
+    },
+    "Torch": {
+      "name": "火把"
+    },
+    "Vial Holding a Foe’s Blood": {
+      "name": "宿敌的血液"
+    },
+    "Warlock": {
+      "name": "邪术师 Warlock",
+      "description": "<p>那些为了强大的力量而将自己的生命，甚至灵魂，献给异界宗主的存在，被称为邪术师。通常，这些凡人在做出如此牺牲时正处于极度绝望的境地为了保护自己或挚爱之人，协助族群，寻求复仇，提升地位，或是追逐某种野心。</p>",
+      "backgroundQuestions": [
+        "- 是什么绝境促使你立誓效忠你的宗主？",
+        "- 你的宗主交给你一项至关重要的任务，你必须不惜一切代价完成。那是什么任务？为什么让你如此担忧？",
+        "- 你和你的宗主在某个非常特别的方面非常相似。你们共同拥有怎样的特质？你对此有何感受？"
+      ],
+      "connections": [
+        "- 我曾向你倾诉过我的宗主说了什么、做了什么。为什么我会选择相信你？",
+        "- 你曾亲眼看见我向宗主献上贡品，从那以后你对我的态度就变了。你当时看见了什么？这件事又如何影响了你？",
+        "- 我曾做过一件非常愚蠢的事，而你至今都不让我忘记。那到底是什么？"
+      ]
+    },
+    "Warlock Patron": {
+      "name": "邪术师宗主 Warlock Patron",
+      "description": "<p>你已向某位宗主（神明、恶魔、精怪或其他超自然存在）宣誓效忠以换取力量。将祂的名讳书写在上方空白处。随后，在游戏主持人的裁定下选择宗主的权能领域（自然与诡计、爱情与战争、知识与暗影等），将其记录在下方并将对应数值设为 +2。每当你提升位阶时，这些权能领域也会获得永久的 +1 加值。在进行与宗主权能领域相关的动作掷骰前，你可 <strong>花费 1 恩宠点</strong> 向其祈求，并将该领域数值加至检定结果。</p>"
+    },
+    "Witch": {
+      "name": "女巫 Witch",
+      "description": "<p>女巫是与自然之力以及异界域实体建立联系的魔法使用者。女巫通过巫术技艺、仪式、咒语、草药、岩石、蜡烛及其他工具唤引力量，以实现自身意志与施展强大法术。</p>",
+      "backgroundQuestions": [
+        "- 你是如何第一次发现自己对魔法技艺的热爱？",
+        "- 你曾用你的力量帮助过一些处于绝境中的人。他们是谁，为什么会来找你？",
+        "- 你的魔法曾打开了一扇最好不要打开的门。门的那一边是谁或是什么？"
+      ],
+      "connections": [
+        "- 我使用的魔法中，什么让你最感到不安？",
+        "- 我曾在梦中出现在你面前，并向你揭示了未来的一貌。我当时对你说过什么？",
+        "- 你为什么来找我寻求建议？"
+      ]
+    },
+    "Witch's Charm": {
+      "name": "女巫符咒 Witch's Charm",
+      "description": "<p>当你或一名远距离内的盟友动作掷骰掷出失败结果，<strong>花费 3 希望点</strong>, 将其改为恐惧成功。</p>",
+      "actions": {
+        "vLCzHEepLS96g9Ff": {
+          "name": "花费希望",
+          "description": "<p>当你或一名远距离内的盟友动作掷骰掷出失败结果，<strong>花费 3 希望点</strong>, 将其改为恐惧成功。</p>"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,835 @@
+﻿{
+  "label": "武器 Weapons",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Tier 1": "位阶1",
+    "Combat Wheelchairs": "战斗轮椅 Combat Wheelchairs",
+    "Secondary Weapons": "副武器 Secondary Weapons",
+    "Tier 3": "位阶3",
+    "Tier 4": "位阶4",
+    "Tier 2": "位阶2",
+    "Magical Weapons": "魔法武器 Magical Weapons",
+    "Physical Weapons": "物理武器 Physical Weapons",
+    "Primary Weapons": "主武器 Primary Weapons"
+  },
+  "entries": {
+    "Advanced Whip": {
+      "name": "高级鞭子 Advanced Whip",
+      "description": ""
+    },
+    "Legendary Hallowed Axe": {
+      "name": "传奇圣斧 Legendary Hallowed Axe",
+      "description": ""
+    },
+    "Yutari Bloodbow": {
+      "name": "尤塔里血弓 Yutari Bloodbow",
+      "description": ""
+    },
+    "Hammer of Exota": {
+      "name": "异界之锤 Hammer of Exota",
+      "description": ""
+    },
+    "Advanced Small Dagger": {
+      "name": "高级小匕首 Advanced Small Dagger",
+      "description": ""
+    },
+    "Legendary Longsword": {
+      "name": "传奇长剑 Legendary Longsword",
+      "description": ""
+    },
+    "Legendary Halberd": {
+      "name": "传奇戟 Legendary Halberd",
+      "description": ""
+    },
+    "Legendary Crossbow": {
+      "name": "传奇弩 Legendary Crossbow",
+      "description": ""
+    },
+    "Siphoning Gauntlets": {
+      "name": "虹吸拳套 Siphoning Gauntlets",
+      "description": ""
+    },
+    "Hammer of Wrath": {
+      "name": "愤怒之锤 Hammer of Wrath",
+      "description": ""
+    },
+    "Legendary Quarterstaff": {
+      "name": "传奇铁头棍 Legendary Quarterstaff",
+      "description": ""
+    },
+    "Broadsword": {
+      "name": "阔剑 Broadsword",
+      "description": ""
+    },
+    "Swinging Ropeblade": {
+      "name": "摆动绳刃 Swinging Ropeblade",
+      "description": ""
+    },
+    "Legendary Battleaxe": {
+      "name": "传奇战斧 Legendary Battleaxe",
+      "description": ""
+    },
+    "Casting Sword": {
+      "name": "施法剑 Casting Sword",
+      "description": ""
+    },
+    "Advanced Scepter": {
+      "name": "高级权杖 Advanced Scepter",
+      "description": ""
+    },
+    "Legendary Hand Crossbow": {
+      "name": "传奇手弩 Legendary Hand Crossbow",
+      "description": ""
+    },
+    "Advanced Crossbow": {
+      "name": "高级弩 Advanced Crossbow",
+      "description": ""
+    },
+    "Improved Grappler": {
+      "name": "改良抓钩 Improved Grappler",
+      "description": ""
+    },
+    "Floating Bladeshards": {
+      "name": "漂浮碎刃 Floating Bladeshards",
+      "description": ""
+    },
+    "Hand Runes": {
+      "name": "手持符文 Hand Runes",
+      "description": ""
+    },
+    "Advanced Greatstaff": {
+      "name": "Advanced Greatstaff 高级巨杖",
+      "description": ""
+    },
+    "Legendary Spear": {
+      "name": "Legendary Spear 传奇长矛",
+      "description": ""
+    },
+    "Returning Blade": {
+      "name": "Returning Blade 回力剑",
+      "description": ""
+    },
+    "Improved Crossbow": {
+      "name": "改良弩 Improved Crossbow",
+      "description": ""
+    },
+    "Bladed Whip": {
+      "name": "刃鞭 Bladed Whip",
+      "description": ""
+    },
+    "Improved Shortbow": {
+      "name": "改良短弓 Improved Shortbow",
+      "description": ""
+    },
+    "Steelforged Halberd": {
+      "name": "钢铸戟 Steelforged Halberd",
+      "description": ""
+    },
+    "Improved Wand": {
+      "name": "改良魔杖 Improved Wand",
+      "description": ""
+    },
+    "Ghostblade": {
+      "name": "鬼魂之刃 Ghostblade",
+      "description": ""
+    },
+    "Greatsword": {
+      "name": "巨剑 Greatsword",
+      "description": ""
+    },
+    "Advanced Grappler": {
+      "name": "高级抓钩 Advanced Grappler",
+      "description": ""
+    },
+    "Advanced Warhammer": {
+      "name": "高级战锤 Advanced Warhammer",
+      "description": ""
+    },
+    "Widogast Pendant": {
+      "name": "维多加斯特的吊坠 Widogast Pendant",
+      "description": ""
+    },
+    "Advanced Longsword": {
+      "name": "高级长剑 Advanced Longsword",
+      "description": ""
+    },
+    "Legendary Round Shield": {
+      "name": "传奇圆盾 Legendary Round Shield",
+      "description": ""
+    },
+    "Black Powder Revolver": {
+      "name": "黑火药左轮 Black Powder Revolver",
+      "description": ""
+    },
+    "Improved Quarterstaff": {
+      "name": "改良铁头棍 Improved Quarterstaff",
+      "description": ""
+    },
+    "Legendary Rapier": {
+      "name": "Legendary Rapier 传奇刺剑",
+      "description": ""
+    },
+    "Midas Scythe": {
+      "name": "迈达斯镰刀 Midas Scythe",
+      "description": ""
+    },
+    "Advanced Hallowed Axe": {
+      "name": "高级圣斧 Advanced Hallowed Axe",
+      "description": ""
+    },
+    "Firestaff": {
+      "name": "火焰杖 Firestaff",
+      "description": ""
+    },
+    "Advanced Light-Frame Wheelchair": {
+      "name": "高级轻型框架轮椅 Advanced Light-Frame Wheelchair",
+      "description": ""
+    },
+    "Devouring Dagger": {
+      "name": "吞噬匕首 Devouring Dagger",
+      "description": ""
+    },
+    "Advanced Halberd": {
+      "name": "高级戟 Advanced Halberd",
+      "description": ""
+    },
+    "Tower Shield": {
+      "name": "塔盾 Tower Shield",
+      "description": ""
+    },
+    "Cutlass": {
+      "name": "短刀 Cutlass",
+      "description": ""
+    },
+    "Whip": {
+      "name": "鞭子 Whip",
+      "description": ""
+    },
+    "Legendary Shortstaff": {
+      "name": "传奇短杖 Legendary Shortstaff",
+      "description": ""
+    },
+    "Legendary Hand Runes": {
+      "name": "传奇手持符文 Legendary Hand Runes",
+      "description": ""
+    },
+    "Improved Round Shield": {
+      "name": "改良圆盾 Improved Round Shield",
+      "description": ""
+    },
+    "Ricochet Axes": {
+      "name": "弹跳斧 Ricochet Axes",
+      "description": ""
+    },
+    "Runes of Ruination": {
+      "name": "毁灭符文 Runes of Ruination",
+      "description": ""
+    },
+    "Buckler": {
+      "name": "Buckler 小盾",
+      "description": ""
+    },
+    "Improved Halberd": {
+      "name": "改良戟 Improved Halberd",
+      "description": ""
+    },
+    "Improved Greatsword": {
+      "name": "改良巨剑 Improved Greatsword",
+      "description": ""
+    },
+    "Advanced Battleaxe": {
+      "name": "高级战斧 Advanced Battleaxe",
+      "description": ""
+    },
+    "Curved Dagger": {
+      "name": "弧形匕首 Curved Dagger",
+      "description": ""
+    },
+    "Returning Axe": {
+      "name": "回力斧 Returning Axe",
+      "description": ""
+    },
+    "Ego Blade": {
+      "name": "自我之刃 Ego Blade",
+      "description": ""
+    },
+    "Scepter": {
+      "name": "权杖 Scepter",
+      "description": ""
+    },
+    "Meridian Cutlass": {
+      "name": "经络短刀 Meridian Cutlass",
+      "description": ""
+    },
+    "Legendary Dagger": {
+      "name": "传奇匕首 Legendary Dagger",
+      "description": ""
+    },
+    "Thistlebow": {
+      "name": "蓟弓 Thistlebow",
+      "description": ""
+    },
+    "Legendary Scepter": {
+      "name": "传奇权杖 Legendary Scepter",
+      "description": ""
+    },
+    "Advanced Glowing Rings": {
+      "name": "高级发光戒指 Advanced Glowing Rings",
+      "description": ""
+    },
+    "Bloodstaff": {
+      "name": "血杖 Bloodstaff",
+      "description": ""
+    },
+    "Legendary Grappler": {
+      "name": "传奇抓钩 Legendary Grappler",
+      "description": ""
+    },
+    "Wand": {
+      "name": "魔杖 Wand",
+      "description": ""
+    },
+    "Longsword": {
+      "name": "长剑 Longsword",
+      "description": ""
+    },
+    "Elder Bow": {
+      "name": "长者之弓 Elder Bow",
+      "description": ""
+    },
+    "Advanced Shortbow": {
+      "name": "高级短弓 Advanced Shortbow",
+      "description": ""
+    },
+    "Advanced Rapier": {
+      "name": "高级刺剑 Rapier",
+      "description": ""
+    },
+    "Improved Heavy-Frame Wheelchair": {
+      "name": "改进重型框架轮椅 Improved Heavy-Frame Wheelchair",
+      "description": ""
+    },
+    "Improved Greatstaff": {
+      "name": "改良巨杖 Improved Greatstaff",
+      "description": ""
+    },
+    "Improved Rapier": {
+      "name": "改良刺剑 Improved Rapier",
+      "description": ""
+    },
+    "Advanced Hand Crossbow": {
+      "name": "高级手弩 Advanced Hand Crossbow",
+      "description": ""
+    },
+    "Advanced Longbow": {
+      "name": "高级长弓 Advanced Longbow",
+      "description": ""
+    },
+    "Advanced Greatsword": {
+      "name": "高级巨剑 Advanced Greatsword",
+      "description": ""
+    },
+    "Greatbow": {
+      "name": "巨弓 Greatbow",
+      "description": ""
+    },
+    "Legendary Tower Shield": {
+      "name": "传奇塔盾 Legendary Tower Shield",
+      "description": ""
+    },
+    "Improved Shortstaff": {
+      "name": "改良短杖 Improved Shortstaff",
+      "description": ""
+    },
+    "Hand Cannon": {
+      "name": "手炮 Hand Cannon",
+      "description": ""
+    },
+    "Improved Glowing Rings": {
+      "name": "改良发光戒指 Improved Glowing Rings",
+      "description": ""
+    },
+    "Improved Arcane-Frame Wheelchair": {
+      "name": "改进奥术框架轮椅 Improved Arcane-Frame Wheelchair",
+      "description": ""
+    },
+    "Improved Longbow": {
+      "name": "改良长弓 Improved Longbow",
+      "description": ""
+    },
+    "Spiked Bow": {
+      "name": "尖刺弓 Spiked Bow",
+      "description": ""
+    },
+    "Improved Broadsword": {
+      "name": "改良阔剑 Improved Broadsword",
+      "description": ""
+    },
+    "Advanced Tower Shield": {
+      "name": "高级塔盾 Advanced Tower Shield",
+      "description": ""
+    },
+    "Sledge Axe": {
+      "name": "巨斧 Sledge Axe",
+      "description": ""
+    },
+    "Arcane Gauntlets": {
+      "name": "奥术护手 Arcane Gauntlets",
+      "description": ""
+    },
+    "Advanced Hand Runes": {
+      "name": "高级手持符文 Advanced Hand Runes",
+      "description": ""
+    },
+    "Legendary Glowing Rings": {
+      "name": "传奇发光戒指 Legendary Glowing Rings",
+      "description": ""
+    },
+    "Legendary Small Dagger": {
+      "name": "传奇小匕首 Legendary Small Dagger",
+      "description": ""
+    },
+    "Braveshield": {
+      "name": "勇气之盾 Braveshield",
+      "description": ""
+    },
+    "Bravesword": {
+      "name": "勇气之剑 Bravesword",
+      "description": ""
+    },
+    "Improved Longsword": {
+      "name": "改良长剑 Improved Longsword",
+      "description": ""
+    },
+    "Hand Sling": {
+      "name": "弹弓 Hand Sling",
+      "description": ""
+    },
+    "Legendary Cutlass": {
+      "name": "传奇短刀 Legendary Cutlass",
+      "description": ""
+    },
+    "Legendary Mace": {
+      "name": "传奇钉头锤 Legendary Mace",
+      "description": ""
+    },
+    "Legendary Heavy-Frame Wheelchair": {
+      "name": "传说重型框架轮椅 Legendary Heavy-Frame Wheelchair",
+      "description": ""
+    },
+    "Knuckle Claws": {
+      "name": "拳爪 Knuckle Claws",
+      "description": ""
+    },
+    "Improved Returning Blade": {
+      "name": "改良回力剑 Improved Returning Blade",
+      "description": ""
+    },
+    "Blunderbuss": {
+      "name": "火铳 Blunderbuss",
+      "description": ""
+    },
+    "Improved Dagger": {
+      "name": "改良匕首 Improved Dagger",
+      "description": ""
+    },
+    "Primer Shard": {
+      "name": "引物碎片 Primer Shard",
+      "description": ""
+    },
+    "Advanced Shortstaff": {
+      "name": "高级短杖 Advanced Shortstaff",
+      "description": ""
+    },
+    "Spear": {
+      "name": "长矛 Spear",
+      "description": ""
+    },
+    "Ilmari's Rifle": {
+      "name": "伊尔玛里的步枪 Ilmari's Rifle",
+      "description": ""
+    },
+    "Sword of Light & Flame": {
+      "name": "光焰剑 Sword of Light & Flame",
+      "description": ""
+    },
+    "Knuckle Blades": {
+      "name": "拳刃 Knuckle Blades",
+      "description": ""
+    },
+    "Legendary Longbow": {
+      "name": "传奇长弓 Legendary Longbow",
+      "description": ""
+    },
+    "Hallowed Axe": {
+      "name": "圣斧 Hallowed Axe",
+      "description": ""
+    },
+    "Gilded Falchion": {
+      "name": "鎏金弯刀 Gilded Falchion",
+      "description": ""
+    },
+    "Legendary Warhammer": {
+      "name": "传奇战锤 Legendary Warhammer",
+      "description": ""
+    },
+    "Legendary Whip": {
+      "name": "传奇鞭子 Legendary Whip",
+      "description": ""
+    },
+    "Advanced Mace": {
+      "name": "高级钉头锤 Advanced Mace",
+      "description": ""
+    },
+    "Advanced Broadsword": {
+      "name": "高级阔剑 Advanced Broadsword",
+      "description": ""
+    },
+    "Advanced Dualstaff": {
+      "name": "高级双手法杖 Advanced Dualstaff",
+      "description": ""
+    },
+    "Improved Hand Crossbow": {
+      "name": "改良手弩 Improved Hand Crossbow",
+      "description": ""
+    },
+    "Mage Orb": {
+      "name": "法师球 Mage Orb",
+      "description": ""
+    },
+    "Arcane-Frame Wheelchair": {
+      "name": "奥术框架轮椅 Arcane-Frame Wheelchair",
+      "description": ""
+    },
+    "Heavy-Frame Wheelchair": {
+      "name": "重型框架轮椅 Heavy-Frame Wheelchair",
+      "description": ""
+    },
+    "Legendary Light-Frame Wheelchair": {
+      "name": "传说轻型框架轮椅 Legendary Light-Frame Wheelchair",
+      "description": ""
+    },
+    "Axe of Fortunis": {
+      "name": "运气之斧 Axe of Fortunis",
+      "description": ""
+    },
+    "Longbow": {
+      "name": "长弓 Longbow",
+      "description": ""
+    },
+    "Greatstaff": {
+      "name": "巨杖 Greatstaff",
+      "description": ""
+    },
+    "Improved Light-Frame Wheelchair": {
+      "name": "改进轻型框架轮椅 Improved Light-Frame Wheelchair",
+      "description": ""
+    },
+    "Warhammer": {
+      "name": "战锤 Warhammer",
+      "description": ""
+    },
+    "Impact Gauntlet": {
+      "name": "冲击拳套 Impact Gauntlet",
+      "description": ""
+    },
+    "Wand of Essek": {
+      "name": "埃塞克之杖 Wand of Essek",
+      "description": ""
+    },
+    "Scepter of Elias": {
+      "name": "伊利亚斯的权杖 Scepter of Elias",
+      "description": ""
+    },
+    "Powered Gauntlet": {
+      "name": "强力拳套 Powered Gauntlet",
+      "description": ""
+    },
+    "Advanced Cutlass": {
+      "name": "高级短刀 Advanced Cutlass",
+      "description": ""
+    },
+    "Improved Tower Shield": {
+      "name": "改良塔盾 Improved Tower Shield",
+      "description": ""
+    },
+    "Mace": {
+      "name": "钉头锤 Mace",
+      "description": ""
+    },
+    "Shortsword": {
+      "name": "短剑 Shortsword",
+      "description": ""
+    },
+    "Gilded Bow": {
+      "name": "鎏金弓 Gilded Bow",
+      "description": ""
+    },
+    "Crossbow": {
+      "name": "弩 Crossbow",
+      "description": ""
+    },
+    "Legendary Shortsword": {
+      "name": "传奇短剑 Legendary Shortsword",
+      "description": ""
+    },
+    "Improved Cutlass": {
+      "name": "改良短刀 Improved Cutlass",
+      "description": ""
+    },
+    "Advanced Heavy-Frame Wheelchair": {
+      "name": "高级重型框架轮椅 Advanced Heavy-Frame Wheelchair",
+      "description": ""
+    },
+    "Improved Dualstaff": {
+      "name": "改良双手法杖 Improved Dualstaff",
+      "description": ""
+    },
+    "Extended Polearm": {
+      "name": "延伸长柄武器 Extended Polearm",
+      "description": ""
+    },
+    "Battleaxe": {
+      "name": "战斧 Battleaxe",
+      "description": ""
+    },
+    "Improved Whip": {
+      "name": "改良鞭子 Improved Whip",
+      "description": ""
+    },
+    "Legendary Arcane-Frame Wheelchair": {
+      "name": "传说奥术框架轮椅 Legendary Arcane-Frame Wheelchair",
+      "description": ""
+    },
+    "Advanced Arcane Gauntlets": {
+      "name": "高级奥术护手 Advanced Arcane Gauntlets",
+      "description": ""
+    },
+    "Advanced Round Shield": {
+      "name": "高级圆盾 Advanced Round Shield",
+      "description": ""
+    },
+    "Retractable Saber": {
+      "name": "伸缩军刀 Retractable Saber",
+      "description": ""
+    },
+    "Grappler": {
+      "name": "抓钩 Grappler",
+      "description": ""
+    },
+    "Dagger": {
+      "name": "匕首 Dagger",
+      "description": ""
+    },
+    "Light-Frame Wheelchair": {
+      "name": "轻型框架轮椅 Light-Frame Wheelchair",
+      "description": ""
+    },
+    "Labrys Axe": {
+      "name": "拉布里斯斧 Labrys Axe",
+      "description": ""
+    },
+    "Aantari Bow": {
+      "name": "安塔利弓 Aantari Bow",
+      "description": ""
+    },
+    "Improved Spear": {
+      "name": "改良长矛 Improved Spear",
+      "description": ""
+    },
+    "Legendary Shortbow": {
+      "name": "传奇短弓 Legendary Shortbow",
+      "description": ""
+    },
+    "Dualstaff": {
+      "name": "双手法杖 Dualstaff",
+      "description": ""
+    },
+    "Legendary Greatstaff": {
+      "name": "传奇巨杖 Legendary Greatstaff",
+      "description": ""
+    },
+    "Magus Revolver": {
+      "name": "魔战士左轮 Magus Revolver",
+      "description": ""
+    },
+    "Improved Hand Runes": {
+      "name": "改良手持符文 Improved Hand Runes",
+      "description": ""
+    },
+    "Advanced Wand": {
+      "name": "高级魔杖 Advanced Wand",
+      "description": ""
+    },
+    "Talon Blades": {
+      "name": "利爪之刃 Talon Blades",
+      "description": ""
+    },
+    "Improved Arcane Gauntlets": {
+      "name": "改良奥术护手 Improved Arcane Gauntlets",
+      "description": ""
+    },
+    "Advanced Arcane-Frame Wheelchair": {
+      "name": "高级奥术框架轮椅 Advanced Arcane-Frame Wheelchair",
+      "description": ""
+    },
+    "Legendary Returning Blade": {
+      "name": "传奇回力剑 Legendary Returning Blade",
+      "description": ""
+    },
+    "Quarterstaff": {
+      "name": "铁头棍 Quarterstaff",
+      "description": ""
+    },
+    "Advanced Dagger": {
+      "name": "高级匕首 Advanced Dagger",
+      "description": ""
+    },
+    "Round Shield": {
+      "name": "圆盾 Round Shield",
+      "description": ""
+    },
+    "Blessed Anlace": {
+      "name": "祝福匕首 Blessed Anlace",
+      "description": ""
+    },
+    "Improved Small Dagger": {
+      "name": "改良小匕首 Improved Small Dagger",
+      "description": ""
+    },
+    "Dual-Ended Sword": {
+      "name": "双刃剑 Dual-Ended Sword",
+      "description": ""
+    },
+    "Improved Battleaxe": {
+      "name": "改良战斧 Improved Battleaxe",
+      "description": ""
+    },
+    "Legendary Dualstaff": {
+      "name": "传奇双手法杖 Legendary Dualstaff",
+      "description": ""
+    },
+    "Advanced Shortsword": {
+      "name": "高级短剑 Advanced Shortsword",
+      "description": ""
+    },
+    "Shortbow": {
+      "name": "短弓 Shortbow",
+      "description": ""
+    },
+    "Advanced Spear": {
+      "name": "高级长矛 Advanced Spear",
+      "description": ""
+    },
+    "Improved Warhammer": {
+      "name": "改良战锤 Improved Warhammer",
+      "description": ""
+    },
+    "Keeper's Staff": {
+      "name": "看守者之杖 Keeper's Staff",
+      "description": ""
+    },
+    "Halberd": {
+      "name": "戟 Halberd",
+      "description": ""
+    },
+    "Improved Shortsword": {
+      "name": "改良短剑 Improved Shortsword",
+      "description": ""
+    },
+    "Advanced Returning Blade": {
+      "name": "高级回力剑 Advanced Returning Blade",
+      "description": ""
+    },
+    "Wand of Enthrallment": {
+      "name": "迷惑魔杖 Wand of Enthrallment",
+      "description": ""
+    },
+    "Parrying Dagger": {
+      "name": "格挡匕首 Parrying Dagger",
+      "description": ""
+    },
+    "Improved Scepter": {
+      "name": "改良权杖 Improved Scepter",
+      "description": ""
+    },
+    "Fusion Gloves": {
+      "name": "融合手套 Fusion Gloves",
+      "description": ""
+    },
+    "Legendary Arcane Gauntlets": {
+      "name": "传奇奥术护手 Legendary Arcane Gauntlets",
+      "description": ""
+    },
+    "Shortstaff": {
+      "name": "短杖 Shortstaff",
+      "description": ""
+    },
+    "Spiked Shield": {
+      "name": "尖刺盾牌 Spiked Shield",
+      "description": ""
+    },
+    "Improved Hallowed Axe": {
+      "name": "改良圣斧 Improved Hallowed Axe",
+      "description": ""
+    },
+    "Glowing Rings": {
+      "name": "发光戒指 Glowing Rings",
+      "description": ""
+    },
+    "Small Dagger": {
+      "name": "小匕首 Small Dagger",
+      "description": ""
+    },
+    "Legendary Wand": {
+      "name": "传奇魔杖 Legendary Wand",
+      "description": ""
+    },
+    "Flickerfly Blade": {
+      "name": "闪蝶之刃 Flickerfly Blade",
+      "description": ""
+    },
+    "Double Flail": {
+      "name": "双连枷 Double Flail",
+      "description": ""
+    },
+    "Legendary Broadsword": {
+      "name": "传奇阔剑 Legendary Broadsword",
+      "description": ""
+    },
+    "Finehair Bow": {
+      "name": "细弦弓 Finehair Bow",
+      "description": ""
+    },
+    "War Scythe": {
+      "name": "战镰 War Scythe",
+      "description": ""
+    },
+    "Urok Broadsword": {
+      "name": "乌洛克阔剑 Urok Broadsword",
+      "description": ""
+    },
+    "Advanced Quarterstaff": {
+      "name": "高级铁头棍 Advanced Quarterstaff",
+      "description": ""
+    },
+    "Legendary Greatsword": {
+      "name": "传奇巨剑 Legendary Greatsword",
+      "description": ""
+    },
+    "Improved Mace": {
+      "name": "改良钉头锤 Improved Mace",
+      "description": ""
+    },
+    "Rapier": {
+      "name": "刺剑 Rapier",
+      "description": ""
+    },
+    "Hand Crossbow": {
+      "name": "手弩 Hand Crossbow",
+      "description": ""
+    }
+  }
+}

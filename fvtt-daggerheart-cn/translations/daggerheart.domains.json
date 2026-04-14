@@ -1,0 +1,785 @@
+﻿{
+  "label": "领域 Domains",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Level 1": "等级1",
+    "Arcana": "奥术 Arcana",
+    "Level 2": "等级2",
+    "Level 3": "等级3",
+    "Level 4": "等级4",
+    "Level 5": "等级5",
+    "Level 6": "等级6",
+    "Level 7": "等级7",
+    "Level 8": "等级8",
+    "Level 9": "等级9",
+    "Blade": "利刃 Blade",
+    "Bone": "骸骨 Bone",
+    "Codex": "典籍 Codex",
+    "Grace": "优雅 Grace",
+    "Midnight": "午夜 Midnight",
+    "Level 10": "等级10",
+    "Sage": "贤者 Sage",
+    "Splendor": "辉耀 Splendor",
+    "Valor": "勇气 Valor"
+  },
+  "entries": {
+    "Forager": {
+      "name": "丰收采集 Forager",
+      "description": "<p class=\"Domain-Ability\">作为你的一个额外休整行动可选项，掷一个d6，看看你采集到什么。与游戏主持人一起描述它，并将其作为消耗品添加到你的物品栏中。你的队伍一次最多可以携带五件采集到的消耗品。</p><ol><li><p>一份独特的食物 (清除2压力点)</p><ol><li><p>一件美丽的圣物 (获得2希望点) </p><ol><li><p>一枚奥术符文 (在一次施法掷骰中获得+2加值)</p></li><li>一瓶治疗药剂 (清除2生命点)</li><li>一个幸运护身符 (重掷任意一个骰子)</li><li>从以上选项中自选一个。</li></ol>"
+    },
+    "Chain Lightning": {
+      "name": "连锁闪电 Chain Lightning",
+      "description": "<p class=\"Body-Foundation\"><strong>标记 2 压力点</strong>以进行一次 <strong>施法掷骰</strong>，对近距离范围内的所有目标释放闪电。你成功对抗的目标必须进行一次反应掷骰，难度等于你的施法掷骰结果。掷骰失败的目标受到 <strong>2d8+4</strong> 点魔法伤害。未被连锁闪电指定，且在受到伤害的前一个目标近距离范围内的额外敌人，也必须进行反应掷骰。掷骰失败的目标受到 <strong>2d8+4</strong> 点魔法伤害。此连锁效应持续至范围内没有更多敌对生物为止。</p>"
+    },
+    "Phantom Retreat": {
+      "name": "移形换影 Phantom Retreat",
+      "description": "<p class=\"Body-Foundation\"><strong>花费1希望点</strong>，在你当前所在位置激活移形换影。在下次休息之前的任何时候<strong>再花费1希望点</strong>，从你当前所在位置消失，并重新出现在你激活移形换影时所在位置。你重新出现后，此法术结束。</p>"
+    },
+    "Wall Walk": {
+      "name": "墙面行走 Wall Walk",
+      "description": "<p class=\"Body-Foundation\"><strong>花费 1 希望点</strong>，让你能接触到的生物可以像在地面上行走一样轻松地攀爬墙壁和天花板。此效果持续到场景结束，或直到你再次施放墙面行走。</p>"
+    },
+    "Book of Tyfar": {
+      "name": "提法之书 Book of Tyfar",
+      "description": "<p class=\"Card-Feature\"><em><strong>狂野明焰:</strong></em> 对近战范围内最多三个敌人进行一次<strong>施法掷骰</strong>。一团火焰在你的手中爆发，你成功对抗的每个目标受到<strong>2d6</strong>点魔法伤害且其必须标记1压力点。</p><p class=\"Card-Feature\"><em><strong>魔法之手:</strong></em> 你在远距离范围内召唤出一只大小和力道与你自己的手相同的魔法之手。</p><p class=\"Card-Feature\"><em><strong>神秘迷雾:</strong></em> 进行一次<strong>施法掷骰 (13)</strong>，施放一片临时的浓雾，聚集在自身邻近范围内的固定区域。迷雾严重遮蔽该区域及其中的一切。</p><p></p>"
+    },
+    "Preservation Blast": {
+      "name": "护身爆发 Preservation Blast",
+      "description": "<p><p class=\"Body-Foundation\">职业对<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"melee\" nexus=\"daggerheart\">近战</tooltip>范围内的所有目标进行一次<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"spellcast-roll\" nexus=\"daggerheart\"><strong>施法掷骰</strong></tooltip>。你成功对抗的目标将被迫后退至<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"far\" nexus=\"daggerheart\">远距离</tooltip>范围处，并使用你的施法属性使其受到 <strong>d8+3</strong> 点魔法伤害。</p></p>"
+    },
+    "Hypnotic Shimmer": {
+      "name": "催眠闪光 Hypnotic Shimmer",
+      "description": "<p class=\"Body-Foundation\">对近距离范围内你面前的所有敌人，进行一次<strong>施法掷骰</strong>。每休息一次，成功时，创造一个色彩变换的闪光幻象，暂时使你成功对抗的目标<em>眩晕</em>，并迫使其标记1压力点。在<em>眩晕</em>期间，其无法使用反应，且在解除此状态之前无法进行任何其他动作。</p>"
+    },
+    "Reckless": {
+      "name": "鲁莽攻击 Reckless",
+      "description": "<p class=\"Body-Foundation\"><strong>标记 1 压力点</strong>以在一次攻击中获得优势。</p>"
+    },
+    "Deft Deceiver": {
+      "name": "欺瞒熟手 Deft Deceiver",
+      "description": "<p class=\"Body-Foundation\"><strong>花费 1 希望点</strong>，在欺瞒或哄骗某人相信你谎言的掷骰中获得优势。</p><p></p>"
+    },
+    "Copycat": {
+      "name": "如法炮制 Copycat",
+      "description": "<p class=\"Body-Foundation\">每长休一次，此卡牌可以模仿另一个玩家配置中等级为8或更低的其他领域卡牌的特性。<strong>花费等同该卡牌等级一半的希望点</strong>来获得该特性。模仿效果持续到你下次休息或该玩家将被模仿的卡牌放入宝库。</p>"
+    },
+    "Gore and Glory": {
+      "name": "血与荣耀 Gore and Glory",
+      "description": "<p class=\"Body-Foundation\">当你使用武器攻击获得关键成功时，额外获得1希望点或清除1压力点。</p><p class=\"Body-Foundation\">此外，当你造成足够的伤害击败敌人时，获得1希望点或清除1压力点。</p>"
+    },
+    "Salvation Beam": {
+      "name": "救赎光束 Salvation Beam",
+      "description": "<p class=\"Body-Foundation\">进行一次<strong>施法掷骰 (16)</strong>。成功时，<strong>标记任意数量的压力点</strong>，为站在一条长度为远距离的光束下的所有盟友恢复总量为标记压力数量的生命点，按照你的意愿任意分配。</p>"
+    },
+    "Flight": {
+      "name": "飞行奇术 Flight",
+      "description": "<p class=\"Body-Foundation\">进行一次<strong>施法掷骰 (15)</strong>。成功时，在此卡上放置等同于你敏捷属性数量的指示物（最少1个）。当你在飞行时进行一次动作掷骰时，从这张卡上花费一个指示物。在花费最后一个指示物的行动结算后，你将直接降落到你正下方的地面上。</p>"
+    },
+    "Cinder Grasp": {
+      "name": "余烬之握 Cinder Grasp",
+      "description": "<p class=\"Body-Foundation\">对近战范围内的目标进行一次<strong>施法掷骰</strong>。成功时，目标会立即燃起火焰，受到<strong>1d20+3</strong>点魔法伤害，并暂时处于<em>点燃</em>状态。</p><p class=\"Body-Foundation\">当一个生物在<em>点燃</em>状态下行动时，如果在其行动结束时仍处于<em>点燃</em>状态，则必须额外受到<strong>2d6</strong>点魔法伤害。"
+    },
+    "Arcana-Touched": {
+      "name": "奥术恩泽 Arcana-Touched",
+      "description": "<p class=\"Body-Foundation\">当你的配置中有4张或更多领域卡来自奥术领域时，获得下列增益：</p><ul><li class=\"vertical-card-list-found\"><p>施法掷骰获得 +1 加值</p></li><li class=\"vertical-card-list-found\"><p>每次休息一次，你可以交换你的希望骰和恐惧骰的结果。</p></li></ul>"
+    },
+    "Strategic Approach": {
+      "name": "战术方针 Strategic Approach",
+      "description": "<p class=\"Body-Foundation\">在一次长休后，在此卡上放置等同于你知识属性值的指示物（最少1个）。当你第一次移动到与一个敌人处于近距离范围以内并对其进行攻击时，你可以花费一个指示物来选择下列选项之一：</p><ul><li class=\"vertical-card-list-found\"><p>你进行此次攻击时具有优势。</p></li><li class=\"vertical-card-list-found\"><p>你使一个处于该敌人近战范围内的盟友清除 1 压力点。</p></li><li class=\"vertical-card-list-found\"><p>你在你的伤害掷骰中增加一个<strong>d8</strong>。</p></li></ul><p class=\"Body-Foundation\">当你进行长休时，清除所有未使用的指示物。</p>"
+    },
+    "Scramble": {
+      "name": "快步急闪 Scramble",
+      "description": "<p class=\"Body-Foundation\">每次休息一次，当近战范围内的生物即将对你造成伤害时，你可以避开攻击并安全地移动到敌人近战范围之外。</p>"
+    },
+    "Eclipse": {
+      "name": "日蚀无光 Eclipse",
+      "description": "<p class=\"Body-Foundation\">进行一次<strong>施法掷骰（难度16）</strong>。每长休一次，成功后，将远距离范围内的整个区域笼罩在完全黑暗中，只有你和你的盟友才能看穿这片黑暗。当攻击掷骰的目标是处于黑暗中的你或盟友时，攻击掷骰具有劣势。</p><p class=\"Body-Foundation\">此外，当处于黑暗中的你或盟友对敌人掷出希望成功时，目标必须标记1压力点。</p><p class=\"Body-Foundation\">此法术持续到游戏主持人在其轮次花费1<strong>恐惧点</strong>以清除此效果，或你受到严重伤害为止。</p>"
+    },
+    "Counterspell": {
+      "name": "法术反制 Counterspell",
+      "description": "<p></p><p class=\"Body-Foundation\">你可以通过使用你的施法属性进行一次反应掷骰中断正在发生的魔法效果。成功时，效果停止，并且避免任何后果，此卡被放入你的宝库。</p>"
+    },
+    "Codex-Touched": {
+      "name": "典籍恩泽 Codex-Touched",
+      "description": "<p><p class=\"Body-Foundation\">当你<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"loadout-and-vault\" nexus=\"daggerheart\">配置</tooltip>中的领域卡有4张或更多属于典籍领域时，获得下列增益：</p><ul class=\"\"><li class=\"vertical-card-list\">你可以<strong>标记 1 </strong><tooltip category=\"rule\" class=\"tooltip-convert\" element=\"stress\" nexus=\"daggerheart\"><strong>压力点</strong></tooltip>，在一次<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"spellcast-roll\" nexus=\"daggerheart\">施法掷骰</tooltip>中加上你的<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"proficiency\" nexus=\"daggerheart\">熟练值</tooltip>。   </li><li class=\"vertical-card-list\">每次休息一次，你可以用你宝库中的任意一张卡牌替换此卡牌，无需支付其回想费用。</li></ul></p>"
+    },
+    "Through Your Eyes": {
+      "name": "感官共享 Through Your Eyes",
+      "description": "<p class=\"Body-Foundation\">选择一个极远距离内的目标。你可以通过其眼睛进行观察，通过其耳朵进行聆听。你可以在自己的感官或目标的感官之间自由切换，直到你施放另一个法术或下次休息。</p>"
+    },
+    "Breaking Blow": {
+      "name": "碎骨打击 Breaking Blow",
+      "description": "<p class=\"Body-Foundation\">当你进行一次成功的攻击时，你可以<strong>标记 1 压力点</strong>，使下一次成功针对同一目标的攻击额外造成<strong>2d12</strong>点伤害。</p>"
+    },
+    "Share the Burden": {
+      "name": "排忧解难 Share the Burden",
+      "description": "<p class=\"Body-Foundation\">每次休息一次，承担近战范围内一个自愿生物的压力。目标描述此刻向你倾诉了什么样的秘密。将其任意数量的已标记压力点转移给你，你每转移1压力点，获得1希望点。</p>"
+    },
+    "Wrangle": {
+      "name": "缠斗乱战 Wrangle",
+      "description": "<p class=\"Body-Foundation\">对近距离范围内的所有目标进行一次敏捷掷骰。<strong>花费1希望点</strong>，将你成功对抗的目标，以及近距离范围内的任意自愿盟友，移动到近距离范围内的另一个位置。</p><p>@Template[type:emanation|range:c]</p>"
+    },
+    "Untouchable": {
+      "name": "不可侵犯 Untouchable",
+      "description": "<p class=\"Body-Foundation\">你的闪避值获得等同于你敏捷值一半的加值。</p>"
+    },
+    "Plant Dominion": {
+      "name": "植物统御 Plant Dominion",
+      "description": "<p class=\"Body-Foundation\">进行一次<strong>施法掷骰 (18)</strong>。每次长休一次，成功时，你可以重塑自然世界，改变你极远范围内任何地方的植物。例如，你可以让树木瞬间生长，清除一路的茂密藤蔓，或者创造一堵根须墙。</p>"
+    },
+    "Wild Fortress": {
+      "name": "荒野壁垒 Wild Fortress",
+      "description": "<p class=\"Body-Foundation\">进行一次<strong>施法掷骰 (13)</strong>。成功时，<strong>花费 2 希望点</strong>，生长出一个天然的圆顶形屏障，你和一名盟友可以在其中躲藏。身处圆顶内的生物不能成为攻击目标，也不能进行攻击。针对圆顶的攻击自动成功。圆顶具有以下伤害阈值，持续到标记 3 生命点为止。在此卡上放置标记来表示标记生命点。</p>"
+    },
+    "Shadowhunter": {
+      "name": "暗影猎手 Shadowhunter",
+      "description": "<p class=\"Body\">在阴影的掩护下，你的技艺得到增强。当你在微光环境下或黑暗中被遮蔽时，你的闪避值获得+1加值，并且进行攻击掷骰时获得优势。</p>"
+    },
+    "Critical Inspiration": {
+      "name": "勇气能力 Critical Inspiration",
+      "description": "<p class=\"Body-Foundation\">每次休息一次，当你攻击获得关键成功时，邻近范围内的所有盟友可以清除 1 压力点或获得 1 希望点。</p>"
+    },
+    "Banish": {
+      "name": "放逐术 Banish",
+      "description": "<p><p class=\"Body-Foundation\">对<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"close\" nexus=\"daggerheart\">近距离</tooltip>范围内的一个目标进行一次<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"spellcast-roll\" nexus=\"daggerheart\"><strong>施法掷骰</strong></tooltip>。成功时，掷出等同于你施法属性的 <strong>d20</strong>。目标必须进行一次<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"reaction-roll\" nexus=\"daggerheart\">反应掷骰</tooltip>，<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"difficulty\" nexus=\"daggerheart\">难度</tooltip>等同于你最高掷骰结果。成功时，目标必须标记 1<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"stress\" nexus=\"daggerheart\"> 压力点</tooltip>，但不会被放逐。每次休息一次，失败时，其被放逐出这个界域。</p><p class=\"Body-Foundation\">当任意一名玩家角色掷出<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"fear\" nexus=\"daggerheart\">恐惧</tooltip>结果时，难度获得 −1 减值，且目标再进行一次反应掷骰。成功时，目标从放逐中返回。</p></p>"
+    },
+    "Thought Delver": {
+      "name": "挖掘思想 Thought Delver",
+      "description": "<p class=\"Body-Foundation\">你可以窥探他人的思想。<strong>花费1希望点</strong>，读取远距离范围内一个目标的浅层、大概的思绪。进行一次<strong>施法掷骰</strong>对抗目标，以探寻更深层、更隐藏的思绪。</p><p class=\"Body-Foundation\">骰出恐惧结果时，目标可能会在游戏主持人的裁量下，意识到你正在读取其思绪。</p>"
+    },
+    "Glyph of Nightfall": {
+      "name": "夜幕符文 Glyph of Nightfall",
+      "description": "<p class=\"Body-Foundation\">对邻近范围内的目标进行一次<strong>施法掷骰</strong>。成功时，<strong>花费1希望点</strong>在其身上召唤一个黑暗符文，暴露其弱点，暂时降低目标等同于你的知识的难度，降低等同于你的知识（至少为1）。</p>"
+    },
+    "Get Back Up": {
+      "name": "卷土重来 Get Back Up",
+      "description": "<p class=\"Body-Foundation\">当你承受严重伤害时，你可以<strong>标记 1 压力点</strong>来将伤害等级降低一级。</p>"
+    },
+    "Bolt Beacon": {
+      "name": "曳光信标 Bolt Beacon",
+      "description": "<p class=\"Body-Foundation\">对远距离范围内的一个目标进行一次<strong>施法掷骰</strong>。成功时，<strong>花费1希望点</strong>向目标射出一道闪烁的光束，使用你的熟练造成 <strong>d8+2</strong> 点魔法伤害。目标暂时处于<em>脆弱</em>状态并发出明亮的光芒，直到此状态解除。</p>"
+    },
+    "Lean on Me": {
+      "name": "中流砥柱 Lean on Me",
+      "description": "<p class=\"Body-Foundation\">每长休一次，当你安慰或激励一个行动掷骰失败的盟友时，你们两人都可以清除2 压力点。</p>"
+    },
+    "Earthquake": {
+      "name": "地动山摇 Earthquake",
+      "description": "<p class=\"Body-Foundation\">进行一次<strong>施法掷骰 (16)</strong>。每次休息一次，成功后，极远距离范围内所有不处于飞行中的目标必须进行一次反应掷骰 (18)。失败的目标承受 <strong>3d10+8</strong> 点物理伤害并暂时处于<em>脆弱</em>状态。成功的目标承受一半伤害。</p><p class=\"Body-Foundation\">此外，当你成功进行施法掷骰时，极远距离范围内的所有地形变得难以通行，并且该范围内的建筑可能会受到伤害或坍塌。</p>"
+    },
+    "Unbreakable": {
+      "name": "坚不可摧 Unbreakable",
+      "description": "<p class=\"Body-Foundation\">当你标记最后一个生命点时，你可以改为掷一个 <strong>d6</strong> 并回复等同于结果数量的生命点，而不是进行一次死亡行动。然后将此卡牌放入你的宝库。</p>"
+    },
+    "Wild Surge": {
+      "name": "狂野浪涌 Wild Surge",
+      "description": "<p class=\"Body-Foundation\">每长休一次，<strong>标记1压力点</strong>，引导你周围的自然世界并增强自身。描述你的外表如何变化，然后将一个<strong>d6</strong>骰子放在这张卡上，1朝上。</p><p class=\"Body-Foundation\">当狂野浪涌骰激活时，你将其作为加值加到你进行的每一次动作掷骰中。每当你将其值加到一次掷骰后，将狂野浪涌骰的骰值增加1。当骰值将超过6或你休息时，该形态消失，然后你必须<strong>额外标记1压力点</strong>。</p>"
+    },
+    "Battle Cry": {
+      "name": "战斗咆哮 Battle Cry",
+      "description": "<p class=\"Body-Foundation\">每长休一次，当你在向危险发起冲锋时，你可以发出振奋人心的呼唤，激励你的盟友。所有能听到你的盟友各清除1压力点，并获得1希望点。此外，你的盟友在攻击掷骰上获得优势，直到你或一名盟友骰出恐惧结果的失败。</p>"
+    },
+    "Fane of the Wilds": {
+      "name": "野地神殿 Fane of the Wilds",
+      "description": "<p class=\"Body-Foundation\">长休后，将等同于你配置和宝库中贤者领域卡数量的标记放在此卡上。</p><p class=\"Body-Foundation\">当你进行施法掷骰时，你可以在掷骰后花费任意数量标记，每花费一个标记获得+1加值。</p><p class=\"Body-Foundation\">当你对贤者领域法术的施法掷骰获得关键成功时，获得一个标记。</p><p class=\"Body-Foundation\">当你进行长休时，清除所有未花费的标记。</p>"
+    },
+    "Midnight Spirit": {
+      "name": "午夜精魂 Midnight Spirit",
+      "description": "<p class=\"Body-Foundation\"><strong>花费1希望点</strong> 召唤一个人形大小的精魂，它可以为你移动或携带物品，直到你下次休息。</p><p class=\"Body-Foundation\">你也可以派遣它攻击一个敌人。当你这样做时，对极远范围内的目标进行一次<strong>施法掷骰</strong>。成功时，精魂移动到该目标的近战范围内。掷出等同于你施法属性值的<strong>d6</strong>，并对目标造成等量魔法伤害。之后精魂消散。你一次只能拥有一个精魂。</p>"
+    },
+    "Telekinesis": {
+      "name": "心灵遥控 Telekinesis",
+      "description": "<p class=\"Body-Foundation\">对远距离范围内的一个目标进行一次<strong>施法掷骰</strong>。成功时，你可以用意念将他们移动到其原位置远距离范围内的任何地方。你可以通过对你想攻击的第二个目标进行额外的施法掷骰，将被举起的目标作为攻击投掷出去。成功时，使用你的熟练对第二个目标造成 <strong>d12+4</strong> 点物理伤害。此法术随后结束。</p>"
+    },
+    "Vanishing Dodge": {
+      "name": "无踪影遁 Vanishing Dodge",
+      "description": "<p class=\"Body-Foundation\">当一次针对你且会造成物理伤害的攻击失败时，你可以<strong>花费1希望点</strong>，将自己包裹在阴影中，进入<em>隐藏</em>状态，并传送到攻击者邻近范围内的任意一点。你将保持<em>隐藏</em>状态，直到你下一次进行动作掷骰。"
+    },
+    "Rune Ward": {
+      "name": "符文护符 Rune Ward",
+      "description": "<p><p class=\"Body-Foundation\">你拥有一件意义深远的个人小饰品，可以注入防护魔法，由你或一位盟友持有作为护身符。描述一下它是什么以及它对你为何重要。持有护身符的人可以花费 1 <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hope\" nexus=\"daggerheart\">希望点</tooltip>来减少即将到来的伤害，数值为<strong>1d8</strong>。</p><p class=\"Body-Foundation\">如果掷出的结果是8，则该护身符在本回合减少伤害后其力量消失。你可以在下次休息时免费为其充能。</p></p>"
+    },
+    "Rage Up": {
+      "name": "怒意重击 Rage Up",
+      "description": "<p class=\"Body-Foundation\">在你进行攻击之前，你可以<strong>标记 1 压力点</strong>，使你的伤害掷骰获得等同于你力量值两倍的加值。.</p><p class=\"Body-Foundation\">每次攻击你可以狂怒两次。</p>"
+    },
+    "Blade-Touched": {
+      "name": "利刃恩泽 Blade-Touched",
+      "description": "<p class=\"Body-Foundation-No-BOLDITALIC\">当你的配置中有4张或更多领域卡来自利刃领域时，获得下列增益：</p><ul><li class=\"vertical-card-list-found\"><p>你的攻击掷骰获得+2加值</p></li><li class=\"vertical-card-list-found\"><p>你的严重伤害阈值获得+4加值</p></li></ul>"
+    },
+    "Healing Field": {
+      "name": "治疗之域 Healing Field",
+      "description": "<p class=\"Body-Foundation\">每长休一次，你可以在自己周围召唤一片遍布治疗植物的领域。你近距离范围内到处都充满了生机勃勃的自然气息，使你和该区域内的所有盟友都能恢复1生命点。</p><p class=\"Body-Foundation\"><strong>花费2希望点</strong>，使你和所有盟友改为恢复2生命点。</p>"
+    },
+    "Swift Step": {
+      "name": "闪转腾挪 Swift Step",
+      "description": "<p class=\"Body-Foundation\">当一次针对你的攻击失败时，​清除 1 压力点。你无压力可供清除时，则获得 1 希望点。</p>"
+    },
+    "Tell No Lies": {
+      "name": "无可讳言 Tell No Lies",
+      "description": "<p><p class=\"Body-Foundation\">对<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"very-close\" nexus=\"daggerheart\">邻近</tooltip>距离范围内的一个目标进行一次<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"spellcast-roll\" nexus=\"daggerheart\"><strong>施法掷骰</strong></tooltip><strong> </strong>。成功时，只要其在<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"close\" nexus=\"daggerheart\">近</tooltip>距离范围内，就不能对你说谎，但可以保持沉默。如果你问其一个问题而对方拒绝回答，则对方必须标记 1 <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"stress\" nexus=\"daggerheart\">压力点</tooltip>，且此效果结束。目标通常不会意识到此法术已施加在自己身上，直到此法术导致其说出真相。</p></p>"
+    },
+    "Pick and Pull": {
+      "name": "妙手空空 Pick and Pull",
+      "description": "<p class=\"Body-Foundation\">你在撬开非魔法锁、解除非魔法陷阱或从一个目标处盗窃物品（无论是偷是抢）的动作掷骰上具有优势。</p>"
+    },
+    "Teleport": {
+      "name": "传送术 Teleport",
+      "description": "<p class=\"Body-Foundation\">每长休一次，你可以立即将自己以及近距离范围内任意数量的自愿目标传送到你曾经去过的地方。选择下列选项之一，然后进行一次<strong>施法掷骰 (16)</strong>：</p><ul><li class=\"vertical-card-list\">如果你对这个地方非常熟悉，获得+3加值。</li><li class=\"vertical-card-list\"> 如果你经常去这个地方，获得+1加值。</li><li class=\"vertical-card-list\">如果你很少去这个地方，不获得调整值。</li><li class=\"vertical-card-list\">如果你只去过那里一次，获得−2减值。</li></ul><p class=\"Body-Foundation\">成功时，你出现在你打算去的地方。失败时，你出现在偏离预定地点的地方，偏离的距离取决于失败的程度。</p>"
+    },
+    "Rejuvenation Barrier": {
+      "name": "回春屏障 Rejuvenation Barrier",
+      "description": "<p class=\"Body-Foundation\">进行一次<strong>施法掷骰 (15)</strong>。每次休息一次，成功时，在你邻近范围内创造一个临时的保护能量屏障。施放此法术时，你和屏障内的所有盟友恢复<strong>1d4</strong>生命点。屏障存续期间，你和屏障内的所有盟友拥有物理伤害抗性。</p><p class=\"Body-Foundation\">当你移动时，屏障会跟随你。</p><p>@Template[type:emanation|range:vc]</p>"
+    },
+    "Goad Them On": {
+      "name": "激将大法 Goad Them On",
+      "description": "<p class=\"Body-Foundation\">描述你如何嘲讽一个近距离范围内的目标，然后对其进行一次 <strong>风度掷骰</strong>。成功时，目标必须标记1压力点，且下一次游戏主持人聚焦目标时，目标必须以你为目标进行攻击，且该攻击带有劣势。</p>"
+    },
+    "Onslaught": {
+      "name": "猛攻强袭 Onslaught",
+      "description": "<p class=\"Body-Foundation\">当你成功使用武器进行攻击时，你造成的伤害不会低于目标的重度伤害阈值（目标总是至少标记2点生命点）。</p><p class=\"Body-Foundation\">此外，当一个位于你武器射程内的生物对你的盟友造成伤害，且该攻击不包含你时，你可以<strong>标记1压力点</strong>，迫使他们进行一次反应掷骰（15）。如果失败，目标必须标记1点生命点。</p>"
+    },
+    "Notorious": {
+      "name": "恶名昭彰 Notorious",
+      "description": "<p class=\"Body-Foundation\">人们知道你是谁，以及你做过什么，因此他们对待你的方式与众不同。当你利用你的恶名来达成目的时，你可以在掷骰前<strong>标记1压力点</strong>宝库，从而使结果获得+10加值。无论你走到哪里，你的食物和饮料总是免费，你购买的其他任何物品价格都会减少一袋金币（最低为一把金币）。</p><p class=\"Body-Foundation\">此卡牌不计入你的配置领域牌上限5张，且不能放入你的宝库。</p>"
+    },
+    "Book of Yarrow": {
+      "name": "亚罗之书 Book of Yarrow",
+      "description": "<p><p class=\"Card-Feature\"><em><strong>时间停滞：</strong></em> 进行一次<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"spellcast-roll\" nexus=\"daggerheart\"><strong>施法掷骰</strong></tooltip><strong> (18)</strong>。成功时，<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"far\" nexus=\"daggerheart\">远</tooltip>距离范围内除了你之外的所有生物时间暂时停止。当你进行一次以其他生物为目标的<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"action-roll\" nexus=\"daggerheart\">动作掷骰</tooltip>时，时间恢复流动。</p><p class=\"Card-Feature\"><em><strong>魔法免疫：</strong></em> <strong>花费 5 </strong><tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hope\" nexus=\"daggerheart\"><strong>希望点</strong></tooltip>，直到你下次休息前对<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"magic-damage-type\" nexus=\"daggerheart\">魔法</tooltip>伤害免疫。</p></p>"
+    },
+    "Splendor-Touched": {
+      "name": "辉耀恩泽 Splendor-Touched",
+      "description": "<p><p class=\"Body-Foundation-No-BOLDITALIC\">当你的<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"loadout-and-vault\" nexus=\"daggerheart\">配置</tooltip>中有4张或更多的领域卡来自辉耀领域时，获得下列增益：</p><ul class=\"\"><li class=\"vertical-card-list\">你的 <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"severe-damage\" nexus=\"daggerheart\">严重</tooltip>伤害阈值获得+3加值</li><li class=\"vertical-card-list\">每<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"long-rest\" nexus=\"daggerheart\">长休</tooltip>一次，当受到的伤害需要你标记一定数量的<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hit-points\" nexus=\"daggerheart\">生命点</tooltip>时，你可以选择标记等量的<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"stress\" nexus=\"daggerheart\">压力点</tooltip>或花费等量的<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hope\" nexus=\"daggerheart\">希望点</tooltip>来代替。</li></ul></p>"
+    },
+    "Conjured Steeds": {
+      "name": "召唤坐骑 Conjured Steeds",
+      "description": "<p class=\"Body-Foundation\"><strong>花费任意数量的希望点</strong>，召唤等量的魔法坐骑（例如马、骆驼或大象），可以供你和你的盟友骑乘，直到你的下一次长休或坐骑受到任何伤害。坐骑可以使你旅行时的陆上行进速度翻倍，面临危险时，允许你在远距离范围内移动而无需掷骰。骑乘战马的生物攻击掷骰会受到-2的减值，伤害掷骰获得+2的加值。</p>"
+    },
+    "Troublemaker": {
+      "name": "惹是生非 Troublemaker",
+      "description": "<p class=\"Body-Foundation\">当你在远距离范围内嘲弄或挑衅一个目标时，对其进行一次<strong>风度掷骰</strong>。每次休息一次，成功时，掷出数量等同于你熟练值的<strong>d4</strong>。目标必须标记等同于掷出最高结果的压力点。</p>"
+    },
+    "Forest Sprites": {
+      "name": "森林精魂 Forest Sprites",
+      "description": "<p class=\"Body\">进行一次<strong>施法掷骰 (13)</strong>。成功时，<strong>花费任意数量的希望点</strong>，创造等量的小型森林精魂，精魂出现在你选择的远距离范围内任意地点处，提供下列增益：</p><ul><li class=\"vertical-card-list\"><p>你的盟友在攻击精魂近战范围内的敌人时，攻击掷骰获得+3加值。</p></li><li class=\"vertical-card-list\"><p>处于精魂近战范围内的盟友在标记护甲槽时，可以额外标记一个护甲槽。</p></li></ul><p class=\"Body\">精魂在提供一次好处或受到任何伤害后消失。</p>"
+    },
+    "Shrug It Off": {
+      "name": "泰然自若 Shrug It Off",
+      "description": "<p class=\"Body-Foundation\">当你将要承受伤害时，你可以<strong>标记 1 压力点</strong>将伤害降低一个等级。当你这样做时，掷一个 <strong>d6</strong>。结果为 3 或更低时，将此卡牌放入你的宝库。</p>"
+    },
+    "Arcane Reflection": {
+      "name": "奥术反射 Arcane Reflection",
+      "description": "<p class=\"Body-Foundation\">当你将要受到魔法伤害时，你可以<strong>花费任意数量的希望</strong>来掷出同等数量的 <strong>d6</strong>。如果任何一个骰子掷出6，该攻击将被反射回施法者，转而对他们造成伤害。</p>"
+    },
+    "Divination": {
+      "name": "预言卜筮 Divination",
+      "description": "<p class=\"Body-Foundation\">每长休一次，<strong>花费 3 希望点</strong>来联系某个遥远存在，询问一个关于近期未来事件、人物、地点或情况的“是或否”问题。当下现实将短暂消隐，答案会如幻象般呈现在你眼前。</p>"
+    },
+    "Grace-Touched": {
+      "name": "优雅恩泽 Grace-Touched",
+      "description": "<p class=\"Body-Foundation\">当你的配置中有4张或更多领域牌来自优雅领域时，获得下列增益：</p><ul><li class=\"vertical-card-list-found\"><p>你可以<strong>标记1护甲槽</strong>以替代标记1压力点。</p></li><li class=\"vertical-card-list-found\"><p>当你会迫使目标标记一定数量的生命点时，你可以选择改为迫使他们标记同等数量的压力点。</p></li></ul>"
+    },
+    "Invisibility": {
+      "name": "无影无踪 Invisibility",
+      "description": "<p class=\"Body-Foundation\">进行一次<strong>施法掷骰 (10)</strong>。成功时，<strong>标记1压力点</strong>，并选择自己或近战距离内的一名盟友进入<em>隐形</em>状态。处于<em>隐形</em>状态的生物除了通过魔法手段外无法被看见，并且对其进行的攻击掷骰带有劣势。在此卡牌上放置数量等同于你施法属性的指示物。当处于<em>隐形</em>状态的生物采取行动时，花费此卡牌上的一个指示物。在花费最后一个指示物的行动结算后，此效果结束。</p><p class=\"Body-Foundation\">你一次只能使一个生物维持隐形状态。</p>"
+    },
+    "I Am Your Shield": {
+      "name": "吾身为盾 I Am Your Shield",
+      "description": "<p class=\"Body-Foundation\">当邻近范围内的盟友即将受到伤害时，你可以<strong>标记1压力点</strong>进行阻挡，使自己成为该次攻击的目标。当你因此次攻击受到伤害时，你可以标记任意数量的护甲槽。</p>"
+    },
+    "I See It Coming": {
+      "name": "先见之明 I See It Coming",
+      "description": "<p class=\"Body-Foundation\">当你成为来自近战范围之外的攻击目标时，你可以<strong>标记1压力点</strong>，掷一个<strong>d4</strong>，并获得等同于结果的闪避值加值来对抗该攻击。"
+    },
+    "Signature Move": {
+      "name": "招牌动作 Signature Move",
+      "description": "<p><p class=\"Body-Foundation\">命名并描述你的招牌战斗动作。每次休息一次，当你执行此招牌动作作为你所采取行动的一部分时，你可以将一个<strong>d20</strong>作为你的<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hope\" nexus=\"daggerheart\">希望</tooltip>骰进行掷骰。成功时，​清除 1 <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"stress\" nexus=\"daggerheart\">压力点</tooltip>。</p></p>"
+    },
+    "Force of Nature": {
+      "name": "自然之力 Force of Nature",
+      "description": "<p class=\"Body-Foundation-No-BOLDITALIC\"><strong>标记 1 压力点</strong>，变身为巨大的自然精魂，获得下列增益：</p><ul><li class=\"vertical-card-list\"><p>当你攻击或施法掷骰成功时，伤害掷骰获得+10加值。</p></li><li class=\"vertical-card-list\"><p>当你对近距离范围内的生物造成足够伤害从而击败该生物时，你将其吸收并清除 1 护甲槽。</p></li><li class=\"vertical-card-list\"><p>你无法被<em>束缚</em>。</p></li></ul><p class=\"Body-Foundation\">在你进行动作掷骰之前，你必须<strong>花费 1 希望点</strong>。如果你无法花费 1 希望点，则恢复正常形态。</p>"
+    },
+    "Reaper’s Strike": {
+      "name": "死亡收割 Reaper’s Strike",
+      "description": "<p class=\"Body-Foundation\">每长休一次，<strong>花费1希望点</strong>进行一次攻击掷骰。游戏主持人会告诉你范围内哪些目标会受到攻击。选择其中一个目标，并迫使他们标记5生命点。</p>"
+    },
+    "Frenzy": {
+      "name": "狂怒出击 Frenzy",
+      "description": "<p class=\"Body-Foundation\">每长休一次，你可以进入<em>狂怒</em>状态，直到视野范围内没有更多敌人为止。</p><p class=\"Body-Foundation\">处于<em>狂怒</em>状态时，你不能使用护甲槽，你的伤害掷骰获得+10加值，你的严重伤害阈值获得+8加值。</p>"
+    },
+    "Never Upstaged": {
+      "name": "绝不怯场 Never Upstaged",
+      "description": "<p class=\"Body-Foundation\">当你因一次攻击而标记1点或更多生命点时，你可以<strong>标记1压力点</strong>，在此卡上放置等同于你标记的生命点数的指示物。在你下次成功的攻击中，此卡上的每个指示物使你的伤害掷骰获得+5加值，然后移除所有指示物。</p>"
+    },
+    "Stealth Expertise": {
+      "name": "潜行专家 Stealth Expertise",
+      "description": "<p class=\"Body-Foundation\">当你试图在危险区域中不被察觉地移动时，如果你骰出恐惧结果，你可以<strong>标记1压力点</strong>改为骰出希望结果。</p><p class=\"Body-Foundation\">如果邻近范围内的盟友也在试图不被察觉地移动且骰出恐惧结果，你可以<strong>标记1压力点</strong>将其结果改为骰出希望结果。"
+    },
+    "Final Words": {
+      "name": "临终遗言 Final Words",
+      "description": "<p class=\"Body-Foundation\">你可以为一具尸体注入片刻生机，以便与之交谈，进行一次<strong>施法掷骰 (13)</strong>。希望成功时，尸体最多回答三个问题。恐惧成功时，尸体回答一个问题。尸体会如实回答，但它无法提供生前不知道的信息。施法失败时，或者当尸体回答完你的问题后，它将化为尘土。</p>"
+    },
+    "Battle-Hardened": {
+      "name": "久经沙场 Battle-Hardened",
+      "description": "<p class=\"Body-Foundation\">每长休一次，当你将进行死亡行动时，你可以<strong>花费 1 希望点</strong>来恢复 1 生命点，而非进行死亡行动。</p>"
+    },
+    "Know Thy Enemy": {
+      "name": "知己知彼 Know Thy Enemy",
+      "description": "<p class=\"Body-Foundation-No-BOLDITALIC\">观察一个生物时，你可以对其进行一次<strong>本能掷骰</strong>。成功时，​<strong>花费 1 希望点</strong>并向游戏主持人询问目标下列选项中的一组信息：</p><ul><li class=\"vertical-card-list-found\"><p>其未标记的生命点和压力。</p></li><li class=\"vertical-card-list-found\"><p>其难度和伤害阈值。</p></li><li class=\"vertical-card-list-found\">其战术和标准攻击伤害骰。</li><li class=\"vertical-card-list-found\"><p>其特性和经历。</p></li></ul><p class=\"Body-Foundation-No-BOLDITALIC\">此外，成功时，你可以<strong>标记 1 压力点</strong>从游戏主持人恐惧池中清除 1 恐惧点。</p>"
+    },
+    "Bone-Touched": {
+      "name": "骸骨恩泽 Bone-Touched",
+      "description": "<p class=\"Body-Foundation-No-BOLDITALIC\">当你的配置中有4张或更多领域卡来自骸骨领域时，获得下列增益：</p><ul><li class=\"vertical-card-list-found\"><p>敏捷+1</p></li><li class=\"vertical-card-list-found\"><p>每次休息一次，你可以<strong>花费 3 希望点</strong>，使一次针对你的成功攻击转为失败。</p></li></ul>"
+    },
+    "Life Ward": {
+      "name": "生命护符 Life Ward",
+      "description": "<p><p class=\"Body-Foundation\"><strong>花费 3 </strong><tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hope\" nexus=\"daggerheart\"><strong>希望点</strong></tooltip>并选择一个<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"close\" nexus=\"daggerheart\">近</tooltip>距离范围内的盟友，其被一个发光的护符标记。当该盟友因任意理由被要求执行一次<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"death\" nexus=\"daggerheart\">死亡</tooltip>行动时，改为恢复 1 <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hit-points\" nexus=\"daggerheart\">生命点</tooltip>。        </p><p class=\"Body-Foundation\">该法术将会在避免一次死亡行动后、再次施放于其他目标时以及执行 <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"long-rest\" nexus=\"daggerheart\">长休</tooltip>时结束。</p></p>"
+    },
+    "Battle Monster": {
+      "name": "战场猛兽 Battle Monster",
+      "description": "<p class=\"Body-Foundation\">当你对敌人进行成功攻击时，你可以<strong>标记4压力点</strong>，迫使目标标记等同于你当前已标记生命点数的生命点，而不是掷骰决定伤害。</p>"
+    },
+    "Soothing Speech": {
+      "name": "宽慰言语 Soothing Speech",
+      "description": "<p class=\"Body-Foundation\">在一次短休期间，当你对另一个角色使用“处理伤口”休整行动并用心安慰时，为该角色额外恢复 1 生命点。当你这样做时，你也会恢复 2 生命点。</p>"
+    },
+    "Brace": {
+      "name": "警戒防备 Brace",
+      "description": "<p class=\"Body-Foundation\">当你标记 1 护甲槽来减少受到的伤害时，你可以<strong>标记 1 压力点</strong>来额外标记 1 护甲槽。</p>"
+    },
+    "Blink Out": {
+      "name": "闪烁现身 Blink Out",
+      "description": "<p><p class=\"Body-Foundation\">进行一次<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"spellcast-roll\" nexus=\"daggerheart\"><strong>施法掷骰 </strong></tooltip><strong>(12)</strong>。成功时，​<strong>花费 1  </strong><tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hope\" nexus=\"daggerheart\"><strong>希望点</strong></tooltip>传送到你在<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"far\" nexus=\"daggerheart\">远</tooltip>距离范围内能看到的另一个点。如果任何自愿的生物在<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"very-close\" nexus=\"daggerheart\">邻近</tooltip>范围内，为每个生物额外<strong>花费 1 希望点</strong>以将它们带上。</p></p>"
+    },
+    "Book of Grynn": {
+      "name": "格林之书 Book of Grynn",
+      "description": "<p class=\"Card-Feature\"><em><strong>奥术偏转:</strong></em> 每长休一次，<strong>花费1希望点</strong>来抵消针对你或邻近范围内盟友的攻击伤害。</p><p class=\"Card-Feature\"><em><strong>时滞之锁:</strong></em> 指定远距离范围内的一个物体。该物体在时间和空间中停滞，直到你下次休息。如果一个生物试图移动它，对其进行一次<strong>施法掷骰</strong>来维持此法术。</p><p class=\"Card-Feature\"><em><strong>火焰墙:</strong></em>  进行一次<strong>施法掷骰 (15)</strong>。成功时，在远距离范围内的两点之间创造一道魔法火焰墙。所有在其路径上的生物必须选择站在哪一侧，随后穿过火焰墙的任何物体都会受到<strong>4d10+3</strong>点魔法伤害。</p>"
+    },
+    "Chokehold": {
+      "name": "锁喉勒颈 Chokehold",
+      "description": "<p></p><p class=\"Body-Foundation\">当你位于与你体型相仿的生物身后时，你可以<strong>标记 1 压力点</strong>将其锁喉，使其暂时处于<em>脆弱</em>状态。</p><p class=\"Body-Foundation\">当一个生物攻击以这种方式处于<em>脆弱</em>状态的目标时，额外造成<strong>2d6</strong>伤害。</p><p></p>"
+    },
+    "Confusing Aura": {
+      "name": "惑像灵光 Confusing Aura",
+      "description": "<p class=\"Body-Foundation-No-BOLDITALIC\">进行一次<strong>施法掷骰 (14)</strong>。每长休一次，成功后，你在身体周围创造一层幻象，使人难以确定你的确切位置。<strong>标记任意数量的压力</strong>以创造等量的额外层数。当敌人对你进行攻击时，掷出等同于当前活跃层数数量的 <strong>d6</strong>。如果任何骰子掷出5或更高，摧毁一层灵光，且该攻击失败。如果所有结果都为4或更低，你承受伤害，并且该法术结束。</p>"
+    },
+    "Sigil of Retribution": {
+      "name": "惩戒符印 Sigil of Retribution",
+      "description": "<p class=\"Body-Foundation\">在近距离范围内的一个敌人身上标记一个惩戒符印。游戏主持人获得1恐惧点。当被标记的敌人对你或你的盟友造成伤害时，在此卡牌上放置一个<strong>d8</strong>。你最多可以持有等同于你等级数量的<strong>d8</strong>。当你成功攻击被标记的敌人时，掷出此卡牌上的骰子并将总和加入你的伤害掷骰中，然后移除对应骰子。当被标记的敌人被击败或你再次施放惩戒符印时，此效果结束。</p>"
+    },
+    "Twilight Toll": {
+      "name": "暮光丧钟 Twilight Toll",
+      "description": "<p class=\"Body-Foundation\">选择远距离范围内的一个目标。当你对其进行一次成功的动作掷骰，且该掷骰未导致进行伤害掷骰时，在此卡上放置一个指示物。当你对该目标造成伤害时，花费任意数量的指示物，每花费一个指示物就为你的伤害掷骰增加一个<strong>d12</strong>。你一次只能对一个生物施加暮光丧钟。</p><p class=\"Body-Foundation\">当你选择一个新的目标或进行一次休息时，清除所有未花费的指示物。</p>"
+    },
+    "Book of Ronin": {
+      "name": "罗宁之书  Book of Ronin",
+      "description": "<p class=\"Card-Feature\"><em><strong>变形:</strong></em> 进行一次<strong>施法掷骰 (15)</strong>。成功时，变形为一个不超过你正常体型两倍的无生命物体。你可以保持这个形态直到受到伤害。</p><p class=\"Card-Feature\"><em><strong>永恒衰弱:</strong> </em> 每长休一次，对近距离范围内的一个目标进行一次<strong>施法掷骰</strong>。成功时，使其永久变为<em>脆弱</em>状态。其无法通过任何方式解除此状态。"
+    },
+    "Full Surge": {
+      "name": "火力全开 Full Surge",
+      "description": "<p class=\"Body-Foundation\">每长休一次，<strong>标记 3 压力点</strong>来将你的机能发挥至极限。你的所有角色属性获得 +2 加值，直到你下次休息。</p>"
+    },
+    "Mending Touch": {
+      "name": "修复之触 Mending Touch",
+      "description": "<p class=\"Body-Foundation\">你将双手放在一个生物身上，引导治疗魔法来愈合他们的伤口。当你能够花费几分钟专注于你正在帮助的目标时，你可以<strong>花费2希望点</strong>来恢复 1 生命点或清除 1 压力点。</p><p class=\"Body-Foundation\">每长休一次，当你在治疗时学到了新东西，或者向你的队友揭示了关于你的事情，你可以<strong>花费2希望点</strong>来恢复 2 生命点或清除 2 压力点。</p>"
+    },
+    "Uncanny Disguise": {
+      "name": "奇异伪装 Uncanny Disguise",
+      "description": "<p class=\"Body-Foundation\">当你有数分钟用以准备时，你可以<strong>标记1压力点</strong>来伪装成你脑海中能清晰描绘的任何人形生物。伪装期间，你在逃避检查的风度掷骰上具有优势。</p><p class=\"Body-Foundation\">将与你的施法属性值等量的指示物放在此卡牌上。当你在伪装下执行动作时，花费此卡牌上的1个指示物。花费最后一个指示物的动作结算后，伪装解除。</p>"
+    },
+    "Splintering Strike": {
+      "name": "分裂打击 Splintering Strike",
+      "description": "<p class=\"Body-Foundation\"><strong>花费1希望点</strong>，对你武器射程内的所有敌人进行一次攻击。每长休一次，对任意目标成功时，将造成的伤害加总，然后你可以随意将这些伤害分配给你成功对抗的目标。当你对一个目标造成伤害时，额外掷一个伤害骰，将其结果加入你对该目标造成的伤害中。</p>"
+    },
+    "Natural Familiar": {
+      "name": "自然魔宠 Natural Familiar",
+      "description": "<p class=\"Body-Foundation\"><strong>花费1希望点</strong>，召唤一个小型的自然精魂或森林动物来到你身边，直到你下一次休息、再次施放自然魔宠，或魔宠被攻击锁定时失效。如果你<strong>额外花费1希望点</strong>，你可以召唤一只会飞行的魔宠。你可以与其交流，进行一次<strong>施法掷骰</strong>来指挥它们执行简单的任务，并<strong>标记1压力点</strong>来透过魔宠的眼睛观察。</p><p class=\"Body-Foundation\">当你对魔宠近战范围内的敌人造成伤害时，你的伤害掷骰额外增加一个<strong>d6</strong>。</p>"
+    },
+    "Manifest Wall": {
+      "name": "具现之墙  Manifest Wall",
+      "description": "<p class=\"Body-Foundation\">进行一次<strong>施法掷骰 (15)</strong>。每次休息一次，成功时，<strong>花费1希望点</strong>在远距离范围内的两点之间创造一道临时的魔法墙。它最高可达50英尺，并可以呈任何角度。在其路径上的生物或物体会被推到你选择的一侧。这道墙会一直存在，直到你下次休息或再次施放具现之墙。</p><p>@Template[type:ray|range:f]</p>"
+    },
+    "Smite": {
+      "name": "惩戒重击 Smite",
+      "description": "<p class=\"Body-Foundation\">每次休息一次，<strong>花费 3 希望点</strong>以准备一次强有力的打击。当你下次成功使用武器攻击时，你的伤害掷骰结果翻倍。无论武器的伤害类型如何，此次攻击都造成魔法伤害。</p>"
+    },
+    "Rain of Blades": {
+      "name": "滂沱剑雨 Rain of Blades",
+      "description": "<p class=\"Body-Foundation\"><strong>花费 1 希望点</strong>进行一次<strong>施法掷骰</strong>，召唤出数把投掷利剑，攻击邻近范围内的所有目标。你成功对抗的目标将受到使用你的熟练值的<strong>d8+2</strong>点魔法伤害。</p><p class=\"Body-Foundation\">如果你命中的目标处于<em>脆弱</em>状态，其会额外受到<strong>1d8</strong>点伤害。</p>"
+    },
+    "Boost": {
+      "name": "高高跃起 Boost",
+      "description": "<p class=\"Body-Foundation\"><strong>标记1压力点</strong>，从近距离范围内的自愿盟友处借力，冲向空中，对远距离范围内的目标进行一次空中攻击。这次攻击你获得优势，在伤害掷骰中额外加上一个<strong>d10</strong>，并在目标近战范围内结束你的行动。</p>"
+    },
+    "Book of Vyola": {
+      "name": "维奥拉之书 Book of Vyola",
+      "description": "<p class=\"Card-Feature\"><em><strong>深掘记忆:</strong></em> 对远距离范围内的一个目标进行一次<strong>施法掷骰</strong>。成功时，窥探目标的思想并向游戏主持人提出一个问题。游戏主持人描述目标与答案相关的任何记忆。</p><p class=\"Card-Feature\"><em><strong>共享明晰:</strong> </em> 每长休一次，<strong>花费1希望点</strong>选择两个自愿生物。当其中一个生物将要标记压力时，他们可以选择由他们中的哪一个来标记。此法术持续到他们下一次休息。</p>"
+    },
+    "Sage-Touched": {
+      "name": "贤者恩泽 Sage-Touched",
+      "description": "<p class=\"Body-Foundation\">当你的配置中有4张或更多的领域卡来自贤者领域时，获得下列增益：</p><ul><li class=\"vertical-card-list\"><p>当你在自然环境中时，你的施法掷骰获得+2加值。</p></li><li class=\"vertical-card-list\"><p>每休息一次，你在进行使用敏捷或本能属性的掷骰时，可以使你的敏捷或本能属性翻倍。你必须在掷骰前进行选择。</p><p></p></li></ul>"
+    },
+    "Gifted Tracker": {
+      "name": "追猎才能 Gifted Tracker",
+      "description": "<p class=\"Body-Foundation\">当你根据特定生物或生物群体的踪迹进行追踪时，你可以<strong>花费任意数量的希望点</strong>，向游戏主持人提出等量下列问题。</p><ul><li class=\"vertical-card-list\">生物朝哪个方向去了？</li><li class=\"vertical-card-list\">生物是多久之前经过这里的？</li><li class=\"vertical-card-list\">生物在这个地方做了什么？</li><li class=\"vertical-card-list\">生物数量几何？</li></ul><p class=\"Body-Foundation\">当你遭遇到以这种方式追踪到的生物时，与生物对抗时你的闪避值获得+1加值。</p>"
+    },
+    "Tactician": {
+      "name": "战术行家 Tactician",
+      "description": "<p><p class=\"Body-Foundation\">当你<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"help-an-ally\" nexus=\"daggerheart\">帮助一个盟友</tooltip>时，其可以花费 1 <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hope\" nexus=\"daggerheart\">希望点</tooltip>，将你的一项<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"experience\" nexus=\"daggerheart\">经历</tooltip>作为加值加入其掷骰结果中，并与你的<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"advantage-and-disadvantage\" nexus=\"daggerheart\">优势</tooltip>骰一同掷出。</p><p class=\"Body-Foundation\">进行<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"tag-team-roll\" nexus=\"daggerheart\">接力掷骰</tooltip>时，你可以掷一个<strong>d20</strong>作为你的希望骰。</p></p>"
+    },
+    "Healing Hands": {
+      "name": "治愈之手 Healing Hands",
+      "description": "<p class=\"Body-Foundation\">进行一次<strong>施法掷骰 (13)</strong>，并选择一个除你以外的近战范围内的生物作为目标。成功时，<strong>标记1压力点</strong>以恢复目标 2 生命点或清除 2 压力点。失败时，<strong>标记1压力点</strong>以恢复目标1 生命点或清除 1 压力点。在下一次长休之前，你不能再次治疗同一个目标。</p>"
+    },
+    "Ground Pound": {
+      "name": "撼地猛击 Ground Pound",
+      "description": "<p class=\"Body-Foundation\"><strong>花费 2 希望点</strong>来猛砸你所在位置的地面，并对邻近范围内的所有目标，进行一次<strong>力量掷骰</strong>。你成功对抗的目标会被击退至远距离范围，并且必须进行一次反应掷骰 (17)。失败的目标承受 <strong>4d10+8</strong> 点伤害。成功的目标承受一半伤害。</p><p>@Template[type:emanation|range:vc]</p>"
+    },
+    "Book of Norai": {
+      "name": "诺莱伊之书 Book of Norai",
+      "description": "<p class=\"Card-Feature\"><em><strong>神秘锁链:</strong></em> 对远距离范围内的一个目标进行一次 <strong>施法掷骰</strong>。成功时，他们暂时处于<em>束缚</em>状态且必须标记1压力点。如果你以一个飞行生物为目标，此法术会将其击落并使其暂时处于<em>束缚</em>状态。</p><p class=\"Card-Feature\"><em><strong>火球术:</strong></em> 对极远距离范围内的一个目标进行一次 <strong>施法掷骰</strong>。成功时，向其投掷一个火球，火球在撞击时爆炸。目标和其邻近范围内的所有生物必须进行一次反应掷骰 (13)。失败的目标受到使用你的熟练值的 <strong>束缚d20+5</strong>点魔法伤害。成功的目标受到一半伤害。</p>"
+    },
+    "Tempest": {
+      "name": "狂风怒号 Tempest",
+      "description": "<p class=\"Body-Foundation-No-BOLDITALIC\">选择下列一种风暴，对极远范围内的所有目标进行一次<strong>施法掷骰</strong>。你成功对抗的目标将承受其效果，直到游戏主持人在其轮次花费 1 恐惧点来结束此法术。</p><ul><li class=\"vertical-card-list\"><p><em><strong>暴风雪：</strong></em> 造成 <strong>2d20+8</strong> 点魔法伤害，目标暂时处于<em>脆弱</em>状态。</p></li><li class=\"vertical-card-list\"><em><strong>狂飓风：</strong></em>造成 <strong>3d10+10</strong> 点魔法伤害，并选择风向。目标无法逆风移动。</li><li class=\"vertical-card-list\"><p><em><strong>沙尘暴：</strong></em>造成 <strong>5d6+9</strong> 点魔法伤害。从近战范围外进行的攻击处于劣势。</p><p></p></li></ul>"
+    },
+    "Invigoration": {
+      "name": "壮举再现 Invigoration",
+      "description": "<p class=\"Body-Foundation\">当你或近距离范围内的盟友使用了具有疲劳限制（例如，每次休息一次或每场游戏一次）的特性时，你可以<strong>花费任意数量的希望点</strong>并掷出相同数量的 <strong>d6</strong>。如果任意一个骰子掷出 6，该特性可以再次使用。</p>"
+    },
+    "Inevitable": {
+      "name": "命中注定 Inevitable",
+      "description": "<p class=\"Body-Foundation\">当你的动作掷骰失败时，你下一次动作掷骰获得优势。</p>"
+    },
+    "Healing Strike": {
+      "name": "治愈打击 Healing Strike",
+      "description": "<p class=\"Body-Foundation\">当你对一个敌人造成伤害时，你可以<strong>花费 2 希望点</strong>来为邻近范围内的一个盟友恢复 1 生命点。</p>"
+    },
+    "A Soldier’s Bond": {
+      "name": "老兵羁绊 A Soldier’s Bond",
+      "description": "<p class=\"Body-Foundation\">每长休一次，当你赞美某人或询问他们擅长的事物时，你们双方都可以获得3希望点。</p>"
+    },
+    "Astral Projection": {
+      "name": "星界投影 Astral Projection",
+      "description": "<p class=\"Body-Foundation\">每长休一次，<strong>标记1压力点</strong>来创造一个你的投射分身，它可以出现在你曾经到过的任何地方。</p><p class=\"Body-Foundation\">你可以通过投射分身，如同你本人般观察、聆听，甚至影响世界。调查投射分身的生物可以分辨出其源于魔法。此效果持续到你下次休息或你的投射分身受到任何伤害。</p>"
+    },
+    "Lead by Example": {
+      "name": "以身作则 Lead by Example",
+      "description": "<p class=\"Body-Foundation\">当你对一个敌人造成伤害时，你可以<strong>标记 1 压力点</strong>并描述你如何鼓励你的盟友。下一个对该敌人进行攻击的玩家角色可以清除 1 压力点或获得 1 希望点。</p>"
+    },
+    "Book of Ava": {
+      "name": "艾娃之书 Book of Ava",
+      "description": "<p class=\"Card-Feature\"><em><strong>强力推撞:</strong></em> 对近战范围内的目标进行一次<strong>施法掷骰</strong>职业。成功时，目标被击退至远距离范围处，并受到使用你熟练值的<strong>d10+2</strong>点魔法伤害。</p><p class=\"Card-Feature\"><em><strong>塔瓦的护甲:</strong></em> <strong>花费1希望点</strong>，使你触碰到的目标护甲值获得+1加值，直到其下次休息或你再次施放塔瓦的护甲。</p><p class=\"Card-Feature\"><em><strong>冰刺:</strong></em> 进行一次 <strong>施法掷骰 (12)</strong>，在远距离范围内召唤一根巨大的冰刺。如果你将其用作武器，则改为对目标的难度进行施法掷骰。成功时，造成使用你熟练值的<strong>d6</strong>点物理伤害。</p>"
+    },
+    "Cloaking Blast": {
+      "name": "匿踪诡术 Cloaking Blast",
+      "description": "<p class=\"Body-Foundation\">当你成功进行<strong>施法掷骰</strong>施放其他法术时，你可以<strong>花费1希望点</strong>来获得<em>隐匿</em>状态。处于<em>隐匿</em>状态时，如果当敌人移动到通常能看到你的位置时你保持静止，你将保持不被看见。当你移动进入或在敌人的视线范围内移动，或进行攻击时，你将不再处于<em>隐匿</em>状态。</p>"
+    },
+    "Words of Discord": {
+      "name": "挑拨离间 Words of Discord",
+      "description": "<p class=\"Body-Foundation\">施法掷骰施法掷骰对近战范围内的敌人说出不谐耳语，进行一次<strong>施法掷骰 (13)</strong>。成功时，目标必须标记1压力点，并攻击另一个敌人，而不是攻击你或你的盟友。</p><p class=\"Body-Foundation\">这次攻击结束后，目标会意识到发生了什么。下次你对其施放挑拨离间时，施法掷骰获得−5的减值。</p>"
+    },
+    "Adjust Reality": {
+      "name": "调整现实 Adjust Reality",
+      "description": "<p class=\"Body-Foundation\">在你或一个自愿的盟友进行任何掷骰后，你可以<strong>花费 5 希望点</strong>来将该掷骰的数值结果改变为你选择的一个结果。该结果必须在骰子范围内的合理值。</p>"
+    },
+    "Enrapture": {
+      "name": "心醉神迷 Enrapture",
+      "description": "<p class=\"Body-Foundation\">对近距离范围内的一个目标进行一次<strong>施法掷骰</strong>。成功时，目标暂时变得<em>迷醉</em>。在<em>迷醉</em>期间，目标的注意力会固定在你身上，视野变窄，且听不到除你声音外的任何声音。每休息一次，在成功时，你可以<strong>标记1压力点</strong>迫使<em>迷醉</em>目标也标记1压力点。</p>"
+    },
+    "Premonition": {
+      "name": "预见未来 Premonition",
+      "description": "<p><p class=\"Body-Foundation\">你可以引导奥术能量来预见未来。<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"long-rest\" nexus=\"daggerheart\">长休</tooltip>一次，在游戏主持人告知你进行的一次掷骰结果后，你可以立即撤销该行动及其结果，如同它们从未发生过一样，并进行另一次行动。</p></p>"
+    },
+    "Body Basher": {
+      "name": "蛮力冲撞 Body Basher",
+      "description": "<p class=\"Body-Foundation\">你在战斗中用尽全力。在使用近战武器进行攻击且成功时，你的伤害掷骰获得等同于你力量的加值。</p>"
+    },
+    "Book of Vagras": {
+      "name": "瓦格拉斯之书 Book of Vagras",
+      "description": "<p class=\"Card-Feature\"><em><strong>符文锁:</strong></em> 对你正在触碰的可以关闭的物体（如锁、箱子或盒子）进行一次<strong>施法掷骰 (15)</strong>。每次休息一次，成功时，你可以锁定该物体，使其只能由你选择的生物打开。拥有施法能力并且花费一小时研究该法术的人可以将其打破。</p><p class=\"Card-Feature\"><em><strong>奥术之门:</strong></em> 当你近战范围内没有敌人时，进行一次<strong>施法掷骰 (13)</strong>。成功时，<strong>花费1希望点</strong>，从你所在的位置到你能看见的远距离范围内的一个点创造一个传送门。有生物穿过它后，它就会关闭。</p><p class=\"Card-Feature\"><em><strong>揭示:</strong></em> 进行一次<strong>施法掷骰</strong>。如果近距离范围内有任何被魔法隐藏的东西，它就会被揭示出来。</p>"
+    },
+    "Whirlwind": {
+      "name": "旋风猛袭 Whirlwind",
+      "description": "<p class=\"Body-Foundation\">当你对邻近范围内的目标进行一次成功的攻击时，你可以<strong>花费1希望点</strong>来对邻近范围内的所有其他目标使用这次攻击。</p><p>@Template[type:emanation|range:vc]</p>"
+    },
+    "Nature’s Tongue": {
+      "name": "自然之语 Nature’s Tongue",
+      "description": "<p class=\"Body-Foundation\">你会说自然界的语言。当你想要与周围的植物和动物交谈时，进行一次<strong>本能掷骰 (12)</strong>。成功时，它们会告诉你它们所知道的信息。掷出恐惧结果时，它们了解的内容可能有限或需要付出一定代价。</p><p class=\"Body-Foundation\">此外，在自然环境中进行施法掷骰之前，你可以<strong>花费1希望点</strong>，使该掷骰结果获得+2加值。</p>"
+    },
+    "Cruel Precision": {
+      "name": "残酷精准 Cruel Precision",
+      "description": "<p class=\"Body-Foundation\">当你使用武器成功攻击时，你的伤害掷骰获得等同于你的灵巧或敏捷的加值。</p>"
+    },
+    "Book of Korvax": {
+      "name": "库瓦斯之书 Book of Korvax",
+      "description": "<p class=\"Card-Feature\"><em><strong>浮空术:</strong></em> 进行一次<strong>施法掷骰</strong>，暂时将一个你能看见的目标抬升到空中，并在其原位置的近距离范围内移动目标。</p><p class=\"Card-Feature\"><em><strong>记忆倒回:</strong></em> <strong>花费1希望点</strong>，迫使近战范围内的一个目标进行一次反应掷骰 (15)。失败时，对方会忘记你们谈话的最后一分钟。</p><p class=\"Card-Feature\"><em><strong>符文圆环:</strong></em> <strong>标记1压力点</strong>，在你站立的地方创造一个临时的魔法圆环。所有近战范围内的敌人，或者进入近战范围的敌人，受到<strong>2d12+4</strong>点魔法伤害，并被击退至邻近范围处。</p>"
+    },
+    "Inspirational Words": {
+      "name": "豪言壮语 Inspirational Words",
+      "description": "<p class=\"Body-Foundation-No-BOLDITALIC\">你的言语中蕴含着力量。在一次长休后，在此卡牌上放置等同于你风度值的指示物。当你与一位盟友交谈时，你可以花费此卡牌上的一个指示物，给予该盟友下列选项中的一项增益：</p><ul><li class=\"vertical-card-list-found\"><p>该盟友移除1压力点。</p></li><li class=\"vertical-card-list-found\"><p>该盟友恢复1生命点。</p></li><li class=\"vertical-card-list-found\"><p>该盟友获得1希望点。</p></li></ul><p class=\"Body-Foundation\">当你进行长休时，移除所有未花费的指示物。</p>"
+    },
+    "Armorer": {
+      "name": "护甲大师 Armorer",
+      "description": "<p class=\"Body-Foundation\">当你穿着护甲时，你的护甲值获得 +1 加值。</p><p class=\"Body-Foundation\">休息期间，当你选择修理护甲作为休整行动时，你的盟友也可以清除一个护甲槽。</p>"
+    },
+    "Mass Disguise": {
+      "name": "群体伪装 Mass Disguise",
+      "description": "<p class=\"Body-Foundation\">当你拥有片刻宁静专注施法时，你可以<strong>标记1压力点</strong>来改变邻近范围内所有自愿生物的外观。他们的新形态必须具有相似的身体结构和大小，伪装后的形态可以是你看过，也可以是完全虚构的人或物品。处于伪装的生物在进行逃避检查的风度掷骰中获得优势。</p><p class=\"Body-Foundation\">激活一个倒计时（8）。它会根据游戏主持人选择的后果而减少。当倒计时结束时，伪装失效。</p>"
+    },
+    "Shape Material": {
+      "name": "物质塑形 Shape Material",
+      "description": "<p class=\"Body-Foundation\"><strong>花费 1 希望点</strong>来塑形你所接触到的自然物质（如石头、冰或木头）的一部分，使其符合你的目的。该物体的尺寸需小于你。例如你可以用来制作基本工具、武器，或者在物体上创造出门、通道，等等。</p><p class=\"Body-Foundation\">你只能影响在近距离范围内你所能够触碰的物体。</p>"
+    },
+    "Deft Maneuvers": {
+      "name": "灵巧机动 Deft Maneuvers",
+      "description": "<p class=\"Body-Foundation\">每次休息一次，<strong>标记 1 压力点</strong>，可以在远距离范围内冲刺到任意地点，无需进行敏捷掷骰。</p><p class=\"Body-Foundation\">如果你在此移动结束时处于某个敌人的近战范围内，并立即对他们发起攻击，你的攻击掷骰获得+1加值。</p>"
+    },
+    "Book of Illiat": {
+      "name": "伊利亚特之书 Book of Illiat",
+      "description": "<p class=\"Card-Feature\"><em><strong>睡眠术：</strong></em> 对邻近范围内的一个目标进行一次 <strong>施法掷骰</strong>。成功时，目标处于 <em>睡眠</em> 状态，直到受到伤害或游戏主持人在其轮次花费 1 <strong>恐惧点</strong>以清除此状态。</p><p class=\"Card-Feature\"><em><strong>奥术弹幕：</strong></em> 每次休息一次，<strong>花费任意数量的希望点</strong>，射出魔法投射物，攻击近距离范围内你选择的一个目标。掷出等同于花费希望点数量的<strong>d6</strong>，对目标造成等量魔法伤害。</p><p class=\"Card-Feature\"><em><strong>心灵感应：</strong></em> <strong>花费 1 希望点</strong>，与一个你能看见的目标建立精神连接。此连接持续到你下次休息或你再次施放心灵感应。</p>"
+    },
+    "Book of Sitil": {
+      "name": "斯泰尔之书 Book of Sitil",
+      "description": "<p class=\"Card-Feature\"><em><strong>改变容貌:</strong></em> 通过魔法改变你的外貌和衣着，从而避免被认出。</p><p class=\"Card-Feature\"><em><strong>平行复制:</strong></em> <strong>花费2希望点</strong>，对你或近距离范围内的一个盟友施放此法术。目标下次进行攻击时，可以额外攻击范围内另一个他们的攻击掷骰成功的目标。你一次只能对一个生物维持此法术。</p><p class=\"Card-Feature\"><em><strong>幻象:</strong></em> 进行一次<strong>施法掷骰 (14)</strong>。成功时，在近距离范围内创造一个不超过你大小的临时视觉幻象，只要你看着它，幻象就会持续存在。幻象能够承受仔细观察，直到观察者进入其近战范围。</p>"
+    },
+    "Spellcharge": {
+      "name": "法术充能 Spellcharge",
+      "description": "<p class=\"Body-Foundation\">当你受到魔法伤害时，在此卡牌上放置等同于你因此次魔法伤害标记的生命点的指示物。你可以储存数量等同于你施法属性的指示物。</p><p class=\"Body-Foundation\">当你对一个目标进行一次成功的攻击时，你可以花费任意数量的指示物，每花费一个指示物就为你的伤害掷骰增加一个<strong>d6</strong>。</p>"
+    },
+    "Redirect": {
+      "name": "借力打力 Redirect",
+      "description": "<p class=\"Body-Foundation\">当一次来自近战范围之外、针对你的攻击失败时，掷出等同于你熟练值的<strong>d6</strong>。如果任意一个骰子掷出6，你可以<strong>标记1压力点</strong>，将这次攻击改为对邻近范围内的敌人造成伤害。</p>"
+    },
+    "Second Wind": {
+      "name": "复苏之风 Second Wind",
+      "description": "<p class=\"Body-Foundation\">每次休息一次，当你成功攻击一个敌人时，你可以清除 3 压力点或恢复 1 生命点。希望成功时，你还可以使近距离范围内一个盟友清除 3 压力点或恢复 1 生命点。</p>"
+    },
+    "Book of Homet": {
+      "name": "霍梅特之书 Book of Homet",
+      "description": "<p class=\"Card-Feature\"><em><strong>畅行无阻:</strong></em> 进行一次<strong>施法掷骰 (13)</strong>。每次休息一次，成功时，你和所有接触你的生物可以穿过近距离范围内的一堵墙或一扇门。当所有人都到达另一侧时，效果结束。</p><p class=\"Card-Feature\"><em><strong>异界之门:</strong></em> 进行一次<strong>施法掷骰 (14)</strong>。每长休一次，成功时，打开一个通往你曾去过的另一个维度或存在位面的传送门。此传送门持续到你的下一次休息。</p>"
+    },
+    "Veil of Night": {
+      "name": "暗夜帷幕 Veil of Night",
+      "description": "<p><p class=\"Body-Foundation\">进行一次<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"spellcast-roll\" nexus=\"daggerheart\"><strong>施法掷骰</strong></tooltip><strong> (13)</strong>。成功时，你可以在<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"far\" nexus=\"daggerheart\">远</tooltip>距离范围内的两点之间创造一道临时的黑暗帷幕。只有你能看穿这片黑暗。对帷幔另一侧的敌人而言，你处于<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hidden\" nexus=\"daggerheart\"><em>隐藏</em></tooltip>状态，并且你穿过帷幕进行的攻击具有<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"advantage-and-disadvantage\" nexus=\"daggerheart\">优势</tooltip>。帷幕会一直存在，直到你施放另一个法术。</p></p>"
+    },
+    "Sensory Projection": {
+      "name": "感官投射 Sensory Projection",
+      "description": "<p><p class=\"Body-Foundation\">每次休息一次，进行一次<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"spellcast-roll\" nexus=\"daggerheart\"><strong>施法掷骰</strong></tooltip><strong> (15)</strong>。成功后，进入一个幻象，让你清晰地看见和听见你曾去过的任何地方，仿佛你此刻正身临其境。你可以在此幻象中自由移动，不受物理身体的物理或阻碍限制。此法术无法通过普通或魔法手段被侦测到。你在受到伤害或施放另一个法术时会脱离此幻象。</p></p>"
+    },
+    "Recovery": {
+      "name": "恢复如新 Recovery",
+      "description": "<p class=\"Body-Foundation\">在一次短休期间，你可以选择进行一次长休的休整行动。你可以<strong>花费 1 希望点</strong>让一个盟友也同样进行选择。</p>"
+    },
+    "Hush": {
+      "name": "沉默不言 Hush",
+      "description": "<p class=\"Body-Foundation\">对邻近范围内的一个目标进行一次<strong>施法掷骰</strong>。成功时，<strong>花费1希望点</strong>在目标周围召唤压制魔法，笼罩其邻近范围内的所有事物，并随目标移动而移动。</p><p class=\"Body-Foundation\">目标和区域内的任何事物都处于<em>寂静</em>状态，直到游戏主持人在其轮次花费1恐惧点来解除此状态，或者你再次施放沉默不言，或者你受到重度伤害。处于<em>寂静</em>状态时，其无法发出声音，也无法施放法术。</p>"
+    },
+    "Falling Sky": {
+      "name": "星辰陨落 Falling Sky",
+      "description": "<p class=\"Body-Foundation\">对远距离范围内的所有敌人进行一次<strong>施法掷骰</strong>。​<strong>标记任意数量压力点</strong>，使奥术碎片从天而降。对你成功对抗的所有目标，你每标记 1 压力点，使其承受 <strong>1d20+2</strong> 点魔法伤害。</p><p>@Template[type:emanation|range:f]</p>"
+    },
+    "Overwhelming Aura": {
+      "name": "威压灵光 Overwhelming Aura",
+      "description": "<p class=\"Body-Foundation\">进行一次<strong>施法掷骰 (15)</strong>，以魔法增强你的风采。成功时，<strong>花费 2 希望点</strong>，直到你下次长休，你的风度属性值等于你的施法属性值。</p><p class=\"Body-Foundation\">当此法术激活时，敌人在以你为目标进行攻击时必须标记1压力点。</p>"
+    },
+    "Specter of the Dark": {
+      "name": "黑暗幽影 Specter of the Dark",
+      "description": "<p class=\"Body-Foundation\"><strong>标记1压力点</strong>，你将变为<em>幽影</em>状态，直到你进行一次以另一个生物为目标的动作掷骰时，状态结束。处于<em>幽影</em>状态时，你免疫物理伤害，可以漂浮并穿过固体物体。处于此状态时，其他生物仍能看见你。</p>"
+    },
+    "Reassurance": {
+      "name": "解忧消难 Reassurance",
+      "description": "<p class=\"Body-Foundation\">每次休息一次，当一名盟友进行一次动作掷骰后，在结果生效前，你可以提供帮助或者鼓励，让其再进行一次掷骰。其必须接受掷骰的新结果。</p>"
+    },
+    "Ferocity": {
+      "name": "凶猛残暴 Ferocity",
+      "description": "<p class=\"Body-Foundation\">当你使一个敌人标记1点或更多生命点时，你可以<strong>花费 2 希望点</strong>，你的闪避值提高等同于他们标记的生命点数。此加值持续到对你进行的下一次攻击之后。</p>"
+    },
+    "Valor-Touched": {
+      "name": "勇气恩泽 Valor-Touched",
+      "description": "<p class=\"Body-Foundation\">当你的配置中有4张或更多的领域卡来自勇气领域时，获得下列增益：</p><ul><li class=\"vertical-card-list-found\"><p>你的护甲值获得 +1 加值。</p></li><li class=\"vertical-card-list-found\"><p>当你标记 1 点或更多生命点而未标记护甲槽时，恢复 1 护甲槽。</p></li></ul>"
+    },
+    "Transcendent Union": {
+      "name": "超凡联结 Transcendent Union",
+      "description": "<p class=\"Body-Foundation\">每长休一次，<strong>花费5希望点</strong>将此法术施加在两个或更多自愿的生物身上。在你下次休息前，当处于联结状态的生物需要标记压力点或生命点时，被联结的生物可以选择由谁来标记。</p>"
+    },
+    "Hold the Line": {
+      "name": "坚守阵线 Hold the Line",
+      "description": "<p class=\"Body-Foundation\">描述你采取的防御姿态并<strong>花费 1 希望点</strong>。如果一个敌人移动至邻近范围内，其会被拉入近战范围并处于<em>束缚</em>状态。</p><p class=\"Body-Foundation\">该状态持续到你移动或掷出恐惧失败，或者游戏主持人在其轮次花费 2 恐惧点来清除该状态。</p>"
+    },
+    "Shadowbind": {
+      "name": "暗影束缚 Shadowbind",
+      "description": "<p class=\"Body-Foundation\">对邻近范围内的所有敌人，进行一次<strong>施法掷骰</strong>。你成功对抗的目标会被暂时处于<em>束缚</em>状态，其影子会将其固定在原地。</p><p>@Template[type:emanation|range:vc]</p>"
+    },
+    "Disintegration Wave": {
+      "name": "解离波 Disintegration Wave",
+      "description": "<p class=\"Body\">进行一次<strong>施法掷骰 (18)</strong>。每长休一次，成功时，游戏主持人会告诉你远距离范围内哪些敌人的难度为18或更低。对于每一个你想用此法术命中的目标，<strong>标记1压力点</strong>。目标会被杀死，并且无法通过任何方式复活。</p>"
+    },
+    "Encore": {
+      "name": "再次上演 Encore",
+      "description": "<p><p class=\"Body-Foundation\">当<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"close\" nexus=\"daggerheart\">近</tooltip>距离范围内的一名盟友对一个敌人造成伤害时，你可以对同一目标进行一次<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"spellcast-roll\" nexus=\"daggerheart\"><strong>施法掷骰</strong></tooltip>。成功时，你对该目标造成与你的盟友相同的伤害。如果你的施法掷骰<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"fear\" nexus=\"daggerheart\">恐惧</tooltip>成功，则将此卡牌放入你的<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"loadout-and-vault\" nexus=\"daggerheart\">宝库</tooltip>。</p></p>"
+    },
+    "Bare Bones": {
+      "name": "铁骨铮铮 Bare Bones",
+      "description": "<p class=\"Body-Foundation\">当你选择不装备护甲时，你的基础护甲值为 3 + 力量属性值，并使用下列数值作为你的基础伤害阈值：</p><ul><li class=\"vertical-card-list-found\"><em><strong>位阶 1:</strong></em> 9/19</li><li class=\"vertical-card-list-found\"><em><strong>位阶 2:</strong></em> 11/24</li><li class=\"vertical-card-list-found\"><em><strong>位阶 3:</strong></em> 13/31</li><li class=\"vertical-card-list-found\"><em><strong>位阶 4:</strong></em> 15/38</li></ul><p>装备下列护甲以应用铁骨铮铮</p><p>@UUID[Compendium.daggerheart.armors.Item.ITAjcigTcUw5pMCN]{Bare Bones}</p>"
+    },
+    "Zone of Protection": {
+      "name": "保护之域 Zone of Protection",
+      "description": "<p class=\"Body-Foundation\">进行一次 <strong>施法掷骰 (16)</strong>，成功后。每长休一次，选择远距离范围内的任意一点，并在该点创建一个可见的防护区域，覆盖该点邻近范围内的所有盟友。当你这样做时，在此牌上放置一个面朝上的数值为1的<strong>d6骰子</strong>（或初始放一个指示物代替骰子）。当处于该区域的盟友受到伤害时，减少等同于骰子数值的伤害。然后，你将骰子的数值增加1。当骰子的数值超过6时，此效果结束。</p><p><span style=\"color:oklab(0.952331 0.000418991 -0.00125992);font-family:'gg mono', 'Source Code Pro', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;font-size:13.6px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:left;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:pre-wrap;background-color:oklab(0.57738 0.0140701 -0.208587 / 0.0784314);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">@Template[type:emanation|range:vc]</span></p>"
+    },
+    "Stunning Sunlight": {
+      "name": "震撼烈阳 Stunning Sunlight",
+      "description": "<p class=\"Body-Foundation\">进行一次<strong>施法掷骰</strong>，释放强大的灼热阳光射线，对抗任意数量你面前远距离范围内的敌人。为每名你对抗成功且希望其被影响的目标<strong>花费1希望点</strong>，然后他们必须进行一次反应掷骰（14）。</p><p class=\"Body-Foundation\">如果成功，他们受到<strong>3d20+3<strong>魔法伤害。</p><p class=\"Body-Foundation\">如果失败，他们受到<strong>4d20+5</strong>魔法伤害并进入<em>晕眩</em>状态。<em>晕眩</em>时，他们将不能进行行动，直到状态被清除。</p>"
+    },
+    "Safe Haven": {
+      "name": "避风港湾 Safe Haven",
+      "description": "<p class=\"Body-Foundation\">当你拥有几分钟的平静来集中精神时，你可以<strong>花费 2 希望点</strong>召唤你的庇护所，这是一个大型维度的居所，你和你的盟友可以在其中避难。当你这样做时，一扇魔法门会出现在近距离范围内的某个地方。只有你选择的生物才能进入。进入后，你可以使入口隐形。你和里面的任何其他人总是可以离开。一旦你离开，必须再次召唤入口。</p><p class=\"Body-Foundation\">当你在你自己的庇护所内休息时，你可以选择一个额外的休整行动。</p>"
+    },
+    "Towering Stalk": {
+      "name": "高茎成塔 Towering Stalk",
+      "description": "<p class=\"Body-Foundation\">每次休息一次，你可以在近距离范围内召唤一根粗壮、扭曲的茎干，可供轻松攀爬。它可以长到远距离范围的高度。</p><p class=\"Body-Foundation\"><strong>标记1压力点</strong>来将此法术作为攻击法术使用。对近距离范围内的敌人或敌群进行一次<strong>施法掷骰</strong>。凌空爆涨的茎干会将你成功对抗的目标抬到空中并将其摔落，使用你的熟练值造成<strong>d8</strong>点物理伤害。</p>"
+    },
+    "Glancing Blow": {
+      "name": "斜掠攻势 Glancing Blow",
+      "description": "<p class=\"Body-Foundation\">当你攻击失败时，你可以<strong>标记 1 压力点</strong>，使用你熟练值的一半来造成武器伤害。</p>"
+    },
+    "Unleash Chaos": {
+      "name": "释放混沌 Unleash Chaos",
+      "description": "<p class=\"Body-Foundation\">在一场游戏开始时，在此牌上放置数量等同于你施法属性值的指示物。</p><p class=\"Body-Foundation\">对远距离范围内的目标进行一次<strong>施法掷骰</strong>，并花费任意数量的指示物，引导你内在的原始能量向其释放。成功时，掷出等同于你花费指示物数量的<strong>d10</strong>，对目标造成等量的魔法伤害。<strong>标记 1 压力点</strong>以补满此牌上的指示物（最多至你的施法属性值）。在每场游戏结束时，清除所有未使用的指示物。</p>"
+    },
+    "Rise Up": {
+      "name": "奋起直追 Rise Up",
+      "description": "<p class=\"Body-Foundation\">你的严重伤害阈值获得等同于你的熟练值的加值。</p><p class=\"Body-Foundation\">当你因一次攻击标记 1 或更多生命点时，清除 1 压力点。</p>"
+    },
+    "Thorn Skin": {
+      "name": "荆棘皮肤 Thorn Skin",
+      "description": "<p class=\"Body-Foundation\">每次休息一次，<strong>花费1希望点</strong>，使你的全身长出荆棘。当你这样做时，在此卡上放置等同于你的施法属性数量的标记。当你受到伤害时，你可以花费任意数量的标记，掷出相应数量的<strong>d6</strong>。将结果相加，并减少等量所受伤害。如果你在攻击者的近战范围内，则将等量的伤害反弹给他们。</p><p class=\"Body-Foundation\">当你休息时，清除所有未使用的标记。</p>"
+    },
+    "Fortified Armor": {
+      "name": "强化护甲 Fortified Armor",
+      "description": "<p class=\"Body\">当你穿着护甲时，你的所有伤害阈值获得+2加值。</p>"
+    },
+    "Book of Exota": {
+      "name": "埃索塔之书 Book of Exota",
+      "description": "<p class=\"Card-Feature\"><em><strong>否决术:</strong></em> 你可以中断正在发生的魔法效果。使用你的施法属性进行一次反应掷骰。每次休息一次，成功时，效果停止，并避免任何后果。</p><p class=\"Card-Feature\"><em><strong>创造构装体:</strong></em> <strong>花费1希望点</strong>，选择你周围的一组物体，并从中创造一个活化构装体，其服从基本命令。进行一次<strong>施法掷骰</strong>来命令其采取行动。必要时，其共享你的闪避值和属性，并且其攻击可造成<strong>2d10+3</strong>点物理伤害。你一次只能维持一个构装体，当它们受到任何伤害时就会散架。</p>"
+    },
+    "Rousing Strike": {
+      "name": "振奋打击 Rousing Strike",
+      "description": "<p class=\"Body-Foundation\">每次休息一次，当你攻击获得关键成功时，你和所有能看见或听见你的盟友可以恢复 1 生命点或清除 <strong>1d4</strong> 压力点。</p>"
+    },
+    "Corrosive Projectile": {
+      "name": "腐蚀射弹 Corrosive Projectile",
+      "description": "<p class=\"Body-Foundation\">对远距离范围内的目标进行一次<strong>施法掷骰</strong>。成功时，使用你的熟练值造成<strong>d6+4</strong>点魔法伤害。此外，<strong>标记2或更多压力点<strong>使其永久处于<em>腐蚀</em>状态。目标处于<em>腐蚀</em>状态时，每花费2压力点，以其为目标的掷骰难度就会受到-1减值。此状态可以叠加。</p>"
+    },
+    "Vicious Entangle": {
+      "name": "怨毒缠绕 Vicious Entangle",
+      "description": "<p class=\"Body-Foundation\">对远距离范围内的目标进行一次<strong>施法掷骰</strong>。成功时，根须和藤蔓从地面伸出，造成<strong>1d8+1</strong>点物理伤害，并暂时使目标处于<em>束缚</strong>状态。</p><p class=\"Body-Foundation\">此外，成功时，你可以<strong>花费1希望点</strong>来暂时使你目标邻近范围内的另一个敌人也处于<em>束缚</strong>状态。</p>"
+    },
+    "Conjure Swarm": {
+      "name": "召唤虫群 Conjure Swarm",
+      "description": "<p class=\"Card-Feature\"><em><strong>泰凯拉装甲甲虫</strong></em> <strong>标记1压力点</strong>，召唤装甲甲虫环绕你。当你下次受到伤害时，伤害降低一个等级。你可以<strong>花费1希望点</strong>在受到伤害后仍使甲虫保持被召唤状态。</p><p class=\"Card-Feature\"><em><strong>萤火虫：</strong></em>对近距离范围内的所有敌人，进行一次<strong>施法掷骰</strong>。<strong>花费1希望点</strong>，对你成功对抗的目标造成<strong>2d8+3</strong>点魔法伤害。</p>"
+    },
+    "Shield Aura": {
+      "name": "护盾灵光 Shield Aura",
+      "description": "<p><p class=\"Body-Foundation\"><strong>标记 1 </strong><tooltip category=\"rule\" class=\"tooltip-convert\" element=\"stress\" nexus=\"daggerheart\"><strong>压力点</strong></tooltip>，对<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"very-close\" nexus=\"daggerheart\">邻近</tooltip>范围内的一个目标施加一个护盾灵光。当目标标记 1 <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"armor-slot\" nexus=\"daggerheart\">护甲槽</tooltip>时，其将攻击的严重程度额外降低一级。如果此法术使一个原本会受到伤害的生物改为不标记<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hit-points\" nexus=\"daggerheart\">生命点</tooltip>，则此效果结束。</p><p class=\"Body-Foundation\">你一次只能对一个生物维持护盾灵光。</p></p>"
+    },
+    "Champion’s Edge": {
+      "name": "勇士锐锋 Champion’s Edge",
+      "description": "<p class=\"Body-Foundation-No-BOLDITALIC\">当你攻击获得关键成功时，你可以<strong>花费至多 3 希望点</strong> ，并为每点花费的希望选择下列效果之一：</p><ul><li class=\"vertical-card-list\"><p>你恢复 1 生命点。</p></li><li class=\"vertical-card-list\"><p>你恢复 1 护甲槽。</p></li><li class=\"vertical-card-list\">目标必须额外标记 1 生命点。</li></ul><p class=\"Card-Feature\">你不能选择同一项效果超过一次。</p>"
+    },
+    "Unyielding Armor": {
+      "name": "不灭甲胄 Unyielding Armor",
+      "description": "<p class=\"Body-Foundation\">当你本应标记一个护甲槽时，掷等同于你熟练值的 <strong>d6</strong>。如果骰出 6，则将伤害的严重程度降低一个阈值，而无需标记护甲槽。</p>"
+    },
+    "Vitality": {
+      "name": "蓬勃生命 Vitality",
+      "description": "<p class=\"Body-Foundation\">当你选择此牌时，选择永久获得下列选项中的两项：</p><ul><li class=\"vertical-card-list-found\"><p>一个压力槽</p></li><li class=\"vertical-card-list-found\"><p>一个生命槽</p></li><li class=\"vertical-card-list-found\">你的所有伤害阈值获得+2加值</li></ul><p class=\"Body-Foundation\">然后将此牌永久放入你的宝库。</p>"
+    },
+    "Support Tank": {
+      "name": "坚盾后援 Support Tank",
+      "description": "<p class=\"Body-Foundation\">当一个近距离范围内的盟友掷骰失败时，你可以<strong>花费 2 希望点</strong>，允许其重掷希望骰或恐惧骰。</p>"
+    },
+    "Voice of Reason": {
+      "name": "理性之声 Voice of Reason",
+      "description": "<p class=\"Body-Foundation\">你带着无与伦比的威压进行交涉。你在尝试缓和暴力局势或说服某人听从你的指令的动作掷骰中获得优势。</p><p class=\"Body-Foundation\">你的信念亦赋予你面对威胁的勇气。当你的所有压力槽都被标记时，在伤害掷骰中你的熟练值+1。</p>"
+    },
+    "Endless Charisma": {
+      "name": "无穷魅力 Endless Charisma",
+      "description": "<p class=\"Body-Foundation\">在你进行一次说服、撒谎或争取好感的动作掷骰后，你可以<strong>花费 1 希望点</strong>来重骰希望骰或恐惧骰。</p>"
+    },
+    "Rapid Riposte": {
+      "name": "迅速报复 Rapid Riposte",
+      "description": "<p class=\"Body-Foundation\">当一次来自近战范围内、针对你的攻击失败时，你可以<strong>标记 1 压力点</strong>并抓住机会，对攻击者造成你一件已装备武器的武器伤害。</p>"
+    },
+    "Bold Presence": {
+      "name": "刚健风采 Bold Presence",
+      "description": "<p class=\"Body-Foundation\">当你进行风度掷骰时，你可以<strong>花费 1 希望点</strong>将你的力量值加到掷骰结果中。</p><p class=\"Body-Foundation\">此外，每次休息一次，当你即将获得一个状态时，你可以描述你的刚健风采如何在此情境下帮助你，并避免获得该状态。</p>"
+    },
+    "Midnight-Touched": {
+      "name": "午夜恩泽 Midnight-Touched",
+      "description": "<p class=\"Body-Foundation\">当你的配置中有4张或更多领域卡来自午夜领域时，获得下列增益：</p><ul><li class=\"vertical-card-list-found\"><p>每次休息一次，当你拥有 0 希望点且游戏主持人将获得 1 恐惧点时，你可以改为获得 1 希望点。</p></li><li class=\"vertical-card-list-found\"><p>当你进行一次成功的攻击时，你可以<strong>标记 1 压力点</strong>，将你的恐惧骰结果加到你的伤害掷骰中。</p></li></ul>"
+    },
+    "Mass Enrapture": {
+      "name": "群体心醉神迷 Mass Enrapture",
+      "description": "<p class=\"Body-Foundation\">对远距离范围内所有目标进行一次<strong>施法掷骰</strong>。你成功对抗的目标会暂时处于<em>迷醉</em>状态。处于<em>迷醉</em>状态时，目标的注意力会完全集中在你身上，视野变得狭窄，除了你的声音外听不到任何其他声音。<strong>标记 1 压力点</strong>可以迫使所有处于<em>迷醉</em>状态的目标标记 1 压力点，从而结束此法术。</p><p>@Template[type:emanation|range:f]</p>"
+    },
+    "Rift Walker": {
+      "name": "裂隙行者 Rift Walker",
+      "description": "<p class=\"Body-Foundation-No-BOLDITALIC\">进行一次<strong>施法掷骰 (15)</strong>。成功时，你在当前站立的地面上放置一个奥术标记。下次你成功施放裂隙行者时，空间中会打开一道裂隙，提供安全通道回到放置标记的精确位置。这道裂隙会保持开启，直到你选择关闭它或施放另一个法术。</p><p class=\"Body-Foundation-No-BOLDITALIC\">你可以在任何时候取消该法术，以便再次施放裂隙行者并将标记放置在新的位置。</p>"
+    },
+    "Floating Eye": {
+      "name": "浮游之眼 Floating Eye",
+      "description": "<p><p class=\"Body-Foundation\"><strong>花费 1 </strong><tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hope\" nexus=\"daggerheart\"><strong>希望点</strong></tooltip>，创造一个小型浮游光球，你可以在<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"very-far\" nexus=\"daggerheart\">极远</tooltip>距离范围内将其移动到任何地方。当此法术激活时，你可以通过光球观察，如同你正从其位置向外看一样。你可以在使用自己的感官和通过光球视物之间自由切换。如果光球受到伤害或离开范围，法术结束。</p></p>"
+    },
+    "Versatile Fighter": {
+      "name": "多面武者 Versatile Fighter",
+      "description": "<p class=\"Body-Foundation\">你可以为已装备的武器使用不同的属性，而不是武器所要求的属性。</p><p class=\"Body-Foundation\">当你造成伤害时，你可以<strong>标记 1 压力点</strong>，将其中一个伤害骰取最大结果，而不是其掷骰结果。</p>"
+    },
+    "Restoration": {
+      "name": "复原术法 Restoration",
+      "description": "<p class=\"Body-Foundation\">进行一次长休后，在此牌上放置等同于你施法属性加值数量的指示物。触摸一个生物并花费任意数量的指示物，每个指示物可以恢复 2 生命点或清除 2 压力点。</p><p class=\"Body-Foundation\">你也可以在触摸一个生物时从此牌上花费一个指示物，以清除 <em>脆弱</em> 状态或治愈物理或魔法疾病（游戏主持人可能会根据疾病的严重程度要求额外的指示物）。</p><p class=\"Body-Foundation\">当你进行一次长休时，清除所有未花费的指示物。</p>"
+    },
+    "Death Grip": {
+      "name": "死亡卷握 Death Grip",
+      "description": "<p class=\"Body-Foundation-No-BOLDITALIC\">对近距离范围内的一个目标进行一次<strong>施法掷骰</strong>，并选择下列选项之一：</p><ul><li class=\"vertical-card-list\"><p>你将目标拉入近战范围，或将自己拉入目标的近战范围。</p></li><li class=\"vertical-card-list\"><p>你缠绕目标，迫使其标记 2 压力点。</p></li><li class=\"vertical-card-list\"><p>你与目标之间的所有敌人必须成功进行一次反应掷骰（13），否则会被藤蔓击中，受到<strong>3d6+2</strong>点物理伤害。</p></li></ul><p class=\"Body-Foundation-No-BOLDITALIC\">成功时，藤蔓会从你的手中伸出，造成所选效果并暂时使目标处于<em>束缚</em>状态。</p>"
+    },
+    "Deathrun": {
+      "name": "死亡奔袭 Deathrun",
+      "description": "<p class=\"Body-Foundation\"><strong>花费3希望点</strong>，在战场上沿直线奔跑，直至到达远距离范围内的某个点，并对该路径上你武器射程内的所有敌人进行一次攻击。选择你成功对抗的目标造成伤害的顺序。对第一个目标掷出你的武器伤害骰时，你的熟练值获得+1加值。然后从你的伤害掷骰中移除一个骰子，并将剩余的伤害分配给下一个目标。每个后续目标均移除一个骰子，直到你没有更多的伤害骰或敌人为止。</p><p class=\"Body-Foundation\">每次攻击不能以同一个敌人为目标超过一次。</p>"
+    },
+    "Not Good Enough": {
+      "name": "还不够好 Not Good Enough",
+      "description": "<p><p class=\"Body-Foundation\">当你掷伤害骰时，你可以重掷所有1点或2点。</p></p>"
+    },
+    "Deadly Focus": {
+      "name": "致命专注 Deadly Focus",
+      "description": "<p class=\"Body-Foundation\">每次休息一次，你可以集中所有注意力于你选择的一个目标。你获得+1熟练值，直至你攻击另一个生物、击败该目标或战斗结束时。</p>"
+    },
+    "Master of the Craft": {
+      "name": "技艺大师 Master of the Craft",
+      "description": "<p><p class=\"Body-Foundation\">使你的两项<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"experience\" nexus=\"daggerheart\">经历</tooltip>永久获得+2加值，或使你的一项经历永久获得+3加值。然后将此卡牌永久放入你的宝库。</p></p>"
+    },
+    "Dark Whispers": {
+      "name": "黑暗低语 Dark Whispers",
+      "description": "<p class=\"Body-Foundation\">你可以与任何你发生过肢体接触的人进行精神交流。一旦你与其建立了联系，其也可以对你进行精神回应。此外，你可以<strong>标记1压力点</strong>对其进行一次<strong>施法掷骰</strong>。成功时，你可以向游戏主持人询问下列问题之一并获得答案：</p><ul><li class=\"vertical-card-list-found\"> 对方在哪里？</li><li class=\"vertical-card-list-found\">对方在做什么？</li><li class=\"vertical-card-list-found\"> 对方害怕什么？</li><li class=\"vertical-card-list-found\">对方最珍视什么？</li></ul>"
+    },
+    "Resurrection": {
+      "name": "亡者苏生 Resurrection",
+      "description": "<p><p class=\"Body-Foundation\">进行一次<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"spellcast-roll\" nexus=\"daggerheart\"><strong>施法掷骰</strong></tooltip><strong> (20)</strong>。成功时，使一个死亡时间不超过 100 年的生物恢复到完全状态。然后掷一个 d6。结果为 5 或更低时，将此卡牌永久放入你的<tooltip category=\"rule\" class=\"tooltip-convert\" element=\"loadout-and-vault\" nexus=\"daggerheart\">宝库</tooltip>中。</p><p class=\"Body-Foundation\">失败时，你在一周内不能再次施放亡者苏生。</p></p>"
+    },
+    "Forceful Push": {
+      "name": "有力推击 Forceful Push",
+      "description": "<p class=\"Body-Foundation\">用你的主武器攻击近战范围内的目标。成功时，你造成伤害并将其击退至近距离范围处。希望成功时，你的伤害掷骰额外增加一个 <strong>d6</strong>。</p><p class=\"Body-Foundation\">此外，你可以<strong>花费1希望点</strong>使其暂时处于 <em>脆弱</em> 状态。</p>"
+    },
+    "On the Brink": {
+      "name": "生死边缘 On the Brink",
+      "description": "<p class=\"Body\">当你未标记的生命点为2点或更少时，你不会受到轻度伤害。</p>"
+    },
+    "Night Terror": {
+      "name": "夜魇降临 Night Terror",
+      "description": "<p class=\"Body-Foundation\">每长休一次，选择邻近范围内的任意目标，使其感知你为一种噩梦般的恐怖存在。目标必须进行一次成功的反应掷骰（难度16），否则暂时陷入<em>惊惧</em>状态。处于<em>惊惧</em>状态时，他们获得<em>脆弱</em>状态。从游戏主持人处窃取等同于<em>惊惧</em>目标数量的恐惧点（最多不超过游戏主持人恐惧点池中的数量）。掷出等同于窃取的恐惧点数量的<strong>d6</strong>，并将总伤害值分配给每个处于*惊惧</em>状态的目标。丢弃窃取的恐惧点。</p><p>@Template[type:emanation|range:vc]</p>"
+    }
+  }
+}

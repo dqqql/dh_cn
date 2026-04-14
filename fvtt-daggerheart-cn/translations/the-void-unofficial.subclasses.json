@@ -1,0 +1,576 @@
+﻿{
+  "label": "子职业 Subclass",
+  "mapping": {
+    "description": "system.description",
+    "actions": {
+      "path": "system.actions",
+      "converter": "toActions"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "toEffects"
+    }
+  },
+  "folders": {
+    "Assassin": "刺客 Assassin",
+    "Blood Hunter": "血猎人Blood Hunter",
+    "Brawler": "格斗家 Brawler ",
+    "Brawler Stances": "武术架势",
+    "Tier 1": "位阶1",
+    "Tier 2": "位阶2",
+    "Tier 3": "位阶3",
+    "Tier 4": "位阶4",
+    "Warlock": "邪术师 Warlock",
+    "Witch": "女巫 Witch ",
+    "Subclass Features": "子职业特性",
+    "Foundation Features": "基础特性",
+    "Specialization Features": "进阶特性",
+    "Mastery Features": "精通特性"
+  },
+  "entries": {
+    "Adder's Blessing": {
+      "name": "蝮蛇赐福 Adder's Blessing",
+      "description": "<p>你对毒药及其他毒素效果免疫。</p>"
+    },
+    "Ambush": {
+      "name": "致命伏击 Ambush",
+      "description": "<p>你的\"死亡标记\"特性使用 d6 而不是 d4。</p>",
+      "actions": {
+        "5O9hGdbSO9vHjSy0": {
+          "name": "伤害"
+        }
+      }
+    },
+    "Backstab": {
+      "name": "出其不意 Surprise Attack",
+      "description": "<p>你的\"死亡标记\"特性使用 d8 而不是 d6。</p>"
+    },
+    "Chasing Death": {
+      "name": "追猎死亡 Chasing Death",
+      "description": "<p>当你拥有 1–3 个未标记的生命点时，你可以不支付生命点费用使用\"猩红仪式\"特性。如果你只有 1 个未标记的生命点时，则\"猩红仪式\"的额外伤害骰将使用 d8 而非 d6。</p>"
+    },
+    "Circle of Power": {
+      "name": "力量法阵 Circle of Power",
+      "description": "<p>力量法阵 Circle of Power：下次休息前仅可使用一次，你可在自身<strong>近距离</strong>范围内的地面上绘制一个法阵，并在此卡牌上放置数量等同于你<strong>施法者属性值</strong>的指示物。每当你或你的盟友处于法阵内时，若进行<strong>动作掷骰</strong>，或成为一次成功攻击的目标，需移除1个指示物。此法术将持续生效，直至最后1个指示物被消耗完毕，或你离开该法阵。身处法阵内时，你和你的盟友将获得以下效果：</p><ul><li>伤害阈值获得 <strong>+4</strong> 加值。</li></ul><ul><li>攻击掷骰获得 <strong>+2</strong> 加值。</li></ul><ul><li>闪避值获得 <strong>+1</strong> 加值。</li></ul>"
+    },
+    "Control the Beast": {
+      "name": "控制野兽 Control the Beast",
+      "description": "<p>当你处于狼形态时，你可以将狼形态的奖励骰应用于你的敏捷和力量动作掷骰中。</p>"
+    },
+    "Dark Aegis": {
+      "name": "黑暗庇护 Dark Aegis",
+      "description": "<p>每长休一次，花费1恩宠点以替代标记任意数量的生命点。</p>"
+    },
+    "Deadly Devotion": {
+      "name": "致命虔信 Deadly Devotion",
+      "description": "<p>当你成功命中一次攻击掷骰后，可以花费 1 恩宠点，使你的闪避值获得 +1 加值，直到你标记生命点或休息为止。</p>"
+    },
+    "Death Strike": {
+      "name": "绝命猎杀 Death Strike",
+      "description": "<p>当你对一个敌人造成严重伤害时，你可以标记 1 压力点使其额外标记 1 生命点。</p>",
+      "actions": {
+        "BtDEnyNem2nDgadf": {
+          "name": "标记压力"
+        }
+      }
+    },
+    "Diminish My Foes": {
+      "name": "削弱吾敌 Diminish My Foes",
+      "description": "<p>当你对一个目标进行动作掷骰并掷出希望成功时，你可以花费 1 希望点，改为令目标标记 1 压力点。</p>"
+    },
+    "Divine Ire": {
+      "name": "伪神怒火 Divine Ire",
+      "description": "<p>每次休息一次，当你受到伤害时，你可以花费任意数量的恩宠点，并迫使近距离范围内同等数量的敌人标记 1 生命点。</p>"
+    },
+    "Draining Bane": {
+      "name": "汲能灾祸 Draining Bane",
+      "description": "<p>当敌人以你或邻近距离内的盟友为目标发起攻击时，你可以花费 2 恩宠点使其暂时处于 榨干 状态。当你这么做时，敌人必须标记 1 压力点，你可以清除 1 压力点。被榨干 的生物在攻击掷骰中使用 d12 而非 d20。</p>"
+    },
+    "Draining Invoaction": {
+      "name": "汲能祈愿 Draining Invocation",
+      "description": "<p>当敌人以你或邻近距离内的盟友为目标发起攻击时，你可以花费 1 恩宠点，让其在攻击掷骰中使用d12而非d20。此外，敌人必须标记 1 压力点，你可以清除 1 压力点。</p>"
+    },
+    "Enhanced Hex": {
+      "name": "强化巫术 Enhanced Hex",
+      "description": "<p>你对处于 巫术 状态的生物的伤害骰获得你熟练值的加值。</p>"
+    },
+    "Envenomate": {
+      "name": "狡诈淬毒 Envenomate",
+      "description": "<p>当武器的攻击掷骰命中时，你可以花费此卡上的 1 个指示物，使目标遭受一种已知毒药的效果。</p>"
+    },
+    "Executioner's Guild": {
+      "name": "执刑公会 Executioner's Guild"
+    },
+    "Eye for an Eye": {
+      "name": "以眼还眼 Eye for an Eye",
+      "description": "<p>当你因为一次近战攻击而标记 1 点或更多的生命点，攻击发起者必须进行一次反应掷骰（13）。若其失败，每次休息一次，其立刻标记同等数量生命点。</p>",
+      "actions": {
+        "cPacNVvx5zNc1FmQ": {
+          "name": "反击",
+          "description": "<p>当你因为一次近战攻击而标记 1 点或更多的生命点，攻击发起者必须进行一次反应掷骰（13）。若其失败，每次休息一次，其立刻标记同等数量生命点。</p>"
+        }
+      }
+    },
+    "Favored Weapon": {
+      "name": "恩赐武器 Favored Weapon",
+      "description": "<p>标记 1 压力点，将宗主的怒火灌入你的武器之中，直到你受到严重伤害为止。当灌注武器成功攻击时，你可以花费任意数量的恩宠点，获得同等数量的 d6 伤害骰加值。</p>"
+    },
+    "Fearsome Attack": {
+      "name": "恐怖攻击 Fearsome Attack",
+      "description": "<p>你可以花费 1 恩宠点以重掷任意数量的伤害骰。你可以继续花费恩宠点来重掷这些骰子，次数不限。</p>"
+    },
+    "Feral Hide": {
+      "name": "野性皮毛 Feral Hide",
+      "description": "<p>在狼形态下，你的伤害阈值获得数值等同于你等级的加值。</p>",
+      "effects": {
+        "rOdpVbqwuw4oMrXY": {
+          "name": "野性皮毛"
+        }
+      }
+    },
+    "First Strike": {
+      "name": "先攻必胜 First Strike",
+      "description": "<p>你在每个场景的第一次成功的攻击会造成双倍伤害。</p>"
+    },
+    "Focus": {
+      "name": "专注 Focus",
+      "description": "<p>在休息时，掷等同于你本能属性的 d6 骰。将掷出的最高值作为获得的专注点数量，并放置于此卡牌上。每次切换架势时花费 1 专注点。该架势将持续至你受到严重伤害、场景结束、标记最后1个生命点或切换至其他架势时终止。</p><p>[[/r 1d6]]</p>"
+    },
+    "Hedge": {
+      "name": "树篱女巫 Hedge",
+      "description": "<p>你引导自然之力，既能创造恩赐，也能降下诅咒。</p>"
+    },
+    "Herald of Death": {
+      "name": "死亡令使 Herald of Death",
+      "description": "<p>攻击掷骰失败时，你可以花费 1 恩宠点来重骰此次攻击。如果再次失败时，你必须标记 1 压力点并接受新的结果。</p>"
+    },
+    "Herbal Remedies": {
+      "name": "草药疗法 Herbal Remedies",
+      "description": "<p>当你或你的盟友使用消耗品恢复生命点或清除压力点时，将点数加一。</p>"
+    },
+    "Improved Mutagens": {
+      "name": "强化诱变剂 Improved Mutagens",
+      "description": "<p>当你选择诱变剂增益时，你的可选选项还包括以下内容： </p><ul><li><p><strong>钢铁神经 Nerves of Steel</strong>：每当你必须标记压力点时，可花费<strong>2 希望点</strong>来替代标记压力点。 </p></li><li><p><strong>迅捷 Rapidity</strong>：你的<strong>闪避值</strong>提高<strong>1</strong>点。 </p></li><li><p><strong>铁皮 Ironskin</strong>：你的<strong>严重伤害阈值</strong>增加的数值等同于你的<strong>熟练值</strong>。</p></li></ul>",
+      "actions": {
+        "JoE1j2EK2MfFupSr": {
+          "name": "花费2希望"
+        }
+      },
+      "effects": {
+        "kLbVYo5ogREgCmTS": {
+          "name": "强化突变剂 - 迅捷"
+        },
+        "9XErPc7AYx93ozbA": {
+          "name": "强化突变剂 - 铁皮"
+        }
+      }
+    },
+    "Ire of Pale Light": {
+      "name": "白光之怒 Ire of Pale Light",
+      "description": "<p>当一个远距离内被你施以 巫术 的生物在攻击掷骰上失败时，其必须标记 1 压力点。</p>"
+    },
+    "Juggernaut": {
+      "name": "重拳主宰 Juggernaut",
+      "description": "<p>你将自身锻造成纯粹力量的武器，既能承受也能施以毁灭性的打击。</p>"
+    },
+    "Keen Defenses": {
+      "name": "敏锐防御 Keen Defensese",
+      "description": "<p>当你被指定为一次攻击的目标时，你可以花费 1 专注点使该敌人的攻击掷骰拥有劣势。</p>"
+    },
+    "Limit Breaker": {
+      "name": "界限突破 Limit Breaker",
+      "description": "<p>每次休息一次，你就能完成一项难以置信的壮举例如踏水而行、在相距甚远的屋顶间跳跃，或无需掷骰即可攀爬建筑侧面。当你这样做时，获得 1 希望点并清除 1 压力点。</p>",
+      "actions": {
+        "vd31YZgnJkEQSU4d": {
+          "name": "界限突破",
+          "description": "<p>每次休息一次，你就能完成一项难以置信的壮举例如踏水而行、在相距甚远的屋顶间跳跃，或无需掷骰即可攀爬建筑侧面。当你这样做时，获得 1 希望点并清除 1 压力点。</p>"
+        }
+      }
+    },
+    "Lunar Phases": {
+      "name": "月相变化 Lunar Phases",
+      "description": "<p>你的灵体如月亮的盈亏般起伏变化。每场游戏开始时，掷出<strong>d4</strong>并获得对应效果，该效果将持续至本场游戏结束：</p><ul><li><strong><em>1：</strong> 朔月 - 你始终可花费<strong>1 希望点</strong>，将轻度伤害降至零。</em></li></ul><ul><li><strong><em>2：</strong> 上弦月 - 你的伤害掷骰获得<strong>+2</strong>加值。</em></li></ul><ul><li><strong><em>3：</strong> 满月 - 你的伤害阈值获得<strong>+2</strong>加值。</em></li></ul><ul><li><strong><em>4：</strong> 下弦月 - 你的闪避值获得<strong>+1</strong>加值。</em></li></ul>",
+      "actions": {
+        "zcqQvd0UftoWTuA8": {
+          "name": "花费希望"
+        }
+      },
+      "effects": {
+        "2cgsUItFz9IOKDmq": {
+          "name": "盈月",
+          "description": "<p>获得+2 伤害骰加值。</p>"
+        },
+        "iKkLKp5rPtl6A0Lc": {
+          "name": "满月",
+          "description": "<p>获得+2 伤害阈值加成。</p>"
+        },
+        "WodgSFen9Yaysaht": {
+          "name": "残月",
+          "description": "<p>获得+1 闪避加值。</p>"
+        }
+      }
+    },
+    "Lycan Regeneration": {
+      "name": "狼人再生 Lycan Regeneration",
+      "description": "<p>在狼形态下且所有生命点都已标记时，你可以标记 1 压力点来恢复 1 生命点。你可以在昏迷状态下使用此特性。</p>",
+      "actions": {
+        "TfRiNmCx716o0XOQ": {
+          "name": "治疗"
+        }
+      }
+    },
+    "Martial Artist": {
+      "name": "武艺达人 Martial Artist",
+      "description": "<p>你已研习并掌握了独特的战斗风格，使你在战斗中能够流畅地衔接各种动作。</p>"
+    },
+    "Martial Form": {
+      "name": "武术架势 Martial Form",
+      "description": "<p>获得武术架势表。你选择两个位阶1（Tier 1）架势作为起始架势。当你达到新位阶时，选择两个等于或小于你当前位阶的另外两种架势。</p>"
+    },
+    "Master the Beast": {
+      "name": "驾驭野兽 Master the Beast",
+      "description": "<p>当你在狼形态下且即将标记最后一个压力点时，你可以改为将你配置中的一张领域卡放入你的宝库；你必须完成一次长休后才能回想该领域卡。当你处于狼形态且因标记最后一个压力点而陷入疯狂 Frenzy时，你获得 2 希望点。</p>",
+      "actions": {
+        "xceWFmPWUeVuc0H5": {
+          "name": "获得2点希望"
+        }
+      }
+    },
+    "Mastered Mutagens": {
+      "name": "精通诱变剂 Mastered Mutagens",
+      "description": "<p>你从诱变剂特性中获得的属性加值和减值将分别变更为<strong>+2</strong>和<strong>−2</strong>。当你选择诱变剂增益时，可选选项还包括以下内容： </p><ul><li><p><strong>以太之血 Aetherblood</strong>：在你的视线范围内，你能看见隐形的生物与物体，所有视觉幻象在你眼中都会呈现透明状态；若视线范围内的生物或物体被魔法变形，你可直接窥见其真实形态。 </p></li><li><p><strong>狂怒 Fury</strong>：当你进行攻击掷骰时，可标记<strong>1 压力点</strong>，使此次掷骰获得等同于你<strong>熟练值</strong>的加值。 </p></li><li><p><strong>钢铁之躯 Steelflesh</strong>：你的<strong>重度伤害阈值</strong>增加的数值等同于你的<strong>熟练值</strong>。</p></li></ul>",
+      "actions": {
+        "e7VsTp0OCPkAgRg0": {
+          "name": "标记压力"
+        }
+      },
+      "effects": {
+        "gUXFfQ0tIClq6lde": {
+          "name": "完美诱变剂 - 钢铁之躯"
+        }
+      }
+    },
+    "Menacing Reach": {
+      "name": "威吓延伸 Menacing Reach",
+      "description": "<p>当你使用\"恩赐武器\"时，可以额外标记 1 压力点，让武器的攻击范围延伸一级。（近战到邻近，邻近到近距离......）</p>"
+    },
+    "Moon": {
+      "name": "月亮女巫 Moon",
+      "description": "<p>你引导月亮之力，用以欺敌与护身。</p>"
+    },
+    "Moonbeam": {
+      "name": "月华光束 Moonbeam",
+      "description": "<p>每场游戏一次，你能在近距离范围内召唤出一道月光，持续照明直至场景结束。沐浴在月光中的你和盟友在施法掷骰上获得 +1 加值，并且在看穿幻象上具有优势。</p>",
+      "actions": {
+        "zEqPJ7UKSy561b9U": {
+          "name": "月华光束 Moonbeam",
+          "description": "<p>每场游戏一次，你能在近距离范围内召唤出一道月光，持续照明直至场景结束。沐浴在月光中的你和盟友在施法掷骰上获得 +1 加值，并且在看穿幻象上具有优势。</p>"
+        }
+      }
+    },
+    "Mutagens": {
+      "name": "诱变剂 Mutagens",
+      "description": "<p>你调配并使用诱变毒素来强化自身能力。每次休息结束后，你可饮用一份此类毒素以获得其效果，该效果将持续至你下次休息结束。这些效果包含：为你自选的一项属性提供<strong>+1</strong>加值、为另一项自选的不同属性施加<strong>−1</strong>减值，以及从以下增益中任选其一：</p><ul><li><p><strong>迅捷 Celerity</strong>：若你处于束缚或脆弱状态，可标记<strong>1 压力点</strong>以解除自身的该状态。</p></li><li><p><strong>耐久 Durable</strong>：你的<strong>护甲值</strong>提升<strong>2</strong>点。</p></li><li><p><strong>猎人感官 Hunter's Senses</strong>：你为追踪生物所进行的任何动作掷骰均具有优势，且你能在完全黑暗的环境中视物。</p></li></ul>",
+      "actions": {
+        "TyXYjNxEEeCKOtM2": {
+          "name": "标记压力"
+        }
+      },
+      "effects": {
+        "06AAWZJTxlspR8pP": {
+          "name": "耐久 Durable"
+        }
+      }
+    },
+    "Night's Glamour": {
+      "name": "夜幕魅影 Night's Glamour",
+      "description": "<p><strong>标记 1 压力点</strong>， 来让自己笼罩在魔法外貌的魅惑术中，直到你标记生命点、进行攻击或休息。当处于魅惑术期间，你可以：</p><ul><li>- 伪装成任何你看到过的与你体型相似的生物。</li></ul><ul><li>- 强化你自身的外貌。在能利用此变化的风度掷骰上获得优势。</li></ul>",
+      "actions": {
+        "vq6us2ZBcGStBPOe": {
+          "name": "标记压力",
+          "description": "<p><strong>标记 1 压力点</strong>， 来让自己笼罩在魔法外貌的魅惑术中，直到你标记生命点、进行攻击或休息。当处于魅惑术期间，你可以：</p><ul><li>- 伪装成任何你看到过的与你体型相似的生物。</li></ul><ul><li>- 强化你自身的外貌。在能利用此变化的风度掷骰上获得优势。</li></ul>"
+        }
+      }
+    },
+    "Not Done Yet": {
+      "name": "愈战愈勇 Not Done Yet",
+      "description": "<p>当你因一次攻击而标记超过 1 生命点时，你可以选择获得 1 希望点或清除 1 压力点。</p>",
+      "actions": {
+        "HjDHMhLPO0ZnFucy": {
+          "name": "获得希望",
+          "description": "<p>当你因一次攻击而标记超过 1 生命点时，你可以选择获得 1 希望点或清除 1 压力点。</p>"
+        },
+        "ueQbbXkCceB7uYJZ": {
+          "name": "清除压力",
+          "description": "<p>当你因一次攻击而标记超过 1 生命点时，你可以选择获得 1 希望点或清除 1 压力点。</p>"
+        }
+      }
+    },
+    "Order of the Ghost Slayer": {
+      "name": "弑灵圣约 Order of the Ghost Slayer"
+    },
+    "Order of the Lycan": {
+      "name": "化狼圣约 Order of the Lycan"
+    },
+    "Order of the Mutant": {
+      "name": "突变圣约 Order of the Mutant"
+    },
+    "Overwhelm": {
+      "name": "碾压攻势 Overwhelm",
+      "description": "<p>在一次成功命中的攻击后，你可以花费 1 希望点，来强迫你的目标标记 1 压力点或将其抛掷于近距离范围内的某处。</p>",
+      "actions": {
+        "wxX1JhvRDUjEBY4g": {
+          "name": "施加压力",
+          "description": "<p>在一次成功命中的攻击后，你可以花费 1 希望点，来强迫你的目标标记 1 压力点或将其抛掷于近距离范围内的某处。</p>"
+        },
+        "kOdV6pn4xkdwRqvT": {
+          "name": "抛掷敌人"
+        }
+      }
+    },
+    "Pact of the Endless": {
+      "name": "无尽之契 Pact of the Endless"
+    },
+    "Pact of the Wrathful": {
+      "name": "愤怒之契Pact of the Wrathful"
+    },
+    "Patron's Mantle": {
+      "name": "宗主邪披 Patron's Mantle",
+      "description": "<p><strong>标记 1 压力点</strong>，使自身笼罩于你的庇护者的恐怖形态中，该效果持续至你受到重度伤害或当前场景结束。在此状态下：</p><ul><li><em>当你本需标记 1 个护甲槽时，可改为<strong>花费 2 恩宠点</strong>来替代。</em></li></ul><ul><li><em>你在对目标进行威吓的动作掷骰中，获得等同于你位阶数值的加值。</em></li></ul>",
+      "actions": {
+        "zjdjIrCA7bTP9sJN": {
+          "name": "标记压力",
+          "description": "<p><strong>标记 1 压力点</strong>，使自身笼罩于你的庇护者的恐怖形态中，该效果持续至你受到重度伤害或当前场景结束。在此状态下：</p><ul><li><em>当你本需标记 1 个护甲槽时，可改为<strong>花费 2 恩宠点</strong>来替代。</em></li></ul><ul><li><em>你在对目标进行威吓的动作掷骰中，获得等同于你位阶数值的加值。</em></li></ul>"
+        }
+      }
+    },
+    "Poison Compendium": {
+      "name": "毒物图鉴 Poison Compendium",
+      "description": "<p>你额外掌握以下毒药配方：</p><ul><li><strong><em>午夜面纱 Midnight's Veil</strong>：目标的攻击掷骰将永久获得<strong>-2</strong>减值。该效果对同一目标仅能生效一次。</em></li></ul><ul><li><strong><em>幽魂花瓣 Ghost Petal</strong>：将目标普通攻击的伤害骰等级永久降低一级（d10降至d8、d8降至d6，以此类推）。该效果对同一目标仅能生效一次。</em></li></ul>"
+    },
+    "Poisoner's Guild": {
+      "name": "毒师公会 POSIONERS GUILD"
+    },
+    "Powerhouse": {
+      "name": "蛮力巨擘 Powerhouse",
+      "description": "<p>将你徒手攻击的 d8 伤害骰提升为 d10 。此外，你可以标记 1 压力点以在一次攻击掷骰中选择 2 个近战范围内的生物作为目标。</p>",
+      "actions": {
+        "MgrzTu1dsA6lXmMV": {
+          "name": "标记压力",
+          "description": "<p>此外，你可以<strong>标记1点压力</strong>，通过一次攻击掷骰同时瞄准两个相邻的生物。</p>"
+        }
+      }
+    },
+    "Pummeljoy": {
+      "name": "挥拳成瘾 Pummeljoy",
+      "description": "<p>每当你在对抗近战范围内的敌人的武器攻击中掷出关键成功时，你额外获得 1 希望点、清除 1 压力点，然后该次攻击熟练 +1。</p>",
+      "actions": {
+        "WcdLyH5rBN5WmkHd": {
+          "name": "额外治疗",
+          "description": "<p>每当你在对抗近战范围内的敌人的武器攻击中掷出关键成功时，你额外获得 1 希望点、清除 1 压力点，然后该次攻击熟练 +1。</p>"
+        }
+      }
+    },
+    "Rugged": {
+      "name": "钢筋铁骨 Rugged",
+      "description": "<p>严重伤害阈值永久获得+3加值。另外, 你的\"蛮力巨擘\" 特性可以选择 3 个生物作为目标，而不是2个。</p>",
+      "effects": {
+        "0JcKDuNPUlv4Avbc": {
+          "name": "钢筋铁骨 Rugged",
+          "description": "<p>严重伤害阈值永久获得+3加值。另外, 你的\"蛮力巨擘\" 特性可以选择 3 个生物作为目标，而不是2个。</p>"
+        }
+      }
+    },
+    "Scorpion's Poise": {
+      "name": "蝎式平衡 Scorpion's Poise",
+      "description": "<p> 对抗陷入死亡标记状态的生物对你发动的任何攻击时，你的闪避值获得 +2 加值。</p>"
+    },
+    "Shadowed Grit": {
+      "name": "暗影决心 Shadowed Grit",
+      "description": "<p>当 GM 从一次二元骰掷骰中获得恐惧点时，你可以标记 1 压力点以获得 1 希望点。</p>",
+      "actions": {
+        "GB0ZzQF3wENibTA7": {
+          "name": "获得希望"
+        }
+      }
+    },
+    "Spectral Form": {
+      "name": "幽魂形态 Spectral Form",
+      "description": "<p>你拥有额外的死亡行动选项：幽魂形态。当你选择该选项时，你恢复 1 生命点，你的身体变成幽魂，你获得物理伤害抗性且可以穿过物体。当你恢复任意生命点时，结束该形态。该形态同样会在你标记最后一个生命点时结束，此时你必须选择另一项死亡行动。如果你在形态结束时位于物体内部，你会被传送到最近的空旷区域。</p>"
+    },
+    "Spirit Blast": {
+      "name": "灵魂冲击Spirit Blast",
+      "description": "<p><strong>花费1专注点</strong>进行一次本能掷骰，对抗近距离范围内的一名敌人。若成功，你造成使用你熟练的 d20+3 魔法伤害，同时你可以额外花费 1 专注点使其暂时处于脆弱状态。</p>",
+      "actions": {
+        "dIHUBfsBFO0Kei40": {
+          "name": "灵魂冲击Spirit Blast",
+          "description": "<p><strong>花费1专注点</strong>进行一次本能掷骰，对抗近距离范围内的一名敌人。若成功，你造成使用你熟练的 d20+3 魔法伤害，同时你可以额外花费 1 专注点使其暂时处于脆弱状态。</p>"
+        }
+      }
+    },
+    "Stance - Brutal": {
+      "name": "残暴架势",
+      "description": "<p>当你在任一伤害骰掷出最大值时，额外掷一个伤害骰。</p>"
+    },
+    "Stance - Compounding": {
+      "name": "叠加架势",
+      "description": "<p>当你掷出连击骰的最大值时，随后所有连击骰的骰种升级（最高至 d12）。</p>"
+    },
+    "Stance - Crushing": {
+      "name": "碾碎架势",
+      "description": "<p>当你在伤害骰掷出1点时，可以将其视为该骰的最大值。</p>"
+    },
+    "Stance - Deadly": {
+      "name": "致命架势",
+      "description": "<p>当你造成严重伤害时，目标额外标记 1 生命点。</p>"
+    },
+    "Stance - Defensive": {
+      "name": "防御架势",
+      "description": "<p>除非敌人标记 1 压力点，否则对你的攻击掷骰均处于劣势。</p>"
+    },
+    "Stance - Deflecting": {
+      "name": "偏转架势",
+      "description": "<p>当你成为攻击目标时，可以花费 2 专注点，你的闪避值获得等同于你的护甲值的加值来抵挡该次攻击。</p>"
+    },
+    "Stance - Devastating": {
+      "name": "毁灭架势",
+      "description": "<p>在攻击掷骰前花费 1 专注点，将伤害骰替换为d20进行伤害掷骰。</p>"
+    },
+    "Stance - Discerning": {
+      "name": "洞察架势",
+      "description": "<p>你可以在进行攻击掷骰后选择攻击的具体目标。游戏主持人将告知你攻击会成功命中的敌人。</p>"
+    },
+    "Stance - Dueling": {
+      "name": "决斗架势",
+      "description": "<p>当你和目标的邻近距离内没有其他敌人或盟友时，攻击掷骰获得优势</p>"
+    },
+    "Stance - Favored": {
+      "name": "宠幸架势",
+      "description": "<p>你的伤害掷骰可以额外附加你选择的一项属性。</p>"
+    },
+    "Stance - Grappling": {
+      "name": "擒抱架势",
+      "description": "<p>成功攻击后，你可以花费 1 专注点，使目标暂时被束缚。</p>"
+    },
+    "Stance - Hindering": {
+      "name": "妨碍架势",
+      "description": "<p>成功攻击后，你可以花费 1 专注点，使目标暂时陷入受阻（Hindered）状态。受阻状态下，目标的攻击掷骰获得 -2 减值。</p>"
+    },
+    "Stance - Immovable": {
+      "name": "坚定架势",
+      "description": "<p>你的伤害阈值获得 +2 加值，且你无法被强制移动。</p>"
+    },
+    "Stance - Inexorable": {
+      "name": "无情架势",
+      "description": "<p> 当你周围近战范围内有超过两个敌人时，他们针对你的攻击掷骰具有劣势。</p>"
+    },
+    "Stance - Infuriating": {
+      "name": "激怒架势",
+      "description": "<p>成功攻击后，目标变为愤怒（Furious）状态。处于愤怒状态时，目标陷入脆弱且攻击掷骰获得 -2 减值。目标只有通过对你成功攻击才能解除愤怒状态。</p>"
+    },
+    "Stance - Invigorating": {
+      "name": "振奋架势",
+      "description": "<p>成功攻击时掷一个 d4，若掷出 4，则获得 1 专注点。</p>"
+    },
+    "Stance - Nimble": {
+      "name": "敏捷架势",
+      "description": "<p>当敌人成功攻击你时，你可以花费最多等同于你位阶的专注断，掷数量等同于 1 + 花费专注指示物的 d6 骰。如果任意两个骰子点数相同，则该次攻击不对你造成伤害。</p>"
+    },
+    "Stance - Otherworldly": {
+      "name": "超凡架势",
+      "description": "<p>你可以选择造成物理伤害或魔法伤害。</p>"
+    },
+    "Stance - Precise": {
+      "name": "精准架势",
+      "description": "<p>你的攻击掷骰获得+1加值。</p>"
+    },
+    "Stance - Quick": {
+      "name": "迅捷架势",
+      "description": "<p>进行攻击掷骰时，花费 1 专注点，可额外攻击在攻击范围内的另一个目标。</p>"
+    },
+    "Stance - Scary": {
+      "name": "恐怖架势",
+      "description": "<p>成功攻击还会迫使目标标记 1 压力点。</p>"
+    },
+    "Stance - Sheltering": {
+      "name": "庇护架势",
+      "description": "<p>当你标记护甲槽时，它不仅会为你减伤，也会为受到同样伤害的近战范围内的盟友减伤。</p>"
+    },
+    "Stance - Steady": {
+      "name": "稳健架势",
+      "description": "<p>你的闪避值 -1 。当你成功攻击造成伤害时，额外掷一个伤害骰，然后弃掉骰值最低的一个骰子。</p>"
+    },
+    "Stance - Sweeping": {
+      "name": "横扫架势",
+      "description": "<p>你的攻击会同时命中邻近范围内的所有敌人。对其他命中的目标造成一半伤害。</p>"
+    },
+    "Tethered Talisman": {
+      "name": "绑定护符 Tethered Talisman",
+      "description": "<p>每次休息一次，你能将守护精华注入一件小物件中制成护身符。当护身符持有者受到伤害时，你可消耗其中的魔力，使其少标记 1 生命点。在旧的护身符生效前，你无法制作新的护身符。</p>",
+      "actions": {
+        "JvGfIDjfeKa26pr1": {
+          "name": "绑定",
+          "description": "<p>每次休息一次，你能将守护精华注入一件小物件中制成护身符。当护身符持有者受到伤害时，你可消耗其中的魔力，使其少标记 1 生命点。在旧的护身符生效前，你无法制作新的护身符。</p>"
+        }
+      }
+    },
+    "Toxic Concoctions": {
+      "name": "剧毒调配 Toxic Concoctions",
+      "description": "<p><strong>标记 1 压力点</strong>，为此卡牌添加<strong>[[/r 1d4+1]]</strong>个指示物。在你下一次长休时，清除此卡牌上的所有指示物。你掌握以下毒药配方：</p><ul><li><strong><em>戈尔贡之根 Gorgon's Root</strong>：目标的难度值将永久获得<strong>-1</strong>减值。该效果对同一目标仅能生效一次。</em></li></ul><ul><li><strong><em>墓穴孢子 Grave Spore</em></strong>：目标必须额外标记<strong>1 压力点</strong>。</li></ul><ul><li><strong><em>水蛭草 Leech Weed</em></strong>：为本次攻击的伤害额外增加<strong>+1d6</strong>点（即伤害骰+1d6）。</li></ul>",
+      "actions": {
+        "FKyTGtBLvh6Or7cS": {
+          "name": "标记压力"
+        }
+      }
+    },
+    "True Strike": {
+      "name": "杀意已决 True Strike",
+      "description": "<p>每长休一次，你可以花费 1 希望点来将一次失败的攻击掷骰变为希望成功。</p>",
+      "actions": {
+        "oP50d3Hy89j5M39a": {
+          "name": "花费希望"
+        }
+      }
+    },
+    "Twin Fang": {
+      "name": "双生毒牙 Twin Fang",
+      "description": "<p>当你使一个目标遭受一种已知毒药的效果时，可以额外花费 1 个指示物，使其同时遭受第二种已知毒药的效果。</p>"
+    },
+    "Veilwalker": {
+      "name": "帷幕行者 Veilwalker",
+      "description": "<p>你可以短暂地穿梭于生死之间的领域。花费 2 希望点，你消失在原地后出现在远距离范围内的一个生物或尸体旁。之后，你在本场景中进行的下一次攻击掷骰具有优势。</p>",
+      "actions": {
+        "T2fgFkNFX2WWU8TT": {
+          "name": "花费2希望"
+        }
+      }
+    },
+    "Venomancer": {
+      "name": "毒术大师 Venomancer",
+      "description": "<p>你额外掌握以下毒药配方：</p><ul><li><strong><em>凋零之种 Blight Seed</strong>：目标的伤害阈值将永久获得<strong>-3</strong>减值。该效果对同一目标仅能生效一次。</em></li></ul><ul><li><strong><em>恐惧之叶 Fear Leaf</strong>：本次攻击的伤害骰获得的加值，等同于你的恐惧骰掷出的结果。</em></li></ul>"
+    },
+    "Volatile Toxins": {
+      "name": "易挥发毒剂 Volatile Toxins",
+      "description": "<p>你可以选择两种诱变剂增益，而不是一种。若如此做，你标记 1 生命点，该生命点直到你完成下一次休息才能恢复。</p>",
+      "actions": {
+        "S2P9d1idmgJnIQEO": {
+          "name": "标记生命"
+        }
+      }
+    },
+    "Walk Between Worlds": {
+      "name": "沟通灵界 Walk Between Worlds",
+      "description": "<p>进行一次施法掷骰（13）以穿越死亡帷幕，与附近的亡灵对话。在此卡上放置等同于你施法属性数量的指示物，每当亡灵回答一个问题后移除一枚指示物。当最后一枚指示物被移除时，你将重返凡人界域。</p>",
+      "actions": {
+        "oaWeFrfXwY2yEUEd": {
+          "name": "与灵体交流",
+          "description": "<p>进行一次施法掷骰（13）以穿越死亡帷幕，与附近的亡灵对话。在此卡上放置等同于你施法属性数量的指示物，每当亡灵回答一个问题后移除一枚指示物。当最后一枚指示物被移除时，你将重返凡人界域。</p>"
+        }
+      }
+    },
+    "Werewolf": {
+      "name": "狼人之躯 Werewolf",
+      "description": "<p>你获得狼人转变卡。你使用听觉和嗅觉进行的感知相关掷骰具有优势。</p><p></p><p></p>"
+    }
+  }
+}

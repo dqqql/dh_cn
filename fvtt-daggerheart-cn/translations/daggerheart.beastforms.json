@@ -1,0 +1,211 @@
+﻿{
+  "label": "野兽形态 Beastforms",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Tier 3": "位阶3",
+    "Tier 2": "位阶2",
+    "Tier 4": "位阶4",
+    "Tier 1": "位阶1",
+    "Beastform Features": "野兽形态特性 Beastform Features"
+  },
+  "entries": {
+    "Takedown": {
+      "name": "扑倒 Takedown",
+      "description": "<p><strong>标记 1 压力点</strong>以移动至目标的近战范围并对其进行攻击掷骰。成功时，你的本次攻击熟练值获得 +2 加值，且目标必须标记 1 压力点。</p>"
+    },
+    "Striking Serpent": {
+      "name": "突袭毒蛇 Striking Serpent"
+    },
+    "Venomous Bite": {
+      "name": "剧毒之咬 Venomous Bite",
+      "description": "<p>当你成功攻击一个近战范围内的目标时，目标暂时处于中毒状态。处于中毒状态生物在每次行动时，都会受到 <strong>1d10</strong>点物理直接伤害。</p>"
+    },
+    "Pouncing Predator": {
+      "name": "猛扑捕食者 Pouncing Predator"
+    },
+    "Terrible Lizard": {
+      "name": "可怖蜥种 Terrible Lizard"
+    },
+    "Armored Sentry": {
+      "name": "甲壳哨兵 Armored Sentry"
+    },
+    "Hobbling Strike": {
+      "name": "蹒跚打击 Hobbling Strike",
+      "description": "<p>当你成功攻击一个近战范围内的目标时，你可以<strong>标记 1 压力点</strong>使目标暂时处于 <em>脆弱</em> 状态。</p>"
+    },
+    "Rampage": {
+      "name": "残暴 Rampage",
+      "description": "<p>每当你在伤害骰上掷出 1 时，你可以掷一个 d10并将骰值加入伤害掷骰中。此外，在进行攻击掷骰之前，你可以<strong>标记 1 压力点</strong>，以获得该攻击的熟练值 +1 加值。</p>"
+    },
+    "Mighty Lizard": {
+      "name": "巨型蜥种 Mighty Lizard"
+    },
+    "Massive Stride": {
+      "name": "巨兽行进 Massive Stride",
+      "description": "<p>你可以无需掷骰在远距离范围内移动。由于你的体型，你可以无视崎岖地形（由游戏主持人决定）。</p>"
+    },
+    "Trample": {
+      "name": "践踏 Trample",
+      "description": "<p><strong>标记 1 压力点</strong>，在近距离范围内沿直线移动，并对直线上近战范围内的所有目标进行一次攻击。你成功攻击的目标受到使用你的熟练值  <strong>d8+1</strong> 点物理伤害并暂时变为 <em>脆弱</em> 。</p><p>@Template[type:ray|range:close]</p>"
+    },
+    "Stalking Arachnid": {
+      "name": "追猎蜘蛛 Stalking Arachnid"
+    },
+    "Nimble Grazer": {
+      "name": "灵巧食草者 Nimble Grazer"
+    },
+    "Webslinger": {
+      "name": "蛛网射手 Webslinger",
+      "description": "<p>你可以制造坚韧的蛛网材料，可用于冒险和战斗。蛛网足够坚韧，可以支撑一个生物。通过对其进行一次成功的灵巧掷骰，你可以暂时 <em>束缚</em> 一个近距离范围内的目标。</p>"
+    },
+    "Demolish": {
+      "name": "摧毁 Demolish",
+      "description": "<p><strong>花费 1 希望点</strong>，在远距离范围内沿直线移动，并对直线上近战范围内的所有目标进行一次攻击。你成功攻击的目标会受到使用你的熟练值 <strong>d8+10</strong> 点物理伤害并暂时变为 <em>脆弱</em> 。</p><p>@Template[type:ray|range:f]</p>"
+    },
+    "Carrier": {
+      "name": "驮运 Carrier",
+      "description": "<p>你移动时可以最多驮运两名自愿的盟友。</p>"
+    },
+    "Bird's-Eye View": {
+      "name": "鸟瞰视角 Bird's-Eye View",
+      "description": "<p>你可以随意飞行。每次休息一次，当你在空中时，你可以无需掷骰向游戏主持人询问关于下方场景的一个问题。第一个根据此信息进行行动掷骰的角色，其掷骰获得优势。</p>"
+    },
+    "Fleet": {
+      "name": "迅捷 Fleet",
+      "description": "<p><strong>花费 1 希望点</strong>，无需掷骰即可在远距离范围内移动。</p>"
+    },
+    "Devastating Strikes": {
+      "name": "毁灭打击 Devastating Strikes",
+      "description": "<p>当你对近战范围内的目标造成重伤时，你可以<strong>标记 1 压力点</strong>，迫使其额外标记 1 生命点。</p>"
+    },
+    "Aquatic Predator": {
+      "name": "深洋捕食者 Aquatic Predator"
+    },
+    "Snapping Strike": {
+      "name": "捕食打击 Snapping Strike",
+      "description": "<p>当你成功攻击近战范围内的一个目标时，你可以<strong>花费 1 希望点</strong>用你的颌部咬住该对手，使其暂时处于 <em>束缚</em> 和 <em>脆弱</em> 状态。</p>"
+    },
+    "Undaunted": {
+      "name": "无畏 Undaunted",
+      "description": "<p>你的所有伤害阈值获得 +2 加值。</p>"
+    },
+    "Fragile": {
+      "name": "脆弱 Fragile",
+      "description": "<p>当你受到重度伤害或更高的伤害时，解除野兽形态。</p>"
+    },
+    "Deadly Raptor": {
+      "name": "致命猛禽 Deadly Raptor",
+      "description": "<p>你可以随意飞行，并且作为你的行动的一部分在远距离范围内移动。当你用同一个动作沿直线移动至少近距离范围，并且近战攻击一个目标时，你可以重掷所有结果低于你熟练值的伤害骰。</p>"
+    },
+    "Physical Defense": {
+      "name": "体格防御 Physical Defense",
+      "description": "<p>你的伤害阈值获得 +3 加值。</p>"
+    },
+    "Mythic Hybrid": {
+      "name": "神话混血种 Mythic Hybrid"
+    },
+    "Pack Predator": {
+      "name": "群居捕食者 Pack Predator"
+    },
+    "Thick Hide": {
+      "name": "厚实皮毛 Thick Hide",
+      "description": "<p>你的伤害阈值获得 +2 加值。</p>"
+    },
+    "Elusive Prey": {
+      "name": "难缠猎物 Elusive Prey",
+      "description": "<p>当一次针对你的攻击掷骰本应成功时，你可以<strong>标记 1 压力点</strong>并掷一个<strong>d4</strong>，将骰值加入你对抗这次攻击的闪避值上。</p>"
+    },
+    "Agile Scout": {
+      "name": "迅捷斥候 Agile Scout"
+    },
+    "Great Predator": {
+      "name": "巨型捕食者 Great Predator"
+    },
+    "Great Winged Beast": {
+      "name": "翔空巨禽 Great Winged Beast"
+    },
+    "Warning Hiss": {
+      "name": "警告嘶声 Warning Hiss",
+      "description": "<p><strong>标记 1 压力点</strong>迫使近战范围内的任意数量目标后退至邻近范围。</p>"
+    },
+    "Pack Hunting": {
+      "name": "群体狩猎 Pack Hunting",
+      "description": "<p>当你与紧接着在你之前行动的盟友攻击了同一个目标时，将一个<strong>d8</strong>加入你的伤害掷骰。</p>"
+    },
+    "Household Friend": {
+      "name": "居家伴侣 Household Friend"
+    },
+    "Mythic Aerial Hunter": {
+      "name": "神话空猎者 Mythic Aerial Hunter"
+    },
+    "Vicious Maul": {
+      "name": "凶猛撕咬 Vicious Maul",
+      "description": "<p>当你成功攻击一个目标时，你可以<strong>花费 1 希望点</strong>使其暂时变为脆弱，并且你的本次攻击熟练值获得 +1 加值。</p>"
+    },
+    "Companion": {
+      "name": "同伴 Companion",
+      "description": "<p>你帮助一个盟友时，可以掷一个<strong>d8</strong>作为你的优势骰。</p>"
+    },
+    "Cannonball": {
+      "name": "加农炮弹 Cannonball",
+      "description": "<p><strong>标记 1 压力点</strong>允许盟友将你投掷或发射向一名敌人。为此，该盟友对一个近距离范围内的目标进行一次使用敏捷或力量（由其选择）的攻击掷骰。成功时，造成使用投掷者熟练值的<strong>d12+2</strong>点物理伤害。你可以<strong>花费 1 希望点</strong>来额外指定第一个目标邻近范围内的另一名敌人。第二个目标受到第一个目标所受伤害的一半。</p>"
+    },
+    "Mythic Beast": {
+      "name": "神话野兽 Mythic Beast"
+    },
+    "Aquatic": {
+      "name": "水生 Aquatic",
+      "description": "<p>你天生可以在水下呼吸和移动。</p>"
+    },
+    "Powerful Beast": {
+      "name": "强大野兽 Powerful Beast"
+    },
+    "Winged Beast": {
+      "name": "翔空猛禽 Winged Beast"
+    },
+    "Legendary Beast": {
+      "name": "传奇野兽 Legendary Beast"
+    },
+    "Armored Shell": {
+      "name": "硬化甲壳 Armored Shell",
+      "description": "<p>你坚硬的外壳使你对物理伤害具有抵抗。此外，<strong>标记 1 护甲槽</strong>以缩入壳中。在壳中时，应用抵抗后的物理伤害会再减少等于你护甲值的数值，但你无法执行其他行动，除非离开此形态。</p>"
+    },
+    "Massive Behemoth": {
+      "name": "庞然巨兽 Massive Behemoth"
+    },
+    "Aquatic Scout": {
+      "name": "深洋斥候 Aquatic Scout"
+    },
+    "Legendary Hybrid": {
+      "name": "传奇混种生物 Legendary Hybrid"
+    },
+    "Ocean Master": {
+      "name": "海洋霸主 Ocean Master",
+      "description": "<p>你天生可以在水下呼吸和移动。当你对近战范围内的目标进行攻击并成功时，你可以暂时使其处于<em>束缚</em>状态。</p>"
+    },
+    "Venomous Strike": {
+      "name": "剧毒之袭 Venomous Strike",
+      "description": "<p>对邻近范围内的任意数量目标进行攻击。成功时，目标暂时处于中毒状态。处于中毒状态生物在每次行动时，都会受到<strong>1d10</strong>点物理直接伤害。</p>"
+    },
+    "Unyielding": {
+      "name": "不屈 Unyielding",
+      "description": "<p>当你将要标记 1 护甲槽时，掷一个<strong>d6</strong>。结果为5或更高时，将伤害等级降低一级且无需标记护甲槽。</p>"
+    },
+    "Epic Aquatic Beast": {
+      "name": "史诗海兽 Epic Aquatic Beast"
+    },
+    "Agile": {
+      "name": "敏捷 Agile",
+      "description": "<p>你的移动悄无声息，你可以<strong>花费 1 希望点</strong>在远距离范围内移动而无需掷骰。</p>"
+    },
+    "Hollow Bones": {
+      "name": "空心骨骼 Hollow Bones",
+      "description": "<p>你的伤害阈值受到 −2 减值。</p>"
+    },
+    "Mighty Strider": {
+      "name": "健步行者 Mighty Strider"
+    }
+  }
+}

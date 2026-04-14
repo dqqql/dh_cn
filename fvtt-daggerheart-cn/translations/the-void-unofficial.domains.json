@@ -1,0 +1,398 @@
+﻿{
+  "label": "领域",
+  "folders": {
+    "Blood": "鲜血 Blood",
+    "Level 01": "等级01",
+    "Level 02": "等级02",
+    "Level 03": "等级03",
+    "Level 04": "等级04",
+    "Level 05": "等级05",
+    "Level 06": "等级06",
+    "Level 07": "等级07",
+    "Level 08": "等级08",
+    "Level 09": "等级09",
+    "Level 10": "等级10",
+    "Dread": "恐怖 Dread"
+  },
+  "mapping": {
+    "description": "system.description",
+    "actions": {
+      "path": "system.actions",
+      "converter": "toActions"
+    }
+  },
+  "entries": {
+    "Avatar of Terror": {
+      "name": "恶意化身 AVATAR OF MALICE",
+      "description": "<p><strong>标记 1 压力点</strong>，变身为一个以恐惧为燃料的生物。在此形态下，你的伤害骰获得等同GM所拥有的恐惧点数量的<strong>+1d6</strong>加值。当GM使用你近距离范围内敌人的恐惧特性时，你获得<strong>1 希望点</strong>。</p><p>每次在以此形态进行动作掷骰时，你必须<strong>花费 1 希望点</strong>，否则将失去此形态。</p>",
+      "actions": {
+        "h0M9skrk3ZHoJN3y": {
+          "name": "标记压力"
+        }
+      }
+    },
+    "Blighting Strike": {
+      "name": "凋零打击 BLIGHTING STRIKE",
+      "description": "<p>对远距离范围内的一个目标进行一次<strong>施法掷骰</strong>。成功时，目标受到使用你熟练值的<strong>d6+1</strong>魔法伤害，且目标下一次对一名盟友造成伤害时减少一半。如果你掷出恐惧成功，目标改为受到使用你熟练值的<strong>d10+1</strong>魔法伤害。</p>",
+      "actions": {
+        "uV0uqW0vTYOU8G5a": {
+          "name": "施法检定"
+        },
+        "U9WzF1ggi2gD6GhS": {
+          "name": "伤害（希望）"
+        },
+        "bE8h8BujouIvRe6I": {
+          "name": "伤害（恐惧）"
+        }
+      }
+    },
+    "Blood Bind": {
+      "name": "捆缚血咒 BLOOD BIND",
+      "description": "<p>对远距离内的一个目标进行一次<strong>施法掷骰</strong>。成功时，<strong>标记 1 压力点</strong>以减缓目标的生命力流动。目标将暂时陷入<strong>束缚</strong>和<strong>脆弱</strong>状态。每当目标在任一状态持续期间获得<strong>聚焦</strong>时，将受到使用你熟练值的<strong>d10</strong>点魔法伤害。若你再次施放此法术，目标身上的效果将提前终止。</p>",
+      "actions": {
+        "a7O0qVSCOvL6460p": {
+          "name": "标记压力"
+        },
+        "JoF7vm39bqE7elsT": {
+          "name": "伤害"
+        }
+      }
+    },
+    "Blood Puppet": {
+      "name": "傀儡血咒 BLOOD PUPPET",
+      "description": "<p>对远距离范围内的一个生物（无论生死）进行一次<strong>施法掷骰</strong>。成功时，可<strong>花费 1 希望点</strong>操控目标使其进行移动、攻击或同时进行攻击和移动，如果你选择同时执行两项，你选择其顺序。若使其移动，目标将前往其<strong>近距离</strong>范围内你指定的位置。若使其攻击，需对目标<strong>近战</strong>范围内的一个对象进行一次<strong>施法掷骰</strong>，成功时造成使用你熟练值的<strong>d10</strong>点物理伤害。</p>",
+      "actions": {
+        "1XsZ5bi8etvZSkAc": {
+          "name": "花费希望"
+        }
+      }
+    },
+    "Blood Spike": {
+      "name": "荆棘血咒 BLOOD SPIKE",
+      "description": "<p>对远距离内的一个目标进行一次施法掷骰。成功时，标记 1 压力点，造成使用你熟练值的 d10 点魔法伤害。希望成功时，目标亦需标记 1 压力点。掷出恐惧时，你需标记 1 压力点。</p>",
+      "actions": {
+        "heFBYHKGNPMnWV6N": {
+          "name": "伤害"
+        }
+      }
+    },
+    "Blood-Touched": {
+      "name": "鲜血恩泽 BLOOD-TOUCHED",
+      "description": "<p>当你的配置中有<strong>4 张或更多鲜血领域卡牌</strong>时，获得以下增益： </p><ul><li><p>当你受到足以标记<strong>2 或更多生命点</strong>的伤害时，获得<strong>1 希望点</strong>。 </p></li><li><p>每标记<strong>3 生命点</strong>，你的<strong>闪避</strong>获得<strong>+1 加值</strong>。</p></li></ul>"
+    },
+    "Bloodbath": {
+      "name": "浴血浪潮 BLOODBATH",
+      "description": "<p>每休息一次，<strong>花费 1 希望点</strong>以自身为中心释放鲜血浪潮。对<strong>近距离范围</strong>内的所有敌人进行一次<strong>施法掷骰</strong>：成功时，目标标记<strong>1 生命点</strong>和<strong>1 压力点</strong>；失败时，目标标记<strong>1 压力点</strong>。<strong>近距离范围</strong>内的所有盟友需标记<strong>1 压力点</strong>，但恢复<strong>1 生命点</strong>。</p>",
+      "actions": {
+        "iwOmlSsL1300AuKm": {
+          "name": "花费希望"
+        }
+      }
+    },
+    "Brand of Castigation": {
+      "name": "惩戒烙印 Brand of Castigation",
+      "description": "<p>当你对生物造成伤害时，可标记 1 压力点在其身上烙下红色魔法印记。该印记持续期间：- 你始终能感知被标记生物相对于你的方位。- 当该生物对你或你邻近距离内的盟友造成伤害时，需标记 1 压力点。该印记将在你再次施展此法术时消失。</p>",
+      "actions": {
+        "NPHmC7BSCkxKuyp3": {
+          "name": "标记压力"
+        }
+      }
+    },
+    "Burning Blood": {
+      "name": "爆燃血咒 BURNING BLOOD",
+      "description": "<p>进行一次施法掷骰（12）。成功时，标记 1 生命点以凝聚一枚血珠，将其投掷至远距离范围内的某点。该点邻近范围内将爆发出灼热的气浪，引燃范围内生物的内脏。区域内所有目标需标记 1 生命点。希望成功时，则改为标记 2 生命点。</p>",
+      "actions": {
+        "qwSGmwPfVdo73QVO": {
+          "name": "标记生命"
+        }
+      }
+    },
+    "Chains of Affliction": {
+      "name": "痛苦锁链 CHAINS OF AFFLICTION",
+      "description": "<p>标记 <strong>2 压力点</strong>，使近距离内的一个目标暂时处于 <em>锁定</em> 状态。当被 <em>锁定</em> 的生物造成伤害时，其攻击目标所标记的生命点数量减少1点。你无法同时锁定超过一个生物。</p>",
+      "actions": {
+        "ggYMquEUvkhGNNDU": {
+          "name": "标记2压力"
+        }
+      }
+    },
+    "Crimson Adamance": {
+      "name": "猩红坚毅 CRIMSON ADAMANCE",
+      "description": "<p>当你即将标记最后一个生命点时，可花费 1 希望点以标记 1 压力点作为替代。</p>",
+      "actions": {
+        "Ru8giJeYjpj4Wkc5": {
+          "name": "花费希望/标记压力"
+        }
+      }
+    },
+    "Damnation": {
+      "name": "破灭诅咒 DAMNATION",
+      "description": "<p>对远距离范围内的一个目标进行一次<strong>施法掷骰</strong>。成功时，<strong>标记任意数量的压力点</strong>，掷出相同数量的<strong>d20</strong>，并对目标造成等同于掷骰总和的魔法伤害。如果该目标因这次攻击被击败，那么远距离范围内的所有敌人都需标记 1 压力点。</p>"
+    },
+    "Dark Army": {
+      "name": "黑暗大军 DARK ARMY",
+      "description": "<p>进行一次<strong>施法掷骰（14）</strong>。在下次长休前，成功的话你可以（仅一次）召唤一群邪魔环绕着你并随你一同移动。在此卡牌上放置 8 个指示物。每当你对近距离范围内的一名目标造成伤害时，你可以花费 1 个指示物使该伤害增加 <strong>+1d8</strong>；此外，每当你受到伤害时，你可以花费 1 个指示物将该伤害降低 <strong>1d8</strong>。每次你花费 1 个指示物，一只邪魔会为你效命并执行对应行动，随后便消散。</p><p>在你下次休息时，移除此卡牌上的所有指示物。</p>"
+    },
+    "Darkfire": {
+      "name": "黑暗火焰 DARKFIRE",
+      "description": "<p>对近距离范围内的所有敌人进行一次<strong>施法掷骰</strong>。对于所有你施法掷骰成功的目标，你可以<strong>花费 1 希望点</strong>，强制其进行一次<strong>反应掷骰（14）</strong>。若反应掷骰失败，目标将受到使用你熟练值的<strong>d8+6</strong>点魔法伤害（被黑暗火焰笼罩）；若反应掷骰成功，目标仅受到一半的伤害。</p>",
+      "actions": {
+        "82rtYgOuXmZRCuog": {
+          "name": "施法检定"
+        }
+      }
+    },
+    "Dire Strike": {
+      "name": "恐怖之刃 DIRE STRIKE",
+      "description": "<p>当进行一次成功的攻击后，你可以<strong>花费 2 希望点</strong>从目标处吸取能量。目标在此次攻击中标记了多少生命点，GM就将失去多少点恐惧点。</p>",
+      "actions": {
+        "jxbwIhqmWYtIQd9X": {
+          "name": "花费2希望"
+        }
+      }
+    },
+    "Dread-Touched": {
+      "name": "恐怖恩泽 DREAD-TOUCHED",
+      "description": "<p>当你的配置中有<strong>4 张或更多领域卡来自恐怖领域</strong>时，获得下列增益：</p><ul><li>当你掷出恐惧成功时，你可以 <strong>标记 2 压力点</strong> 以阻止游戏主持人获得恐惧点。</li></ul><ul><li>每休息一次（下次休息前仅可使用一次），在进行动作掷骰时，游戏主持人每持有<strong>1 恐惧点</strong>，你此次掷骰即可获得<strong>+1</strong>加值。</li></ul>",
+      "actions": {
+        "Ky5wcwBqgm5bJCK1": {
+          "name": "标记压力",
+          "description": "<p>- 当你掷出恐惧成功时，你可以<strong>标记 2 压力点</strong>,以阻止游戏主持人获得恐惧点。</p>"
+        }
+      },
+      "effects": {
+        "sNBuI2xIZAI4RgZy": {
+          "name": "恐怖恩泽 DREAD-TOUCHED",
+          "description": "<p>当你的配置中有<strong>4 张或更多领域卡来自恐怖领域</strong>时，获得下列增益：</p><ul><li>当你掷出恐惧成功时，你可以 <strong>标记 2 压力点</strong> 以阻止游戏主持人获得恐惧点。</li><li>每休息一次（下次休息前仅可使用一次），在进行动作掷骰时，游戏主持人每持有<strong>1 恐惧点</strong>，你此次掷骰即可获得<strong>+1</strong>加值。</li></ul>"
+        }
+      }
+    },
+    "Eldritch Flesh": {
+      "name": "邪能血肉 ELDRITCH FLESH",
+      "description": "<p>你具现了你所操弄的黑暗力量。当此卡牌位于你的配置中时：</p><ul><li>你的伤害阈值获得等同你已标记压力点数量的+1加值。</li></ul><ul><li>当你掷出恐惧结果时，你可以 <strong>花费 2 希望点</strong> 来清除 1 护甲槽。</li></ul>"
+    },
+    "Glyph of Hemorrhaging": {
+      "name": "出血刻印 GLYPH OF HEMORRHAGING",
+      "description": "<p>对远距离范围内的一个生物进行一次<strong>施法掷骰</strong>。成功时，<strong>标记 1 生命点</strong>以在目标身上烙下<strong>魔法刻印</strong>，该刻印将持续至游戏主持人花费<strong>2 恐惧点</strong>将其移除，或你遭受<strong>严重伤害</strong>为止。只要刻印仍存续，每当目标标记任意数量的生命点时，你可<strong>标记 1 压力点</strong>使其额外标记<strong>1 生命点</strong>。</p>",
+      "actions": {
+        "eJjJL3MIVLViaO3r": {
+          "name": "标记生命"
+        },
+        "5A3yXgfg8W01OdTC": {
+          "name": "标记压力"
+        }
+      }
+    },
+    "Grisly Harpoon": {
+      "name": "血腥鱼叉 GRISLY HARPOON",
+      "description": "<p>你向<strong>远距离范围</strong>内的一个地点或生物投掷出一支血之鱼叉。若目标是地点，需进行<strong>施法掷骰（13）</strong>；成功时，标记<strong>1 压力点</strong>将自身拉拽至该地点的<strong>近战范围</strong>内。若目标是生物，则需对其进行<strong>施法掷骰</strong>；成功时，标记<strong>1 压力点</strong>对目标造成<strong>3d8</strong>点魔法伤害，随后你可选择将目标直线拉向自己，或将自身直线拉向目标，最终使双方处于彼此的<strong>近战范围</strong>内。</p>",
+      "actions": {
+        "ogTYoxej37HWFOVO": {
+          "name": "标记压力"
+        },
+        "1mJczo48w5cuNl2B": {
+          "name": "标记压力并造成伤害"
+        }
+      }
+    },
+    "Hideous Retribution": {
+      "name": "狰狞报应 HIDEOUS RETRIBUTION",
+      "description": "<p>当一名近距离范围内的盟友受到来自一名你能看见的敌人的伤害时，你可以使用你的施法者属性对该敌人进行一次<strong>反应掷骰</strong>。成功时，<strong>标记 1 压力点</strong>以对其造成使用你熟练值的<strong>d6</strong>魔法伤害。</p>",
+      "actions": {
+        "WVhpGOGf4znrsFxy": {
+          "name": "施法检定"
+        },
+        "gGXHLdoNuiTv2Zgu": {
+          "name": "标记压力"
+        }
+      }
+    },
+    "Invoke Torment": {
+      "name": "召唤折磨 INVOKE TORMENT",
+      "description": "<p>当你对一个压力点标记已满的生物造成伤害时，你造成双倍伤害。如果该伤害足以击败该生物，你可以清除 1 压力点。</p>"
+    },
+    "Life Leash": {
+      "name": "生命锁链 Life Leash",
+      "description": "<p>消耗 1 点希望，以让你与一名在远距离范围内自愿的盟友重新分配双方标记的生命值。此后在完成一次休息前，你无法再次对同一盟友使用生命联结。</p>",
+      "actions": {
+        "xEafpseQkvpJFjXr": {
+          "name": "花费希望"
+        }
+      }
+    },
+    "Lifeblood Talisman": {
+      "name": "命脉护符 Lifeblood Talisman",
+      "description": "<p>标记 1 生命点来召唤一个灌注你生命精华的护符，护符会出现在你手中。当护符持有者需标记 2 或更多生命点时，其可花费 1 希望点使标记的生命点数量减少 1。该护符将在你未标记任何生命点或再次施展此法术时消失。</p>",
+      "actions": {
+        "DFvUULwSt63L43iI": {
+          "name": "标记生命"
+        }
+      }
+    },
+    "Mutual Suffering": {
+      "name": "共享苦难 Mutual Suffering",
+      "description": "<p>当一个生物对你发起的攻击使你标记 1 或更多生命点时，你可以使用施法属性对该生物进行一次反应掷骰。成功时，该生物将标记与你等量的生命点，且你在完成一次休息前无法再次使用此法术。</p>"
+    },
+    "Parasite Of The Will": {
+      "name": "寄生意志 Parasite Of The Will",
+      "description": "<p>对极远距离范围内的一个生物进行一次<strong>施法掷骰</strong>。成功时，<strong>标记 1 生命点</strong>以召唤一条微小的魔法血虫钻入目标体内。若<strong>希望成功</strong>，目标将无法察觉体内的血虫。 </p><p></p><p>你对该目标的所有<strong>风度掷骰</strong>具有优势；且每当目标进行掷骰时，你可以<strong>花费 1 希望点</strong>使其此次掷骰获得劣势。你可主动摧毁血虫，迫使目标标记<strong>1 生命点</strong>。</p>",
+      "actions": {
+        "ZPc1ahPAntVaVuqx": {
+          "name": "标记生命"
+        },
+        "lzsSCH6X5zBOsa7e": {
+          "name": "花费希望"
+        }
+      }
+    },
+    "Power Through Pain": {
+      "name": "痛楚之力 Power Through Pain",
+      "description": "<p>若你至少有标记 1 生命点，你的伤害掷骰将获得已标记生命点数量的两倍的加值。</p>"
+    },
+    "Runic Adrenaline": {
+      "name": "符文激素 Runic Adrenaline",
+      "description": "<p>你研习的血魔法已渗入血脉，能在危急时刻激发生命潜能。当你进行优势检定时，若拥有 1 点或更多已标记的生命点，可将优势骰由 d6 替换为 d8。每当你完成力量、敏捷或灵巧检定后，可标记 1 点生命点来掷 1d8 ，并将其结果加入检定总值。</p>",
+      "actions": {
+        "PJFq9megcZzATmj9": {
+          "name": "标记生命"
+        }
+      }
+    },
+    "Sanguine Feast": {
+      "name": "嗜血盛宴 Sanguine Feast",
+      "description": "<p>对近距离范围内的一个敌人进行一次施法掷骰，成功时，花费 2 希望点来标记自己 1–3 生命点，目标则需标记两倍的生命点。如果这会让目标标记最后一个生命点，你恢复使用此法术所标记的生命点。</p>",
+      "actions": {
+        "6epIeOe2FMQ24mw8": {
+          "name": "花费希望"
+        }
+      }
+    },
+    "Savor the Anguish": {
+      "name": "品味苦难 SAVOR THE ANGUISH",
+      "description": "<p>当一个位于近距离范围内的敌人标记压力点或受到严重伤害时，你可以<strong>花费 1 希望点</strong>以清除 1 压力点或从游戏主持人的恐惧池中清除 1 恐惧点。</p>",
+      "actions": {
+        "vbMcxqfAgg6uykxh": {
+          "name": "花费希望"
+        }
+      }
+    },
+    "Shared Trauma": {
+      "name": "共享创伤 Shared Trauma",
+      "description": "<p>你能将痛苦从一个生物转移至另一个。每次休息一次，对一个近战范围内的自愿生物，标记任意数量的生命点，恢复另一个近战范围内自愿生物同等数量的生命点。你可以选择自己成为两个自愿生物之一。</p>"
+    },
+    "Siphon Essence": {
+      "name": "抽取精魄 Siphon Essence",
+      "description": "<p>对邻近范围内一个目标进行一次<strong>施法掷骰</strong>。成功时，每次长休一次，目标受到使用你熟练值的 <strong>d20 </strong>魔法伤害。目标标记多少生命点，你便恢复多少生命点。如果你掷出恐惧成功，此次攻击的熟练值获得 +1 加值。</p>",
+      "actions": {
+        "ZUxdiPgJWHSc2Ig9": {
+          "name": "施法检定"
+        }
+      }
+    },
+    "Spectral Mist": {
+      "name": "幽魂迷雾 Spectral Mist",
+      "description": "<p><strong>标记 1 压力点</strong>，召唤诡异的迷雾，使你及近距离范围内的目标暂时灵体化。处于灵体状态时，生物可穿越固体且免疫物理伤害。灵体生物穿越固体或进行动作掷骰时，或当前场景结束时，则将恢复实体。</p>",
+      "actions": {
+        "zNvUolwaFrSNiAu4": {
+          "name": "标记压力"
+        }
+      }
+    },
+    "Summon Horror": {
+      "name": "召唤恐魔 Summon Horror",
+      "description": "<p>对远距离范围内的一个目标进行一次<strong>施法掷骰</strong>。成功时，<strong>花费 1 希望点</strong>召唤一只异界生物攻击该目标，对其造成使用你熟练值的<strong>d10</strong>点魔法伤害。目标必须通过<strong>反应掷骰（12）</strong>来对抗这份恐怖，否则需标记<strong>1d4</strong>点压力点。</p><p>完成攻击后，该异界生物便会消散。</p>"
+    },
+    "Terrify": {
+      "name": "惊骇冲击 Terrify",
+      "description": "<p>对远距离范围内的一个目标进行一次<strong>施法掷骰</strong>。成功时，目标标记<strong>1d4 压力点</strong>，且你可迫使目标向远离你的方向移动一个距离单位（近距离→远距离、远距离→极远距离，以此类推）。若你的施法掷骰掷出恐惧成功，目标将暂时处于<em>脆弱</em>状态。</p>",
+      "actions": {
+        "wklmI4hh5xUYL4OS": {
+          "name": "施法检定"
+        }
+      }
+    },
+    "Umbra Veil": {
+      "name": "幽影帷幕 Umbra Veil",
+      "description": "<p>下次休息前仅可使用一次：当你掷出恐惧结果时，你可以<strong>花费任意数量的希望点</strong>，并在此卡牌上放置同等数量的指示物，使自身被暗影能量包裹。当针对你发起的攻击掷骰完成判定前，你可花费任意数量的指示物，每花费1个指示物，该攻击掷骰即获得<strong>-1</strong>减值。在你下次休息时，移除此卡牌上的所有指示物。</p>"
+    },
+    "Vampiric Strike": {
+      "name": "吸血打击 Vampiric Strike",
+      "description": "<p>当你对一个敌人进行攻击掷骰成功并使其标记 2 或更多生命点时，可花费 1 希望点以恢复 1 生命点或清除 1 压力点。</p>",
+      "actions": {
+        "CyA18XaKclBsJfs6": {
+          "name": "标记生命"
+        },
+        "jsgezt0GPEZwKfkp": {
+          "name": "清除压力"
+        }
+      }
+    },
+    "Vital Ward": {
+      "name": "生机结界 Vital Ward",
+      "description": "<p>标记 1 生命点，在邻近范围内用鲜血勾勒出一个环绕自身的法阵。身处法阵内时，你可以选择获得物理或魔法伤害抗性（在施法时选择）。盟友在法阵内同样获得此增益。若你离开法阵、标记 2 点或更多生命点、或再次施放此法术后，法阵将消失。</p>",
+      "actions": {
+        "K1H6sywGxcpjZ4zH": {
+          "name": "标记生命"
+        }
+      }
+    },
+    "Vitality Manipulation": {
+      "name": "精力操弄 Vitality Manipulation",
+      "description": "<p>对<strong>极近距离</strong>范围内的一个目标进行一次<strong>施法掷骰</strong>。若对盟友施放此法术，此次掷骰将获得优势。成功时，<strong>标记 1 压力点</strong>，并选择下列效果之一： </p><ul><li><p>目标变得平静，清除<strong>1 压力点</strong>。若<strong>希望成功</strong>，则清除<strong>2 压力点</strong>。 </p></li><li><p>目标变得焦虑，标记<strong>1 压力点</strong>。若<strong>希望成功</strong>，则标记<strong>2 压力点</strong>。</p></li></ul>",
+      "actions": {
+        "2exmeeTCAD4WqgiU": {
+          "name": "标记1压力"
+        },
+        "aUoh8aQcHJOUWMlI": {
+          "name": "标记2压力"
+        },
+        "1FPv6RARCS5PXVQD": {
+          "name": "标记1压力"
+        },
+        "CjLIfCbNE2P3obQY": {
+          "name": "标记2压力"
+        }
+      }
+    },
+    "Voice of Dread": {
+      "name": "恐怖低语 Voice of Dread",
+      "description": "<p>你可以以魔法的方式直接对一个你能看见的生物低语（声音仅传入其耳中）。若想以言语折磨该生物，需对其进行一次<strong>施法掷骰</strong>。成功时，该生物必须标记<strong>1 压力点</strong>，并暂时处于<em>脆弱</em>状态。</p>",
+      "actions": {
+        "JrGujKVX0intRWfj": {
+          "name": "攻击"
+        }
+      }
+    },
+    "Wailing Leap": {
+      "name": "骇人闪现 Wailing Leap",
+      "description": "<p>当你对目标造成魔法伤害时，你可以<strong>标记1点压力</strong>，立即传送至其近距离范围内。当你这样做时，目标将变为<em>脆弱</em>状态，直到其受到1点或更多伤害。</p>",
+      "actions": {
+        "bMbVBpDdepXrLbjs": {
+          "name": "标记压力"
+        }
+      }
+    },
+    "Wall of Hunger": {
+      "name": "饥饿之墙 Wall of Hunger",
+      "description": "<p>进行一次成功的<strong>施法掷骰（13）</strong>，以在远距离范围内的两点之间的直线上，创造一道由翻涌的死灵能量构成的可见墙壁。该墙壁将持续存在，直至你标记<strong>1 个生命点</strong>，或再次施放此法术为止。任何在墙壁生成时身处墙内，或试图穿过墙壁的生物，必须<strong>标记 2 压力点</strong>并进行一次<strong>反应掷骰（16）</strong>；若反应掷骰失败，该生物将因这道墙壁暂时处于<em>瘫痪</em>状态。</p>"
+    },
+    "Weave The Flesh": {
+      "name": "血肉编织 Weave The Flesh",
+      "description": "<p>每次休息一次，标记 1 生命点使近距离范围内的所有盟友恢复 1 生命点或清除 1 压力点。你可以同时标记 1 压力点以允许盟友同时恢复 1 生命点和清除 1 压力点。</p>",
+      "actions": {
+        "WNAIadDdOxFPKDnI": {
+          "name": "标记生命"
+        },
+        "zYtMOEnJwxtOVxVI": {
+          "name": "标记压力"
+        },
+        "7HRAhpwU01ONCgkb": {
+          "name": "标记生命"
+        },
+        "lxtpj9N7niFoN2LW": {
+          "name": "清除压力"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,982 @@
+﻿{
+  "label": "环境 Environments",
+  "mapping": {
+    "description": "system.description",
+    "impulses": "system.impulses",
+    "potentialAdversaries": {
+      "path": "system.potentialAdversaries",
+      "converter": "toPotentialAdversaries"
+    },
+    "items": {
+      "path": "items",
+      "converter": "toItemsWithActions"
+    }
+  },
+  "folders": {
+    "Tier 1": "位阶1 Tier 1",
+    "Tier 2": "位阶2 Tier 2",
+    "Tier 3": "位阶3 Tier 3",
+    "Tier 4": "位阶4 Tier 4"
+  },
+  "entries": {
+    "Abandoned Grove": {
+      "name": "荒废林地 Abandoned Grove",
+      "description": "<p>一片曾经的德鲁伊林地，如今休耕荒废，重回自然原貌。</p>",
+      "impulses": "吸引好奇者，反映过往",
+      "potentialAdversaries": {
+        "VbbsqTQkmScgraqy": {
+          "label": "野兽"
+        },
+        "oKq6LhpXvSWnmqyS": {
+          "label": "林地守卫"
+        }
+      },
+      "items": {
+        "MX4q2xxuWts9gBfT": {
+          "name": "蔓生战场 Overgrown Battlefield",
+          "description": "<p>此地曾发生过一场战斗。一名玩家角色可以进行一次本能掷骰来发现这场战斗所遗留下的证据。若希望成功，其可了解以下所有三条信息。若恐惧成功，了解两条。若掷骰失败，一名玩家角色可以标记 1 压力点来了解一条信息，并在下一次用于调查环境的动作掷骰中获得优势。拥有合适背景或经历的一名玩家角色可以了解到一个额外的细节，其还能够提一个关于该场景的后续问题，并获得一个真实的（但不一定总是完整的）答案。</p><ul><li>地上散落着战斗的痕迹（断裂的武器和树枝，嵌入地面的凿痕）。</li></ul><ul><li>一棵看似被苔藓覆盖的树木实则是一具树人尸体。</li></ul><ul><li>仍然矗立在此地的树木发生了奇怪的扭曲，似乎是由某种强大的魔法所致。</li></ul><section id='secret-eSdgCltFm45vLh9H' class='secret'><p><em>曾在此地的那些团体为何发生冲突？而这片林地如今又为何无人使用？</em></p></section>"
+        },
+        "maK5OyfrOxcjCoPt": {
+          "name": "尖刺藤蔓 Barbed Vines",
+          "description": "<p>选择林地内的一个目标点。位于该点邻近范围内的所有目标必须成功通过一次敏捷反应掷骰，否则其将受到 1d8+3 物理伤害并因尖刺藤蔓处于 <em>束缚 </em>状态 。处于 束缚 状态的生物只有成功通过一次灵巧或力量掷骰，亦或是对藤蔓造成至少 6 伤害，才能挣脱。</p><section id='secret-WVGl1YkqOicSEwlf' class='secret'><p><em>这里有多少藤蔓？又是在哪里抓住你的？是把你拽向地面，还是拉向天空？</em></p></section>",
+          "actions": {
+            "47fcdhe1FDdm9rQU": {
+              "name": "反应投骰",
+              "description": "<p>选择林地内的一个目标点。位于该点邻近范围内的所有目标必须成功通过一次敏捷反应掷骰，否则其将受到 1d8+3 物理伤害并因尖刺藤蔓处于 <em>束缚 </em>状态 。处于 束缚 状态的生物只有成功通过一次灵巧或力量掷骰，亦或是对藤蔓造成至少 6 伤害，才能挣脱。</p><section id='secret-WVGl1YkqOicSEwlf' class='secret'><p><em>这里有多少藤蔓？又是在哪里抓住你的？是把你拽向地面，还是拉向天空？</em></p></section>"
+            }
+          },
+          "effects": {
+            "LSeftEwgBbXXkLw3": {
+              "name": "尖刺藤蔓 Barbed Vines",
+              "description": "<p>处于 束缚 状态的生物只有成功通过一次灵巧或力量掷骰，亦或是对藤蔓造成至少 6 伤害，才能挣脱。</p>"
+            }
+          }
+        },
+        "uG5A2XQuUcPsXzgP": {
+          "name": "这里不欢迎你 You Are Not Welcome Here",
+          "description": "<p>一名@UUID[Compendium.daggerheart.adversaries.Actor.8yUj2Mzvnifhxegm]{幼年树精}, 两名 @UUID[Compendium.daggerheart.adversaries.Actor.VtFBt9XBE0WrGGxP]{木族战士} 以及数量等同于玩家角色数量的 @UUID[Compendium.daggerheart.adversaries.Actor.G62k4oSkhkoXEs2D]{小型树人}出现, 同闯入此地的队伍针锋相对。</p><section id='secret-01hkXuVJc5Kei4QW' class='secret'><p><em>林地守卫在隐藏什么？有什么事物正在威胁着森林的安危，而玩家角色或许可以通过接手此事来平息树精的怒火？</em></p></section>"
+        },
+        "3kkkbnWEvXk5TPK8": {
+          "name": "污染物",
+          "description": "<p><strong>花费 1 恐惧点</strong>, 来召唤一个被暴力与不谐的回声所吸引的@UUID[Compendium.daggerheart.adversaries.Actor.sRn4bqerfARvhgSV]{小型混沌元素}, 它将出现在一名被选中的玩家角色的远距离范围内，并且立刻获得聚焦。</p><section id='secret-ChOafrgiTeYqsqoe' class='secret'><p><em>当混沌元素现身时，草地变成了什么颜色？混沌又是如何扭曲了林地内的昆虫和小动物？</em></p></section>",
+          "actions": {
+            "p6V4k4yMwJ1UPZMz": {
+              "name": "花费恐惧",
+              "description": "<p><strong>花费 1 恐惧点</strong>, 来召唤一个被暴力与不谐的回声所吸引的@UUID[Compendium.daggerheart.adversaries.Actor.sRn4bqerfARvhgSV]{小型混沌元素}, 它将出现在一名被选中的玩家角色的远距离范围内，并且立刻获得聚焦。</p><section id='secret-ChOafrgiTeYqsqoe' class='secret'><p><em>当混沌元素现身时，草地变成了什么颜色？混沌又是如何扭曲了林地内的昆虫和小动物？</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Ambushed": {
+      "name": "遇袭 Ambushed",
+      "description": "<p>一场设计好的埋伏，旨在将没有防备的队伍打个措手不及。</p>",
+      "impulses": "以多打少，分割，包围",
+      "items": {
+        "NMErq9B4NS3NSiMy": {
+          "name": "战力浮动 Relative Strength",
+          "description": "<p>该环境的难度等同于场景内敌人的最高难度。</p><section class='secret' id='secret-FZokhR7CFr2tXkGn'><p><em>谁负责指挥这场袭击？其何种行为揭露了这一点？</em></p></section>"
+        },
+        "HfuVxgVidIVsapvI": {
+          "name": "惊喜！ Surprise！",
+          "description": "<p>伏击者突然出现在队伍的视线中，你获得 2 恐惧点，并立即将聚焦转移到伏击者中的一名敌人身上。</p><section id='secret-LcyhfZXPS4MD9dMC' class='secret'><p><em>伏击者想要从队伍手中得到什么？其在伏击中表现出来的战术又如何体现了这一点？</em></p></section>",
+          "actions": {
+            "TRSiqdwc1mYTHv4d": {
+              "name": "获得恐惧",
+              "description": "<p>伏击者突然出现在队伍的视线中，你获得 2 恐惧点，并立即将聚焦转移到伏击者中的一名敌人身上。</p><section id='secret-LcyhfZXPS4MD9dMC' class='secret'><p><em>伏击者想要从队伍手中得到什么？其在伏击中表现出来的战术又如何体现了这一点？</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Ambushers": {
+      "name": "埋伏 Ambushers",
+      "description": "<p>由玩家角色设下的埋伏，旨在将没有防备的敌人打个措手不及。</p>",
+      "impulses": "逃跑，抱团，保护最重要的事物",
+      "items": {
+        "hAGzlRjI3lpadVs7": {
+          "name": "战力浮动 Relative Strength",
+          "description": "<p>该环境的难度等同于场景内敌人的最高难度。</p><section class='secret' id='secret-FZokhR7CFr2tXkGn'><p><em>哪一个敌人最为措手不及？哪一个敌人最为沉着镇定？</em></p></section>"
+        },
+        "b6Qviz1ANG8OrAYq": {
+          "name": "他们是哪儿来的？ Where Did They Come From? ",
+          "description": "<p>当一名玩家角色对毫无防备的敌人发动突袭时，你失去 2 恐惧点，并且每名玩家角色的首次攻击掷骰将获得优势。</p><section class='secret' id='secret-0BW2MHYrwlL7iHiR'><p><em>当伏击正式打响时，敌人们正在做什么？而这又如何影响了他们的战斗方式？</em></p></section>",
+          "actions": {
+            "6DKa1Pm605HpChPd": {
+              "name": "花费恐惧",
+              "description": "<p>当一名玩家角色对毫无防备的敌人发动突袭时，你失去 2 恐惧点，并且每名玩家角色的首次攻击掷骰将获得优势。</p><section class='secret' id='secret-0BW2MHYrwlL7iHiR'><p><em>当伏击正式打响时，敌人们正在做什么？而这又如何影响了他们的战斗方式？</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Burning Heart of the Woods": {
+      "name": "林木燃心 Burning Heart of the Woods",
+      "description": "<p>厚重到近乎浓稠的靛蓝余烬环绕在一棵被苔藓覆盖的巨木周围，此木恒久不熄地燃烧着，透着一股病态的幽蓝。</p>",
+      "impulses": "噼啪作响的燃烧声响组合成令人不自觉想要跟随的诡异节奏，腐化森林",
+      "potentialAdversaries": {
+        "x0uI3WUhqmIcqimN": {
+          "label": "野兽"
+        },
+        "ndk8FXXrRjHiPN0R": {
+          "label": "元素生物"
+        },
+        "XD3YccQrTKsxtlSZ": {
+          "label": "苍翠守卫"
+        }
+      },
+      "items": {
+        "hU32a8QZy62gdLGc": {
+          "name": "混沌魔力聚集地",
+          "description": "<p>当玩家角色进行一次施法掷骰时，其必须掷两次恐惧骰并取其高者作为结果。</p><section id='secret-oR4iWlNQoOg4IXMr' class='secret'><p><em>在这片受混沌侵染的土地上施展魔法是一种怎样的感觉？若失去对魔法的掌控，你害怕会有什么事情发生？</em></p></section>"
+        },
+        "nrwEMjdl5F86oES9": {
+          "name": "靛蓝魔焰",
+          "description": "<p>任何靠近中央那棵巨木的玩家角色都可以尝试一次知识掷骰，来辨识是什么魔力在侵蚀这里的环境。</p><ul><li><strong>成功时：</strong> 其获知以下三条信息。恐惧成功时，仅为两个。</li></ul><ul><li><strong>失败时：</strong> 其可以标记 1 压力点以获知一条信息，并在下一次用于调查环境的动作掷骰中获得优势。</li></ul><ul><li><strong> 信息： </strong> 堕落魔力是罪魁祸首。腐化通过余烬苔藓传播。只有通过一个进展倒计时（8）的自然魔法仪式才能清除此处的腐化。</li></ul><section id='secret-SkDRzA8454MaIFU3' class='secret'><p><em>哪支堕落邪教腐化了这片森林？他们为什么要诅咒并残害这棵巨木？</em></p></section>"
+        },
+        "1aOeMMX0XuDtZbbB": {
+          "name": "绞杀藤蔓 Grasping Vines",
+          "description": "<p>低矮的灌木中突然窜出长满尖刺的活化藤蔓，试图缠住玩家角色们。一个目标必须成功通过一次敏捷反应掷骰，否则将处于 束缚 和 脆弱 状态。目标可以通过一次成功的灵巧或力量掷骰，亦或是通过对藤蔓造成 10 点伤害来挣脱缠绞，同时清除上述两种状态。当目标为了挣脱而进行掷骰时，其受到 1d8+4 物理伤害并失去 1 希望点。</p><section id='secret-ysaK5Lw0DGsZsgxO' class='secret'><p><em>当藤蔓刺入血肉时，哪些痛苦的回忆涌上了心头？</em></p></section>",
+          "actions": {
+            "SfUlV5CL2kWJvXQX": {
+              "name": "反应掷骰",
+              "description": "<p>低矮的灌木中突然窜出长满尖刺的活化藤蔓，试图缠住玩家角色们。一个目标必须成功通过一次敏捷反应掷骰，否则将处于 束缚 和 脆弱 状态。目标可以通过一次成功的灵巧或力量掷骰，亦或是通过对藤蔓造成 10 点伤害来挣脱缠绞，同时清除上述两种状态。当目标为了挣脱而进行掷骰时，其受到 1d8+4 物理伤害并失去 1 希望点。</p><section id='secret-ysaK5Lw0DGsZsgxO' class='secret'><p><em>当藤蔓刺入血肉时，哪些痛苦的回忆涌上了心头？</em></p></section>"
+            }
+          },
+          "effects": {
+            "gCkqvBUljsOsYacB": {
+              "name": "绞杀藤蔓 Grasping Vines",
+              "description": "<p>一个目标必须成功通过一次敏捷反应掷骰，否则将处于 束缚 和 脆弱 状态。目标可以通过一次成功的灵巧或力量掷骰，亦或是通过对藤蔓造成 10 点伤害来挣脱缠绞，同时清除上述两种状态。当目标为了挣脱而进行掷骰时，其受到 1d8+4 物理伤害并失去 1 希望点。</p><section class=\"secret\" id=\"secret-Eui1zx8GKoUhEXq6\"><p><em>当藤蔓刺入血肉时，哪些痛苦的回忆涌上了心头？</em></p></section>"
+            }
+          }
+        },
+        "JKFkDvwUOP35Tsr1": {
+          "name": "焦炭构装 Charcoal Constructs",
+          "description": "<p>燃烧着靛蓝魔焰的扭曲动物，践踏由你选择的一个目标点。该目标点近距离范围内的所有目标必须进行一次敏捷反应掷骰。失败的目标将受到 3d12+3 物理伤害，成功则仅受一半伤害。</p><p>@Template[type:emanation|range:c]</p><section class='secret' id='secret-696PMvOPzHmkdtYc'><p><em>它们是被魔焰吞噬的真实动物，还是说只是腐化魔法捏造出的构装体？</em></p></section>",
+          "actions": {
+            "gbXIaKr8em134IZC": {
+              "name": "反应掷骰",
+              "description": "<p>燃烧着靛蓝魔焰的扭曲动物，践踏由你选择的一个目标点。该目标点近距离范围内的所有目标必须进行一次敏捷反应掷骰。失败的目标将受到 3d12+3 物理伤害，成功则仅受一半伤害。</p><p>@Template[type:emanation|range:c]</p><section class='secret' id='secret-696PMvOPzHmkdtYc'><p><em>它们是被魔焰吞噬的真实动物，还是说只是腐化魔法捏造出的构装体？</em></p></section>"
+            }
+          }
+        },
+        "kYxuTZjH7HDUGeWh": {
+          "name": "窒息灰烬 Choking Ash",
+          "description": "<p><em>倒计时（循环6）</em>. 当玩家角色进入林木燃心区域后，激活倒计时。当倒计时最终触发时，所有玩家角色必须进行一次力量或本能反应掷骰。失败的目标将受到 4d6+5 直接物理伤害。成功则仅受一半伤害。身穿防护罩或防护服的可在该反应掷骰中获得优势。</p><section id='secret-qQq9TrwyjdayheMk' class='secret'><p><em>飞舞的灰烬会诱发什么幻觉？又带有何种不协调的气味？</em></p></section>",
+          "actions": {
+            "U9O0nh0LkdKzjIXS": {
+              "name": "倒计时",
+              "description": "<p><em>倒计时（循环6）</em>. 当玩家角色进入林木燃心区域后，激活倒计时。</p><section id='secret-qQq9TrwyjdayheMk' class='secret'><p><em>飞舞的灰烬会诱发什么幻觉？又带有何种不协调的气味？</em></p></section>"
+            },
+            "4XVdHOzycOXM5bh9": {
+              "name": "伤害",
+              "description": "<p>当倒计时最终触发时，所有玩家角色必须进行一次力量或本能反应掷骰。失败的目标将受到 4d6+5 直接物理伤害。成功则仅受一半伤害。身穿防护罩或防护服的可在该反应掷骰中获得优势。</p><section id='secret-qQq9TrwyjdayheMk' class='secret'><p><em>飞舞的灰烬会诱发什么幻觉？又带有何种不协调的气味？</em></p></section>"
+            },
+            "3L0T97ZzTqZU6BE6": {
+              "name": "启动倒计时",
+              "description": "<p><em>倒计时（循环6）</em>. 当玩家角色进入林木燃心区域后，激活倒计时。</p>"
+            }
+          }
+        }
+      }
+    },
+    "Bustling Marketplace": {
+      "name": "熙攘集市 Bustling Marketplace",
+      "description": "<p>作为定居点的经济中心，本土匠人、行商走贩、以及不同阶级的顾客皆聚集于此。</p>",
+      "impulses": "低买高卖，吹嘘叫卖各类远疆近邻的商货",
+      "potentialAdversaries": {
+        "4rGNjVN6eT9xjsAa": {
+          "label": "守卫"
+        },
+        "ucd2xJvPBS43bybO": {
+          "label": "其他"
+        }
+      },
+      "items": {
+        "w8YmhoWPGc66Wrx3": {
+          "name": "四两千金 Tip the Scales",
+          "description": "<p>玩家角色们可以通过拿出一把金币作为互动的一部分，来在一次风度掷骰中获得优势。</p><section id='secret-SkvXxhBWKBtYdJaq' class='secret'><p><em>任何货币都会被接受吗，还是说只有本地货币能够得到认可？玩家角色们在进行贿赂时有多明目张胆？</em></p></section>"
+        },
+        "60uDqt9omFifZ7xd": {
+          "name": "意外之获 Unexpected Find",
+          "description": "<p>向玩家角色们展示，有一名商人拥有他们想要或需要的东西，比如说家乡的食物、一本稀有的书籍、魔法材料、一张可疑的藏宝图、或是一把巫术钥匙。</p><section id='secret-vuqosTt63aXllb93' class='secret'><p><em>除了金币外，商人还可能会要求什么其它的事物，作为交换这件稀有物品的代价？</em></p></section>"
+        },
+        "56qjiKMoN6S9riI6": {
+          "name": "偷鸡摸狗 Sticky Fingers",
+          "description": "<p>一个小偷试图从一名玩家角色的身上偷走某样东西。该玩家角色必须成功通过一次本能掷骰才能注意到小偷的存在，否则其将失去由游戏主持人选定的某样东西，同时小偷在得手后将窜逃到近距离范围。想要夺回被偷走的东西，玩家角色们必须赶在小偷完成一项用以逃回藏身处的后果倒计时（4）前，先一步完成一项进展倒计时（6）来抓住他。</p><section id='secret-UHBqg2AqmIAxgB15' class='secret'><p><em>是什么驱使这个小偷过来行窃？小偷的藏身处在哪里，其上做了什么手脚以避免被发现？</em></p></section>",
+          "actions": {
+            "GMy6OcMQnNJDDmtV": {
+              "name": "反应掷骰",
+              "description": "<p>一个小偷试图从一名玩家角色的身上偷走某样东西。该玩家角色必须成功通过一次本能掷骰才能注意到小偷的存在，否则其将失去由游戏主持人选定的某样东西，同时小偷在得手后将窜逃到近距离范围。</p>"
+            },
+            "0V36HDEb9gpLubGL": {
+              "name": "寻回",
+              "description": "<p>想要夺回被偷走的东西，玩家角色们必须赶在小偷完成一项用以逃回藏身处的后果倒计时（4）前，先一步完成一项进展倒计时（6）来抓住他。</p><section id='secret-UHBqg2AqmIAxgB15' class='secret'><p><em>是什么驱使这个小偷过来行窃？小偷的藏身处在哪里，其上做了什么手脚以避免被发现？</em></p></section>"
+            },
+            "L2TFexCvxvuCOCXe": {
+              "name": "启动倒计时",
+              "description": "<p>玩家角色们必须赶在小偷完成一项用以逃回藏身处的后果倒计时（4）前，先一步完成一项进展倒计时（6）来抓住他。</p>"
+            }
+          }
+        },
+        "l2FzZpR2reVmlkdp": {
+          "name": "人头攒动 Crowd Closes In",
+          "description": "<p>当玩家角色中有某人与队伍脱节时，移动的人群将挤入他们之间，并将该玩家角色与队伍隔离开来。</p><section id='secret-JECVv19GdEo8ngkq' class='secret'><p><em>移动的人潮将要把该角色带往何处？其对孤身一人被陌生人包围又有怎样的感觉？</em></p></section>"
+        }
+      }
+    },
+    "Castle Siege": {
+      "name": "城堡围攻 Castle Siege",
+      "description": "<p>一场激烈的围城战，进攻方正试图攻入一座固若金汤的城堡。</p>",
+      "impulses": "消磨战斗意志，破坏城墙，加剧紧张局势",
+      "potentialAdversaries": {
+        "yNuW3h5S2tsbgLm4": {
+          "label": "雇佣兵"
+        },
+        "djL6ySNZ1A0skdMT": {
+          "label": "贵族武装"
+        }
+      },
+      "items": {
+        "2qUw5c3e22eywSwg": {
+          "name": "城堡密道 Secret Entrance",
+          "description": "<p>一名玩家角色可以通过一次成功的本能或知识掷骰，找到或回想起一条进入城堡的秘密通道。</p><section id='secret-6U0wYxm3kM3G7mAX' class='secret'><p><em>他们该如何在不将密道暴露给围攻方的情况下进入城堡？防御方是否有人正在监守密道？</em></p></section>"
+        },
+        "eSTq8Y0v4Dwd13XU": {
+          "name": "攻城武器 Siege Weapons",
+          "description": "<p><em>后果倒计时（6）</em>. 进攻方开始部署攻城武器，试图摧毁防御方的工事。当围攻开始时（对于一场旷日持久的围攻，将倒计时改为长期倒计时），激活倒计时。当倒计时最终触发时，意味着防御者的工事已被攻破，进攻方涌入城内。你获得 2 恐惧点，随后将环境切换到“两军对垒”环境，并聚焦该环境。</p><section id='secret-P5oJplxVBVJGtggb' class='secret'><p><em>进攻方部署了哪些攻城武器？它们是魔法的、物理的、还是两者混合的？角色必须克服哪些防御工事才能攻占城堡？</em></p></section>",
+          "actions": {
+            "F89TDp557TJ1vvgm": {
+              "name": "倒计时",
+              "description": "<p><em>后果倒计时（6）</em>. 进攻方开始部署攻城武器，试图摧毁防御方的工事。当围攻开始时（对于一场旷日持久的围攻，将倒计时改为长期倒计时），激活倒计时。当倒计时最终触发时，意味着防御者的工事已被攻破，进攻方涌入城内。你获得 2 恐惧点，随后将环境切换到“两军对垒”环境，并聚焦该环境。</p><section id='secret-P5oJplxVBVJGtggb' class='secret'><p><em>进攻方部署了哪些攻城武器？它们是魔法的、物理的、还是两者混合的？角色必须克服哪些防御工事才能攻占城堡？</em></p></section>"
+            },
+            "TGWI1Kvw4ZEP3QEo": {
+              "name": "获得恐惧",
+              "description": "<p>当倒计时最终触发时，意味着防御者的工事已被攻破，进攻方涌入城内。你获得 2 恐惧点，随后将环境切换到“两军对垒”环境，并聚焦该环境。</p>"
+            },
+            "udKS3ME8VKuayEyO": {
+              "name": "启动倒计时",
+              "description": "<p><em>后果倒计时（6）</em>. 进攻方开始部署攻城武器，试图摧毁防御方的工事。当围攻开始时（对于一场旷日持久的围攻，将倒计时改为长期倒计时），激活倒计时。</p>"
+            }
+          }
+        },
+        "U59K0WKVjwbgzMZU": {
+          "name": "增援！ Reinforcements ！",
+          "description": "<p>选定一名玩家角色，在其远距离范围召唤增援，包括一名@UUID[Compendium.daggerheart.adversaries.Actor.7ai2opemrclQe3VF]{王国骑士}, 数量等同于玩家角色数量的位阶3 杂兵、以及其它 2 名由你决定的敌人。该王国骑士立刻获得聚焦。</p><section id='secret-qYx1WuL81hHF5XW8' class='secret'><p><em>他们会将谁选为首个目标？又采用什么样的阵型？</em></p></section>"
+        },
+        "bemKmwjBtbEFVWXM": {
+          "name": "附带伤害 Collateral Damage ",
+          "description": "<p>当一名敌人被击败时，你可以花费 1 恐惧点让攻城武器的弹药偏离轨道，击中战场上的一个目标点，该点邻近范围内的所有目标必须进行一次敏捷反应掷骰.</p><p>@Template[type:circle|range:vc]</p><ul><li>掷骰失败的目标将受到 3d8+3 物理或魔法伤害，且必须标记 1 压力点。</li></ul><ul><li>掷骰成功的目标必须标记 1 压力点。</li></ul><section id='secret-JdhetLsgL626ouo7' class='secret'><p><em>这次攻击将什么东西的碎片炸得到处都是？又有什么东西在这次攻击中受到了难以修复的损伤？</em></p></section>",
+          "actions": {
+            "r5JN5oFYL5DC6Qqw": {
+              "name": "反应掷骰",
+              "description": "<p>当一名敌人被击败时，你可以花费 1 恐惧点让攻城武器的弹药偏离轨道，击中战场上的一个目标点，该点邻近范围内的所有目标必须进行一次敏捷反应掷骰.</p><p>@Template[type:circle|range:vc]</p><ul><li>掷骰失败的目标将受到 3d8+3 物理或魔法伤害，且必须标记 1 压力点。</li></ul><ul><li>掷骰成功的目标必须标记 1 压力点。</li></ul><section id='secret-JdhetLsgL626ouo7' class='secret'><p><em>这次攻击将什么东西的碎片炸得到处都是？又有什么东西在这次攻击中受到了难以修复的损伤？</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Chaos Realm": {
+      "name": "混沌界域 Chaos Realm",
+      "description": "<p>一个危险的异空间，现实法则在这里破碎且扭曲。</p>",
+      "impulses": "否定确定性，吞噬力量，违背逻辑",
+      "potentialAdversaries": {
+        "2E8iPHwHt7srzJRS": {
+          "label": "异界邪物"
+        }
+      },
+      "items": {
+        "yXCBy1MQuh5GwH5Q": {
+          "name": "无理构造 Impossible Architecture",
+          "description": "<p>上是下，下是右，右是星空之上。重力和方向在不断变动，任何穿越该界域的尝试都将是一场艰难的跋涉，使用一项进展倒计时（8）。每当掷骰失败，除了掷骰的其它后果外，玩家角色还需要额外标记 1 压力点。</p><section id='secret-j76pJfYX7Cbt61Pq' class='secret'><p><em>在一个与凡人界域如此大相径庭的空间内移动是一种怎样的感觉？你通过凝视什么地标或特异点来保持平衡？你在旅途中经过了那些奇异的地点？</em></p></section>",
+          "actions": {
+            "hli84bleKqYoU7YL": {
+              "name": "标记压力",
+              "description": "<p>每当掷骰失败，除了掷骰的其它后果外，玩家角色还需要额外标记 1 压力点。</p>"
+            },
+            "uZgtjZJVCedm93aJ": {
+              "name": "启动倒计时",
+              "description": "<p>上是下，下是右，右是星空之上。重力和方向在不断变动，任何穿越该界域的尝试都将是一场艰难的跋涉，使用一项进展倒计时（8）。</p><section id='secret-rsf1tT4N3HBDgKna' class='secret'><p><em>在一个与凡人界域如此大相径庭的空间内移动是一种怎样的感觉？你通过凝视什么地标或特异点来保持平衡？你在旅途中经过了那些奇异的地点？</em></p></section>"
+            }
+          }
+        },
+        "0OYHJZqT0DlVz5be": {
+          "name": "此地将夺走你之所以是你的一切 Everything You Are This Place Will Take from You",
+          "description": "<p><em>倒计时（循环 1d4）</em>. 激活倒计时，而当其最终触发后，所有玩家角色必须成功通过一次风度反应掷骰，否则其最高的属性值将暂时降低 1d4，其可以选择标记同等数量的压力点来避免属性值的降低。当玩家角色关键成功或逃离混沌界域后，失去的属性值将恢复。</p><section id='secret-uG9quQrfVqBYix6p' class='secret'><p><em>此地是如何试图偷走那些令你成为传奇的事物的？当力量从体内被剥离，你有怎样的感觉？</em></p></section>",
+          "actions": {
+            "IexEUqnefrcD0VCz": {
+              "name": "倒计时",
+              "description": "<p><em>倒计时（循环 1d4）</em>. 激活倒计时.</p><section id='secret-uG9quQrfVqBYix6p' class='secret'><p><em>此地是如何试图偷走那些令你成为传奇的事物的？当力量从体内被剥离，你有怎样的感觉？</em></p></section>"
+            },
+            "zOQMo13vSiX3QReJ": {
+              "name": "反应掷骰",
+              "description": "<p>所有玩家角色必须成功通过一次风度反应掷骰，否则其最高的属性值将暂时降低 [[/r 1d4]]，其可以选择标记同等数量的压力点来避免属性值的降低。当玩家角色关键成功或逃离混沌界域后，失去的属性值将恢复。</p><section id='secret-nXjHVXTDY3UzkRVb' class='secret'><p><em>此地是如何试图偷走那些令你成为传奇的事物的？当力量从体内被剥离，你有怎样的感觉？?</em></p></section>"
+            },
+            "FxAFpgPbGcmi3nlh": {
+              "name": "启动倒计时",
+              "description": "<p><em>倒计时（循环 1d4）</em>. 激活倒计时</p>"
+            }
+          }
+        },
+        "RNbAdBZM6gDNaRPn": {
+          "name": "解离 Unmaking ",
+          "description": "<p>花费 1 恐惧点迫使一名玩家角色进行一次力量反应掷骰。掷骰失败时，其将受到 4d10 直接魔法伤害。成功时，其必须标记 1 压力点。</p><section id='secret-HGAS3UaO0JcUPdlT' class='secret'><p><em>当此地试图解离你的存在时，你瞥见了其它世界的什么片段？这场解离试图抹去你存在中哪些核心元素？</em></p></section>",
+          "actions": {
+            "6AT7qvUE6I6eVHU8": {
+              "name": "反应掷骰",
+              "description": "<p>花费 1 恐惧点迫使一名玩家角色进行一次力量反应掷骰。掷骰失败时，其将受到 4d10 直接魔法伤害。成功时，其必须标记 1 压力点。</p><section id='secret-HGAS3UaO0JcUPdlT' class='secret'><p><em>当此地试图解离你的存在时，你瞥见了其它世界的什么片段？这场解离试图抹去你存在中哪些核心元素？</em></p></section>"
+            }
+          }
+        },
+        "SZpUJeJETVQtZwae": {
+          "name": "异界捕食者 Outer Realms Predators",
+          "description": "<p>花费 1 恐惧点召唤一头@UUID[Compendium.daggerheart.adversaries.Actor.A0SeeDzwjvqOsyof]{异界憎恶体}, 一头@UUID[Compendium.daggerheart.adversaries.Actor.ms6nuOl3NFkhPj1k]{异界腐曜体} ，以及 <strong>[[/r 2d6]]</strong> 头@UUID[Compendium.daggerheart.adversaries.Actor.moJhHgKqTKPS2WYS]{异界仆从}，它们将无视逻辑与因果，凭空出现在一名被选定玩家角色的近距离范围。立刻聚焦这些敌人中的一个，你还可以花费 1 额外恐惧点令该敌人的普通攻击自动成功。</p><section class='secret' id='secret-psXRRXLoibTKFpaW'><p><em>这些邪物在追猎鲜活血肉时，排泄了哪些残破世界的消化残余？在直面那无疑恶意的间隙，你是否窥见了其曾也有人性的支离倒影？</em></p></section>",
+          "actions": {
+            "5a8ESNroEQHAm7rO": {
+              "name": "花费恐惧",
+              "description": "<p>花费 1 恐惧点召唤一头@UUID[Compendium.daggerheart.adversaries.Actor.A0SeeDzwjvqOsyof]{异界憎恶体}, 一头@UUID[Compendium.daggerheart.adversaries.Actor.ms6nuOl3NFkhPj1k]{异界腐曜体} ，以及 <strong>[[/r 2d6]]</strong> 头@UUID[Compendium.daggerheart.adversaries.Actor.moJhHgKqTKPS2WYS]{异界仆从}，它们将无视逻辑与因果，凭空出现在一名被选定玩家角色的近距离范围。立刻聚焦这些敌人中的一个，你还可以花费 1 额外恐惧点令该敌人的普通攻击自动成功。</p><section class='secret' id='secret-psXRRXLoibTKFpaW'><p><em>这些邪物在追猎鲜活血肉时，排泄了哪些残破世界的消化残余？在直面那无疑恶意的间隙，你是否窥见了其曾也有人性的支离倒影？</em></p></section>"
+            }
+          }
+        },
+        "MyIh4CJsDnkjmeYs": {
+          "name": "现实迷失 Disorienting Reality",
+          "description": "<p>在出现恐惧结果时，你可以要求玩家角色描述该混沌界域唤醒了其内心的哪些恐惧，而这恐惧将瓦解其之所以存在的根基与锚点，现实将扭曲并在玩家角色的内心呈现出背离的幻象。玩家角色失去 1 希望点，如果这是其最后的一点希望，你获得 1 恐惧点。</p><section id='secret-0TIAabOXzWKwGdZ4' class='secret'><p><em>玩家角色看到了哪一个时刻？若它是一段关于曾经的记忆，此地由如何扭曲了它？想要保持记忆的真实性不被扭曲有多困难？</em></p></section>",
+          "actions": {
+            "YIOvMuMMML7WeMWs": {
+              "name": "失去希望",
+              "description": "<p>在出现恐惧结果时，你可以要求玩家角色描述该混沌界域唤醒了其内心的哪些恐惧，而这恐惧将瓦解其之所以存在的根基与锚点，现实将扭曲并在玩家角色的内心呈现出背离的幻象。玩家角色失去 1 希望点，如果这是其最后的一点希望，你获得 1 恐惧点。</p><section id='secret-0TIAabOXzWKwGdZ4' class='secret'><p><em>玩家角色看到了哪一个时刻？若它是一段关于曾经的记忆，此地由如何扭曲了它？想要保持记忆的真实性不被扭曲有多困难？</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Cliffside Ascent": {
+      "name": "悬崖峭壁 Cliffside Ascent",
+      "description": "<p>一座陡峭、嶙峋的高耸悬崖，攀爬它简直就是玩命。</p>",
+      "impulses": "为那些准备不足的人带去死亡，某种存在于山巅的事物诱惑着人们不断向上",
+      "potentialAdversaries": {
+        "hWhlWzJ8nNKAMmXx": {
+          "label": "其他"
+        }
+      },
+      "items": {
+        "bKBwM72OwVnlsHG6": {
+          "name": "攀登 The Climb",
+          "description": "<p>想要攀爬上这座悬崖峭壁需使用 <em>进展倒计时（12）</em>。当玩家角色为攀爬进行一次动作掷骰时，根据以下标准推进倒计时：</p><ul><li><strong>关键成功：</strong>-3</li></ul><ul><li><strong>希望成功：</strong>-2</li></ul><ul><li><strong>恐惧成功：</strong>-1</li></ul><ul><li><strong>希望失败：</strong>0</li></ul><ul><li><strong>恐惧失败：</strong>+1</li></ul><p>当倒计时完成触发，即代表着队伍成功登顶。</p><section id='secret-TUIXsJs6D65YsP9f' class='secret'><p><em>岩石排列成了什么奇怪的形状？之前的冒险者们留下了怎样不详的警告？</em></p></section>",
+          "actions": {
+            "6GVdM7pIOpieLRA8": {
+              "name": "倒计时",
+              "description": "<p>想要攀爬上这座悬崖峭壁需使用 <em>进展倒计时（12）</em>。当玩家角色为攀爬进行一次动作掷骰时，根据以下标准推进倒计时：</p><ul><li><strong>关键成功：</strong>-3</li></ul><ul><li><strong>希望成功：</strong>-2</li></ul><ul><li><strong>恐惧成功：</strong>-1</li></ul><ul><li><strong>希望失败：</strong>0</li></ul><ul><li><strong>恐惧失败：</strong>+1</li></ul><p>当倒计时完成触发，即代表着队伍成功登顶。</p><section id='secret-TUIXsJs6D65YsP9f' class='secret'><p><em>岩石排列成了什么奇怪的形状？之前的冒险者们留下了怎样不详的警告？</em></p></section>"
+            },
+            "TMEBwqlfvL3mb3hQ": {
+              "name": "启动倒计时",
+              "description": "<p>想要攀爬上这座悬崖峭壁需使用 <em>进展倒计时（12）</em>。当玩家角色为攀爬进行一次动作掷骰时，根据以下标准推进倒计时：</p><ul><li><strong>关键成功：</strong>-3</li></ul><ul><li><strong>希望成功：</strong>-2</li></ul><ul><li><strong>恐惧成功：</strong>-1</li></ul><ul><li><strong>希望失败：</strong>0</li></ul><ul><li><strong>恐惧失败：</strong>+1</li></ul><p>当倒计时完成触发，即代表着队伍成功登顶。</p><section id='secret-TUIXsJs6D65YsP9f' class='secret'><p><em>岩石排列成了什么奇怪的形状？之前的冒险者们留下了怎样不详的警告？</em></p></section>"
+            }
+          }
+        },
+        "t8ZbtlGiYC8MKqqu": {
+          "name": "遗存岩钉 Pitons Left Behind",
+          "description": "<p>之前的攀登者在山体内打入了大块的金属岩钉，后来者们可以用来辅助攀爬。当一名使用岩钉的玩家角色在一次用以攀爬的动作掷骰中失败时，其可以选择<strong>标记 1 压力点</strong>以代替上调倒计时。</p><section class='secret' id='secret-qk9dYgHaJUBCtFBR'><p><em>这些岩钉有着怎样的形状和材质，又透露了有关过往攀登者的什么信息？岩钉与岩钉之间相隔有多远？</em></p></section>",
+          "actions": {
+            "p1UiGEiGyl6r7PrA": {
+              "name": "标记压力",
+              "description": "<p>之前的攀登者在山体内打入了大块的金属岩钉，后来者们可以用来辅助攀爬。当一名使用岩钉的玩家角色在一次用以攀爬的动作掷骰中失败时，其可以选择<strong>标记 1 压力点</strong>以代替上调倒计时。</p><section class='secret' id='secret-qk9dYgHaJUBCtFBR'><p><em>这些岩钉有着怎样的形状和材质，又透露了有关过往攀登者的什么信息？岩钉与岩钉之间相隔有多远？</em></p></section>"
+            }
+          }
+        },
+        "EP4FXeQqbqFGQoIX": {
+          "name": "坠落 Fall",
+          "description": "<p><strong>花费 1 恐惧点</strong>使一名玩家角色的抓握点脱落，令其因此坠向地面。若在该角色下一次动作前，其仍未被成功救下，其将跌落至地面并使倒计时计数上调 2 点。同时，若坠落发生时的倒计时计数在 8 到 12 之间，则该玩家角色受到 <strong>1d12</strong> 物理伤害；在 4 到 7 之间，其受到 <strong>2d12</strong> 物理伤害；计数小于等于 3 ，其受到 <strong>3d12</strong> 物理伤害。</p><section class='secret' id='secret-M5AEA24dk07O00FA'><p><em>何种事物在向你揭示，曾有许多人于从这里坠落？岩壁之中居住着什么样的生物，它们是如何通过吓唬攀登者，使其失手坠落从而得到“免费”食物的？</em></p></section>",
+          "actions": {
+            "LVEPUPIAJJMiCtbV": {
+              "name": "掷骰1D12"
+            },
+            "F9B1uVeil6z1ZWoz": {
+              "name": "掷骰2D12"
+            },
+            "gx8HEZvgf3yO9WOp": {
+              "name": "掷骰3D12"
+            },
+            "M8MfD2qBfYCwNKvH": {
+              "name": "花费恐惧",
+              "description": "<p><strong>花费 1 恐惧点</strong>使一名玩家角色的抓握点脱落，令其因此坠向地面。若在该角色下一次动作前，其仍未被成功救下，其将跌落至地面并使倒计时计数上调 2 点。同时，若坠落发生时的倒计时计数在 8 到 12 之间，则该玩家角色受到 <strong>1d12</strong> 物理伤害；在 4 到 7 之间，其受到 <strong>2d12</strong> 物理伤害；计数小于等于 3 ，其受到 <strong>3d12</strong> 物理伤害。</p><section class='secret' id='secret-M5AEA24dk07O00FA'><p><em>何种事物在向你揭示，曾有许多人于从这里坠落？岩壁之中居住着什么样的生物，它们是如何通过吓唬攀登者，使其失手坠落从而得到“免费”食物的？</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Cult Ritual": {
+      "name": "邪教仪式 CULT RITUAL",
+      "description": "<p>在一堆燃烧着病态阴绿色火焰的篝火旁，聚集着一群崇拜着战败诸神圣徽的堕落派邪教。</p>",
+      "impulses": "亵渎大地，在凡人界域与轮回下界间打穿一条通道。",
+      "potentialAdversaries": {
+        "hNREaghvi4LqHQ06": {
+          "label": "堕落诸神邪教"
+        }
+      },
+      "items": {
+        "iiHjguQG2aBn9g8i": {
+          "name": "亵渎之地 Desecrated Ground",
+          "description": "<p>邪教徒将此地献祭给了堕落诸神，令祂们的邪恶侵染得以渗入其中。在此环境中，将玩家角色们的希望骰大小降低至 <strong>d10</strong>。亵渎影响可以通过一项进展倒计时（6）来移除。</p><section class='secret' id='secret-iPgKjrXJYw4cy0EX'><p><em>玩家角色们最初是如何注意到此地的？当希望被压制时，何种恐惧会浮现于他们的心头？</em></p></section>"
+        },
+        "0Rgqw1kUPeJ11ldd": {
+          "name": "渎神邪力 Blasphemous Might",
+          "description": "<p>为了击退闯入者，仪式的部分力量被灌注到一名邪教成员的体内。选择一个敌人，令可怕的魔力<em>灌注</em>其全身，直至该场景结束或该敌人被击败。<em>灌注状态</em>的敌人将立刻获得聚焦，并且获得下列增益中的一项，你也可以<strong>花费 1 恐惧点</strong>令其获得全部三项增益：</p><ul><li>其在所有攻击掷骰上获得优势。</li></ul><ul><li>其成功命中的攻击可额外造成 <strong>1d10</strong> 伤害。</li></ul><ul><li>其获得下列特性：<strong><em>无情（2）- 被动。</em></strong> 该敌人在每个游戏主持人轮次中，可以至多被聚焦 2 次，需像往常一样花费恐惧点来聚焦。</li></ul><section class='secret' id='secret-600LhfEy1uNSxWdJ'><p><em>敌人的相貌发生了怎样的改变？他们的猛击会激发众人内心怎样的恐惧？</em></p></section>",
+          "actions": {
+            "EATw4ZkcuGeDfgLZ": {
+              "name": "赋予力量",
+              "description": "<p>为了击退闯入者，仪式的部分力量被灌注到一名邪教成员的体内。选择一个敌人，令可怕的魔力<em>灌注</em>其全身，直至该场景结束或该敌人被击败。<em>灌注状态</em>的敌人将立刻获得聚焦，并且获得下列增益中的一项，你也可以<strong>花费 1 恐惧点</strong>令其获得全部三项增益：</p><ul><li>其在所有攻击掷骰上获得优势。</li></ul><ul><li>其成功命中的攻击可额外造成 <strong>1d10</strong> 伤害。</li></ul><ul><li>其获得下列特性：<strong><em>无情（2）- 被动。</em></strong> 该敌人在每个游戏主持人轮次中，可以至多被聚焦 2 次，需像往常一样花费恐惧点来聚焦。</li></ul><section class='secret' id='secret-600LhfEy1uNSxWdJ'><p><em>敌人的相貌发生了怎样的改变？他们的猛击会激发众人内心怎样的恐惧？</em></p></section>"
+            }
+          },
+          "effects": {
+            "dYQBQq1xIysM0qLo": {
+              "name": "渎神邪力 Blasphemous Might",
+              "description": "<p><em>灌注状态</em>的敌人将立刻获得聚焦，并且获得下列增益中的一项，你也可以<strong>花费 1 恐惧点</strong>令其获得全部三项增益：</p><ul><li><p>其在所有攻击掷骰上获得优势。</p></li><li><p>其成功命中的攻击可额外造成 <strong>1d10</strong> 伤害。</p></li><li><p>其获得下列特性：<strong>无情（2）- 被动。</strong> 该敌人在每个游戏主持人轮次中，可以至多被聚焦 2 次，需像往常一样花费恐惧点来聚焦。</p></li></ul><section class=\"secret\" id=\"secret-YOHA68Na64uXDAxu\"><p><em>敌人的相貌发生了怎样的改变？他们的猛击会激发众人内心怎样的恐惧？</em></p></section>"
+            },
+            "Hxw5lXE77bGzuaOu": {
+              "name": "亵渎神力-伤害"
+            }
+          }
+        },
+        "oFfu3hUhp4ta4qwT": {
+          "name": "召唤 The Summoning",
+          "description": "<p><em>倒计时（6）</em>。当玩家角色们进入该场景或邪教徒开始召唤恶魔的仪式时，激活倒计时。指定一个敌人来主祭这场仪式。当一名玩家角色掷出恐惧结果时，下调倒计时计数。当倒计时最终触发时，在仪式主祭的邻近范围召唤出一头小型恶魔。若主祭被提前击败，则倒计时结束，仪式失败，不产生任何效果。</p><section class='secret' id='secret-OXdRqIZ0R8wGn3Gm'><p><em>如果邪教成功完成了仪式，他们会如何处置这个被誓缚的恶魔？他们接下来还会试图召唤什么？</em></p></section>",
+          "actions": {
+            "bUIfzuWd1VfiV8sc": {
+              "name": "启动倒计时",
+              "description": "<p><em>倒计时（6）</em>。当玩家角色们进入该场景或邪教徒开始召唤恶魔的仪式时，激活倒计时。指定一个敌人来主祭这场仪式。当一名玩家角色掷出恐惧结果时，下调倒计时计数。当倒计时最终触发时，在仪式主祭的邻近范围召唤出一头小型恶魔。若主祭被提前击败，则倒计时结束，仪式失败，不产生任何效果。</p><section class='secret' id='secret-OXdRqIZ0R8wGn3Gm'><p><em>如果邪教成功完成了仪式，他们会如何处置这个被誓缚的恶魔？他们接下来还会试图召唤什么？</em></p></section>"
+            },
+            "suFEnfpOfeVRvnJF": {
+              "name": "召唤恶魔",
+              "description": "<p>一头 @UUID[Compendium.daggerheart.adversaries.Actor.3tqCjDwJAQ7JKqMb]{小型恶魔} 被召唤在了仪式主祭的邻近范围内.</p>"
+            }
+          }
+        },
+        "WltEUhtYwfnX8WCc": {
+          "name": "为了仪式 Complete the Ritual",
+          "description": "<p>若仪式主祭成为一次攻击或法术的目标，其邻近范围的一名盟友可以<strong>标记 1 压力点</strong>来代替主祭，成为本次攻击或法术的目标。</p><section id='secret-4QYQNJKFywfwkGGp' class='secret'><p><em>看到虔诚被用于崇拜恐惧与支配，众人内心有何感想？</em></p></section>"
+        }
+      }
+    },
+    "Divine Usurpation": {
+      "name": "篡夺神位 DIVINE USURPATION",
+      "description": "<p>一场旨在突破圣辉上界之门、推翻新神统治的大型仪式。</p>",
+      "impulses": "集聚力量，施加威慑，压服异见",
+      "potentialAdversaries": {
+        "IMQDBXkxdUIUSjsm": {
+          "label": "其他"
+        }
+      },
+      "items": {
+        "IHLJjpOQyWjmCLAL": {
+          "name": "最后的准备 Final Preparations",
+          "description": "<p>当该环境首次获得聚焦时，指定一名敌人作为试图推翻众神的篡位者。激活一项<em>长期倒计时（8）</em>，表示篡位者正在筹备该篡位仪式所需的一切。当倒计时最终触发时，聚焦该环境并使用“诸神黄昏”特性。只要该环境仍处于生效状态，你就可以持有至多 15 恐惧点。</p><section id='secret-5ezbFLP3BnyqQPov' class='secret'><p><em>篡位者还需要准备什么：一颗上位神使之心？一枚远古传送门的导引石？两位宿敌的效忠？一滴纯洁灵魂的心碎之泪？</em></p></section>",
+          "actions": {
+            "pnAJNmZApL1Acsj1": {
+              "name": "倒计时",
+              "description": "<p>当该环境首次获得聚焦时，指定一名敌人作为试图推翻众神的篡位者。激活一项<em>长期倒计时（8）</em>，表示篡位者正在筹备该篡位仪式所需的一切。当倒计时最终触发时，聚焦该环境并使用“诸神黄昏”特性。只要该环境仍处于生效状态，你就可以持有至多 15 恐惧点。</p><section id='secret-5ezbFLP3BnyqQPov' class='secret'><p><em>篡位者还需要准备什么：一颗上位神使之心？一枚远古传送门的导引石？两位宿敌的效忠？一滴纯洁灵魂的心碎之泪？</em></p></section>"
+            },
+            "UMGyEHdQhYXyGEss": {
+              "name": "启动计数器",
+              "description": "<p>激活此环境以使用最后的准备</p>"
+            },
+            "uJSaDLFcrtvIPFaD": {
+              "name": "启动倒计时",
+              "description": "<p>当该环境首次获得聚焦时，指定一名敌人作为试图推翻众神的篡位者。激活一项<em>长期倒计时（8）</em>，表示篡位者正在筹备该篡位仪式所需的一切。当倒计时最终触发时，聚焦该环境并使用“诸神黄昏”特性。只要该环境仍处于生效状态，你就可以持有至多 15 恐惧点。</p><section id='secret-5ezbFLP3BnyqQPov' class='secret'><p><em>篡位者还需要准备什么：一颗上位神使之心？一枚远古传送门的导引石？两位宿敌的效忠？一滴纯洁灵魂的心碎之泪？</em></p></section>"
+            }
+          }
+        },
+        "fA2wVTxpDPaTlP9v": {
+          "name": "神圣祝福 Divine Blessing",
+          "description": "<p>当一名玩家角色关键成功时，其可以花费 2 希望点来刷新一个通常而言有使用次数限制（例如每次休息一次和每场游戏一次）的能力。</p><section id='secret-IRlwaXlRxPqtJ6eg' class='secret'><p><em>当你对抗这场篡位阴谋时，是哪位神祇在眷顾着你？你重获的力量有何种特别的显现？</em></p></section>"
+        },
+        "OWUM3eFiZrIn0Bjd": {
+          "name": "亵渎之众 Defilers Abound",
+          "description": "<p><strong>花费 2 恐惧点</strong>，在篡位者的近距离范围召唤 <strong>[[/r 1d4+2]]</strong> @UUID[Compendium.daggerheart.adversaries.Actor.OsLG2BjaEdTZUJU9]{天陨神兵}，协助他开展神力围猎。同时，立刻聚焦天陨神兵并使用一次“群体攻击”动作。</p><section class='secret' id='secret-QJHdwGNSuTgS59gn'><p><em>这群神兵效忠于哪位上位堕落者？他们渴望吞噬哪位神祇的血肉？</em></p></section>",
+          "actions": {
+            "qIQTEO5t72xFtKYI": {
+              "name": "花费恐惧",
+              "description": "<p><strong>花费 2 恐惧点</strong>，在篡位者的近距离范围召唤 <strong>[[/r 1d4+2]]</strong> @UUID[Compendium.daggerheart.adversaries.Actor.OsLG2BjaEdTZUJU9]{天陨神兵}，协助他开展神力围猎。同时，立刻聚焦天陨神兵并使用一次“群体攻击”动作。</p><section class='secret' id='secret-QJHdwGNSuTgS59gn'><p><em>这群神兵效忠于哪位上位堕落者？他们渴望吞噬哪位神祇的血肉？</em></p></section>"
+            }
+          }
+        },
+        "CL3wPZNOtw6m5WVT": {
+          "name": "弑神者 Godslayer",
+          "description": "<p>在神力围猎倒计时（详见“诸神黄昏”）被触发后，你可以<strong>花费 3 恐惧点</strong>描述篡位者是如何杀死一位圣辉上界的神祇，并吞噬祂的力量来强化自身。篡位者恢复 2 HP，提高其难度、伤害、攻击加值，并从被弑杀的神祇那里夺取一个新特性。</p><section id='secret-OIyf1RZFfLopuMlg' class='secret'><p><em>是哪位神祇迎来了祂的终局？其遗言是什么？篡位者所篡夺的新神力是如何显现的？</em></p></section>",
+          "actions": {
+            "hwQsng6Kt8pQBD3Z": {
+              "name": "花费恐惧",
+              "description": "<p>在神力围猎倒计时（详见“诸神黄昏”）被触发后，你可以<strong>花费 3 恐惧点</strong>描述篡位者是如何杀死一位圣辉上界的神祇，并吞噬祂的力量来强化自身。篡位者恢复 2 HP，提高其难度、伤害、攻击加值，并从被弑杀的神祇那里夺取一个新特性。</p><section id='secret-OIyf1RZFfLopuMlg' class='secret'><p><em>是哪位神祇迎来了祂的终局？其遗言是什么？篡位者所篡夺的新神力是如何显现的？</em></p></section>"
+            }
+          },
+          "effects": {
+            "znFFS76Nopwb8Yi7": {
+              "name": "弑神者 Godslayer"
+            },
+            "i3KYskkA9D4GHbXi": {
+              "name": "弑神者 Godslayer",
+              "description": "<p>提高其难度、伤害、攻击调整，或赋予其被击败神明的新特性。</p><section class=\"secret\" id=\"secret-BLw5aVqkkCtUQXnk\"> <p><em>是哪位神明迎来了陨落？祂的临终遗言是什么？篡位者窃取的新力量又将以何种形式显现？</em></p></section>"
+            }
+          }
+        },
+        "AJdG1krRvixBFCZG": {
+          "name": "诸神黄昏 Beginning of the End",
+          "description": "<p>当“最后的准备”长期倒计时被最终触发时，代表着篡位者开始猛攻圣辉上界的门扉。激活一项神力围猎倒计时（10），聚焦篡位者，描述祂是如何攻击的，并将倒计时计数下调 1 点。当篡位者受到重度或更严重的伤害时，将倒计时计数上调 1 点。当神力围猎倒计时被最终触发时，代表着篡位者已经彻底粉碎了凡人界域与圣辉上界之间的屏障，祂屠戮了众神并成功取而代之。你获得等同于篡位者尚未被标记的生命点数量的恐惧点。你可以立刻进行一次额外的游戏主持人行动：使用一次“弑神者”特性且无需花费任何恐惧点。</p><section id='secret-eVeMBBA7aAZgn9FO' class='secret'><p><em>当自然秩序被摧毁，凡人界域发生了怎样的扭曲？哪些凡人从远处目睹了这场莫大的亵渎？</em></p></section>",
+          "actions": {
+            "lUTJqI8Z9AR7t4B2": {
+              "name": "倒计时",
+              "description": "<p>当“最后的准备”长期倒计时被最终触发时，代表着篡位者开始猛攻圣辉上界的门扉。激活一项神力围猎倒计时（10），聚焦篡位者，描述祂是如何攻击的，并将倒计时计数下调 1 点。当篡位者受到重度或更严重的伤害时，将倒计时计数上调 1 点。当神力围猎倒计时被最终触发时，代表着篡位者已经彻底粉碎了凡人界域与圣辉上界之间的屏障，祂屠戮了众神并成功取而代之。你获得等同于篡位者尚未被标记的生命点数量的恐惧点。你可以立刻进行一次额外的游戏主持人行动：使用一次“弑神者”特性且无需花费任何恐惧点。</p><section id='secret-eVeMBBA7aAZgn9FO' class='secret'><p><em>当自然秩序被摧毁，凡人界域发生了怎样的扭曲？哪些凡人从远处目睹了这场莫大的亵渎？</em></p></section>"
+            },
+            "N83u4SKOlCfLvdYI": {
+              "name": "启动计数器",
+              "description": "<p>当神力围猎倒计时被最终触发时，代表着篡位者已经彻底粉碎了凡人界域与圣辉上界之间的屏障，祂屠戮了众神并成功取而代之。你获得等同于篡位者尚未被标记的生命点数量的恐惧点。你可以立刻进行一次额外的游戏主持人行动：使用一次“弑神者”特性且无需花费任何恐惧点。</p>"
+            },
+            "KNWpWnJboRIaZ3Yu": {
+              "name": "倒计时",
+              "description": "<p>当“最后的准备”长期倒计时被最终触发时，代表着篡位者开始猛攻圣辉上界的门扉。激活一项神力围猎倒计时（10），聚焦篡位者，描述祂是如何攻击的，并将倒计时计数下调 1 点。当篡位者受到重度或更严重的伤害时，将倒计时计数上调 1 点。当神力围猎倒计时被最终触发时，代表着篡位者已经彻底粉碎了凡人界域与圣辉上界之间的屏障，祂屠戮了众神并成功取而代之。你获得等同于篡位者尚未被标记的生命点数量的恐惧点。你可以立刻进行一次额外的游戏主持人行动：使用一次“弑神者”特性且无需花费任何恐惧点。</p><section id='secret-eVeMBBA7aAZgn9FO' class='secret'><p><em>当自然秩序被摧毁，凡人界域发生了怎样的扭曲？哪些凡人从远处目睹了这场莫大的亵渎？</em></p></section>"
+            }
+          }
+        },
+        "GUAo44cJCnS1GE9p": {
+          "name": "仪式联结 Ritual Nexus",
+          "description": "<p>在对抗篡位者时，任何恐惧失败都会使玩家角色因魔力的反噬而标记 <strong>1d4</strong> 压力点。</p><section id='secret-FROwYRDYLwvnn2lH' class='secret'><p><em>当你功亏一篑时，过往的哪些失败如影随形地折磨着你？这些记忆是如何因篡位者的存在而被扭曲的？</em></p></section>",
+          "actions": {
+            "9qXDsVnWI436IWEk": {
+              "name": "标记压力",
+              "description": "<p>在对抗篡位者时，任何恐惧失败都会使玩家角色因魔力的反噬而标记 <strong>1d4</strong> 压力点。</p><section id='secret-FROwYRDYLwvnn2lH' class='secret'><p><em>当你功亏一篑时，过往的哪些失败如影随形地折磨着你？这些记忆是如何因篡位者的存在而被扭曲的？</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Hallowed Temple": {
+      "name": "圣洁庙宇 Hallowed Temple",
+      "description": "<p>一座稍显拥挤但秩序井然的圣殿，殿内提供有治疗服务且会定期举行祭祀仪式，目前由一位牧师或神使管理。</p>",
+      "impulses": "沟通凡人界域与圣辉上界，展现神圣之力，为信徒提供援助与引导。",
+      "potentialAdversaries": {
+        "4oKNnCRPuWEFni6D": {
+          "label": "守卫"
+        }
+      },
+      "items": {
+        "hgHpS2k1sVxHKiG1": {
+          "name": "治愈之地 A Place of Healing",
+          "description": "<p>在圣洁庙宇内休息的玩家角色将自动恢复所有生命点。</p><section class='secret' id='secret-L4xPjXbsFBvAJkG3'><p><em>这里的熏香闻起来像什么味道？侍僧们颂唱着何种歌曲？</em></p></section>",
+          "actions": {
+            "uLCoTKa7Jn2HaRqR": {
+              "name": "治疗",
+              "description": "<p>在圣洁庙宇内休息的玩家角色将自动恢复所有生命点。</p><section class='secret' id='secret-L4xPjXbsFBvAJkG3'><p><em>这里的熏香闻起来像什么味道？侍僧们颂唱着何种歌曲？</em></p></section>"
+            }
+          }
+        },
+        "uqV1mTkJmXJwMYue": {
+          "name": "神圣启明 Divine Guidance",
+          "description": "<p>在圣洁庙宇内向一位神祇祈祷的玩家角色可以通过一次本能掷骰来获得答案。若其所祈祷的神祇在这座圣殿内并不受欢迎，那么其掷骰将获得劣势。</p><ul><li><strong>关键成功：</strong> 该玩家角色获得明确的启示。此外，其还将获得 <strong>[[/r 1d4]]</strong> 希望点，若该玩家选择将所接受到的神圣指引告知整个队伍，那么该希望点还可以在队伍成员中任意分配。</li></ul><ul><li><strong>希望成功：</strong> 该玩家角色获得明确的启示。</li></ul><ul><li><strong>恐惧成功：</strong> 该玩家角色接收到短暂的启示片段，并且内心涌现出一种渴望分享答案的冲动。</li></ul><ul><li><strong>任意失败：</strong> 该玩家角色只接收到了模糊的幻象。他们可以选择<strong>标记 1 压力点</strong>，以接收到一则没有前因后果但足够清晰的图象。</li></ul><p><em>当幻象触碰你的内心时，你感觉如何？而当幻象消散，又有什么样的情绪弥留在你的心头？</em></p>"
+        },
+        "vICfHK2urDQ2Jm8s": {
+          "name": "不屈希望 Relentless Hope",
+          "description": "<p>每场景一次，每名玩家角色都可以<strong>标记 1 压力点</strong>，以将一次恐惧掷骰结果改换为希望掷骰结果。</p><section id='secret-z2wMjfAVnSoTHSlR' class='secret'><p><em>当恐惧逼近时，你所紧握的是怎样的情绪亦或是哪一段记忆？</em></p></section>",
+          "actions": {
+            "VlBjJ32dXlboSANv": {
+              "name": "标记压力",
+              "description": "<p>每场景一次，每名玩家角色都可以<strong>标记 1 压力点</strong>，以将一次恐惧掷骰结果改换为希望掷骰结果。</p><section id='secret-z2wMjfAVnSoTHSlR' class='secret'><p><em>当恐惧逼近时，你所紧握的是怎样的情绪亦或是哪一段记忆？</em></p></section>"
+            }
+          }
+        },
+        "8tGAuFRyM4onvQ2o": {
+          "name": "神圣斥责 Divine Censure",
+          "description": "<p>当玩家角色冒昧打断、亵渎或冒犯神职人员时，你可以<strong>花费 1 恐惧点</strong>，在该高阶牧师的近距离范围，召唤@UUID[Compendium.daggerheart.adversaries.Actor.r1mbfSSwKWdcFdAU]{上位神使}以及<strong>[[/r 1d4]]</strong>@UUID[Compendium.daggerheart.adversaries.Actor.B4LZcGuBAHzyVdzy]{持刃警卫}，他们将贯彻前者的旨意。</p><section class='secret' id='secret-bJG5Vk2KPgau6rQB'><p><em>来者佩戴有什么样的圣徽或携带着什么样的圣像，是哪位神圣存在的代行者？谁领导着这支小队，又是什么驱使着他们响应号召？</em></p></section>",
+          "actions": {
+            "pJVipg7CbA9CB0Um": {
+              "name": "神罚",
+              "description": "<p>当玩家角色冒昧打断、亵渎或冒犯神职人员时，你可以<strong>花费 1 恐惧点</strong>，在该高阶牧师的近距离范围，召唤@UUID[Compendium.daggerheart.adversaries.Actor.r1mbfSSwKWdcFdAU]{上位神使}以及<strong>[[/r 1d4]]</strong>@UUID[Compendium.daggerheart.adversaries.Actor.B4LZcGuBAHzyVdzy]{持刃警卫}，他们将贯彻前者的旨意。</p><section class='secret' id='secret-bJG5Vk2KPgau6rQB'><p><em>来者佩戴有什么样的圣徽或携带着什么样的圣像，是哪位神圣存在的代行者？谁领导着这支小队，又是什么驱使着他们响应号召？</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Haunted City": {
+      "name": "鬼祟冥城 Haunted City",
+      "description": "<p>一座废弃的城市，如今已被来自过去的彷徨阴魂所占据。</p>",
+      "impulses": "误导与迷惑，重现个体与群体所遭遇的末日景象",
+      "potentialAdversaries": {
+        "h07vZopQbVt6dlY6": {
+          "label": "鬼魂"
+        }
+      },
+      "items": {
+        "h8Dv8pToiCVklPhv": {
+          "name": "埋藏的知识 Buried Knowledge",
+          "description": "<p>这座城市中潜藏着无数有待解开的谜团。想要探寻这座失落之城知识的玩家角色可以通过一次本能或知识掷骰，来了解这个地方并发掘（有可能撞鬼）战利品。</p><ul><li><strong>关键成功：</strong>获得有价值的信息和一件相关的有用物品。</li></ul><ul><li><strong>希望成功：</strong>获得有价值的信息。</li></ul><ul><li><strong>恐惧成功：</strong>获得模糊或不完整的信息。</li></ul><ul><li><strong>任意失败：</strong><strong>标记 1 压力点</strong>以在一次追根究底的研究后获得一条线索。</li></ul><section id='secret-b7Tkr2KzblSvwAPj' class='secret'><p><em>这座城市中还隐藏着什么更大的隐秘？为什么有如此多的鬼魂徘徊于此？哪些倒霉的冒险者曾在这里遭遇了不幸？</em></p></section>"
+        },
+        "gRpkBU3CLJvDnB7I": {
+          "name": "鬼魅形态 Ghostly Form",
+          "description": "<p>此地的敌人均以幽灵的形式出现。其对物理伤害具有抗性，并且可以<strong>标记 1 压力点</strong>以穿过固态物体并在近距离范围内移动。</p><section id='secret-P15mCN36Cns7QUHw' class='secret'><p><em>鬼魂的“身体”上有哪些伤痕暗示着其死因？是什么未竟的使命将其束缚在凡人界域？</em></p></section>",
+          "actions": {
+            "VCWX0P9kq2oGTpUo": {
+              "name": "鬼魅形态 Ghostly Form",
+              "description": "<p>此地的敌人均以幽灵的形式出现。其对物理伤害具有抗性，并且可以<strong>标记 1 压力点</strong>以穿过固态物体并在近距离范围内移动。</p><section id='secret-P15mCN36Cns7QUHw' class='secret'><p><em>鬼魂的“身体”上有哪些伤痕暗示着其死因？是什么未竟的使命将其束缚在凡人界域？</em></p></section>"
+            }
+          },
+          "effects": {
+            "S9gl4jqdrziC1F0h": {
+              "name": "鬼魅形态 Ghostly Form",
+              "description": "<p>此地的敌人均以幽灵的形式出现。其对物理伤害具有抗性，并且可以<strong>标记 1 压力点</strong>以穿过固态物体并在近距离范围内移动。</p><section id='secret-P15mCN36Cns7QUHw' class='secret'><p><em>鬼魂的“身体”上有哪些伤痕暗示着其死因？是什么未竟的使命将其束缚在凡人界域？</em></p></section>"
+            }
+          }
+        },
+        "ZA2RzxH5FlnrcYLN": {
+          "name": "鬼打墙 Dead Ends",
+          "description": "<p>来自过往的幽灵重现了往昔岁月的场景幻象，或许是一次街头节庆、一场革命、或是一次抢劫。此类作祟现象将改变玩家角色周围的城市布局，封死角色身后的来路，迫使其绕行，亦或是给其带来更多其它的挑战。例如，在一场抢劫幻景中，玩家角色很有可能会被当做是敌对的劫匪。</p><section id='secret-ttpwol0cvVxPyK7e' class='secret'><p><em>鬼魂们想要从你那得到什么？而你又想从它们那里得到什么？</em></p></section>"
+        },
+        "i0FV2Djaq0vB57cq": {
+          "name": "末日重现 Apocalypse Then",
+          "description": "<p><strong>花费 1 恐惧点</strong>，将那场曾毁灭了这座城市的可怕灾难于此地重现。激活<em>进展倒计时（5）</em>，同时让过去的灾难在玩家角色身边重演。要完成这项倒计时并逃离这场灾难，玩家角色必须克服各式各样的威胁，例如：吞噬一切的大火、惊慌失措的人潮、不断坍塌的建筑、或是地表陷落的街道，他们还需要不断回忆历史并从中寻找到能支持他们生还的线索，以逃离这场无可避免的终局。</p><section id='secret-3MamLVZP4l2SxHzO' class='secret'><p><em>此地重现的灾难是否是曾经那场导致城市被废弃的末日？关于那场末日有什么已知的信息，而这些信息又将如何帮助玩家角色们逃离险境？</em></p></section>",
+          "actions": {
+            "7H16PYHHgK0Z34NU": {
+              "name": "倒计时",
+              "description": "<p><strong>花费 1 恐惧点</strong>，将那场曾毁灭了这座城市的可怕灾难于此地重现。激活<em>进展倒计时（5）</em>，同时让过去的灾难在玩家角色身边重演。要完成这项倒计时并逃离这场灾难，玩家角色必须克服各式各样的威胁，例如：吞噬一切的大火、惊慌失措的人潮、不断坍塌的建筑、或是地表陷落的街道，他们还需要不断回忆历史并从中寻找到能支持他们生还的线索，以逃离这场无可避免的终局。</p><section id='secret-3MamLVZP4l2SxHzO' class='secret'><p><em>此地重现的灾难是否是曾经那场导致城市被废弃的末日？关于那场末日有什么已知的信息，而这些信息又将如何帮助玩家角色们逃离险境？</em></p></section>"
+            },
+            "VhqZKDA4032i8zY3": {
+              "name": "启动倒计时",
+              "description": "<p><strong>花费 1 恐惧点</strong>，将那场曾毁灭了这座城市的可怕灾难于此地重现。激活<em>进展倒计时（5）</em>，同时让过去的灾难在玩家角色身边重演。要完成这项倒计时并逃离这场灾难，玩家角色必须克服各式各样的威胁，例如：吞噬一切的大火、惊慌失措的人潮、不断坍塌的建筑、或是地表陷落的街道，他们还需要不断回忆历史并从中寻找到能支持他们生还的线索，以逃离这场无可避免的终局。</p><section id='secret-3MamLVZP4l2SxHzO' class='secret'><p><em>此地重现的灾难是否是曾经那场导致城市被废弃的末日？关于那场末日有什么已知的信息，而这些信息又将如何帮助玩家角色们逃离险境？</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Imperial Court": {
+      "name": "帝国宫廷 Imperial Court",
+      "description": "<p>宏伟帝国的恢弘辖地，那剥削来的珍宝装点着此地的每一个角落。</p>",
+      "impulses": "维护并延续帝国统治，用权力与财富的承诺收买对手",
+      "potentialAdversaries": {
+        "JTuzman711Fqs3u1": {
+          "label": "其他"
+        }
+      },
+      "items": {
+        "OXUbWRt1Dj0vk7mW": {
+          "name": "条条大路通此地 All Roads Lead Here",
+          "description": "<p>当身处帝国宫廷时，玩家角色若采取不符合帝国生活方式或反对帝国统治的行为，其风度掷骰将处于劣势。</p><section id='secret-P8G0DAghe8QgaSZV' class='secret'><p><em>当权者如何通过掌握话语的定义权来限制民众探讨其它生活方式的可能？效忠帝国会有哪些显而易见的好处，使得寻求其它出路变得困难重重？</em></p></section>"
+        },
+        "LURReixasmMbiP2C": {
+          "name": "诸侯倾轧 Rival Vassals",
+          "description": "<p>玩家角色可在宫廷中遭遇帝国臣民、封臣与请愿者，他们或争宠献媚，或交易忠诚换取特权，不择手段提升地位。有人不择手段地暗中构陷政敌，亦有人近乎公开地讨论那些几乎算得上叛国的思想。</p><section id='secret-pDDW0dor0MhTdx4c' class='secret'><p><em>这些人从附庸关系中获得了什么，又付出了何种代价？怎样的压迫会让他们甘愿对抗几乎不可战胜的帝国机器？</em></p></section>"
+        },
+        "tm9FL5gJF7Oheu21": {
+          "name": "帝国引力 The Gravity of Empire",
+          "description": "<p>花费 1 恐惧点，向一个玩家角色抛出一个绝佳的机遇或招揽：只要服从或支持帝国，就能实现某个重要目标。目标必须立即进行一次风度反应掷骰。若掷骰失败，其必须接受招揽或标记全部压力点以拒绝；若已无压力点可标记，其必须接受招揽或自我放逐离开帝国。若掷骰成功，其也仍需标记 1d4 压力点 作为抵抗诱惑的代价。</p><section class='secret' id='secret-4carYxEQygk6m4cQ'><p><em>玩家角色究竟渴求什么，竟不惜与残暴的帝国合流？帝国爪牙又如何洞悉了他们内心最深的欲望？</em></p></section>",
+          "actions": {
+            "Pr8CpaOehr1cE1b8": {
+              "name": "反应掷骰",
+              "description": "<p>花费 1 恐惧点，向一个玩家角色抛出一个绝佳的机遇或招揽：只要服从或支持帝国，就能实现某个重要目标。目标必须立即进行一次风度反应掷骰。若掷骰失败，其必须接受招揽或标记全部压力点以拒绝；若已无压力点可标记，其必须接受招揽或自我放逐离开帝国。若掷骰成功，其也仍需标记 1d4 压力点 作为抵抗诱惑的代价。</p><section class='secret' id='secret-4carYxEQygk6m4cQ'><p><em>玩家角色究竟渴求什么，竟不惜与残暴的帝国合流？帝国爪牙又如何洞悉了他们内心最深的欲望？</em></p></section>"
+            }
+          }
+        },
+        "HwSKX5r40ux0OfJN": {
+          "name": "敕令昭告 Imperial Decree",
+          "description": "<p><strong>花费 1 恐惧点</strong>，将一项涉及帝国计划的长期倒计时下调<strong>[[/r 1d4]]</strong>。若该倒计时因此被触发，宫廷将颁布与该计划相关的公告，计划正式开始执行。</p><section class='secret' id='secret-kuZLu5mJvqvQ1NvT'><p><em>执行这项计划需要动用何种武力、或是付出多少财富？谁的人生被摧毁或彻底改写，才换来了计划的加速？</em></p></section>",
+          "actions": {
+            "9ipckCFMz9DVw8ab": {
+              "name": "骰D4",
+              "description": "<p><strong>花费 1 恐惧点</strong>，将一项涉及帝国计划的长期倒计时下调<strong>[[/r 1d4]]</strong>。若该倒计时因此被触发，宫廷将颁布与该计划相关的公告，计划正式开始执行。</p><section class='secret' id='secret-kuZLu5mJvqvQ1NvT'><p><em>执行这项计划需要动用何种武力、或是付出多少财富？谁的人生被摧毁或彻底改写，才换来了计划的加速？</em></p></section>"
+            }
+          }
+        },
+        "YPMgWUagVq1Hicqo": {
+          "name": "无孔不入 Eyes Everywhere",
+          "description": "<p>当掷出恐惧结果时，你可花费 1 恐惧点让忠于帝国的眼线窃听到帝国宫廷中的谋逆言论。一名玩家角色必须成功通过一次本能反应掷骰才能察觉到队伍已经被窃听，此后角色们才能尝试赶在阴谋败露前拦截间谍。</p><section class='secret' id='secret-kN4J3annyev9WWUs'><p><em>帝国究竟掌握了这位眼线的什么把柄？为何即便遭受不公，其第一反应仍是维护帝国的利益？</em></p></section>",
+          "actions": {
+            "czEbFu3uIlW5Spju": {
+              "name": "反应掷骰",
+              "description": "<p>当掷出恐惧结果时，你可花费 1 恐惧点让忠于帝国的眼线窃听到帝国宫廷中的谋逆言论。一名玩家角色必须成功通过一次本能反应掷骰才能察觉到队伍已经被窃听，此后角色们才能尝试赶在阴谋败露前拦截间谍。</p><section class='secret' id='secret-kN4J3annyev9WWUs'><p><em>帝国究竟掌握了这位眼线的什么把柄？为何即便遭受不公，其第一反应仍是维护帝国的利益？</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Local Tavern": {
+      "name": "当地酒馆 Local Tavern",
+      "description": "<p>这座喧闹的酒馆是小镇上少有的社交中心。</p>",
+      "impulses": "为冒险者提供机遇，协助社区",
+      "potentialAdversaries": {
+        "H53IurNOv7hOTz88": {
+          "label": "守卫"
+        },
+        "2g6jJtdA8WiA0ihA": {
+          "label": "雇佣兵"
+        },
+        "TzAxfdQKMVRRx5z5": {
+          "label": "其他"
+        }
+      },
+      "items": {
+        "7to5Zu0lNycExCQi": {
+          "name": "大伙都在聊些啥？ What's the Talk of the Town? ",
+          "description": "<p>玩家角色可通过一次风度掷骰，向酒保、店员或食客打听当地事件、传闻与潜在的工作委托。掷骰成功可选取以下两项信息，关键成功则可选取三项。若掷骰失败，可<strong>标记 1 压力点</strong>，仅从当地人无关紧要的闲谈中获取一项信息。</p><ul><li>一则与玩家角色背景相关的有趣传闻</li></ul><ul><li>一份适合队伍的、与近期威胁相关的优质委托</li></ul><ul><li>与他们所见所闻相关的当地民间传说</li></ul><ul><li>暗示社群问题的城镇八卦</li></ul><section id='secret-x6IPMS6Z4MFBE65u' class='secret'><p><em>谁掌握着哪些情报？当地人又在散播关于玩家角色的哪些流言？</em></p></section>"
+        },
+        "oLn3co1mN83OiFWo": {
+          "name": "卖唱为生 Sing For Your Supper",
+          "description": "<p>玩家角色可对宾客进行一次表演，并进行一次风度掷骰。若成功，可获得<strong>[[/r 1d4]]</strong> 把金币（关键成功则为<strong>[[/r 2d4]]</strong>）。若失败，则<strong>标记 1 压力点</strong>。</p><section id='secret-vrH9YdQGP2sTa3cV' class='secret'><p><em>你演奏的是什么作品？它对你而言有何意义？你上一次当众演奏它是在什么时候？</em></p></section>"
+        },
+        "cAbSo5VQHxJqJPKm": {
+          "name": "神秘的陌生人 Mysterious Stranger ",
+          "description": "<p>揭示藏身于阴暗角落中的陌生人的真实身份。</p><section id='secret-tgxS9TgbDCpI1kZC' class='secret'><p><em>他有何企图？在玩家角色眼中，他是怎样的形象？他有着怎样的举止与配饰？</em></p></section>"
+        },
+        "QPezCAC18vIc5xRC": {
+          "name": "小镇来客 Someone Comes to Town",
+          "description": "<p>引入一位关键NPC，他既可能希望雇佣玩家队伍完成某项任务，也可能与其中一名玩家角色的背景故事息息相关。</p><section id='secret-DB6Th0yGCjAsAZp6' class='secret'><p><em>他是否知晓玩家角色就在此地？他来到这座城市究竟有何目的？</em></p></section>"
+        },
+        "H3LNvVrUbsAkgjni": {
+          "name": "酒馆斗殴！ Bar Fight ！",
+          "description": "<p><strong>花费1恐惧点</strong>，即可在酒馆中引发一场斗殴。当玩家角色试图在斗殴期间穿过酒馆时，必须成功通过一次敏捷或风度掷骰，否则会受到拳脚与投掷物的波及，受到<strong>1d6+2</strong>点物理伤害。玩家可通过一次成功激怒酒馆顾客的动作掷骰，来主动触发该效果。</p><section class='secret' id='secret-xLK8VSKLM6JQRySG'><p><em>是谁挑起了这场斗殴？要怎么做才能平息冲突？</em></p></section>",
+          "actions": {
+            "4UjyjYaMdcnFmVrL": {
+              "name": "伤害"
+            }
+          }
+        }
+      }
+    },
+    "Mountain Pass": {
+      "name": "崔嵬山隘 Mountain Pass",
+      "description": "<p>刺破云霄的嶙峋山峰，只有一条蜿蜒曲折的险径盘山而上，途中更是存在无数弯折。</p>",
+      "impulses": "对补给和体力提出极为严峻的挑战，显现魔法扰动，减缓旅行速度",
+      "potentialAdversaries": {
+        "f08TnNkCjPIzmQHh": {
+          "label": "野兽"
+        },
+        "8aqHp1uxtxvnuNSU": {
+          "label": "其他"
+        }
+      },
+      "items": {
+        "cIAMenvMXHPTpOFn": {
+          "name": "刻印符阵 Engraved Sigils",
+          "description": "<p>山腰上刻有巨大的符文与印记。拥有对应背景或经历的角色，可辨认出这是用于强化冰风暴威力的气象魔法。成功通过知识检定的角色，能回忆起与符文相关的信息、其创造者的相关线索，以及解除符文的方法。若角色检定关键成功，可辨识出这些符文出自山岭巫师之手，且在解除符文的掷骰中获得优势。</p><section id='secret-5FNK8Z7pIo0nEyCA' class='secret'><p><em>是谁布下了此地的符阵？他们就在附近吗？又为何要刻意让天气变得如此凶险？</em></p></section>"
+        },
+        "jkm03DXYYajsRk2j": {
+          "name": "雪崩 Avalanche",
+          "description": "<p><strong>花费1恐惧点</strong>，引动山体冰流、触发雪崩。所有处于雪崩路径上的玩家角色，必须成功通过一次<strong>敏捷/力量反应掷骰</strong>，否则会被冲倒并卷向山下。</p><p>使用绳索、岩钉或其他登山装备的角色，此次掷骰获得<strong>优势</strong>。</p><p>掷骰失败的目标会被冲至<strong>远距离</strong>外，受到<strong>2d20</strong>点物理伤害，并<strong>标记1压力点</strong>。</p><p>掷骰成功的目标，同样需<strong>标记1压力点</strong>。</p><section id='secret-3gM8fEJ1vD9W88k' class='secret'><p><em>角色们会如何设法在雪崩中求生？当同伴被冲下山坡时，他们又会用什么办法找到彼此？</em></p></section>",
+          "actions": {
+            "P2fHddwfyEGUwpCH": {
+              "name": "伤害",
+              "description": "<p><strong>花费1恐惧点</strong>，引动山体冰流、触发雪崩。所有处于雪崩路径上的玩家角色，必须成功通过一次<strong>敏捷/力量反应掷骰</strong>，否则会被冲倒并卷向山下。</p><p>使用绳索、岩钉或其他登山装备的角色，此次掷骰获得<strong>优势</strong>。</p><p>掷骰失败的目标会被冲至<strong>远距离</strong>外，受到<strong>2d20</strong>点物理伤害，并<strong>标记1压力点</strong>。</p><p>掷骰成功的目标，同样需<strong>标记1压力点</strong>。</p><section id='secret-3gM8fEJ1vD9W88k' class='secret'><p><em>角色们会如何设法在雪崩中求生？当同伴被冲下山坡时，他们又会用什么办法找到彼此？</em></p></section>"
+            }
+          }
+        },
+        "hkZVEduCWJFR0h2S": {
+          "name": "猛禽巢穴 Raptor Nest",
+          "description": "<p>当玩家角色进入猛禽的狩猎领地时，两只@UUID[Compendium.daggerheart.adversaries.Actor.OMQ0v6PE8s1mSU0K]{巨鹰}会出现在被选定角色的极远距离处，并将其视作猎物。</p><section id='secret-aU19zKlmhVBdS2oF' class='secret'><p><em>巨鹰多久未曾捕猎到食物？它们的巢穴中是否留有鸟蛋，或是尚未离巢的雏鹰？</em></p></section>"
+        },
+        "K8ld4m5yTA6WZwUs": {
+          "name": "寒潮 Icy Winds",
+          "description": "<p><em>倒计时（循环 4）</em>。当玩家角色进入山隘时，倒计时即刻激活。倒计时触发后，所有穿越山隘的角色必须成功通过一次<strong>力量反应掷骰</strong>，否则需<strong>标记 1 压力点</strong>。身着适配严寒环境衣物的角色，在此次掷骰中获得<strong>优势</strong>。</p><section id='secret-FsJMzj3ZZuf134s2' class='secret'><p><em>角色身体的哪些部位会最先冻僵？他们会用什么办法在前进中尽量取暖？</em></p></section>",
+          "actions": {
+            "P6U45vsXJmEW6BBj": {
+              "name": "倒计时",
+              "description": "<p><em>倒计时（循环 4）</em>。当玩家角色进入山隘时，倒计时即刻激活。倒计时触发后，所有穿越山隘的角色必须成功通过一次<strong>力量反应掷骰</strong>，否则需<strong>标记 1 压力点</strong>。身着适配严寒环境衣物的角色，在此次掷骰中获得<strong>优势</strong>。</p><section id='secret-FsJMzj3ZZuf134s2' class='secret'><p><em>角色身体的哪些部位会最先冻僵？他们会用什么办法在前进中尽量取暖？</em></p></section>"
+            },
+            "kDV2h9DhO6fEDcjl": {
+              "name": "反应掷骰",
+              "description": "<p><em>倒计时（循环 4）</em>。当玩家角色进入山隘时，倒计时即刻激活。倒计时触发后，所有穿越山隘的角色必须成功通过一次<strong>力量反应掷骰</strong>，否则需<strong>标记 1 压力点</strong>。身着适配严寒环境衣物的角色，在此次掷骰中获得<strong>优势</strong>。</p><section id='secret-FsJMzj3ZZuf134s2' class='secret'><p><em>角色身体的哪些部位会最先冻僵？他们会用什么办法在前进中尽量取暖？</em></p></section>"
+            },
+            "yJj6IsNNTEyKndvO": {
+              "name": "启动倒计时",
+              "description": "<p><em>倒计时（循环 4）</em>。当玩家角色进入山隘时，倒计时即刻激活。倒计时触发后，所有穿越山隘的角色必须成功通过一次<strong>力量反应掷骰</strong>，否则需<strong>标记 1 压力点</strong>。身着适配严寒环境衣物的角色，在此次掷骰中获得<strong>优势</strong>。</p><section id='secret-FsJMzj3ZZuf134s2' class='secret'><p><em>角色身体的哪些部位会最先冻僵？他们会用什么办法在前进中尽量取暖？</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Necromancer’s Ossuary": {
+      "name": "死灵师的埋骨堂 Necromancer’s Ossuary",
+      "description": "<p>一座淹没在尘埃中的地下墓穴，内有藏书室、蜿蜒曲折的回廊以及大量的石棺，到处溅洒着入侵者的不幸之血。</p>",
+      "impulses": "令入侵者迷失，深究那些不该现世的禁忌知识，塑造不死生物，释放不死生物的洪流",
+      "potentialAdversaries": {
+        "eYaDM6WMAmdzysKZ": {
+          "label": "至高死灵师的仆从"
+        }
+      },
+      "items": {
+        "SJo1Pw0fE4vKnisr": {
+          "name": "生者禁地 No Place for the Living",
+          "description": "<p>任何用于恢复伤势的特性或技能，使用时都必须消耗<strong>希望点</strong>。若该能力本身已需要消耗希望点，则角色需<strong>额外再消耗1点希望点</strong>。</p><section class='secret' id='secret-kxbv8Ju7dkBJnduH'><p><em>在这片与生命为敌的土地上尝试疗伤，究竟是一种怎样的感受？</em></p></section>",
+          "actions": {
+            "jVY198vniaTSlgsX": {
+              "name": "失去希望",
+              "description": "<p>使用任何能够<strong>治愈伤口</strong>的特性或动作，都必须消耗<strong>希望点</strong>。若该能力本身就需要消耗希望点，角色则需<strong>额外再消耗1点希望点</strong>。</p><section class='secret' id='secret-kxbv8Ju7dkBJnduH'><p><em>在这片敌视生命的土地上尝试疗伤，究竟是一种怎样的感受？</em></p></section>"
+            }
+          }
+        },
+        "Egi337jsYlldHzEH": {
+          "name": "千年典籍 Centuries of Knowledge",
+          "description": "<p>角色可以搜查图书馆与实验室，并进行一次知识掷骰，以此获取与隐秘学识、本地历史及死灵法师的计划相关的情报。</p><section id='secret-HAWRKErLm6NSqzHc' class='secret'><p><em>这些典籍卷宗究竟叫什么名字？死灵法师在进行什么项目，而这些项目又暴露了他的哪些计划？</em></p></section>"
+        },
+        "asSGMUdf4gG4PO8F": {
+          "name": "骸骨爆裂 Skeletal Burst",
+          "description": "<p>以你选定区域内的一点为中心，中距离范围内的所有目标，必须成功通过一次<strong>敏捷反应掷骰</strong>，否则会因埋骨地部分崩塌、骸骨碎片四射，受到<strong>4d8+8点物理伤害</strong>。</p><p>@Template[type:circle|range:c]</p><section id='secret-b6zF5gClmMcrmeVT' class='secret'><p><em>是哪座古老的骸骨建筑就此崩塌？又有哪些碎骨刺穿了你的盔甲？</em></p></section>",
+          "actions": {
+            "M1mOwi4Limw2hRwL": {
+              "name": "反应掷骰",
+              "description": "<p>以你选定区域内的一点为中心，中距离范围内的所有目标，必须成功通过一次<strong>敏捷反应掷骰</strong>，否则会因埋骨地部分崩塌、骸骨碎片四射，受到<strong>4d8+8点物理伤害</strong>。</p><p>@Template[type:circle|range:c]</p><section id='secret-b6zF5gClmMcrmeVT' class='secret'><p><em>是哪座古老的骸骨建筑就此崩塌？又有哪些碎骨刺穿了你的盔甲？</em></p></section>"
+            }
+          }
+        },
+        "mnpqMpYCjdlwtvBp": {
+          "name": "亡绝死气 Aura of Death",
+          "description": "<p>每场景一次，投掷<strong>d4</strong>。死灵师<strong>远距离</strong>范围内的所有不死生物，均可恢复等同于掷骰结果的<strong>伤势与压力值</strong>。不死生物可自行决定该数值在伤势与压力之间如何分配。</p><section id='secret-LzevSyHyOxNxLwwh' class='secret'><p><em>它们复苏的能量是如何体现的？这些不死生物是看起来更鲜活，还是反而腐烂得更彻底，却充满凶戾的活力？</em></p></section>",
+          "actions": {
+            "UWCibXbQZG22PJ3l": {
+              "name": "掷骰D4",
+              "description": "<p>每场景一次，投掷<strong>d4</strong>。死灵师<strong>远距离</strong>范围内的所有不死生物，均可恢复等同于掷骰结果的<strong>伤势与压力值</strong>。不死生物可自行决定该数值在伤势与压力之间如何分配。</p><section id='secret-LzevSyHyOxNxLwwh' class='secret'><p><em>它们复苏的能量是如何体现的？这些不死生物是看起来更鲜活，还是反而腐烂得更彻底，却充满凶戾的活力？</em></p></section>"
+            }
+          }
+        },
+        "chJRXNg5zyTGbcG5": {
+          "name": "它们源源不断！ They Just Keep Coming ！",
+          "description": "<p><strong>花费1恐惧点</strong>，可召唤<strong>[[/r 1d6]]</strong> 只@UUID[Compendium.daggerheart.adversaries.Actor.gP3fWTLzSFnpA8EJ]{腐坏丧尸}、2只@UUID[Compendium.daggerheart.adversaries.Actor.CP6iRfHdyFWniTHY]{精化丧尸}或@UUID[Compendium.daggerheart.adversaries.Actor.YhJrP7rTBiRdX5Fp]{丧尸军团}，它们会出现在选定角色的<strong>中距离</strong>范围内。</p><p><em>这些人在沦为死灵师的棋子前，曾是何等身份？英雄们还能从他们身上找到生前的痕迹吗？</em></p>",
+          "actions": {
+            "hFeTdiHWeCYkb8Hg": {
+              "name": "花费恐惧",
+              "description": "<p><strong>花费1恐惧点</strong>，可召唤<strong>[[/r 1d6]]</strong> 只@UUID[Compendium.daggerheart.adversaries.Actor.gP3fWTLzSFnpA8EJ]{腐坏丧尸}、2只@UUID[Compendium.daggerheart.adversaries.Actor.CP6iRfHdyFWniTHY]{精化丧尸}或@UUID[Compendium.daggerheart.adversaries.Actor.YhJrP7rTBiRdX5Fp]{丧尸军团}，它们会出现在选定角色的<strong>中距离</strong>范围内。</p><p><em>这些人在沦为死灵师的棋子前，曾是何等身份？英雄们还能从他们身上找到生前的痕迹吗？</em></p>"
+            }
+          }
+        }
+      }
+    },
+    "Outpost Town": {
+      "name": "边境小镇",
+      "description": "<p>位于国家或地区边境的小镇，临近于某个地下城、墓穴、或其它冒险目的地。</p>",
+      "impulses": "驱使绝望者踏入注定的终局，通过鼓吹希望来盈利",
+      "potentialAdversaries": {
+        "yZr3dTicergVkU0d": {
+          "label": "锯齿刀强盗"
+        },
+        "KZSZadT58Pd1kaDH": {
+          "label": "其他"
+        }
+      },
+      "items": {
+        "whN2Ztn2wMqD7uW3": {
+          "name": "流言四起 Rumors Abound",
+          "description": "<p>八卦是王国里传播最快的“货币”。角色可以进行一次<strong>风度掷骰</strong>，打探重大事件的消息。他们能获知的内容，取决于掷骰结果与以下判定：</p><ul><li><strong>关键成功</strong>：获知两件重大事件。角色可针对其中一则传闻额外提出一个问题，并得到真实（尽管未必完整）的回答。</li><li><strong>希望成功</strong>：获知两件事件，其中至少一件与该角色的背景故事相关。</li><li><strong>恐惧成功</strong>：获知一则与该角色背景相关、令人不安的传闻。</li><li><strong>任意失败</strong>：当地人对他们的询问反应恶劣。角色必须<strong>标记1点压力点</strong>，才能获知一则相关传闻。</li></ul><section id='secret-IRa0gzmTR2psynpd' class='secret'><p><em>角色们有什么消息可以分享给好奇的旅人？当地人又如何看待这些事件？</em></p></section>"
+        },
+        "nhf2TK7HSkuAgIi8": {
+          "name": "破碎罗盘协会 Society of the Broken Compass",
+          "description": "<p>一个冒险者协会在这里设立有分会，各路好汉齐聚一堂自夸自擂、交换情报，为他们志在必得的胜利提前干杯，亦或是小偷小摸地给竞争对手下些绊子。</p><section id='secret-dqbYBpMMEMIe3Woh' class='secret'><p><em>这里的冒险者们吹嘘了些什么，其中哪些部分你觉得可能是真的？</em></p></section>"
+        },
+        "cPozA1iT4NLwsWqB": {
+          "name": "竞争对手 Rival Party",
+          "description": "<p>除了玩家角色外，这里还有一支冒险小队也正在寻找相同的宝藏或线索。</p><section id='secret-1CvOSOAzIzFqPzXt' class='secret'><p><em>哪名玩家角色与竞争对手队伍中的一名成员有关系？他们会先主动接近玩家角色的，还是按兵不动等待玩家角色先采取行动？</em></p></section>"
+        },
+        "uxu8YrvYVxP3Qc2y": {
+          "name": "我可不保证不会有什么意外发生 It'd Be a Shame If Something Happened to Your Store",
+          "description": "<p>玩家角色们将目睹当地某个犯罪头目的手下正在敲诈一家杂货店。</p><section id='secret-QbURC6tIeF3hLLT6' class='secret'><p><em>如果玩家角色决定插手，他们将陷入怎样的麻烦？</em></p></section>"
+        },
+        "21tdueq5Wgvj3vG4": {
+          "name": "错的时间，错的地点 Wrong Place, Wrong Time",
+          "description": "<p>入夜后，当队伍一行人孤零零地来到一条后巷时，你可以 <strong>花费 1 恐惧点</strong>，来引入一群试图抢劫他们的劫匪。劫匪将出现在一名被选定的玩家角色的<strong>中距离</strong>范围，整个团伙由一名@UUID[Compendium.daggerheart.adversaries.Actor.CBKixLH3yhivZZuL]{锯齿刀碎膝者}、数量等同于玩家角色数量的@UUID[Compendium.daggerheart.adversaries.Actor.C0OMQqV7pN6t7ouR]{锯齿刀喽啰}，以及一名@UUID[Compendium.daggerheart.adversaries.Actor.aTljstqteGoLpCBq]{锯齿刀队长}组成。对于人数更多的队伍，可额外添加一名@UUID[Compendium.daggerheart.adversaries.Actor.MbBPIOxaxXYNApXz]{锯齿刀咒术师}或@UUID[Compendium.daggerheart.adversaries.Actor.1zuyof1XuIfi3aMG]{锯齿刀狙击手}。</p><section class='secret' id='secret-5MEuvRtxMnpLEwAA'><p><em>劫匪身上有什么细节可以表明他们也曾是冒险者，但最后却沦落到了这等下场？</em></p></section>",
+          "actions": {
+            "UBHQzK5D6Dn5QuPc": {
+              "name": "花费恐惧",
+              "description": "<p>入夜后，当队伍一行人孤零零地来到一条后巷时，你可以 <strong>花费 1 恐惧点</strong>，来引入一群试图抢劫他们的劫匪。劫匪将出现在一名被选定的玩家角色的<strong>中距离</strong>范围，整个团伙由一名@UUID[Compendium.daggerheart.adversaries.Actor.CBKixLH3yhivZZuL]{锯齿刀碎膝者}、数量等同于玩家角色数量的@UUID[Compendium.daggerheart.adversaries.Actor.C0OMQqV7pN6t7ouR]{锯齿刀喽啰}，以及一名@UUID[Compendium.daggerheart.adversaries.Actor.aTljstqteGoLpCBq]{锯齿刀队长}组成。对于人数更多的队伍，可额外添加一名@UUID[Compendium.daggerheart.adversaries.Actor.MbBPIOxaxXYNApXz]{锯齿刀咒术师}或@UUID[Compendium.daggerheart.adversaries.Actor.1zuyof1XuIfi3aMG]{锯齿刀狙击手}。</p><section class='secret' id='secret-5MEuvRtxMnpLEwAA'><p><em>劫匪身上有什么细节可以表明他们也曾是冒险者，但最后却沦落到了这等下场？</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Pitched Battle": {
+      "name": "两军对垒 Pitched Battle",
+      "description": "<p>两群武装人员之间爆发的大规模战斗。</p>",
+      "impulses": "抢占人力、土地与财富，为贪婪与荣耀洒下鲜血",
+      "potentialAdversaries": {
+        "tGf8mFL6DiGaOzxS": {
+          "label": "雇佣兵"
+        },
+        "E13BxwBg4sKl01IR": {
+          "label": "贵族武装"
+        }
+      },
+      "items": {
+        "HG9GwIZoCDcqOEOc": {
+          "name": "趟过刀山火海 Adrift on a Sea of Steel",
+          "description": "<p>在激烈的战斗中穿过战场是一件极其危险的冒险之举。玩家角色必须成功通过一次敏捷掷骰才能移动，在掷骰成功时最多只能移动到近距离范围。若有一名敌人在其近战范围内，其还需要标记 1 压力点才能进行一次用来移动的敏捷掷骰。</p><section id='secret-c0pwA8OrITyfhrCX' class='secret'><p><em>战场的参与者是否将你误认成敌人或搅局的第三方？在混战中你是否能够分清敌我？</em></p></section>"
+        },
+        "fnvOiHKsd34EaLqG": {
+          "name": "烧杀抢掠 Raze and Pillage",
+          "description": "<p>进攻方通过纵火、劫掠贵重财物、绑架重要人物或屠戮平民来增加己方谈判的筹码。</p><section id='secret-5JBRdq8QJcmurvLp' class='secret'><p><em>此地有何物格外贵重？又是何人最为脆弱？</em></p></section>"
+        },
+        "r9kkodHghWm01mje": {
+          "name": "战争魔法 War Magic",
+          "description": "<p><strong>花费 1 恐惧点</strong>，让某一方的法师释放大规模毁灭性魔法。在战场上选定一个距离该法师<strong>极远范围</strong>的点位，该点位<strong>中距离</strong>范围内的所有目标都必须进行一次<strong>敏捷反应掷骰</strong>。掷骰失败的目标将受到<strong>3d12+8点魔法伤害</strong>，且必须<strong>标记1压力点</strong>。</p><p>@Template[type:circle|range:c]</p><section id='secret-PpyF0dXMEudYnFqh' class='secret'><p><em>这次攻击会采取什么形式——爆裂火球、漫天酸雨、还是剑刃风暴？这次攻击又旨在实现什么战略目标？接下来还会发生什么？</em></p></section>",
+          "actions": {
+            "1giAFbu3tGqXwi8g": {
+              "name": "反应掷骰",
+              "description": "<p><strong>花费 1 恐惧点</strong>，让某一方的法师释放大规模毁灭性魔法。在战场上选定一个距离该法师<strong>极远范围</strong>的点位，该点位<strong>中距离</strong>范围内的所有目标都必须进行一次<strong>敏捷反应掷骰</strong>。掷骰失败的目标将受到<strong>3d12+8点魔法伤害</strong>，且必须<strong>标记1压力点</strong>。</p><p>@Template[type:circle|range:c]</p><section id='secret-PpyF0dXMEudYnFqh' class='secret'><p><em>这次攻击会采取什么形式——爆裂火球、漫天酸雨、还是剑刃风暴？这次攻击又旨在实现什么战略目标？接下来还会发生什么？</em></p></section>"
+            }
+          }
+        },
+        "ZAIvH5CfhehW48EY": {
+          "name": "增援！ Reinforcements ！",
+          "description": "<p>选定一名玩家角色，在其远距离范围召唤增援，包括一名@UUID[Compendium.daggerheart.adversaries.Actor.7ai2opemrclQe3VF]{王国骑士}, 数量等同于玩家角色数量的位阶3 杂兵、以及其它 2 名由你决定的敌人。该王国骑士立刻获得聚焦。</p><section id='secret-ZNhg3daBKekzABSQ' class='secret'><p><em>他们会将谁选为首个目标？又采用什么样的阵型？</em></p></section>"
+        }
+      }
+    },
+    "Raging River": {
+      "name": "汹涌河流 Raging River",
+      "description": "<p>一条流速湍急、没有桥梁跨越的河流，水深足以冲走大多数人。</p>",
+      "impulses": "阻隔通行、卷走那些准备不足的人、分割两岸地形",
+      "potentialAdversaries": {
+        "UUdCj6oiRrJ4QWWD": {
+          "label": "野兽"
+        },
+        "IOPWkNbGuLvPgnSy": {
+          "label": "锯齿刀强盗"
+        }
+      },
+      "items": {
+        "4ILX7BCinmsGqrJM": {
+          "name": "危险渡河 Dangerous Crossing",
+          "description": "<p>穿越河流需要队伍完成一个进展倒计时（4）。 </p><section class='secret' id='secret-l7tHfgFFOGdvlnll'><p>掷骰结果为恐惧失败的玩家角色会立即成为“暗流”动作的目标，而无需在该特性上花费恐惧点。</p></section><p></p><section id='secret-VF0r7nXxQlmuwMpj' class='secret'><p><em>是否有玩家角色以前曾涉水渡过类似的河流？他们中是否有人害怕溺水？</em></p></section>",
+          "actions": {
+            "miodf3TMFrGRCvj6": {
+              "name": "倒计时",
+              "description": "<p>穿越河流需要队伍完成一个进展倒计时（4）。 </p><section class='secret' id='secret-l7tHfgFFOGdvlnll'><p>掷骰结果为恐惧失败的玩家角色会立即成为“暗流”动作的目标，而无需在该特性上花费恐惧点。</p></section><p></p><section id='secret-VF0r7nXxQlmuwMpj' class='secret'><p><em>是否有玩家角色以前曾涉水渡过类似的河流？他们中是否有人害怕溺水？</em></p></section>"
+            },
+            "91HPIEEcVKPQ5qqn": {
+              "name": "启动倒计时",
+              "description": "<p>穿越河流需要队伍完成一个进展倒计时（4）。 </p><section class='secret' id='secret-l7tHfgFFOGdvlnll'><p>掷骰结果为恐惧失败的玩家角色会立即成为“暗流”动作的目标，而无需在该特性上花费恐惧点。</p></section><p></p><section id='secret-VF0r7nXxQlmuwMpj' class='secret'><p><em>是否有玩家角色以前曾涉水渡过类似的河流？他们中是否有人害怕溺水？</em></p></section>"
+            }
+          }
+        },
+        "WsNoSwwtv0r80BMj": {
+          "name": "暗流 Undertow",
+          "description": "<p><strong>花费 1 恐惧点</strong>，将一名玩家角色卷入暗流。其必须进行一次<strong>敏捷反应掷骰</strong>。失败时，受到 <strong>1d6+1 点物理伤害</strong>，并被冲向下游<strong>中距离</strong>范围，在脱离河流前处于 <em>脆弱</em> 状态。成功时，其必须<strong>标记 1 压力点</strong>。</p><section id='secret-H6i1kuyHdtq9Eqgw' class='secret'><p><em>河床上散落着哪些小物件和饰品？这片水域是否存在掠食者？</em></p></section>",
+          "actions": {
+            "f2e3gbhzD7z8BdCc": {
+              "name": "反应掷骰",
+              "description": "<p><strong>花费 1 恐惧点</strong>，将一名玩家角色卷入暗流。其必须进行一次<strong>敏捷反应掷骰</strong>。失败时，受到 <strong>1d6+1 点物理伤害</strong>，并被冲向下游<strong>中距离</strong>范围，在脱离河流前处于 <em>脆弱</em> 状态。成功时，其必须<strong>标记 1 压力点</strong>。</p><section id='secret-H6i1kuyHdtq9Eqgw' class='secret'><p><em>河床上散落着哪些小物件和饰品？这片水域是否存在掠食者？</em></p></section>"
+            }
+          },
+          "effects": {
+            "T0ouSQyR8cVpAn79": {
+              "name": "暗流 Undertow",
+              "description": "<p>离开河流前你一直处于<em>脆弱</em> 状态</p>"
+            }
+          }
+        },
+        "SDTS3LOPMVJOt1S1": {
+          "name": "耐心猎手 Patient Hunter",
+          "description": "<p><strong>花费 1 恐惧点</strong>，在一名选定的玩家角色的<strong>中距离</strong>范围内召唤一条@UUID[Compendium.daggerheart.adversaries.Actor.8KWVLWXFhlY2kYx0]{玻璃蛇}。这条蛇出现在河流中或目标身旁，并立即发动「蛇形盘旋」动作。</p><section class='secret' id='secret-F8zsJQg3xWOPpH5v'><p><em>这头野兽的巢穴里藏着什么财宝？已有多少旅人成为它的猎物？</em></p></section>",
+          "actions": {
+            "Mnp0Yzc7EPVXm8So": {
+              "name": "花费恐惧",
+              "description": "<p><strong>花费 1 恐惧点</strong>，在一名选定的玩家角色的<strong>中距离</strong>范围内召唤一条@UUID[Compendium.daggerheart.adversaries.Actor.8KWVLWXFhlY2kYx0]{玻璃蛇}。这条蛇出现在河流中或目标身旁，并立即发动「蛇形盘旋」动作。</p><section class='secret' id='secret-F8zsJQg3xWOPpH5v'><p><em>这头野兽的巢穴里藏着什么财宝？已有多少旅人成为它的猎物？</em></p></section>"
+            }
+          }
+        }
+      }
+    }
+  }
+}

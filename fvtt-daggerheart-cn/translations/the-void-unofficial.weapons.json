@@ -1,0 +1,52 @@
+﻿{
+  "label": "武器 Weapons",
+  "folders": {},
+  "mapping": {
+    "description": "system.description",
+    "attack": "system.attack.name",
+    "actions": {
+      "path": "system.actions",
+      "converter": "toActions"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "toEffects"
+    }
+  },
+  "entries": {
+    "Fangs": {
+      "name": "獠牙 Fangs",
+      "attack": "攻击"
+    },
+    "Unarmed Strikes (d8+d6)": {
+      "name": "徒手打击（d8+d6）",
+      "description": "武僧徒手攻击用",
+      "actions": {
+        "LLByeuZebdMi6TRJ": {
+          "name": "徒手打击 d8+d6"
+        },
+        "pTBCNX6JBHKQAOKt": {
+          "name": "仅限连击攻击"
+        }
+      },
+      "attack": "攻击"
+    },
+    "Unarmed Strikes Powerhouse (d10+d6)": {
+      "name": "徒手攻击（d10+d6）",
+      "description": "武僧徒手攻击用",
+      "actions": {
+        "LLByeuZebdMi6TRJ": {
+          "name": "徒手攻击 d10+d6"
+        },
+        "pTBCNX6JBHKQAOKt": {
+          "name": "仅限连击攻击"
+        },
+        "tuyFTzMpIbpIn0Q0": {
+          "name": "标记压力-对2目标",
+          "description": "徒手攻击用"
+        }
+      },
+      "attack": "攻击"
+    }
+  }
+}

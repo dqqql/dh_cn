@@ -1,0 +1,68 @@
+﻿{
+  "label": "社群 Community",
+  "folders": {
+    "Community Features": "社群特性"
+  },
+  "mapping": {
+    "description": "system.description",
+    "effects": {
+      "path": "effects",
+      "converter": "toEffects"
+    }
+  },
+  "entries": {
+    "Brave Face": {
+      "name": "勇敢面对 Brave Face",
+      "description": "<p>每场游戏一次，当一次攻击会使你标记 1 压力点，你可以改为花费 1 希望点。</p>"
+    },
+    "Close-Knit": {
+      "name": "团结紧密 Close-Knit",
+      "description": "<p>每次长休一次，你可以花费任意数量希望点来给予一名盟友相同数量的希望点。</p>"
+    },
+    "Duneborne": {
+      "name": "沙丘之民 DUNEBORNE",
+      "description": "<p>作为沙丘之民的一员意味着你已在沙漠中那片不断变幻的沙子与干旱气候中安家落户。</p>"
+    },
+    "Found Family": {
+      "name": "亲如家人 Found Family",
+      "description": "<p>每场游戏一次，你可以花费 1 希望点来使用一名盟友的社群能力。当你如此做时，你的盟友获得 1 希望点。在任何时候，当你发现自己曾经所属的社群，或者加入了一个新的社群时，你可以永久地用那张社群卡替换这张社群卡。</p>",
+      "actions": {
+        "Wrq0vEGLsiLWy8tl": {
+          "name": "花费希望"
+        }
+      }
+    },
+    "Freeborne": {
+      "name": "自由之民",
+      "description": "<p>作为自由之民的一员意味着你来自一个曾生活在专制统治下，如今已获得解放的集体。</p>"
+    },
+    "Frostborne": {
+      "name": "霜雪之民 FROSTBORNE",
+      "description": "<p>作为霜雪之民的一员意味着你来自一个满是冰雪之地。</p>"
+    },
+    "Hardy": {
+      "name": "吃苦耐劳 Hardy",
+      "description": "<p>每次休息一次，你可以帮助一名盟友穿越困难地形而不花费希望点。</p>"
+    },
+    "Hearthborne": {
+      "name": "炉火之民 HEARTHBORNE",
+      "description": "<p>作为炉火之民的一员意味着你出身寒微，曾在小村庄或农村生活过。</p>"
+    },
+    "Oasis": {
+      "name": "身若绿洲 Oasis",
+      "description": "<p>在短休期间，你或一名盟友可以重掷一次用于休整行动的骰子。</p>"
+    },
+    "Reborne": {
+      "name": "失乡之民 REBORNE",
+      "description": "<p>你曾是另一个社群的一员，但你再也记不起它了。在任何时候，当你发现自己曾经所属的社群，或者加入了一个新的社群时，你可以永久地用那张社群卡替换这张社群卡。</p>"
+    },
+    "Unbound": {
+      "name": "无拘无束 Unbound",
+      "description": "<p>每场游戏一次，当你进行一次掷出恐惧结果的行动时，你可以将其改为掷出希望结果。</p>"
+    },
+    "Warborne": {
+      "name": "战乱之民 WARBORNE",
+      "description": "<p>作为战乱之民的一员意味着你来自一个曾经或正在遭受战争蹂躏的地方。</p>"
+    }
+  }
+}
